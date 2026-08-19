@@ -1,0 +1,59 @@
+{
+  "slug": "untable-de-girasol-y-coco",
+  "title": "Untable de Girasol y Coco (sin frutos secos)",
+  "description": "Una crema untable de semillas de girasol tostadas y coco rallado, pensada para escuelas donde no se permiten los frutos secos. Sin azúcar, sin lácteos y estable fuera del refrigerador.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "servings": 12,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": true,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las semillas de girasol aportan grasas buenas, hierro vegetal y vitamina E, y el coco le da cremosidad sin necesidad de leche. Al no llevar frutos secos, entra en loncheras de colegios con restricción de alérgenos.",
+  "tips": "Guardado en un frasco limpio y seco dura hasta 3 semanas a temperatura ambiente, lejos del sol. Si el aceite sube a la superficie, solo revuélvelo con una cuchara; no significa que se haya echado a perder.",
+  "family_mode_note": "Es el untable comodín de la casa: sobre pan integral para los niños y mezclado con jugo de limón y una pizca de comino como aderezo de ensalada para los adultos.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Úntalo en capa muy fina sobre pan o fruta y evita dárselo a cucharadas: la crema espesa puede pegarse al paladar. Empieza con media cucharadita para comprobar tolerancia."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Una cucharadita bien extendida sobre pan integral o rueditas de manzana es suficiente por porción."
+    }
+  ],
+  "ingredients": [
+    { "code": "semilla_girasol", "name": "Semillas de girasol peladas", "amount": 200, "unit": "g", "note": "crudas y sin sal; alérgeno: semillas", "sort_order": 1 },
+    { "code": "coco_rallado", "name": "Coco rallado sin azúcar", "amount": 30, "unit": "g", "note": "⅓ de taza", "sort_order": 2 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharada", "note": "derretido; puedes usar aceite de girasol", "sort_order": 3 },
+    { "code": "canela", "name": "Canela molida", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 160 °C y extiende las semillas de girasol en una bandeja en una sola capa.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Tuéstalas de 8 a 10 minutos, moviéndolas a la mitad del tiempo, hasta que huelan a nuez y tomen un color dorado claro. Si se queman amargan toda la crema.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el coco rallado a la bandeja durante el último minuto, solo para que tome color, y retira todo del horno.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Deja entibiar 5 minutos y pasa las semillas y el coco al procesador o a una licuadora de vaso resistente.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Procesa en tandas de 1 minuto, raspando las paredes con una espátula entre cada tanda. Pasará por etapas de harina, de pasta espesa y por fin de crema: toma entre 8 y 12 minutos en total, ten paciencia.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Agrega el aceite de coco derretido y la canela, y procesa 1 minuto más hasta que quede brillante y fluida.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Pásala a un frasco de vidrio limpio y completamente seco; cualquier gota de agua acorta su duración.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sírvela siempre untada en capa fina sobre pan, tortilla o fruta. No ofrezcas cucharadas espesas de untables a menores de 4 años: pueden pegarse al paladar y provocar atragantamiento.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-untable-de-girasol-y-coco.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

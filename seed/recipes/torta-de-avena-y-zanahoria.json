@@ -1,0 +1,53 @@
+{
+  "slug": "torta-de-avena-y-zanahoria",
+  "title": "Torta de Avena y Zanahoria",
+  "description": "Torta húmeda de avena con zanahoria rallada y trocitos de manzana, endulzada solo con la fruta: una colación completa que se corta en cuadritos para la lonchera.",
+  "category": "colacion",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 6,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El betacaroteno de la zanahoria, la fibra de la avena y la proteína del huevo hacen de esta torta una colación completa, endulzada únicamente con manzana y zanahoria.",
+  "tips": "Hornéala en moldes de muffin durante 15 a 18 minutos para porciones individuales listas para la lonchera; congélalas y saca una la noche anterior.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Prepárala sin sal, usa agua (o leche materna o fórmula en la mezcla) en lugar de leche de vaca, y ofrécela en tiras blandas fáciles de tomar." }
+  ],
+  "ingredients": [
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": "batidos", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "mediana, rallada", "sort_order": 2 },
+    { "code": "manzana", "name": "Manzana", "amount": 1, "unit": "unidad", "note": "picada en cubitos pequeños", "sort_order": 3 },
+    { "code": "avena", "name": "Avena en hojuelas", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "omítela para menores de 1 año", "sort_order": 5 },
+    { "code": "canela", "name": "Canela en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "linaza", "name": "Linaza molida", "amount": 1, "unit": "cucharada", "note": "o semillas de chía", "sort_order": 7 },
+    { "code": "leche", "name": "Leche", "amount": 0.75, "unit": "taza", "note": "o agua", "sort_order": 8 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharadita", "note": "para engrasar el molde", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol los huevos, la zanahoria, la manzana, la avena, la sal, la canela, la linaza y la leche hasta integrar bien.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Engrasa un molde con el aceite y vierte la mezcla.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En horno: hornea a 180 °C durante 20 a 25 minutos, hasta que al insertar un palillo salga limpio. En sartén: cocina a fuego bajo con tapa 20 a 25 minutos hasta que cuaje por completo. El huevo debe quedar totalmente cocido.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Deja enfriar antes de cortar en cuadros.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [43], "pages": [70] },
+  "image_filename": "receta-torta-de-avena-y-zanahoria.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

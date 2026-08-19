@@ -1,0 +1,63 @@
+{
+  "slug": "arroz-a-la-campesina",
+  "title": "Arroz a la Campesina",
+  "description": "Arroz integral cocinado con arvejas, zanahoria, calabacita y pimiento: un plato de una sola sartén, sencillo, económico y lleno de color.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 50,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El arroz integral aporta fibra y minerales como magnesio, y las arvejas suman proteína vegetal y hierro para completar un plato lleno de energía.",
+  "tips": "Conviértelo en plato completo agregando huevo cocido picado o pollo desmenuzado al final. Si usas arroz blanco, reduce el caldo a unos 400 ml y el tiempo de cocción a 18-20 minutos.",
+  "family_mode_note": "Rinde muy bien en tanda doble: congela porciones individuales para resolver almuerzos de toda la familia.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Cocina el arroz 5 minutos extra con un poco más de caldo para que quede muy blando y aplasta las arvejas con un tenedor antes de servir."
+    }
+  ],
+  "ingredients": [
+    { "code": "arroz_integral", "name": "Arroz integral", "amount": 200, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "pimiento_verde", "name": "Pimiento verde (morrón)", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 4 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 5 },
+    { "code": "arveja", "name": "Arvejas (chícharos)", "amount": 100, "unit": "g", "note": "frescas o congeladas", "sort_order": 6 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 7 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 600, "unit": "ml", "note": "casero o bajo en sodio; ten extra a mano", "sort_order": 8 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 9 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca", "sort_order": 10 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 11 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava y corta todas las verduras en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una sartén amplia con el aceite de oliva, sofríe la cebolla y el ajo picados hasta que estén tiernos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega la zanahoria, el pimiento y la calabacita y cocina 5 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora las arvejas y revuelve bien.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega el arroz integral y tuéstalo 2 minutos sin dejar de revolver.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte el caldo caliente y agrega una pizca de sal.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Cocina a fuego bajo con tapa 35-40 minutos, hasta que el arroz integral esté tierno; agrega más caldo caliente si se seca antes de tiempo.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Para menores de 4 años, aplasta las arvejas con un tenedor antes de servir: enteras pueden causar atragantamiento.", "is_safety_critical": true },
+    { "step_number": 9, "instruction": "Deja reposar 5 minutos y sirve con un chorrito de aceite de oliva por encima.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [21], "pages": [61, 62] },
+  "image_filename": "receta-arroz-a-la-campesina.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

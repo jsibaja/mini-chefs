@@ -1,0 +1,49 @@
+{
+  "slug": "caldo-de-verduras",
+  "title": "Caldo de Verduras",
+  "description": "Un caldo de verduras casero y sin sal con zanahoria, papa y calabacín: la base perfecta para cocinar sin sodio añadido.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "verde", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Un caldo de verduras casero y sin sal concentra el sabor de la zanahoria, la papa y el calabacín; perfecto como base para cocinar sin sodio añadido.",
+  "tips": "Aprovecha las verduras coladas haciéndolas puré para otra comida. Congela el caldo en porciones pequeñas hasta 3 meses y úsalo para arroces, sopas y papillas.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Usa el caldo colado para diluir papillas; haz puré con las verduras coladas para otra comida." }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "en trozos", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 0.5, "unit": "unidad", "note": "en trozos", "sort_order": 2 },
+    { "code": "calabacin", "name": "Calabacín (zucchini)", "amount": 0.5, "unit": "unidad", "note": "en trozos", "sort_order": 3 },
+    { "code": "agua", "name": "Agua", "amount": 1, "unit": "taza", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava, pela y corta la zanahoria, la papa y el calabacín en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una cacerola, lleva el agua a ebullición.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega las verduras y cocina a fuego medio unos 20 minutos, hasta que estén tiernas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Retira del fuego y cuela el caldo para obtener un líquido limpio.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Deja entibiar antes de servir o usar como base.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [71], "pages": [91] },
+  "image_filename": "receta-caldo-de-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

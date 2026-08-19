@@ -1,0 +1,46 @@
+{
+  "slug": "pure-de-mango-y-coco",
+  "title": "Puré de mango y coco",
+  "description": "Puré tropical sin cocción de mango maduro y leche de coco: cremoso, aromático y listo en minutos para una merienda fresca del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 1,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El mango aporta vitamina C y betacarotenos, y la leche de coco suma grasas naturales que dan cremosidad y energía a la papilla.",
+  "tips": "Prepáralo al momento y sírvelo fresco: al no llevar cocción se disfruta mejor recién hecho y no conviene guardarlo más de un día en el refrigerador. Usa leche de coco natural sin azúcar añadida.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Tritura menos el mango y déjalo en trocitos blandos con la leche de coco, para que el bebé lo tome con la mano o la cuchara." }
+  ],
+  "ingredients": [
+    { "code": "mango", "name": "Mango maduro", "amount": 0.5, "unit": "unidad", "note": "pelado y en trozos", "sort_order": 1 },
+    { "code": "leche_coco", "name": "Leche de coco natural", "amount": 2, "unit": "cucharada", "note": "sin azúcar añadida", "sort_order": 2 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela el mango y córtalo en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Coloca el mango en la licuadora o procesador y agrega la leche de coco.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura hasta obtener un puré suave y sin grumos; añade un poco más de leche de coco si quieres una textura más ligera.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Sirve de inmediato a temperatura ambiente para disfrutar su sabor tropical.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [16], "pages": [34] },
+  "image_filename": "receta-pure-de-mango-y-coco.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "cremita-de-durazno-y-requeson",
+  "title": "Cremita de Durazno y Requesón",
+  "description": "Durazno bien maduro batido con requesón hasta quedar sedoso y fresco. Se prepara en cinco minutos, sin cocina y sin azúcar: todo el dulzor viene de la fruta.",
+  "category": "postre",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El requesón aporta proteína y calcio, y el durazno maduro suma vitamina C, fibra y el dulzor natural del postre. Sin azúcares añadidos, es apto desde los 6 meses.",
+  "tips": "Fuera de temporada usa mango, pera o papaya bien maduros; evita los duraznos en almíbar, porque llevan azúcar añadida. Si la cremita se separa un poco después de un par de horas en el refrigerador, bátela de nuevo antes de servir.",
+  "family_mode_note": "Con el mismo bol los adultos arman su versión sumando avena tostada y semillas; para los niños, la cremita sola.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Licúa hasta que quede completamente lisa y usa solo una cucharada de requesón. Si el durazno no está bien maduro, cocínalo al vapor 3 minutos antes de triturarlo." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca con tenedor en lugar de licuar y deja trocitos muy blandos para que practique la masticación." },
+    { "age_band": "12_24m", "adaptation_text": "Sírvela en un vasito con cubos pequeños de durazno fresco encima y deja que la coma sola con cuchara." }
+  ],
+  "ingredients": [
+    { "code": "durazno", "name": "Durazno", "amount": 2, "unit": "unidad", "note": "bien maduros, que cedan al presionar", "sort_order": 1 },
+    { "code": "requeson", "name": "Requesón", "amount": 4, "unit": "cucharada", "note": "o queso ricotta natural, sin sal añadida", "sort_order": 2 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Elige duraznos bien maduros, que cedan al presionarlos suavemente: de ellos sale todo el dulzor de este postre.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pélalos, ábrelos por la mitad y retira el carozo completo, revisando que no quede ningún trocito duro dentro de la pulpa.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Corta la pulpa en trozos y tritúrala junto con el requesón hasta obtener una crema homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Prueba la textura con una cuchara: para los más pequeños no debe quedar ni un grumo. Sirve fría con una pizca de canela.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-cremita-de-durazno-y-requeson.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

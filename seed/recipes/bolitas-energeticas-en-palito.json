@@ -1,0 +1,55 @@
+{
+  "slug": "bolitas-energeticas-en-palito",
+  "title": "Bolitas Energéticas en Palito",
+  "description": "Bolitas de avena, mantequilla de maní y cacao servidas en palito y bañadas en chocolate. Un dulce divertido para celebraciones y ocasiones especiales. Contienen maní y gluten.",
+  "category": "postre",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 35,
+  "cook_minutes": 0,
+  "servings": 8,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La avena y la mantequilla de maní aportan energía y proteína vegetal; la miel y el chocolate lo convierten en un gusto para ocasiones especiales.",
+  "tips": "Si la escuela es libre de maní, prepáralas con crema de semillas de girasol y decora con semillas trituradas. Refrigeradas en recipiente hermético duran hasta 5 días.",
+  "family_mode_note": null,
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sírvelas siempre sin palito, directamente en un vasito, y con las decoraciones molidas muy finas (nunca trozos de maní enteros)."
+    }
+  ],
+  "ingredients": [
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 2, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "mantequilla_mani", "name": "Mantequilla de maní", "amount": 1, "unit": "taza", "note": "natural, sin azúcar añadida", "sort_order": 2 },
+    { "code": "miel", "name": "Miel", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "cacao_polvo", "name": "Cacao en polvo sin azúcar", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 4 },
+    { "code": "chocolate_sin_azucar", "name": "Chocolate sin azúcar añadida", "amount": 0.25, "unit": "taza", "note": "fundido, para decorar", "sort_order": 5 },
+    { "code": "palillo_paleta", "name": "Palillos de paleta", "amount": 16, "unit": "unidad", "note": "de punta roma", "sort_order": 6 },
+    { "code": "coco_rallado", "name": "Coco rallado", "amount": 2, "unit": "cucharada", "note": "opcional para decorar; también sirve maní triturado muy fino o chispas pequeñas", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Procesa la avena, la mantequilla de maní, la miel y el cacao hasta obtener una masa homogénea que se pueda moldear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Forma con las manos bolitas del tamaño de un bocado.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Inserta un palillo de punta roma en cada bolita y refrigéralas 20 minutos para que endurezcan.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Decóralas sumergiéndolas en el chocolate fundido y espolvorea coco rallado o maní triturado muy fino.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Retira los palillos antes de servir a menores de 5 años y ofréceles las bolitas directamente en la mano o en un vasito.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [64], "pages": [93] },
+  "image_filename": "receta-bolitas-energeticas-en-palito.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

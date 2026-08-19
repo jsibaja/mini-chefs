@@ -1,0 +1,54 @@
+{
+  "slug": "arepa-de-yuca-y-calabaza",
+  "title": "Arepa de Yuca y Calabaza",
+  "description": "Arepitas doradas de yuca con calabaza (auyama o zapallo) y un toque de queso: suaves por dentro, con dulzor natural y color anaranjado que invita a probarlas.",
+  "category": "lonchera",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": "maiz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La yuca y el maíz aportan energía para toda la mañana, y la calabaza suma color naranja rico en betacarotenos: un carbohidrato base ideal para armar la lonchera.",
+  "tips": "Congela las arepitas crudas separadas con papel de horno hasta 2 meses y cocínalas directo del congelador; si van rellenas con queso o aguacate, empácalas con gel refrigerante.",
+  "family_mode_note": "Para el desayuno familiar, haz arepas más grandes y rellénalas con queso fresco o aguacate.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara la masa sin sal y sirve la arepita en trocitos blandos, o machácala con un poco de leche hasta lograr una textura suave."
+    }
+  ],
+  "ingredients": [
+    { "code": "yuca_cocida", "name": "Yuca cocida", "amount": 1, "unit": "taza", "note": "hecha puré", "sort_order": 1 },
+    { "code": "calabaza_cocida", "name": "Calabaza cocida", "amount": 0.5, "unit": "taza", "note": "auyama o zapallo, hecha puré", "sort_order": 2 },
+    { "code": "harina_maiz", "name": "Harina de maíz", "amount": 0.5, "unit": "taza", "note": "precocida", "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un tazón el puré de yuca con el puré de calabaza.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega la harina de maíz, el queso rallado y la pizca de sal, y amasa hasta obtener una masa firme; si queda pegajosa, suma un poco más de harina.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Forma 6 arepitas pequeñas con las manos, aplanándolas bien.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "En sartén: calienta una sartén antiadherente a fuego medio y cocina las arepas 5 minutos por lado hasta dorarlas.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "En horno: precalienta a 180 °C y hornéalas 20 minutos, volteándolas a la mitad del tiempo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Déjalas entibiar sobre una rejilla antes de empacar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [18], "pages": [41] },
+  "image_filename": "receta-arepa-de-yuca-y-calabaza.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

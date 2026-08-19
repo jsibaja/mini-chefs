@@ -1,0 +1,59 @@
+{
+  "slug": "quesadillas-de-atun-y-calabacita",
+  "title": "Quesadillas de Atún y Calabacita",
+  "description": "Tortillas doradas al comal rellenas de atún, calabacita rallada y queso derretido. Una cena entera lista en menos de veinte minutos y con una sola sartén que lavar.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 8,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "pescado",
+  "veggie_colors": ["verde"],
+  "carb_base": "maiz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El atún aporta proteína y grasas del tipo omega 3, que acompañan el desarrollo del cerebro; la calabacita suma agua y fibra, y la tortilla de maíz entrega calcio y energía de digestión lenta.",
+  "tips": "Escurre muy bien la calabacita rallada apretándola con las manos sobre el fregadero: si suelta agua dentro de la quesadilla, la tortilla queda blanda en lugar de crocante. Guarda el relleno sobrante tapado en el refrigerador hasta 24 horas y úsalo al día siguiente sobre pan tostado.",
+  "family_mode_note": "Para los adultos, añade unas gotas de salsa picante y cilantro fresco picado sobre su porción ya servida. Si va a la lonchera, empaca las quesadillas ya frías, envueltas en papel, junto a un gel refrigerante.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Usa muy poca sal o ninguna y elige atún en agua sin sal añadida. Corta la quesadilla en tiras del ancho de un dedo, no en triángulos con puntas duras, y revisa que el borde de la tortilla no haya quedado demasiado tostado y filoso."
+    }
+  ],
+  "ingredients": [
+    { "code": "tortilla_maiz", "name": "Tortillas de maíz", "amount": 4, "unit": "unidad", "note": "medianas", "sort_order": 1 },
+    { "code": "atun_lata", "name": "Atún en agua", "amount": 140, "unit": "g", "note": "1 lata, bien escurrido", "sort_order": 2 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 1, "unit": "unidad", "note": "pequeña, rallada gruesa", "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso fresco rallado", "amount": 60, "unit": "g", "note": "o mozzarella", "sort_order": 4 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 2, "unit": "cucharada", "note": "picada muy fina", "sort_order": 5 },
+    { "code": "oregano", "name": "Orégano seco", "amount": 1, "unit": "pizca", "note": null, "sort_order": 6 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "limon", "name": "Limón", "amount": 1, "unit": "cucharadita", "note": "su jugo", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Ralla la calabacita, ponla en un colador y aprieta con las manos para sacarle el agua.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Escurre el atún y desmenúzalo en un tazón con un tenedor, revisando que no queden trocitos duros de piel o espina.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Mezcla el atún con la calabacita escurrida, la cebolla, el orégano, el jugo de limón y el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Calienta una sartén o comal a fuego medio, sin aceite.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Coloca una tortilla en la sartén, reparte la cuarta parte del relleno sobre la mitad, espolvorea queso y dóblala por la mitad presionando con la espátula.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Cocina 2 minutos por lado, hasta que la tortilla esté dorada y el queso se vea derretido; repite con las demás.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Pasa las quesadillas a una tabla y déjalas reposar 2 minutos: el queso recién derretido quema la boca de los niños.", "is_safety_critical": true },
+    { "step_number": 8, "instruction": "Corta la porción del niño en tiras pequeñas y sirve con rodajas de tomate o pepino al lado.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-quesadillas-de-atun-y-calabacita.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

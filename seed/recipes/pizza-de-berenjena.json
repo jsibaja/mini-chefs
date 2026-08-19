@@ -1,0 +1,54 @@
+{
+  "slug": "pizza-de-berenjena",
+  "title": "Pizza de Berenjena",
+  "description": "Rodajas de berenjena doradas que hacen de base de mini pizzas con tomate, hongos, jamón y queso gratinado. Una cena vegetal que conquista sin masa. Contiene lácteos.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["morado", "rojo", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La berenjena, el tomate y los hongos suman fibra y color al plato, y el queso aporta calcio y proteínas para huesos en crecimiento.",
+  "tips": "Cambia el jamón por pollo desmenuzado cocido o tofu para variar la proteína. Recalienta las sobras en horno o sartén (no en microondas) para que la berenjena no quede aguada.",
+  "family_mode_note": "Para los adultos, agrega orégano, albahaca fresca o un toque de ají al gratinar.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Pícala en trocitos pequeños y prefiere la versión con pollo desmenuzado o jamón bajo en sal, por su menor contenido de sodio."
+    }
+  ],
+  "ingredients": [
+    { "code": "berenjena", "name": "Berenjena", "amount": 2, "unit": "unidad", "note": "en rodajas de 1 cm", "sort_order": 1 },
+    { "code": "tomate", "name": "Tomate", "amount": 3, "unit": "unidad", "note": "en rodajas finas", "sort_order": 2 },
+    { "code": "hongo", "name": "Hongos (champiñones)", "amount": 250, "unit": "g", "note": "laminados", "sort_order": 3 },
+    { "code": "jamon", "name": "Jamón", "amount": 250, "unit": "g", "note": "prefiere jamón de pierna o de pavo bajo en sal", "sort_order": 4 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 250, "unit": "g", "note": "mozzarella o similar", "sort_order": 5 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": "para dorar las berenjenas", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Corta las berenjenas en rodajas de 1 cm de grosor.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Dora las rodajas en una sartén con el aceite de oliva, 1-2 minutos por lado, para que pierdan rigidez y tomen color.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Acomódalas en una bandeja cubierta con papel de horno.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cubre cada rodaja con tomate, hongos, jamón y queso rallado.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Hornea a 180 °C por 20-25 minutos, hasta que la berenjena esté tierna y el queso derretido y dorado. Sin horno: cocina en sartén tapada a fuego medio-bajo 15-20 minutos.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [66], "pages": [95] },
+  "image_filename": "receta-pizza-de-berenjena.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

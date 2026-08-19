@@ -1,0 +1,55 @@
+{
+  "slug": "barritas-crocantes-de-mani-y-chocolate",
+  "title": "Barritas Crocantes de Maní y Chocolate",
+  "description": "Barritas de tres capas: base de almendra, relleno cremoso de maní crocante y cobertura de chocolate amargo. Sin horno y con ingredientes reales.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 25,
+  "cook_minutes": 5,
+  "servings": 8,
+  "difficulty": 2,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "El maní y la almendra aportan proteína vegetal y grasas buenas que sacian de verdad. El chocolate y los dátiles suman azúcares libres, así que es un gusto para ocasiones especiales, no un básico diario.",
+  "tips": "Muchas escuelas son libres de maní: para esas loncheras sustituye la mantequilla de maní por crema de semillas de girasol. Envíalas siempre con gel refrigerante para que el chocolate no se derrita.",
+  "family_mode_note": "Los niños pueden presionar las capas en el molde y, con ayuda, bañar las barritas en el chocolate derretido.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Verifica que el maní esté finamente triturado, sin trozos grandes ni piezas enteras (prohibidas antes de los 5 años), y sirve la barrita cortada en trocitos pequeños: es densa y masticable."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_almendra", "name": "Harina de almendras", "amount": 120, "unit": "g", "note": "o 85 g de avena en hojuelas; alérgeno: frutos secos", "sort_order": 1 },
+    { "code": "crema_avellana", "name": "Crema de avellanas sin azúcar", "amount": 70, "unit": "g", "note": "o pasta de dátiles naturales", "sort_order": 2 },
+    { "code": "mantequilla_mani", "name": "Mantequilla de maní", "amount": 70, "unit": "g", "note": "sin azúcar añadida; alérgeno: maní", "sort_order": 3 },
+    { "code": "mani", "name": "Maní finamente triturado", "amount": 70, "unit": "g", "note": "u otros frutos secos triturados", "sort_order": 4 },
+    { "code": "chocolate_amargo", "name": "Chocolate amargo 75% cacao", "amount": 100, "unit": "g", "note": null, "sort_order": 5 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla la harina de almendras con la crema de avellanas (o pasta de dátiles) hasta obtener una masa pegajosa.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Presiona la mezcla en un molde pequeño forrado con papel encerado y refrigera 15 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla la mantequilla de maní con el maní finamente triturado: para menores de 5 años el maní va siempre molido fino, nunca entero ni en trozos grandes.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Extiende esta mezcla como segunda capa sobre la base y refrigera 1 hora.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Derrite el chocolate con el aceite de coco a baño maría o en microondas en tandas de 20 segundos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Corta en barritas, cúbrelas con el chocolate y refrigéralas hasta que la cobertura endurezca.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [81], "pages": [111] },
+  "image_filename": "receta-barritas-crocantes-de-mani-y-chocolate.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

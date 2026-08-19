@@ -1,0 +1,50 @@
+{
+  "slug": "papilla-de-yogur-con-frutas-y-granola",
+  "title": "Papilla de yogur con frutas y granola",
+  "description": "Yogur natural cremoso mezclado con plátano y manzana rallada, con un toque opcional de granola molida para los más grandes: un desayuno fresco lleno de energía.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["blanco_amarillo", "rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El yogur natural aporta proteína, calcio y bacterias buenas para la digestión, mientras el plátano y la manzana suman fibra, potasio y vitaminas; un desayuno equilibrado y refrescante.",
+  "tips": "El yogur es un lácteo: la primera vez ofrécelo solo y observa 2 o 3 días cómo lo tolera tu peque. Usa siempre yogur natural pasteurizado y sin azúcar. La granola solo desde los 12 meses y molida muy fina, nunca entera.",
+  "family_mode_note": "Sirve el mismo bol a toda la familia y deja que cada quien agregue su propia granola y fruta encima.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Sin granola. Machaca bien el plátano y usa la manzana rallada muy fina o cocida y triturada para una textura suave." },
+    { "age_band": "9_11m", "adaptation_text": "Sin granola. Puedes dejar trocitos blandos de plátano para que tu bebé practique la masticación." },
+    { "age_band": "12_24m", "adaptation_text": "Agrega 1 cucharada de granola sin azúcar molida bien fina; nunca la ofrezcas entera por el riesgo de atragantamiento con los frutos secos." }
+  ],
+  "ingredients": [
+    { "code": "yogur_natural", "name": "Yogur natural sin azúcar", "amount": 0.5, "unit": "taza", "note": "pasteurizado", "sort_order": 1 },
+    { "code": "platano", "name": "Plátano maduro", "amount": 0.5, "unit": "unidad", "note": "maduro", "sort_order": 2 },
+    { "code": "manzana", "name": "Manzana", "amount": 0.5, "unit": "unidad", "note": "rallada fina", "sort_order": 3 },
+    { "code": "granola", "name": "Granola sin azúcar", "amount": 1, "unit": "cucharada", "note": "opcional, solo 12 meses+ y molida muy fina", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y machaca el plátano con un tenedor.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Ralla la manzana bien fina (o cuécela y tritúrala para los más pequeños).", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla la fruta con el yogur hasta obtener una textura homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Solo si tu peque ya cumplió los 12 meses, muele la granola muy fina y espolvoréala por encima; nunca la ofrezcas entera ni a bebés menores por el riesgo de atragantamiento.", "is_safety_critical": true }
+  ],
+  "source": { "book": "gourmets", "numbers": [31], "pages": [49] },
+  "image_filename": "receta-papilla-de-yogur-con-frutas-y-granola.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

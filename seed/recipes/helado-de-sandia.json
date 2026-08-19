@@ -1,0 +1,51 @@
+{
+  "slug": "helado-de-sandia",
+  "title": "Helado de Sandía",
+  "description": "Paletas en capas que imitan una tajada de sandía: fruta roja, yogur cremoso y kiwi verde. Un postre helado y colorido para las tardes en casa.",
+  "category": "postre",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 0,
+  "servings": 6,
+  "difficulty": 2,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": ["rojo", "verde"],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La sandía hidrata y aporta vitaminas, y el yogur suma calcio y proteína; por su toque de miel, resérvalo como postre ocasional.",
+  "tips": "Agrega hojas de menta picadas a la capa de sandía para una versión aún más refrescante.",
+  "family_mode_note": "Postre para disfrutar en casa: al ser congelado no viaja bien en la lonchera escolar, porque se derrite y se rompe la cadena de frío.",
+  "variants": [
+    { "age_band": "2_5a", "adaptation_text": "Usa moldes pequeños y, en lugar de entregar la paleta con palito, desmóldala en un vasito y sírvela con cucharita: a esta edad el palito se convierte en riesgo si el niño camina o juega mientras come." }
+  ],
+  "ingredients": [
+    { "code": "sandia", "name": "Sandía", "amount": 4, "unit": "taza", "note": "en cubos y sin semillas (aprox. media sandía pequeña)", "sort_order": 1 },
+    { "code": "limon", "name": "Limón", "amount": 0.5, "unit": "unidad", "note": "el jugo", "sort_order": 2 },
+    { "code": "miel", "name": "Miel", "amount": 2, "unit": "cucharada", "note": "divididas entre las capas", "sort_order": 3 },
+    { "code": "yogur_natural", "name": "Yogur natural", "amount": 1, "unit": "taza", "note": "cremoso", "sort_order": 4 },
+    { "code": "kiwi", "name": "Kiwi", "amount": 1, "unit": "unidad", "note": "pelado y picado", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Licúa la sandía con el jugo de limón y 1 cucharada de miel; cuela la mezcla si quedaron semillas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Llena los moldes de paletas hasta la mitad con la mezcla de sandía y congela 1-2 horas, hasta que comience a endurecer.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla el yogur con la miel restante, reparte una capa sobre la sandía e inserta los palitos; congela 30-60 minutos más.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura el kiwi y complétalo como capa final en cada molde.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Congela 4-6 horas o hasta que las paletas estén completamente firmes; desmolda pasando el molde por agua tibia.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Sirve la paleta siempre con el niño sentado y acompañado: el palito puede lastimar si corre o juega mientras come.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [92], "pages": [124] },
+  "image_filename": "receta-helado-de-sandia.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

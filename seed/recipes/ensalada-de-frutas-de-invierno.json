@@ -1,0 +1,123 @@
+{
+  "slug": "ensalada-de-frutas-de-invierno",
+  "title": "Ensalada de Frutas de Invierno",
+  "description": "Manzana, pera y plátano en una ensalada fresca y colorida, con el dulzor natural de la fruta y adaptaciones seguras para cada edad.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": [
+    "colacion_am",
+    "colacion_pm"
+  ],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [
+    "verde",
+    "rojo"
+  ],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Combina manzana, pera y plátano para una merienda con fibra y vitaminas naturales, con el dulzor propio de la fruta y sin azúcar añadida.",
+  "tips": "Sírvela recién hecha para que la fruta no se oxide; unas gotas de limón ayudan a mantener el color. El jugo de naranja o mandarina solo desde los 12 meses y en poca cantidad, por ser un azúcar libre. Desde los 12 meses puedes agregar un chorrito de jugo de naranja recién exprimido; antes del año, sirve solo la fruta.",
+  "family_mode_note": null,
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Cocina al vapor la manzana y la pera y hazlas puré junto con el plátano maduro; sin jugo."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Ralla la manzana y la pera o córtalas en trocitos muy blandos y aplasta el plátano; sin jugo."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "manzana",
+      "name": "Manzana",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": "madura",
+      "sort_order": 1
+    },
+    {
+      "code": "pera",
+      "name": "Pera",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": "madura",
+      "sort_order": 2
+    },
+    {
+      "code": "platano",
+      "name": "Plátano",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": "maduro",
+      "sort_order": 3
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Lava y pela la manzana y la pera.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "Antes de los 12 meses, cocina la manzana y la pera al vapor o rállalas finas para evitar atragantamientos; después de esa edad, córtalas en trozos pequeños o en tiras grandes si el bebé practica BLW.",
+      "is_safety_critical": true
+    },
+    {
+      "step_number": 3,
+      "instruction": "Pela el plátano maduro y córtalo en rodajas o trozos pequeños; aplástalo un poco para los más chiquitos.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Mezcla todas las frutas en un bol.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 5,
+      "instruction": "Si el bebé ya cumplió 12 meses y lo deseas, añade un chorrito de jugo de naranja o mandarina para un toque fresco.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 6,
+      "instruction": "Sirve de inmediato para que la fruta no se oscurezca.",
+      "is_safety_critical": false
+    }
+  ],
+  "source": {
+    "book": "gourmets",
+    "numbers": [
+      66,
+      99
+    ],
+    "pages": [
+      86,
+      121
+    ]
+  },
+  "image_filename": "receta-ensalada-de-frutas-de-invierno.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

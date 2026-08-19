@@ -1,0 +1,51 @@
+{
+  "slug": "jugo-vitamina-c",
+  "title": "Jugo Vitamina C de Remolacha y Naranja",
+  "description": "Un jugo de color rubí, naturalmente dulce, que combina remolacha, zanahoria, manzana y naranja con un buen aporte de vitamina C. Colorido y refrescante, ideal como acompañamiento ocasional de la lonchera.",
+  "category": "bebida",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La naranja y la manzana aportan vitamina C, mientras que la remolacha y la zanahoria suman color y minerales. Como todo jugo, se disfruta mejor en porciones pequeñas y de vez en cuando, dentro de una alimentación variada.",
+  "tips": "Si lo llevas a la lonchera, envíalo en un termo o botella bien fría con gel refrigerante y que se tome antes de 3-4 horas: el jugo pierde color y frescura con el tiempo. Para aportar más fibra, la mayoría de los días es mejor ofrecer la fruta entera en trocitos en lugar de licuarla.",
+  "family_mode_note": "Para la versión de los adultos puedes agregar un poco de jengibre fresco rallado y unas gotas de limón; sirve la de los niños antes de añadirlo.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Ofrece como máximo medio vaso pequeño (60-90 ml), diluido con agua a partes iguales y usando solo una rodaja pequeña de remolacha. A esta edad prioriza la fruta entera en trocitos blandos y el agua como bebida principal." },
+    { "age_band": "2_5a", "adaptation_text": "Sirve una porción pequeña de medio vaso (100-120 ml), colado para una textura suave. Ofrécelo como acompañamiento ocasional, no a diario." },
+    { "age_band": "6_9a", "adaptation_text": "Sirve sin colar para conservar la fibra y agrega hielo; un vaso pequeño (alrededor de 150 ml) es suficiente." }
+  ],
+  "ingredients": [
+    { "code": "remolacha", "name": "Remolacha (betabel, betarraga)", "amount": 0.25, "unit": "unidad", "note": "pequeña, cruda y pelada (unos 30-40 g)", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "mediana, pelada y en trozos", "sort_order": 2 },
+    { "code": "manzana", "name": "Manzana", "amount": 0.5, "unit": "unidad", "note": "sin corazón ni semillas, con cáscara bien lavada", "sort_order": 3 },
+    { "code": "naranja", "name": "Naranja", "amount": 0.5, "unit": "unidad", "note": "pelada y sin semillas, o su jugo", "sort_order": 4 },
+    { "code": "agua", "name": "Agua fría", "amount": 0.5, "unit": "taza", "note": "unos 120 ml, para facilitar el licuado", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava muy bien la remolacha, la zanahoria, la manzana y la naranja. Pela la remolacha y la zanahoria, y retira el corazón y las semillas de la manzana y la naranja.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Corta todo en trozos pequeños para que la licuadora trabaje sin esfuerzo.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Licúa los trozos con el agua fría durante 1 a 2 minutos, hasta obtener una mezcla homogénea de color rubí.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cuela con un colador fino si prefieres una textura más ligera; para los niños más grandes puedes dejar la pulpa y conservar la fibra. Sirve enseguida y bien frío.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [100], "pages": [132] },
+  "image_filename": "receta-jugo-vitamina-c.webp",
+  "fallback_image": "placeholder-categoria-bebidas.webp"
+}

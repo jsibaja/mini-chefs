@@ -1,0 +1,56 @@
+{
+  "slug": "alitas-de-pollo",
+  "title": "Alitas de Pollo",
+  "description": "Alitas marinadas en mostaza, miel y paprika, horneadas hasta quedar doradas: una versión casera con menos grasa que las fritas.",
+  "category": "almuerzo",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 40,
+  "cook_minutes": 40,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "Pollo horneado en casa con una marinada sencilla: aporta proteína con menos grasa y menos sodio que las alitas fritas de restaurante.",
+  "tips": "En la lonchera van frías, con gel refrigerante y toallitas para las manos; como la marinada lleva miel, resérvalas como plato ocasional y acompáñalas con bastones finos de zanahoria y pepino.",
+  "family_mode_note": "Duplica la marinada para una bandeja familiar; los adultos pueden sumar una pizca de pimienta de cayena aparte.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Evita las alitas con hueso en menores de 5 años: usa filetitos de pechuga sin hueso con la misma marinada (hornea 15-20 minutos) y córtalos en tiras; si sirves alitas, retira piel, hueso y cartílagos y desmenuza la carne."
+    }
+  ],
+  "ingredients": [
+    { "code": "alita_pollo", "name": "Alitas de pollo", "amount": 10, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "mostaza", "name": "Mostaza", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 2 },
+    { "code": "miel", "name": "Miel", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 3 },
+    { "code": "ajo_en_polvo", "name": "Ajo en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "paprika", "name": "Paprika (pimentón dulce en polvo)", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 6 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": null, "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol la mostaza, la miel, el ajo en polvo, la paprika, la pizca de sal y la pimienta.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cubre las alitas con la mezcla y déjalas marinar al menos 30 minutos, siempre dentro del refrigerador.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Al horno: precalienta a 200 °C y hornéalas 35-40 minutos sobre una bandeja, volteándolas a la mitad del tiempo, hasta que estén doradas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "En sartén: cocínalas tapadas a fuego medio 20-25 minutos, volteándolas con frecuencia para que se cocinen parejo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Verifica la cocción completa: pincha junto al hueso y comprueba que los jugos salgan claros, sin ninguna parte rosada.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Para menores de 5 años, retira la piel, el hueso y los cartílagos, y desmenuza la carne antes de servir.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [23], "pages": [46] },
+  "image_filename": "receta-alitas-de-pollo.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

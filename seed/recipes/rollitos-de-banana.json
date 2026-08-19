@@ -1,0 +1,53 @@
+{
+  "slug": "rollitos-de-banana",
+  "title": "Rollitos de Banana",
+  "description": "Una banana entera envuelta en tortilla de avena con crema de maní, cortada en rueditas doradas: colación divertida y sin azúcar añadida. Contiene maní y huevo.",
+  "category": "colacion",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La banana aporta energía rápida y potasio, la avena suma fibra y la crema de maní proteína vegetal: una colación completa sin azúcar añadida.",
+  "tips": "¿Colegio libre de maní? Unta crema de semillas de girasol en su lugar. Empaca las rueditas en un recipiente hermético con gel refrigerante y consúmelas el mismo día.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Prepara la tortilla sin sal, unta la crema de maní en capa muy fina y corta rodajas pequeñas; parte cada ruedita en cuartos para que sea fácil y segura de tomar." }
+  ],
+  "ingredients": [
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 1, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "leche", "name": "Leche", "amount": 0.33, "unit": "taza", "note": "o agua", "sort_order": 3 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "omítela para menores de 1 año", "sort_order": 4 },
+    { "code": "canela", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": null, "sort_order": 5 },
+    { "code": "banana", "name": "Banana", "amount": 1, "unit": "unidad", "note": "plátano, según el país", "sort_order": 6 },
+    { "code": "crema_mani", "name": "Crema de maní", "amount": 1, "unit": "cucharada", "note": "o mantequilla de almendras, sin azúcar añadida", "sort_order": 7 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharadita", "note": "para la sartén", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla la harina de avena con la sal, la canela, la leche y el huevo hasta obtener una masa uniforme.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Calienta una sartén con un poco de aceite y cocina la masa formando una tortilla delgada; dórala por ambos lados hasta que el huevo esté completamente cocido.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Unta la tortilla con la crema de maní y coloca la banana entera en el centro.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Enrolla con cuidado y regresa el rollo un minuto a la sartén para sellarlo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Corta en rodajas de unos 2 centímetros y dóralas de nuevo por ambos lados si las quieres más firmes.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [48], "pages": [75] },
+  "image_filename": "receta-rollitos-de-banana.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

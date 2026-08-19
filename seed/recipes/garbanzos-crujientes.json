@@ -1,0 +1,142 @@
+{
+  "slug": "garbanzos-crujientes",
+  "title": "Garbanzos Crujientes",
+  "description": "Garbanzos horneados con especias hasta quedar dorados y crocantes: un snack salado, lleno de proteína vegetal, perfecto para la lonchera de los más grandes.",
+  "category": "colacion",
+  "min_age_months": 60,
+  "max_age_months": null,
+  "texture_stages": [
+    4,
+    5
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 35,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": [
+    "colacion_am",
+    "colacion_pm",
+    "lonchera"
+  ],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "legumbre",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los garbanzos aportan proteína vegetal, hierro y fibra que ayudan a sostener la energía durante la jornada escolar.",
+  "tips": "Guárdalos en un frasco hermético (no en bolsa) hasta 3-4 días en la despensa; si pierden lo crujiente, tuéstalos 5 minutos más en el horno.",
+  "family_mode_note": "Los garbanzos tostados duros son un riesgo de atragantamiento: no los ofrezcas a menores de 5 años. Para los hermanos pequeños, sirve garbanzos cocidos blandos, aplastados con un tenedor.",
+  "variants": [],
+  "ingredients": [
+    {
+      "code": "garbanzo_cocido",
+      "name": "Garbanzos cocidos",
+      "amount": 400,
+      "unit": "g",
+      "note": "escurridos y muy bien secos",
+      "sort_order": 1
+    },
+    {
+      "code": "paprika",
+      "name": "Paprika (pimentón dulce en polvo)",
+      "amount": 1,
+      "unit": "cucharadita",
+      "note": null,
+      "sort_order": 2
+    },
+    {
+      "code": "ajo_en_polvo",
+      "name": "Ajo en polvo",
+      "amount": 1,
+      "unit": "cucharadita",
+      "note": null,
+      "sort_order": 3
+    },
+    {
+      "code": "cebolla_polvo",
+      "name": "Cebolla en polvo",
+      "amount": 1,
+      "unit": "cucharadita",
+      "note": null,
+      "sort_order": 4
+    },
+    {
+      "code": "aceite_oliva",
+      "name": "Aceite de oliva",
+      "amount": 2,
+      "unit": "cucharada",
+      "note": null,
+      "sort_order": 5
+    },
+    {
+      "code": "sal",
+      "name": "Sal",
+      "amount": 0.5,
+      "unit": "cucharadita",
+      "note": "poca; puedes reducirla aún más",
+      "sort_order": 6
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Precalienta el horno a 200 °C.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "Enjuaga, escurre y seca muy bien los garbanzos con papel absorbente: mientras más secos, más crujientes quedarán.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 3,
+      "instruction": "En un tazón, mezcla el aceite de oliva con la paprika, el ajo en polvo, la cebolla en polvo y la sal.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Vierte la mezcla sobre los garbanzos y revuelve hasta que queden bien impregnados.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 5,
+      "instruction": "Distribuye los garbanzos en una bandeja forrada con papel de horno, sin amontonarlos.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 6,
+      "instruction": "Hornea a 200 °C durante 30-35 minutos, removiendo cada 10 minutos para que se doren parejo y no se quemen.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 7,
+      "instruction": "Apaga el horno y deja los garbanzos dentro 10 minutos más para que terminen de secarse; sácalos y deja enfriar por completo.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 8,
+      "instruction": "Sírvelos solo a niños de 5 años en adelante: los garbanzos tostados duros pueden causar atragantamiento en los más pequeños.",
+      "is_safety_critical": true
+    }
+  ],
+  "source": {
+    "book": "loncheras",
+    "numbers": [
+      88
+    ],
+    "pages": [
+      118,
+      119
+    ]
+  },
+  "image_filename": "receta-garbanzos-crujientes.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

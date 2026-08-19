@@ -1,0 +1,47 @@
+{
+  "slug": "pure-de-fresas-y-platano",
+  "title": "Puré de fresas y plátano",
+  "description": "Un puré fresco y sin cocción de fresas y plátano maduro, dulce y aromático, que introduce el sabor de las frutas rojas desde las primeras cucharadas.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La fresa aporta vitamina C y antioxidantes, y el plátano suma potasio y energía; un puré naturalmente dulce, colorido y listo en minutos.",
+  "tips": "La fresa es un alérgeno frecuente pero puede ofrecerse desde los 6 meses: preséntala sola la primera vez y observa 2 o 3 días. No hace falta cocinarla, y cocinarla no reduce el riesgo de alergia. Prepara el puré fresco para que no se oscurezca.",
+  "family_mode_note": "Para los más grandes, sirve las fresas y el plátano en rodajas como fruta fresca o mézclalos con yogur natural.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura muy fino hasta que no queden trocitos y, si hace falta, aclara con un poco de agua." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca la fruta con un tenedor dejando una textura más gruesa con trocitos muy blandos." }
+  ],
+  "ingredients": [
+    { "code": "platano", "name": "Plátano maduro", "amount": 0.5, "unit": "unidad", "note": "bien maduro", "sort_order": 1 },
+    { "code": "fresa", "name": "Fresas frescas", "amount": 4, "unit": "unidad", "note": "lavadas y sin hojas", "sort_order": 2 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava bien las fresas y retírales las hojas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela el plátano y córtalo en trozos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura las fresas y el plátano hasta obtener una textura suave, asegurándote de que no queden trozos grandes.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Si es necesario, ajusta la consistencia con un poco de agua y sirve fresco.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [36], "pages": [54] },
+  "image_filename": "receta-pure-de-fresas-y-platano.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

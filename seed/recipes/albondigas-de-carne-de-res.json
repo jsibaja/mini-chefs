@@ -1,0 +1,50 @@
+{
+  "slug": "albondigas-de-carne-de-res",
+  "title": "Albóndigas de Carne de Res",
+  "description": "Albóndigas tiernas de res con zanahoria escondida, horneadas hasta quedar jugosas: ricas en hierro y perfectas con un puré suave.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 3,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "carne_roja",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La carne de res es una de las mejores fuentes de hierro y zinc para el crecimiento y el desarrollo, y la zanahoria aporta betacarotenos para la piel y la vista.",
+  "tips": "Contienen huevo y gluten (pan molido): introduce cada alérgeno solo y observa 2-3 días. Para versión sin gluten, usa avena molida en lugar de pan molido. Congela las albóndigas ya cocidas hasta 2 meses y tendrás otra comida lista.",
+  "family_mode_note": "Para los grandes, sírvelas con salsa de tomate casera y arroz; a la mezcla de los adultos puedes sumar ajo y hierbas antes de dividir la porción del bebé.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura una albóndiga bien cocida con un poco de puré de papa o zanahoria hasta obtener una textura suave y homogénea." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca la albóndiga con un tenedor en trocitos muy blandos y sírvela con puré." }
+  ],
+  "ingredients": [
+    { "code": "carne_res_molida", "name": "Carne de res molida", "amount": 100, "unit": "g", "note": "magra", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "rallada fina", "sort_order": 2 },
+    { "code": "pan_molido", "name": "Pan molido (pan rallado)", "amount": 1, "unit": "cucharada", "note": "o avena molida para versión sin gluten", "sort_order": 3 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": "entero, bien cocido", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla la carne de res, la zanahoria rallada, el pan molido y el huevo entero en un tazón hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Forma albóndigas pequeñas, del tamaño de una nuez, para que se cocinen parejas por dentro.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Colócalas en una bandeja de horno.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea a 180 °C unos 20-25 minutos, hasta que estén completamente cocidas por dentro: parte una para comprobar que no quede carne rosada y que el huevo esté cuajado.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja enfriar un poco y sírvelas con puré de papa o zanahoria para una comida completa.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [54], "pages": [74] },
+  "image_filename": "receta-albondigas-de-carne-de-res.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "pizza-de-pollo-y-queso",
+  "title": "Pizza de pollo y queso",
+  "description": "Mini pizza casera con salsa de tomate, pollo desmenuzado y queso fundido sobre una base ligera. Se corta en tiras para que los peques la agarren solos.",
+  "category": "cena",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["rojo"],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína y hierro para el crecimiento, el queso suma calcio, y la salsa de tomate agrega sabor y color en una porción del tamaño ideal para peques.",
+  "tips": "Si no tienes base, prepara la de coliflor (ver receta) o una masa integral casera. Usa siempre pollo ya cocido y queso pasteurizado sin sal. Suma verduras ralladas para más color y nutrientes.",
+  "family_mode_note": "Los adultos pueden añadir aceitunas, orégano o chile en su porción al servir.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Corta la pizza en tiras finas y blandas, usa poca cantidad de queso y no agregues sal." }
+  ],
+  "ingredients": [
+    { "code": "base_pizza", "name": "Base de pizza", "amount": 1, "unit": "unidad", "note": "casera integral o base de coliflor (ver receta)", "sort_order": 1 },
+    { "code": "salsa_tomate", "name": "Salsa de tomate casera", "amount": 2, "unit": "cucharada", "note": "sin sal", "sort_order": 2 },
+    { "code": "pechuga_pollo", "name": "Pollo desmenuzado", "amount": 0.25, "unit": "taza", "note": "cocido", "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso rallado sin sal", "amount": 0.25, "unit": "taza", "note": "pasteurizado", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y ten lista una base de pizza integral casera o la base de coliflor (ver receta).", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Extiende la salsa de tomate sobre la base.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Reparte el pollo cocido desmenuzado y el queso rallado; rocía con el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea 10-15 minutos hasta que el queso se derrita y la base esté firme; asegúrate de que el pollo esté bien caliente y completamente cocido.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja entibiar y corta en tiras para que el peque las agarre.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [88], "pages": [110] },
+  "image_filename": "receta-pizza-de-pollo-y-queso.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

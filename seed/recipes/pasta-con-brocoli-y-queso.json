@@ -1,0 +1,60 @@
+{
+  "slug": "pasta-con-brocoli-y-queso",
+  "title": "Pasta con Brócoli y Queso",
+  "description": "Pasta cremosa con arbolitos de brócoli y una salsa de queso suave: la manera más querida de comer verduras verdes.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["verde"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El brócoli aporta vitamina C y fibra, y el queso con la leche suman calcio y proteínas para huesos y dientes fuertes.",
+  "tips": "Si agregas almendras tostadas para un toque crujiente, muélelas primero: enteras o en láminas no son seguras para menores de 5 años. Puedes sustituir la leche por caldo de verduras para una salsa más ligera.",
+  "family_mode_note": "Presenta los ramilletes como arbolitos del bosque: invitar a los niños a comerse el bosque funciona mejor que pedirles que coman brócoli.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara una porción sin sal con pasta chica muy cocida y brócoli bien blando; machaca todo con un poco de salsa hasta dejar trocitos suaves."
+    }
+  ],
+  "ingredients": [
+    { "code": "pasta_integral", "name": "Pasta integral", "amount": 200, "unit": "g", "note": "fusilli, macarrones o espagueti", "sort_order": 1 },
+    { "code": "brocoli", "name": "Brócoli", "amount": 1, "unit": "unidad", "note": "mediano, en ramilletes pequeños", "sort_order": 2 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 100, "unit": "g", "note": "mozzarella o parmesano", "sort_order": 3 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 4 },
+    { "code": "leche", "name": "Leche", "amount": 200, "unit": "ml", "note": "o crema de leche ligera; siempre dentro de la preparación cocida", "sort_order": 5 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela en porciones para menores de 12 meses", "sort_order": 7 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cuece la pasta en agua con poca sal según las indicaciones del paquete.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava el brócoli y córtalo en ramilletes pequeños, como arbolitos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cuece el brócoli al vapor o en agua hirviendo 3-4 minutos, hasta que esté tierno.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "En una sartén con el aceite de oliva, sofríe el ajo picado hasta que esté dorado.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega la leche y caliéntala a fuego bajo, sin que llegue a hervir.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Incorpora el queso rallado y revuelve hasta obtener una salsa cremosa.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Agrega la pasta escurrida y el brócoli a la sartén con la salsa.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Mezcla bien y cocina 2 minutos más.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Sirve caliente con un poco de queso extra espolvoreado por encima.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [25], "pages": [69, 70] },
+  "image_filename": "receta-pasta-con-brocoli-y-queso.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

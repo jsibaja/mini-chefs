@@ -1,0 +1,51 @@
+{
+  "slug": "natilla-de-maiz-con-pera",
+  "title": "Natilla de Maíz con Pera",
+  "description": "Leche espesada con fécula de maíz y pera bien madura rallada, perfumada con vainilla y canela. Cremosa como una natilla de verdad y sin nada de azúcar (el tiempo incluye 1 hora de refrigeración).",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 65,
+  "cook_minutes": 10,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": "maiz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La leche aporta calcio y proteína para huesos y músculos en crecimiento, y la pera madura pone el dulzor y algo de fibra. Sin azúcares añadidos, es un postre que puede repetirse sin culpa.",
+  "tips": "La pera tiene que estar muy madura: es la única que endulza la natilla, así que una pera dura dejará el postre soso. Se conserva 2 días tapada en el refrigerador y no conviene congelarla, porque la fécula se separa y queda aguada.",
+  "family_mode_note": "Reparte la misma olla en vasitos: los adultos pueden espolvorear cacao amargo o café molido sobre el suyo.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Sirve una porción pequeña apenas fría y suma pera rallada fresca por encima en vez de trozos, para que la cuchara entre fácil." },
+    { "age_band": "2_5a", "adaptation_text": "Sírvela bien fría en su propio vasito y deja que la decore con cubos pequeños de pera y una pizca de canela." }
+  ],
+  "ingredients": [
+    { "code": "leche", "name": "Leche entera", "amount": 500, "unit": "ml", "note": "fría", "sort_order": 1 },
+    { "code": "fecula_maiz", "name": "Fécula de maíz (maicena)", "amount": 3, "unit": "cucharada", "note": null, "sort_order": 2 },
+    { "code": "pera", "name": "Pera", "amount": 2, "unit": "unidad", "note": "bien maduras, peladas y ralladas", "sort_order": 3 },
+    { "code": "canela_rama", "name": "Canela en rama", "amount": 1, "unit": "unidad", "note": null, "sort_order": 4 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela las peras maduras y rállalas por el lado grueso del rallador.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una olla, disuelve la fécula de maíz en la leche fría batiendo hasta que no quede ni un grumo. Siempre en frío: si la leche está caliente, la fécula se apelmaza.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega la pera rallada y la rama de canela, lleva a fuego medio y cocina de 6 a 8 minutos moviendo sin parar, hasta que espese y cubra el reverso de la cuchara.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Retira del fuego y saca la rama de canela completa: no puede llegar al plato de los niños. Incorpora la vainilla y mezcla.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Reparte en vasitos individuales, deja entibiar sobre la mesa y refrigera al menos 1 hora antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-natilla-de-maiz-con-pera.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

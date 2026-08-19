@@ -1,0 +1,53 @@
+{
+  "slug": "yogur-con-compota-de-manzana",
+  "title": "Yogur con Compota de Manzana",
+  "description": "Vasito de yogur natural en capas con compota casera de manzana y canela. Una merienda suave y sin azúcar añadida que también funciona como desayuno.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El yogur natural aporta calcio y proteínas para huesos en crecimiento, y la manzana cocida suma fibra suave. Todo el dulzor viene de la fruta, sin azúcar añadida.",
+  "tips": "Prepara doble porción de compota y guárdala en un frasco de vidrio en el refrigerador hasta 5 días: te sirve para yogur, panqueques o avena. Si va a la lonchera, arma el vasito bien frío y mándalo junto a un gel refrigerante, porque el yogur no debe pasar horas a temperatura ambiente.",
+  "family_mode_note": "Los adultos pueden completar su vaso con granola o nueces; evita endulzar la porción de los niños, y recuerda que los frutos secos enteros no van para menores de 5 años.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Mezcla la compota bien triturada con el yogur natural entero hasta lograr un puré homogéneo, y omite la nuez moscada." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca la manzana cocida con tenedor en lugar de triturarla, para que encuentre trocitos blandos dentro del yogur." }
+  ],
+  "ingredients": [
+    { "code": "manzana", "name": "Manzana", "amount": 1, "unit": "unidad", "note": "grande", "sort_order": 1 },
+    { "code": "yogur_natural", "name": "Yogur natural sin azúcar", "amount": 200, "unit": "g", "note": null, "sort_order": 2 },
+    { "code": "canela", "name": "Canela en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 },
+    { "code": "nuez_moscada", "name": "Nuez moscada", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 4 },
+    { "code": "agua", "name": "Agua", "amount": 3, "unit": "cucharada", "note": "para cocinar la manzana", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y corta la manzana en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Ponla en una olla pequeña con el agua y cocina a fuego medio unos 10 minutos, hasta que se ablande.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega la canela y, si quieres, la pizca de nuez moscada; mezcla bien.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura o machaca con tenedor hasta lograr una compota suave y déjala enfriar por completo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "En un vaso o bol, coloca una capa de yogur natural.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Suma una capa de compota y repite hasta terminar, alternando capas.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Refrigera 10 minutos y sirve frío.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [56], "pages": [133, 134] },
+  "image_filename": "receta-yogur-con-compota-de-manzana.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

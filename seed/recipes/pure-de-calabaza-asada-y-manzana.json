@@ -1,0 +1,49 @@
+{
+  "slug": "pure-de-calabaza-asada-y-manzana",
+  "title": "Puré de calabaza asada y manzana",
+  "description": "Calabaza y manzana asadas al horno hasta quedar tiernas y dulces, luego trituradas: el horneado concentra su dulzor natural sin añadir azúcar.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 35,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La calabaza suma betacarotenos y fibra, y la manzana aporta dulzor natural y vitamina C, sin necesidad de azúcar añadida.",
+  "tips": "Elige una calabaza pesada y de piel firme para un sabor más dulce. Si no quieres encender el horno, cocina la calabaza y la manzana al vapor. Congela el puré en porciones individuales hasta por 3 meses.",
+  "family_mode_note": "Servido frío con yogur o avena funciona como compota para toda la familia.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Machaca la calabaza y la manzana con un tenedor dejando algunos grumos suaves, en lugar de licuarlas." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve la calabaza y la manzana horneadas en cubitos blandos, para comer con las manos." }
+  ],
+  "ingredients": [
+    { "code": "calabaza", "name": "Calabaza", "amount": 1, "unit": "taza", "note": "pelada y en cubos (aprox. 200 g)", "sort_order": 1 },
+    { "code": "manzana", "name": "Manzana", "amount": 1, "unit": "unidad", "note": "dulce, pelada y sin corazón", "sort_order": 2 },
+    { "code": "agua", "name": "Agua", "amount": 0.25, "unit": "taza", "note": "o leche materna/fórmula tibia, opcional para ajustar", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180-200 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Corta la calabaza en cubos y la manzana en trozos, y colócalas en una bandeja para hornear.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Hornea 20-40 minutos, hasta que la calabaza esté muy blanda al pincharla.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Retira del horno y deja enfriar unos minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Tritura con tenedor o procesador hasta obtener una textura homogénea; si queda muy espeso, añade un poco de agua o de leche materna/fórmula tibia.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [4, 19], "pages": [22, 37] },
+  "image_filename": "receta-pure-de-calabaza-asada-y-manzana.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "lasana-de-pollo-y-espinacas",
+  "title": "Lasaña de Pollo y Espinacas",
+  "description": "Capas de pasta con pollo desmenuzado en salsa de tomate, espinacas y queso gratinado: una lasaña completa que combina proteína, verdura y pasta en cada bocado.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 25,
+  "cook_minutes": 35,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["verde", "rojo"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteínas de alta calidad para el crecimiento, las espinacas suman hierro y fibra, y el tomate y el queso completan el plato con vitamina C y calcio.",
+  "tips": "Una capa de ricotta o requesón entre los pisos la hace más cremosa y suma calcio. Congela porciones individuales ya horneadas y tendrás almuerzos listos para días con prisa.",
+  "family_mode_note": "Duplica las cantidades y arma dos moldes: uno para hoy y otro para congelar sin hornear.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Corta la porción del niño en cubos pequeños, revisa que el pollo esté en hebras finas y sirve tibio, no caliente; usa muy poca sal en el relleno."
+    }
+  ],
+  "ingredients": [
+    { "code": "lamina_lasana", "name": "Láminas de lasaña", "amount": 6, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo cocida", "amount": 200, "unit": "g", "note": "desmenuzada, sin partes rosadas", "sort_order": 2 },
+    { "code": "espinaca", "name": "Espinacas frescas", "amount": 100, "unit": "g", "note": "lavadas", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "tomate_triturado", "name": "Tomate triturado", "amount": 200, "unit": "g", "note": "natural, sin sal ni azúcar añadidos", "sort_order": 6 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 50, "unit": "g", "note": "para gratinar", "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina las láminas de lasaña según las instrucciones del paquete y resérvalas extendidas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén con el aceite de oliva, sofríe la cebolla y el ajo picados hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega el pollo desmenuzado — verifica que esté completamente cocido, sin partes rosadas — y saltéalo 5 minutos con el sofrito.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Incorpora el tomate triturado, cocina a fuego medio durante 10 minutos y sazona con muy poca sal.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Aparte, cocina las espinacas 2 minutos hasta que reduzcan su tamaño y mézclalas con el relleno de pollo.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "En un molde para horno, alterna capas de láminas de lasaña y relleno hasta formar 3 pisos.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Espolvorea el queso rallado sobre la última capa.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Hornea 20-25 minutos, hasta que el queso esté gratinado.", "is_safety_critical": false },
+    { "step_number": 10, "instruction": "Deja reposar 5 minutos antes de cortar y sirve acompañada de una ensalada fresca.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [36], "pages": [91, 92] },
+  "image_filename": "receta-lasana-de-pollo-y-espinacas.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "papilla-de-pollo-con-arroz-integral",
+  "title": "Papilla de pollo con arroz integral",
+  "description": "Una papilla completa y saciante de pollo tierno y arroz integral, suave y homogénea, que une proteína y un cereal integral en un solo plato.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 25,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": [],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína de calidad y hierro para el crecimiento, y el arroz integral suma energía de liberación lenta y fibra; una papilla nutritiva y muy fácil de digerir.",
+  "tips": "Refrigera el arroz cocido de inmediato y consume la papilla dentro de 24 horas. Acompáñala con una fruta rica en vitamina C, como naranja o mango, para aprovechar mejor el hierro del pollo.",
+  "family_mode_note": "Cocina más pollo y arroz para toda la familia y reserva la porción del bebé antes de condimentar el resto.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Deja el puré más grueso, con el pollo bien desmenuzado y el arroz apenas triturado." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve el arroz entero bien blando con el pollo desmenuzado por encima, sin triturar." }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo sin piel", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "arroz_integral", "name": "Arroz integral cocido", "amount": 0.25, "unit": "taza", "note": "bien blando", "sort_order": 2 },
+    { "code": "caldo_pollo", "name": "Caldo de pollo casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pechuga hasta que esté completamente cocida, sin partes rosadas en el interior.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Cocina el arroz integral hasta que esté bien blando.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla el pollo, el arroz y el caldo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura todos los ingredientes hasta obtener una textura homogénea, ajustando con más caldo si es necesario.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Deja entibiar a la temperatura adecuada y sirve.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [37], "pages": [55] },
+  "image_filename": "receta-papilla-de-pollo-con-arroz-integral.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

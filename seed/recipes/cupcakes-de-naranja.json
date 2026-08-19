@@ -1,0 +1,52 @@
+{
+  "slug": "cupcakes-de-naranja",
+  "title": "Cupcakes de Naranja",
+  "description": "Cupcakes esponjosos de naranja y banana madura, sin azúcar añadida: perfectos para la lonchera, el desayuno o la merienda.",
+  "category": "postre",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 6,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Endulzados con banana madura y jugo de naranja: energía de fruta real y la proteína del huevo, sin azúcar añadida.",
+  "tips": "El secreto del dulzor es una banana bien madura, con manchitas en la cáscara; una pizca de canela espolvoreada al final les da un aroma extra.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Sirve el cupcake desmenuzado o en trocitos blandos; si agregas arándanos, pártelos por la mitad antes de hornear." }
+  ],
+  "ingredients": [
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "harina_arroz", "name": "Harina de arroz", "amount": 0.5, "unit": "taza", "note": "o harina de almendras", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "banana", "name": "Banana (plátano)", "amount": 1, "unit": "unidad", "note": "bien madura", "sort_order": 4 },
+    { "code": "naranja", "name": "Naranja", "amount": 0.5, "unit": "unidad", "note": "su jugo", "sort_order": 5 },
+    { "code": "bicarbonato", "name": "Bicarbonato de sodio", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "arandano", "name": "Arándanos", "amount": 0.25, "unit": "taza", "note": "o frambuesas (opcional)", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Tritura la banana con un tenedor y mézclala con los huevos y el jugo de naranja.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega las harinas y el bicarbonato y mezcla hasta integrar.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Reparte la mezcla en moldes de silicona o capacillos engrasados y decora con los arándanos o frambuesas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea a 180 °C (horno precalentado) por 20-25 minutos, hasta que al insertar un palillo salga limpio: el huevo debe quedar bien cocido.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja enfriar sobre una rejilla antes de desmoldar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [56], "pages": [84] },
+  "image_filename": "receta-cupcakes-de-naranja.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

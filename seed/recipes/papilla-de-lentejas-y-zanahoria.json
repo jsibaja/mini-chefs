@@ -1,0 +1,49 @@
+{
+  "slug": "papilla-de-lentejas-y-zanahoria",
+  "title": "Papilla de lentejas y zanahoria",
+  "description": "Lentejas bien cocidas trituradas con zanahoria: una papilla suave que suma proteína vegetal y hierro a las comidas del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las lentejas aportan proteína vegetal y hierro, y la zanahoria suma betacarotenos; combinarlas con un toque de cítrico ayuda a aprovechar mejor ese hierro.",
+  "tips": "Unas gotas de jugo de limón o naranja al servir ayudan a aprovechar mejor el hierro de las lentejas. Antes de los 12 meses, asegúrate de que estén muy bien cocidas y trituradas para evitar atragantamientos. Congela porciones en cubetera hasta por 3 meses.",
+  "family_mode_note": "Menos triturada y con un sofrito de cebolla se convierte en un guiso de lentejas para el almuerzo familiar.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Machaca las lentejas y la zanahoria con un tenedor dejando grumos suaves en lugar de licuar." }
+  ],
+  "ingredients": [
+    { "code": "lenteja", "name": "Lentejas cocidas", "amount": 0.5, "unit": "taza", "note": "bien blandas", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "mediana", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 },
+    { "code": "jugo_limon", "name": "Jugo de limón", "amount": 1, "unit": "cucharadita", "note": "opcional, al servir", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava, pela y corta la zanahoria en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina la zanahoria en agua hirviendo o caldo casero sin sal 10-12 minutos, hasta que esté blanda.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega las lentejas cocidas y cocina todo junto 2 minutos más.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura con licuadora hasta obtener una textura homogénea y sin grumos; ajusta con más caldo si es necesario.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Si quieres, añade unas gotas de jugo de limón justo antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [11], "pages": [29] },
+  "image_filename": "receta-papilla-de-lentejas-y-zanahoria.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

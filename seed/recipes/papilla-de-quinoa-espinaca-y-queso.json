@@ -1,0 +1,49 @@
+{
+  "slug": "papilla-de-quinoa-espinaca-y-queso",
+  "title": "Papilla de quinoa con espinaca y queso fresco",
+  "description": "Papilla cremosa de quinoa, espinaca y queso fresco: combina cereal, verdura de hoja y lácteo suave en una preparación completa para el bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["verde"],
+  "carb_base": "quinua",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La quinua aporta proteína vegetal y fibra, la espinaca suma hierro y folatos, y el queso fresco agrega calcio y proteína para el crecimiento del bebé.",
+  "tips": "Usa siempre queso fresco pasteurizado y sin sal. La espinaca concentra nitratos: prepara la papilla al momento, no la guardes más de 24 horas ni la recalientes, y en menores de 1 año ofrécela en porciones pequeñas. El lácteo es un alérgeno: introdúcelo solo y observa 2-3 días.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Ofrece solo 1-2 cucharadas como ración pequeña de espinaca; usa apenas una pizca de queso fresco y prepárala recién hecha." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca la quinua y la espinaca con un tenedor dejando grumos suaves, sin licuar, y desmenuza el queso por encima." }
+  ],
+  "ingredients": [
+    { "code": "quinua", "name": "Quinua (quinoa) cocida", "amount": 0.25, "unit": "taza", "note": "bien lavada antes de cocinar", "sort_order": 1 },
+    { "code": "espinaca", "name": "Espinacas frescas", "amount": 0.5, "unit": "taza", "note": "lavadas", "sort_order": 2 },
+    { "code": "queso_fresco", "name": "Queso fresco pasteurizado sin sal", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 3 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Si partes de quinua cruda, lávala bien y cocínala en agua hasta que esté suave; si ya la tienes cocida, solo entíbiala.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava las espinacas y cocínalas al vapor durante unos 3 minutos, hasta que reduzcan su tamaño.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura la quinua, las espinacas y el queso fresco con un poco de caldo hasta obtener una textura homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Ajusta la consistencia con más caldo o agua si es necesario y sirve tibia, recién hecha.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [21], "pages": [39] },
+  "image_filename": "receta-papilla-de-quinoa-espinaca-y-queso.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

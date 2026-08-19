@@ -1,0 +1,52 @@
+{
+  "slug": "galletas-de-avena-y-manzana-sin-huevo",
+  "title": "Galletas de avena y manzana (sin huevo)",
+  "description": "Galletas blandas de solo tres ingredientes base: harina de avena, puré de manzana y canela. Sin huevo y sin azúcar añadida, ideales para la etapa de dentición.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 6,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["rojo"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El puré de manzana y la canela dan todo el dulzor sin azúcar añadida, y la avena aporta fibra y energía constante; además no llevan huevo.",
+  "tips": "Hornéalas hasta que estén apenas doradas y blandas; si las prefieres crujientes, resérvalas para mayores de 12 meses. Guárdalas en un frasco hermético hasta 2 días o congélalas hasta 3 meses. La avena contiene gluten (usa avena certificada sin gluten si hay celiaquía).",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Ofrece una galleta entera y blanda para que la chupe y practique el agarre bajo supervisión, o desmenúzala y mézclala con un poco de puré de fruta; asegúrate de que quede blanda, no crujiente." },
+    { "age_band": "9_11m", "adaptation_text": "Pártela en trozos pequeños del tamaño de un garbanzo para que la tome con la pinza." }
+  ],
+  "ingredients": [
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": "contiene gluten; usa avena certificada sin gluten si hay celiaquía", "sort_order": 1 },
+    { "code": "pure_manzana", "name": "Puré de manzana", "amount": 0.25, "unit": "taza", "note": "sin azúcar", "sort_order": 2 },
+    { "code": "canela", "name": "Canela en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 },
+    { "code": "aceite_coco", "name": "Aceite de coco o de oliva", "amount": 1, "unit": "cucharadita", "note": "da mejor textura y evita que queden gomosas", "sort_order": 4 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y cubre una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En un bol, mezcla la harina de avena con la canela y el polvo de hornear.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el puré de manzana y el aceite, y mezcla hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Forma pequeñas bolitas, colócalas en la bandeja y aplánalas ligeramente.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Hornea unos 15 minutos, hasta que estén apenas doradas y aún blandas por dentro.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Retíralas y déjalas enfriar antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [112, 117], "pages": [136, 142] },
+  "image_filename": "receta-galletas-de-avena-y-manzana-sin-huevo.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

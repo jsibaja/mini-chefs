@@ -1,0 +1,49 @@
+{
+  "slug": "paletas-heladas-de-fruta",
+  "title": "Paletas Heladas de Fruta",
+  "description": "Paletas caseras de mango y plátano con jugo de naranja natural: refrescantes, de colores brillantes y sin azúcar añadida.",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 240,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "El mango y el plátano aportan vitaminas A y C con el dulzor natural de la fruta. Como llevan jugo de naranja, disfrútalas como gusto ocasional: el jugo no reemplaza a la fruta entera ni al agua.",
+  "tips": "Agrega yogur natural a la mezcla para paletas más cremosas, o congela por etapas capas de frutas de distintos colores para un efecto arcoíris. Si no tienes moldes, usa vasitos de yogur y palitos de madera clavados cuando la mezcla ya esté medio firme.",
+  "family_mode_note": "Duplica la mezcla y deja paletas listas en el congelador para toda la familia los días de calor.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Congela la mezcla en un vasito sin palito y sírvela con cuchara, tipo granizado blando, acompañando al niño mientras come; reserva el jugo de naranja para ocasiones puntuales." }
+  ],
+  "ingredients": [
+    { "code": "mango", "name": "Mango", "amount": 1, "unit": "unidad", "note": "maduro", "sort_order": 1 },
+    { "code": "platano", "name": "Plátano (banana)", "amount": 1, "unit": "unidad", "note": "maduro", "sort_order": 2 },
+    { "code": "jugo_naranja", "name": "Jugo de naranja natural", "amount": 100, "unit": "ml", "note": "recién exprimido", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y corta el mango y el plátano en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Licúa las frutas con el jugo de naranja hasta obtener una mezcla homogénea.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Vierte la mezcla en moldes para paletas o en vasitos pequeños con palitos de madera.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Congela durante 4 horas o hasta que estén completamente firmes.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Desmolda pasando el molde unos segundos por agua tibia.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Acompaña a los menores de 5 años mientras comen la paleta sentados, y retira el palito en cuanto terminen.", "is_safety_critical": true }
+  ],
+  "source": { "book": "saborcitos", "numbers": [59], "pages": [139, 140] },
+  "image_filename": "receta-paletas-heladas-de-fruta.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

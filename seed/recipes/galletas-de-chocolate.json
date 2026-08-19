@@ -1,0 +1,54 @@
+{
+  "slug": "galletas-de-chocolate",
+  "title": "Galletas de Chocolate",
+  "description": "Galletas rápidas de cacao y mantequilla de maní con apenas cinco ingredientes básicos. Una tanda pequeña, lista en minutos, para la merienda. Contienen maní y frutos secos.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "El cacao y la mantequilla de maní aportan sabor intenso con grasas buenas; con miel y chips es un dulce para disfrutar de vez en cuando.",
+  "tips": "La tanda rinde pocas galletas: duplica o triplica las cantidades para tener merienda de varios días. Si la escuela es libre de maní, prepáralas con crema de semillas de girasol.",
+  "family_mode_note": null,
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Si decoras con frutos secos, deben ir triturados muy finos (textura de arena); nunca en trozos para menores de 5 años."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_almendra", "name": "Harina de almendras", "amount": 2, "unit": "cucharada", "note": "o avena molida", "sort_order": 1 },
+    { "code": "cacao_polvo", "name": "Cacao en polvo sin azúcar", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 2 },
+    { "code": "mantequilla_mani", "name": "Mantequilla de maní", "amount": 1, "unit": "cucharada", "note": "o de almendras", "sort_order": 3 },
+    { "code": "leche", "name": "Leche", "amount": 1, "unit": "cucharada", "note": "o agua", "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 5 },
+    { "code": "miel", "name": "Miel", "amount": 2, "unit": "cucharadita", "note": "opcional; también sirve panela o unas gotas de stevia", "sort_order": 6 },
+    { "code": "chips_chocolate", "name": "Chips de chocolate", "amount": 1, "unit": "cucharada", "note": "opcional; o frutos secos triturados muy finos", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol la harina de almendras, el cacao, la mantequilla de maní, la leche, la sal y la miel hasta formar una masa uniforme.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Incorpora los chips de chocolate o los frutos secos triturados.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Da forma a las galletas con las manos o con un molde y aplánalas un poco.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea a 180 °C por 12-15 minutos. Sin horno: cocina en sartén tapada a fuego bajo 10-15 minutos, volteándolas a la mitad del tiempo.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [67], "pages": [97] },
+  "image_filename": "receta-galletas-de-chocolate.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

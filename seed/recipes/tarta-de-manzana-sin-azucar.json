@@ -1,0 +1,50 @@
+{
+  "slug": "tarta-de-manzana-sin-azucar",
+  "title": "Tarta de manzana sin azúcar",
+  "description": "Una tarta jugosa de solo tres ingredientes: manzana rallada, avena y huevo. Sin azúcar añadida, dorada al horno y lista en media hora.",
+  "category": "postre",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["rojo"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Todo el dulzor viene de la manzana, sin azúcar añadida; el huevo aporta proteína completa y la avena, fibra y energía para el crecimiento.",
+  "tips": "Para una versión sin huevo, sustitúyelo por medio plátano maduro machacado o por 1 cucharada de chía hidratada en 3 de agua. El huevo y la avena (gluten) son alérgenos: si es la primera vez, ofrécelos en poca cantidad y observa 2-3 días. Se conserva 48 horas en el refrigerador.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Ofrece tiras blandas del ancho de un dedo adulto para que practique el agarre, o machácala con un tenedor hasta lograr una textura suave." },
+    { "age_band": "9_11m", "adaptation_text": "Córtala en cuadritos pequeños tamaño garbanzo para que la tome con la pinza." }
+  ],
+  "ingredients": [
+    { "code": "manzana", "name": "Manzana", "amount": 1, "unit": "unidad", "note": "rallada", "sort_order": 1 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": "contiene gluten; usa avena certificada sin gluten si hay celiaquía", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": "entero y bien cocido; alérgeno: huevo", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra un molde pequeño con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava, pela y ralla la manzana en un bol grande.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega la harina de avena y el huevo, y mezcla hasta obtener una masa uniforme.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte la mezcla en el molde y alísala.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Hornea unos 20 minutos, hasta que esté dorada y completamente cuajada por dentro: al insertar un palillo debe salir limpio, sin masa líquida, porque lleva huevo.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Retira del horno y deja enfriar antes de cortar en porciones según la edad del bebé.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [114], "pages": [138] },
+  "image_filename": "receta-tarta-de-manzana-sin-azucar.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

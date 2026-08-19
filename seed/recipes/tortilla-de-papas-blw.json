@@ -1,0 +1,52 @@
+{
+  "slug": "tortilla-de-papas-blw",
+  "title": "Tortilla de papas BLW sin huevo",
+  "description": "La clásica tortilla de papas en versión para bebés: sin huevo, con harina de garbanzo que aporta proteína y una textura firme y suave, perfecta para comer con las manos.",
+  "category": "cena",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 25,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "legumbre",
+  "veggie_colors": [],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La harina de garbanzo aporta proteína vegetal y hierro, y la papa suma energía; una combinación completa para quienes no comen huevo.",
+  "tips": "Queda rica tibia o fría: guárdala en el refrigerador hasta 48 horas y, si va en la lonchera, acompáñala con un gel refrigerante.",
+  "family_mode_note": "Para los adultos, prepara una porción aparte con sal y cebolla caramelizada; la del bebé va siempre sin sal.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Ofrece tiras gruesas del ancho de un dedo adulto, muy blandas y bien cocidas, o machaca la tortilla con un tenedor hasta lograr una textura suave." },
+    { "age_band": "9_11m", "adaptation_text": "Corta la tortilla en cuadritos pequeños tamaño garbanzo para que practique la pinza." }
+  ],
+  "ingredients": [
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "mediana", "sort_order": 1 },
+    { "code": "harina_garbanzo", "name": "Harina de garbanzo", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y corta la papa en trozos pequeños o en rodajas finas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina la papa al vapor o en agua hasta que esté bien tierna.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En un tazón, mezcla la harina de garbanzo con el agua hasta obtener una masa homogénea sin grumos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega las papas cocidas a la mezcla y revuelve bien.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Calienta el aceite en una sartén y vierte la mezcla, extendiéndola de manera uniforme.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Cocina a fuego bajo durante 5-7 minutos por cada lado, asegurándote de que quede bien cocida por dentro (la harina de garbanzo cruda no debe quedar húmeda).", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Deja enfriar un poco antes de cortar en tiras o trozos pequeños según la edad del bebé.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [94], "pages": [117] },
+  "image_filename": "receta-tortilla-de-papas-blw.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "pastel-de-zanahoria-sin-azucar-refinada",
+  "title": "Pastel de Zanahoria sin Azúcar Refinada",
+  "description": "Pastel húmedo de zanahoria, avena y canela endulzado solo con una cucharada de miel. Sin azúcar refinada, aunque la miel también es azúcar: un dulce para disfrutar con moderación.",
+  "category": "postre",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 35,
+  "servings": 8,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La zanahoria aporta betacarotenos, que el cuerpo convierte en vitamina A, la avena da fibra y energía sostenida, y los huevos proteínas para crecer. Importante: la miel y el jarabe de agave también son azúcares libres, así que 'sin azúcar refinada' no significa sin azúcar.",
+  "tips": "Para un pastel más esponjoso, en el paso 2 separa los huevos: mezcla solo las yemas con los ingredientes húmedos, bate las claras a punto de nieve y agrégalas al final, después del aceite, con movimientos envolventes. En climas cálidos guárdalo refrigerado desde el primer día; a temperatura ambiente dura hasta 2 días en un recipiente hermético.",
+  "family_mode_note": "Rinde para toda la familia: los adultos pueden cubrir su porción con nueces enteras y los niños con coco rallado fino.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sirve la porción cortada en trozos pequeños y, si agregas nueces a la masa, muélelas por completo: para menores de 5 años nunca van enteras ni en trozos."
+    }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 2, "unit": "unidad", "note": "medianas, ralladas fino", "sort_order": 1 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 150, "unit": "g", "note": "puedes moler hojuelas de avena", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "leche", "name": "Leche entera", "amount": 50, "unit": "ml", "note": "o bebida vegetal sin azúcar", "sort_order": 4 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "miel", "name": "Miel", "amount": 1, "unit": "cucharada", "note": "o jarabe (miel) de agave", "sort_order": 8 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": "suave, o aceite de coco", "sort_order": 9 },
+    { "code": "nuez", "name": "Nueces", "amount": 30, "unit": "g", "note": "opcional; siempre bien molidas para menores de 5 años", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y engrasa un molde pequeño para pastel.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En un bol, mezcla la zanahoria rallada con los huevos, la leche, la miel y la esencia de vainilla.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Incorpora la harina de avena, la canela y el polvo de hornear.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mezcla bien hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega el aceite y termina de integrar.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Si quieres, añade las nueces para dar más textura: bien molidas si va a comerlo algún menor de 5 años, nunca enteras ni en trozos.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Vierte la mezcla en el molde y alisa la superficie.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Hornea de 30 a 35 minutos, o hasta que al insertar un palillo en el centro salga limpio.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Deja enfriar por completo antes de desmoldar: en caliente se quiebra.", "is_safety_critical": false },
+    { "step_number": 10, "instruction": "Sirve solo o acompañado de yogur natural y fruta fresca.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [72], "pages": [165, 166] },
+  "image_filename": "receta-pastel-de-zanahoria-sin-azucar-refinada.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

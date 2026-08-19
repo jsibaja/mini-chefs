@@ -1,0 +1,50 @@
+{
+  "slug": "garbanzos-con-pescado-blanco-y-tomate",
+  "title": "Guiso de Garbanzos con Pescado Blanco y Tomate",
+  "description": "Un guiso suave de garbanzos y pescado blanco en salsa de tomate casera, con hierro y omega-3: reconfortante y fácil de comer con cuchara.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pescado",
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los garbanzos aportan hierro vegetal y fibra, el pescado blanco suma proteína magra y grasas omega-3, y el tomate agrega vitamina C que ayuda a absorber el hierro.",
+  "tips": "Contiene pescado (alérgeno): preséntalo solo la primera vez y observa 2-3 días. Antes de los 12 meses aplasta bien los garbanzos, ya que enteros pueden atragantar. Usa caldo de pescado casero y sin sal.",
+  "family_mode_note": "Para los grandes, sirve el guiso con los garbanzos enteros, un sofrito de cebolla y pimentón, y arroz al lado.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura todo el guiso hasta obtener un puré fino, asegurándote de que los garbanzos queden completamente deshechos." },
+    { "age_band": "9_11m", "adaptation_text": "Aplasta los garbanzos con un tenedor y desmenuza el pescado bien fino, dejando una textura de guiso espeso." }
+  ],
+  "ingredients": [
+    { "code": "garbanzo", "name": "Garbanzos cocidos", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "pescado_blanco", "name": "Pescado blanco (merluza, tilapia o corvina)", "amount": 50, "unit": "g", "note": "sin espinas", "sort_order": 2 },
+    { "code": "tomate", "name": "Tomate", "amount": 0.5, "unit": "unidad", "note": "sin piel ni semillas", "sort_order": 3 },
+    { "code": "caldo_pescado", "name": "Caldo de pescado", "amount": 0.5, "unit": "taza", "note": "casero y sin sal, o agua", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina el pescado al vapor hasta que esté completamente opaco y se deshaga en lascas; revísalo con los dedos para descartar cualquier espina.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Tritura el tomate y cocínalo a fuego bajo unos minutos hasta obtener una salsa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Aplasta o tritura los garbanzos (imprescindible para menores de 12 meses) y mézclalos con la salsa de tomate.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Desmenuza el pescado e incorpóralo a la mezcla; agrega caldo de pescado hasta lograr la consistencia deseada.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cocina un par de minutos para integrar los sabores y sirve a temperatura tibia.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [59], "pages": [79] },
+  "image_filename": "receta-garbanzos-con-pescado-blanco-y-tomate.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

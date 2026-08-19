@@ -1,0 +1,53 @@
+{
+  "slug": "estofado-de-pollo-y-verduras",
+  "title": "Estofado de Pollo y Verduras",
+  "description": "Pollo desmenuzado y verduras tiernas cocidas en caldo casero: un guiso suave y reconfortante que se adapta desde el puré hasta el plato familiar.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína y hierro para el crecimiento; la zanahoria suma betacarotenos y la papa, energía suave y fácil de digerir.",
+  "tips": "Congela porciones individuales hasta 2 meses; descongela en el refrigerador y recalienta bien antes de servir. Si en casa cocinan con caldo comprado, elígelo bajo en sodio o prepáralo casero sin sal.",
+  "family_mode_note": "Para la mesa familiar, agrega sal, pimienta y hierbas después de separar la porción del bebé.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Cocina todo sin sal ni tomillo; tritura el pollo con las verduras y un poco de caldo hasta obtener un puré suave y homogéneo." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca el pollo y las verduras con tenedor y sírvelos en trocitos muy blandos." }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 0.5, "unit": "unidad", "note": "sin piel", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "en trozos pequeños", "sort_order": 2 },
+    { "code": "papa", "name": "Papa", "amount": 0.5, "unit": "unidad", "note": "en trozos pequeños", "sort_order": 3 },
+    { "code": "caldo_pollo", "name": "Caldo de pollo", "amount": 0.5, "unit": "taza", "note": "casero sin sal (o agua)", "sort_order": 4 },
+    { "code": "tomillo", "name": "Tomillo", "amount": 1, "unit": "pizca", "note": "opcional, para aroma", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Hornea la pechuga de pollo unos 20-25 minutos, hasta que esté completamente cocida y sin partes rosadas por dentro.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Mientras, pela y corta la zanahoria y la papa en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocínalas en el caldo casero sin sal (o agua) unos 15 minutos, hasta que estén bien blandas.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Desmenuza el pollo en trocitos pequeños y mézclalo con las verduras cocidas.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Si lo deseas, agrega una pizca de tomillo para dar aroma sin necesidad de sal.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Tritura o machaca la mezcla según la edad del bebé y sirve tibia.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [65, 98], "pages": [85, 120] },
+  "image_filename": "receta-estofado-de-pollo-y-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

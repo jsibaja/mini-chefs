@@ -1,0 +1,112 @@
+{
+  "slug": "trufas-de-pasas-y-coco",
+  "title": "Trufas de pasas y coco con almendras",
+  "description": "Bocaditos energéticos sin horno: pasas trituradas con almendra molida y coco rallado, moldeados y enfriados. Un snack dulce natural para los más grandes.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [
+    4,
+    5
+  ],
+  "prep_minutes": 20,
+  "cook_minutes": 60,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": [
+    "colacion_am",
+    "colacion_pm"
+  ],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La almendra molida y el coco aportan grasas saludables y energía. Como las pasas trituradas concentran azúcares, son un bocado para dar de vez en cuando.",
+  "tips": "Aplana cada trufa en un disco fino hasta los 3 años para evitar el atragantamiento; las bolitas firmes del tamaño de una nuez son peligrosas para los pequeños. La almendra es un alérgeno y nunca debe ofrecerse entera antes de los 5 años, solo molida. Las pasas trituradas aportan azúcares concentrados: ofrécelas ocasionalmente.",
+  "family_mode_note": null,
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "En lugar de bolitas, forma discos finos y aplanados, y ofrécelos en porciones pequeñas y bajo supervisión."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "pasas",
+      "name": "Pasas",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "remojadas; endulzante natural",
+      "sort_order": 1
+    },
+    {
+      "code": "almendra_molida",
+      "name": "Almendras molidas",
+      "amount": 0.25,
+      "unit": "taza",
+      "note": "alérgeno: frutos secos; nunca enteras antes de los 5 años",
+      "sort_order": 2
+    },
+    {
+      "code": "coco_rallado",
+      "name": "Coco rallado",
+      "amount": 0.25,
+      "unit": "taza",
+      "note": null,
+      "sort_order": 3
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Remoja las pasas en agua caliente 10-15 minutos para que se hidraten bien y escúrrelas.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "Tritura las pasas en un procesador hasta obtener una pasta suave.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 3,
+      "instruction": "Agrega las almendras molidas y mezcla bien.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Incorpora el coco rallado y sigue mezclando hasta que todo esté bien integrado.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 5,
+      "instruction": "Toma pequeñas porciones y, en lugar de bolitas, aplánalas en discos finos para que sean seguras hasta los 3 años.",
+      "is_safety_critical": true
+    },
+    {
+      "step_number": 6,
+      "instruction": "Refrigera las trufas 1 hora para que se endurezcan y sírvelas frías.",
+      "is_safety_critical": false
+    }
+  ],
+  "source": {
+    "book": "gourmets",
+    "numbers": [
+      110
+    ],
+    "pages": [
+      133,
+      134
+    ]
+  },
+  "image_filename": "receta-trufas-de-pasas-y-coco.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

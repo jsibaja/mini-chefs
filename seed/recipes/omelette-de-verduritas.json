@@ -1,0 +1,178 @@
+{
+  "slug": "omelette-de-verduritas",
+  "title": "Omelette de Verduritas de Colores",
+  "description": "Un omelette esponjoso repleto de calabacita, pimiento, zanahoria y cebolla en trocitos: rápido, colorido y listo en 20 minutos.",
+  "category": "desayuno",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": [
+    "almuerzo",
+    "cena",
+    "desayuno",
+    "lonchera"
+  ],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": [
+    "verde",
+    "rojo",
+    "naranja"
+  ],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo entero aporta proteínas completas y colina, que participa en el desarrollo del cerebro, y las verduras suman fibra, color y vitaminas.",
+  "tips": "Bate los huevos con una cucharada de leche para un omelette más esponjoso, o agrega un poco de queso rallado justo antes de doblarlo.",
+  "family_mode_note": "Deja que cada quien elija sus verduras: armar 'su propio omelette' anima a los niños a probar más colores.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Se usa el huevo entero, yema incluida, desde los 6 meses. Prepáralo sin sal, ralla las verduras muy finas para que queden bien blandas y córtalo en tiras del grosor de un dedo para que lo sujete con la mano."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepáralo sin sal y córtalo en tiritas blandas que pueda tomar con la mano."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "huevo",
+      "name": "Huevo",
+      "amount": 2,
+      "unit": "unidad",
+      "note": null,
+      "sort_order": 1
+    },
+    {
+      "code": "calabacita",
+      "name": "Calabacita (zucchini)",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": null,
+      "sort_order": 2
+    },
+    {
+      "code": "pimiento_rojo",
+      "name": "Pimiento rojo",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": null,
+      "sort_order": 3
+    },
+    {
+      "code": "zanahoria",
+      "name": "Zanahoria",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": null,
+      "sort_order": 4
+    },
+    {
+      "code": "cebolla",
+      "name": "Cebolla",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": null,
+      "sort_order": 5
+    },
+    {
+      "code": "aceite_oliva",
+      "name": "Aceite de oliva",
+      "amount": 1,
+      "unit": "cucharada",
+      "note": null,
+      "sort_order": 6
+    },
+    {
+      "code": "sal",
+      "name": "Sal",
+      "amount": 1,
+      "unit": "pizca",
+      "note": "poca; evítala en menores de 1 año",
+      "sort_order": 7
+    },
+    {
+      "code": "pimienta",
+      "name": "Pimienta",
+      "amount": 1,
+      "unit": "pizca",
+      "note": "al gusto",
+      "sort_order": 8
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Lava y pica todas las verduras en trozos pequeños.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "En una sartén con el aceite, sofríe la cebolla hasta que esté transparente.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 3,
+      "instruction": "Agrega el pimiento, la zanahoria y la calabacita y cocina 5 minutos.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Bate los huevos en un tazón con poca sal y pimienta.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 5,
+      "instruction": "Incorpora las verduras cocidas a los huevos batidos y mezcla bien.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 6,
+      "instruction": "Vierte la mezcla en la sartén a fuego medio y cocina 3-4 minutos, hasta que la base esté dorada.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 7,
+      "instruction": "Voltéalo con ayuda de un plato y cocina del otro lado hasta que el huevo esté completamente cuajado, sin partes líquidas.",
+      "is_safety_critical": true
+    },
+    {
+      "step_number": 8,
+      "instruction": "Sírvelo caliente con pan integral o una ensalada fresca.",
+      "is_safety_critical": false
+    }
+  ],
+  "source": {
+    "book": "saborcitos",
+    "numbers": [
+      12,
+      40
+    ],
+    "pages": [
+      42,
+      43,
+      100,
+      101
+    ]
+  },
+  "image_filename": "receta-omelette-de-verduritas.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "agua-fresca-de-melon-y-menta",
+  "title": "Agua Fresca de Melón y Menta",
+  "description": "El agua fresca de toda la vida, sin una cucharada de azúcar: melón maduro licuado con agua y un toque de menta. Dulce de verdad porque la fruta ya lo es.",
+  "category": "bebida",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El melón aporta agua, potasio y vitamina C, y al licuarlo entero conservas la fibra que se pierde en los jugos colados. Es una forma de que tu peque se hidrate disfrutando, sin azúcares añadidos.",
+  "tips": "Congela el sobrante en moldes de paleta y tendrás un postre helado de fruta para el día siguiente, sin comprar nada extra.",
+  "family_mode_note": "Para los adultos puedes agregar hielo y más limón; sirve primero la porción del niño antes de ajustar el sabor.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve unos 100 ml en vaso entrenador y omite el limón: a esta edad el sabor ácido suele rechazarse. Ofrécela como acompañamiento de la comida, nunca en lugar del agua simple ni de la leche."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sirve 120-150 ml con la comida. Cuela solo si tu peque rechaza los grumos de fruta; lo ideal es que conserve la pulpa."
+    },
+    {
+      "age_band": "6_9a",
+      "adaptation_text": "Sirve tal cual, bien fría. Puede llevarla a la escuela en termo frío o botella con gel refrigerante."
+    }
+  ],
+  "ingredients": [
+    { "code": "melon", "name": "Melón maduro", "amount": 3, "unit": "taza", "note": "en cubos, sin cáscara ni semillas", "sort_order": 1 },
+    { "code": "agua", "name": "Agua", "amount": 2, "unit": "taza", "note": "fría", "sort_order": 2 },
+    { "code": "menta", "name": "Hojas de menta (hierbabuena)", "amount": 4, "unit": "unidad", "note": "frescas, opcional", "sort_order": 3 },
+    { "code": "limon", "name": "Limón", "amount": 0.5, "unit": "unidad", "note": "solo el jugo, opcional y solo desde los 2 años", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava el melón por fuera antes de partirlo, retira la cáscara y las semillas, y córtalo en cubos.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Licúa el melón con el agua fría hasta que quede completamente liso, unos 30 segundos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega las hojas de menta y licúa 5 segundos más, solo para perfumar.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Prueba antes de servir: si el melón estaba maduro no necesita nada más. No agregues azúcar, miel ni endulzantes.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Sirve de inmediato bien fría, o guárdala tapada en el refrigerador y consúmela dentro de 24 horas.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-agua-fresca-de-melon-y-menta.webp",
+  "fallback_image": "placeholder-categoria-bebidas.webp"
+}

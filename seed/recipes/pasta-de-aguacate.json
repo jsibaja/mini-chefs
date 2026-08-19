@@ -1,0 +1,55 @@
+{
+  "slug": "pasta-de-aguacate",
+  "title": "Pasta de Aguacate",
+  "description": "Pasta con una salsa verde, suave y cremosa de aguacate con un toque de limón. La salsa no necesita cocción y el plato queda listo en minutos.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El aguacate aporta grasas saludables que acompañan el desarrollo, y la pasta la energía que los niños gastan jugando y aprendiendo.",
+  "tips": "El jugo de limón retrasa que el aguacate se oscurezca: prepara la salsa el mismo día que la sirvas y, si va en la lonchera, empácala bien fría con gel refrigerante y que se consuma antes de 4 horas.",
+  "family_mode_note": "Agrega pollo desmenuzado o champiñones (hongos) salteados para un plato más completo para toda la familia.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Reserva una porción sin sal: usa pasta bien cocida cortada en trocitos pequeños y mézclala solo con puré de aguacate y unas gotas de limón, sin ajo crudo ni pimienta."
+    }
+  ],
+  "ingredients": [
+    { "code": "pasta_corta", "name": "Pasta corta", "amount": 250, "unit": "g", "note": "macarrones, tornillos o plumas", "sort_order": 1 },
+    { "code": "aguacate", "name": "Aguacate maduro", "amount": 2, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "cilantro", "name": "Hojas de cilantro fresco", "amount": 0.25, "unit": "taza", "note": "opcional; puedes usar albahaca", "sort_order": 3 },
+    { "code": "limon", "name": "Limón", "amount": 1, "unit": "unidad", "note": "solo su jugo", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": null, "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "y pimienta al gusto", "sort_order": 6 },
+    { "code": "queso_parmesano", "name": "Queso parmesano rallado", "amount": 2, "unit": "cucharada", "note": "opcional, para servir", "sort_order": 7 },
+    { "code": "tomate", "name": "Tomate", "amount": 1, "unit": "unidad", "note": "opcional, picado en cubos pequeños, para servir", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pasta en agua con poca sal según las indicaciones del paquete; antes de escurrir, reserva una cucharada del agua de cocción.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una licuadora o procesador, tritura el aguacate con el cilantro, el ajo, el jugo de limón y la cucharada de agua de cocción hasta obtener una salsa suave y cremosa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla la salsa con la pasta caliente y revuelve bien; prueba y ajusta la sal y la pimienta.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Sirve con el queso parmesano y el tomate picado por encima, si lo deseas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [3], "pages": [25] },
+  "image_filename": "receta-pasta-de-aguacate.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

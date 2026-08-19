@@ -1,0 +1,61 @@
+{
+  "slug": "dedos-blandos-de-lenteja-y-calabaza",
+  "title": "Dedos Blandos de Lenteja y Calabaza",
+  "description": "Bastones horneados del largo de un dedo adulto, hechos con lentejas rojas bien cocidas y calabaza dulce. Se aplastan con solo apretarlos, así que el bebé los agarra, los muerde y los deshace sin esfuerzo.",
+  "category": "colacion",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3],
+  "prep_minutes": 15,
+  "cook_minutes": 45,
+  "servings": 3,
+  "difficulty": 2,
+  "suitable_slots": ["colacion_am", "almuerzo", "colacion_pm", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las lentejas son una de las mejores fuentes de hierro vegetal para los primeros alimentos sólidos, y la calabaza aporta betacarotenos y el dulzor que hace que el bebé quiera repetir. La forma de dedo entrena la pinza y la mordida.",
+  "tips": "Congélalos ya horneados y fríos, separados en una bandeja y luego juntos en bolsa: se calientan en 10 minutos de horno directamente congelados. Sirve después media naranja o unos gajos de mandarina, porque la vitamina C de la fruta ayuda a aprovechar mejor el hierro de la lenteja.",
+  "family_mode_note": "Con la misma mezcla, los grandes pueden armar hamburguesas de lenteja: solo agrega comino, ajo y un poco de sal a la porción de los adultos, después de separar la del bebé.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Ya puedes darles forma de croqueta o de tortita y sazonar la mezcla con comino y una pizca de sal. Sírvelos con salsa de tomate casera para mojar."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Hornéalos 5 minutos más para que queden más doraditos por fuera y acompáñalos con arroz y ensalada picada fina como plato principal."
+    }
+  ],
+  "ingredients": [
+    { "code": "lenteja_roja", "name": "Lentejas rojas secas", "amount": 100, "unit": "g", "note": "½ taza, enjuagadas; también sirve lenteja común bien cocida", "sort_order": 1 },
+    { "code": "calabaza", "name": "Calabaza (zapallo)", "amount": 200, "unit": "g", "note": "pelada y en cubos", "sort_order": 2 },
+    { "code": "hojuelas_avena", "name": "Hojuelas de avena molidas", "amount": 40, "unit": "g", "note": "½ taza, pasadas por licuadora hasta textura de harina", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "agua", "name": "Agua", "amount": 300, "unit": "ml", "note": "para cocer las lentejas, sin sal", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Enjuaga las lentejas rojas bajo el chorro de agua y cocínalas en los 300 ml de agua sin sal durante 15 minutos, hasta que se deshagan por completo y no quede líquido suelto.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina la calabaza al vapor de 12 a 15 minutos, hasta que la puedas aplastar sin fuerza con un tenedor, y escúrrela muy bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Machaca la calabaza con las lentejas hasta obtener una pasta espesa y homogénea, sin trozos firmes que el bebé no pueda deshacer con las encías.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Agrega la avena molida y el aceite de oliva, mezcla bien y deja reposar 10 minutos para que la avena absorba la humedad y la masa se pueda moldear.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Precalienta el horno a 200 °C y forra una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Con las manos húmedas forma 10 bastones del largo y grosor de tu dedo índice, aproximadamente 8 cm por 1,5 cm: ese tamaño es el que el bebé puede sostener con el puño dejando un pedacito afuera para morder.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Hornea 20 minutos, gíralos con cuidado y hornea 5 minutos más, hasta que estén firmes por fuera pero blandos por dentro.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Antes de servir, aplasta un bastón entre tu pulgar y tu índice: debe ceder sin resistencia. Si no se aplasta con facilidad, devuélvelo unos minutos al vapor o desármalo y ofrécelo machacado.", "is_safety_critical": true },
+    { "step_number": 9, "instruction": "Sirve un solo dedo a la vez, con el bebé sentado y erguido en su silla, nunca acostado ni en el asiento del auto, y acompáñalo durante toda la comida.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-dedos-blandos-de-lenteja-y-calabaza.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

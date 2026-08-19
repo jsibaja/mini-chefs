@@ -1,0 +1,58 @@
+{
+  "slug": "tilapia-al-horno-con-tomate-y-perejil",
+  "title": "Tilapia al Horno con Tomate y Perejil",
+  "description": "Filetes de tilapia sobre una cama de tomate en rodajas, con ajo y perejil, que salen del horno jugosos en un cuarto de hora. Se arma en cinco minutos y el horno hace el resto.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "pescado",
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La tilapia es un pescado blanco de sabor suave, rico en proteína y fácil de masticar, ideal para quienes recién se animan con el pescado. El tomate cocido con un poco de aceite aporta vitamina A y licopeno.",
+  "tips": "Los filetes muy delgados se resecan: si el tuyo es más fino que un dedo, baja el horno a 15 minutos justos y cúbrelo con papel aluminio los primeros 8. Cualquier pescado blanco local (basa, corvina, merluza, bagre) funciona igual con este mismo tiempo.",
+  "family_mode_note": "Para los adultos, añade aceitunas picadas y una vuelta de pimienta negra sobre su porción antes de hornear.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Hornea su porción sin sal. Desmenuza el pescado en el plato con un tenedor, mézclalo con un poco del jugo del tomate y sírvelo tibio junto a un puré de papa o arroz blando."
+    }
+  ],
+  "ingredients": [
+    { "code": "tilapia", "name": "Filetes de tilapia", "amount": 400, "unit": "g", "note": "u otro pescado blanco local", "sort_order": 1 },
+    { "code": "tomate", "name": "Tomate", "amount": 2, "unit": "unidad", "note": "en rodajas delgadas", "sort_order": 2 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado fino", "sort_order": 3 },
+    { "code": "perejil", "name": "Perejil fresco", "amount": 2, "unit": "cucharada", "note": "picado", "sort_order": 4 },
+    { "code": "limon", "name": "Limón", "amount": 1, "unit": "unidad", "note": "su jugo", "sort_order": 5 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "solo para las porciones de mayores de 1 año", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Enciende el horno en 200 °C mientras preparas la fuente.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pasa los dedos por toda la superficie de los filetes y retira cualquier espina que encuentres.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Cubre el fondo de una fuente con las rodajas de tomate y rocíalas con la mitad del aceite.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Acomoda los filetes encima y báñalos con el jugo de limón, el ajo, el perejil y el aceite restante.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega la pizca de sal solo sobre la parte de la fuente destinada a los mayores de 1 año.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Hornea 15 minutos, hasta que el pescado esté opaco por completo y se separe en láminas al presionarlo con un tenedor.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Deja reposar 3 minutos fuera del horno para que baje la temperatura.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Desmenuza la porción del niño y revísala una vez más con los dedos antes de servir, para asegurarte de que no quedó ninguna espina.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-tilapia-al-horno-con-tomate-y-perejil.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

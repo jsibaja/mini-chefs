@@ -1,0 +1,61 @@
+{
+  "slug": "arroz-con-pollo-y-zanahoria",
+  "title": "Arroz con Pollo y Zanahoria",
+  "description": "Un arroz dorado con cúrcuma, trocitos de pollo y zanahoria dulce: el clásico que nunca falla, en versión integral.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 50,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteínas magras y el arroz integral energía con fibra; la zanahoria suma betacarotenos (provitamina A), que participan en la salud de la vista y la piel.",
+  "tips": "Deja el arroz reposar tapado 5 minutos fuera del fuego antes de destaparlo: termina de hidratarse y queda suelto en lugar de pastoso. Con arroz blanco el plato sale en la mitad del tiempo, usando unos 400 ml de caldo.",
+  "family_mode_note": "Duplica cantidades en una olla grande: es un plato único que resuelve el almuerzo de toda la familia.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Cocina el arroz un poco más con caldo extra para que quede muy blando y desmenuza el pollo en hebras finas antes de servir."
+    }
+  ],
+  "ingredients": [
+    { "code": "arroz_integral", "name": "Arroz integral", "amount": 200, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 150, "unit": "g", "note": "en trozos pequeños", "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "caldo_pollo", "name": "Caldo de pollo o verduras", "amount": 550, "unit": "ml", "note": "casero o bajo en sodio; ten extra a mano", "sort_order": 6 },
+    { "code": "curcuma", "name": "Cúrcuma", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca", "sort_order": 9 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava y corta la zanahoria en rodajas finas o medias lunas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una sartén con el aceite de oliva, sofríe la cebolla y el ajo picados hasta que estén tiernos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el pollo en trozos y cocínalo hasta que esté dorado por fuera.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora la zanahoria y la cúrcuma y revuelve bien.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega el arroz integral y tuéstalo 2 minutos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte el caldo caliente y agrega una pizca de sal.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Cocina a fuego bajo con tapa 35-40 minutos, hasta que el arroz esté tierno y el pollo completamente cocido, sin partes rosadas; agrega más caldo caliente si se seca.", "is_safety_critical": true },
+    { "step_number": 8, "instruction": "Deja reposar unos minutos antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [24], "pages": [67, 68] },
+  "image_filename": "receta-arroz-con-pollo-y-zanahoria.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

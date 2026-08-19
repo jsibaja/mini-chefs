@@ -1,0 +1,65 @@
+{
+  "slug": "arroz-integral-con-lentejas",
+  "title": "Arroz Integral con Lentejas",
+  "description": "Arroz integral y lentejas cocidos en caldo con zanahoria y un toque de comino: un plato completo, económico y reconfortante que rinde para toda la familia.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 45,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_termo",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": ["naranja"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El arroz y las lentejas juntos forman una proteína vegetal completa que ayuda al crecimiento, y las lentejas aportan hierro y fibra. La zanahoria suma betacarotenos y color.",
+  "tips": "Si usas lentejas de lata, enjuágalas bien bajo el chorro de agua para reducir el sodio. Una hoja de laurel durante la cocción aporta un aroma que suele gustar a los niños.",
+  "family_mode_note": "Los adultos pueden coronar su plato con yogur natural, cilantro o un chorrito de limón sin cambiar la base. Para la lonchera, guárdalo bien caliente en un termo de boca ancha precalentado con agua hirviendo.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Tritura una porción cocida sin sal con un poco de caldo o agua tibia hasta obtener un puré suave: arroz con lentejas es una papilla muy completa."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Machaca la porción del bebé con un tenedor y sirve sin sal; verifica que las lentejas y la zanahoria estén muy blandas."
+    }
+  ],
+  "ingredients": [
+    { "code": "arroz_integral", "name": "Arroz integral", "amount": 200, "unit": "g", "note": "enjuagado", "sort_order": 1 },
+    { "code": "lenteja_cocida", "name": "Lentejas cocidas", "amount": 150, "unit": "g", "note": "caseras o de lata enjuagadas", "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada fina", "sort_order": 3 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "en cubos pequeños", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "comino_molido", "name": "Comino molido", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 600, "unit": "ml", "note": "casero o bajo en sodio", "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela para menores de 1 año", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Enjuaga el arroz integral bajo agua fría y escúrrelo bien.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pica la cebolla, la zanahoria y el ajo en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una olla con el aceite de oliva, sofríe la cebolla y el ajo hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega la zanahoria y cocina por 5 minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Incorpora el arroz integral y tuéstalo ligeramente durante 2 minutos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte el caldo caliente, tapa y cocina a fuego medio-bajo durante 35-40 minutos, hasta que el arroz esté tierno; agrega más caldo caliente si se seca antes de tiempo.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Cuando falten 10 minutos, añade las lentejas cocidas y el comino, y sazona con muy poca sal.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Cocina hasta que el líquido se absorba y el arroz quede suave.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Deja reposar 5 minutos y sirve caliente, acompañado de una ensalada fresca.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [28], "pages": [75, 76] },
+  "image_filename": "receta-arroz-integral-con-lentejas.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "croquetas-de-verduras-al-horno",
+  "title": "Croquetas de Verduras al Horno",
+  "description": "Croquetas de zanahoria, calabacita y papa horneadas en vez de fritas: crujientes, coloridas y listas para mojar en salsa de yogur.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Reúne tres verduras en un bocado divertido: la zanahoria aporta betacarotenos, la papa energía y el huevo proteínas; al hornearlas llevan menos grasa que las croquetas fritas.",
+  "tips": "Congela las croquetas crudas separadas en una bandeja y luego pásalas a una bolsa: se hornean directo del congelador sumando unos 5 minutos extra.",
+  "family_mode_note": "En lonchera van frías con su salsa de yogur en un envase aparte y un gel refrigerante.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara algunas croquetas sin sal y aplástalas ligeramente con un tenedor antes de ofrecerlas."
+    }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": null, "sort_order": 4 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 5 },
+    { "code": "pan_molido", "name": "Pan molido (pan rallado)", "amount": 50, "unit": "g", "note": null, "sort_order": 6 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 50, "unit": "g", "note": "opcional", "sort_order": 7 },
+    { "code": "ajo_en_polvo", "name": "Ajo en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; evítala en menores de 1 año", "sort_order": 9 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "al gusto", "sort_order": 10 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": "para rociar", "sort_order": 11 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava, pela y ralla la zanahoria, la calabacita y la papa; pica finamente la cebolla.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Envuelve las verduras ralladas en un paño limpio y exprime muy bien el exceso de líquido.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mézclalas con el huevo, el pan molido, el queso, el ajo en polvo y poca sal y pimienta.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Forma croquetas pequeñas, acomódalas en la bandeja y rocíalas con aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Hornea 20-25 minutos, volteando a la mitad, hasta que estén doradas y bien cocidas por dentro.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Sírvelas con salsa de yogur natural o mayonesa pasteurizada de frasco; nunca uses mayonesa casera, que lleva huevo crudo.", "is_safety_critical": true }
+  ],
+  "source": { "book": "saborcitos", "numbers": [5], "pages": [28, 29] },
+  "image_filename": "receta-croquetas-de-verduras-al-horno.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

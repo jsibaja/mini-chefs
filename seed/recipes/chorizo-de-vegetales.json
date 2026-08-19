@@ -1,0 +1,58 @@
+{
+  "slug": "chorizo-de-vegetales",
+  "title": "Chorizo de Vegetales",
+  "description": "Chorizo vegetal de lentejas y avena con especias suaves, cocido al vapor y dorado en sartén: proteína vegetal con todo el sabor de casa.",
+  "category": "lonchera",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las lentejas aportan proteína vegetal y hierro, y la avena suma fibra y energía: un embutido vegetal apto para el menú de toda la semana.",
+  "tips": "Duplica la receta y congela los chorizos ya cocidos hasta 3 meses; en la lonchera acompáñalos con arroz o arepitas y empácalos con gel refrigerante.",
+  "family_mode_note": "Sirven igual para adultos: dóralos más tiempo y acompáñalos con ensalada o dentro de un pan.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara la masa sin sal, cocina al vapor y sirve el chorizo machacado o en trocitos blandos."
+    }
+  ],
+  "ingredients": [
+    { "code": "lenteja_cocida", "name": "Lentejas cocidas", "amount": 1, "unit": "taza", "note": "escurridas", "sort_order": 1 },
+    { "code": "avena_molida", "name": "Avena molida", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado fino", "sort_order": 3 },
+    { "code": "paprika", "name": "Paprika (pimentón dulce en polvo)", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "comino_molido", "name": "Comino molido", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "oregano_seco", "name": "Orégano seco", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 7 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": null, "sort_order": 8 },
+    { "code": "papel_horno", "name": "Papel de horno (papel encerado)", "amount": 6, "unit": "trozo", "note": "o film APTO para cocción a altas temperaturas; nunca papel film común", "sort_order": 9 },
+    { "code": "aceite", "name": "Aceite vegetal", "amount": 1, "unit": "cucharadita", "note": "solo para dorarlos (opcional)", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Procesa las lentejas cocidas con la avena molida hasta obtener una mezcla densa.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el ajo, la paprika, el comino, el orégano, la pizca de sal y la pimienta, y mezcla muy bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Forma cilindros con la masa y envuélvelos en papel de horno o en film apto para cocción a altas temperaturas (nunca papel film común, que puede transferir plásticos al alimento), sellando los extremos.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Cocina los chorizos envueltos en una vaporera durante 15 minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Retira el envoltorio y, si quieres, dóralos en una sartén con un poquito de aceite; déjalos entibiar antes de empacar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [15], "pages": [38] },
+  "image_filename": "receta-chorizo-de-vegetales.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

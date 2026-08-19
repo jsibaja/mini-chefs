@@ -1,0 +1,55 @@
+{
+  "slug": "burrito-de-frijoles",
+  "title": "Burrito de Frijoles",
+  "description": "Tortilla integral rellena de frijoles machacados, queso, aguacate y tomate, dorada en sartén: un almuerzo completo que se come con la mano.",
+  "category": "lonchera",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 5,
+  "servings": 1,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "legumbre",
+  "veggie_colors": ["rojo", "verde"],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los frijoles con tortilla aportan proteína vegetal y energía, y el aguacate suma grasas buenas para el crecimiento: un plato completo en un solo rollo.",
+  "tips": "Rocía el aguacate con unas gotas de limón para que no se oscurezca hasta el recreo; empaca el burrito envuelto en papel de horno, en lonchera térmica con gel refrigerante (lleva queso).",
+  "family_mode_note": "Para el resto de la familia, agrega pollo desmenuzado o vegetales salteados y una pizca de chile aparte para los adultos.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Sírvelo desarmado y sin sal: frijoles machacados mezclados con aguacate y trocitos blandos de tortilla tibia."
+    }
+  ],
+  "ingredients": [
+    { "code": "tortilla_integral", "name": "Tortilla integral", "amount": 1, "unit": "unidad", "note": "grande", "sort_order": 1 },
+    { "code": "frijol_cocido", "name": "Frijoles cocidos", "amount": 0.5, "unit": "taza", "note": "machacados", "sort_order": 2 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "aguacate", "name": "Aguacate", "amount": 0.5, "unit": "unidad", "note": "en láminas delgadas", "sort_order": 4 },
+    { "code": "tomate", "name": "Tomate", "amount": 0.25, "unit": "taza", "note": "picado fino", "sort_order": 5 },
+    { "code": "comino_molido", "name": "Comino molido", "amount": 1, "unit": "pizca", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Calienta la tortilla en una sartén seca por unos segundos para que quede flexible.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Unta los frijoles machacados sobre la tortilla, dejando libre el borde.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Añade el queso rallado, las láminas de aguacate y el tomate picado; espolvorea la pizca de sal y el comino.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Enrolla el burrito con firmeza doblando los extremos hacia adentro.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Dóralo en la sartén 1-2 minutos por lado para sellarlo; déjalo entibiar y córtalo a la mitad antes de empacar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [19], "pages": [42] },
+  "image_filename": "receta-burrito-de-frijoles.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

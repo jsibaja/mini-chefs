@@ -1,0 +1,53 @@
+{
+  "slug": "bombones-de-fruta",
+  "title": "Bombones de Fruta",
+  "description": "Trozos de fruta fresca en palito, cubiertos con una capa fina de mantequilla de maní y frutos secos molidos. Fríos, crocantes y llenos de color. Contienen maní y frutos secos.",
+  "category": "colacion",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 75,
+  "cook_minutes": 0,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "naranja", "verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La fruta aporta vitaminas y dulzor natural, y los frutos secos molidos suman grasas buenas y proteína vegetal, sin azúcares añadidos.",
+  "tips": "Son primos de los pinchos de frutas con chocolate: para ocasiones especiales báñalos en chocolate amargo derretido. Si la escuela es libre de maní, usa crema y semillas de girasol.",
+  "family_mode_note": null,
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Ofrece la fruta sin palillo, en trocitos pequeños, y deja que pierda el congelado unos minutos antes de servir."
+    }
+  ],
+  "ingredients": [
+    { "code": "fruta_variada", "name": "Fruta variada", "amount": 2, "unit": "taza", "note": "plátano (banana), fresas, mango o kiwi, en trozos", "sort_order": 1 },
+    { "code": "fruto_seco_molido", "name": "Frutos secos", "amount": 150, "unit": "g", "note": "almendras, nueces, maní, coco o pistachos, para triturar muy fino", "sort_order": 2 },
+    { "code": "mantequilla_mani", "name": "Mantequilla de maní natural", "amount": 50, "unit": "g", "note": null, "sort_order": 3 },
+    { "code": "palillo_paleta", "name": "Palillos de paleta", "amount": 12, "unit": "unidad", "note": "de punta roma", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Corta la fruta en rodajas o trozos de aproximadamente 1 cm de grosor.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Inserta un palillo de punta roma en cada trozo de fruta.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura los frutos secos hasta obtener un polvo muy fino, textura de arena: los trozos enteros o gruesos son riesgo de atragantamiento en menores de 5 años.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Unta cada trozo de fruta con una capa fina de mantequilla de maní y pásalo por los frutos secos molidos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Lleva al congelador por al menos 1 hora para que tomen firmeza.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Retira los palillos antes de servir a menores de 5 años y deja reposar los bombones un par de minutos para que pierdan el frío extremo.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [69], "pages": [99] },
+  "image_filename": "receta-bombones-de-fruta.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

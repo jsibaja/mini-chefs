@@ -1,0 +1,58 @@
+{
+  "slug": "mousse-de-fresa-y-yogur",
+  "title": "Mousse de Fresa y Yogur",
+  "description": "Mousse rosada de fresas frescas y yogur natural, aireada con crema batida y servida bien fría en vasitos (el tiempo incluye las 2 horas de refrigeración).",
+  "category": "postre",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 135,
+  "cook_minutes": 0,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "Las fresas aportan vitamina C y el yogur natural suma calcio, proteínas y cultivos vivos que acompañan el crecimiento. Lleva apenas una cucharadita de miel, que también es azúcar libre: es un postre para ocasiones.",
+  "tips": "Nunca uses claras de huevo crudas para airear postres infantiles: la crema batida o la aquafaba (el líquido de los garbanzos cocidos, 3 cucharadas batidas a punto de nieve) hacen el mismo trabajo sin riesgo. Para una versión vegana, usa yogur vegetal y aquafaba. Consúmela dentro de las 24 horas y mantenla siempre en el refrigerador.",
+  "family_mode_note": "El mismo postre sirve para toda la familia; en vasitos individuales cada quien decora el suyo con trocitos de fruta.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sirve medio vasito y decora con fresa picada en trocitos pequeños, nunca en rodajas grandes ni con fruta entera. Si agregas semillas de chía, déjalas hidratar 10 minutos en la mezcla antes de refrigerar."
+    }
+  ],
+  "ingredients": [
+    { "code": "fresa", "name": "Fresas", "amount": 200, "unit": "g", "note": "frescas y maduras", "sort_order": 1 },
+    { "code": "yogur_natural", "name": "Yogur natural", "amount": 200, "unit": "g", "note": "sin azúcar", "sort_order": 2 },
+    { "code": "miel", "name": "Miel", "amount": 1, "unit": "cucharadita", "note": "o jarabe (miel) de agave", "sort_order": 3 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "crema_leche", "name": "Crema de leche para batir", "amount": 100, "unit": "ml", "note": "bien fría; para la textura aireada (reemplaza a la clara cruda del original)", "sort_order": 5 },
+    { "code": "ralladura_limon", "name": "Ralladura de limón", "amount": 1, "unit": "cucharadita", "note": "opcional, para decorar", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava las fresas, retírales los tallos y trocéalas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Tritura las fresas en la licuadora o el procesador hasta obtener un puré suave.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En un bol, mezcla el yogur con la miel y la esencia de vainilla.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora el puré de fresas y revuelve hasta integrar todo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Bate la crema de leche bien fría hasta que forme picos suaves e incorpórala a la mezcla con movimientos envolventes. No uses claras de huevo crudas en postres sin cocción: no son seguras para los niños.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Reparte la mousse en vasitos individuales.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Refrigera 2 horas antes de servir.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Decora con trocitos pequeños de fresa y, si quieres, un poco de ralladura de limón.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Sirve bien fría, directo del refrigerador.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [71], "pages": [163, 164] },
+  "image_filename": "receta-mousse-de-fresa-y-yogur.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

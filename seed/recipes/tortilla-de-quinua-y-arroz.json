@@ -1,0 +1,54 @@
+{
+  "slug": "tortilla-de-quinua-y-arroz",
+  "title": "Tortilla de Quinua y Arroz",
+  "description": "Una tortilla dorada que aprovecha el arroz y la quinua cocidos del día: firme por fuera, suave por dentro y lista en minutos.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": [],
+  "carb_base": "quinua",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La quinua y el huevo aportan proteína con todos los aminoácidos, y el arroz la energía para rendir en la jornada escolar.",
+  "tips": "Si cocinas la quinua desde cero, enjuágala bajo el chorro de agua antes de cocerla para quitarle el amargor natural de su cubierta.",
+  "family_mode_note": "Acompáñala con aguacate y tomate para convertirla en un desayuno o cena familiar completa.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara su porción sin sal y corta la tortilla en trocitos blandos; verifica que el huevo esté completamente cuajado."
+    }
+  ],
+  "ingredients": [
+    { "code": "quinua", "name": "Quinua cocida", "amount": 1, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "arroz", "name": "Arroz cocido", "amount": 1, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada fina", "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "y pimienta y cúrcuma al gusto", "sort_order": 5 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharada", "note": "para la sartén", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un tazón la quinua, el arroz y los huevos hasta integrar bien.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega la cebolla, la sal, la pimienta y la cúrcuma, y mezcla hasta formar una masa manejable.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Calienta el aceite en una sartén antiadherente y vierte la mezcla, extendiéndola de manera uniforme.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocina a fuego medio 5-6 minutos, voltea con ayuda de un plato y cocina 5 minutos más, hasta que esté dorada, firme y con el huevo completamente cuajado.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja entibiar y corta en cuñas o cubos para servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [10], "pages": [33] },
+  "image_filename": "receta-tortilla-de-quinua-y-arroz.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

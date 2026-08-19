@@ -1,0 +1,55 @@
+{
+  "slug": "barritas-energeticas",
+  "title": "Barritas Energéticas",
+  "description": "Barritas de avena con arándanos y chispas de chocolate, ligadas con miel y mantequilla derretidas. Sin horno: se compactan solas en el refrigerador. Contienen gluten y lácteos.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 90,
+  "cook_minutes": 5,
+  "servings": 8,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La avena entrega energía sostenida y fibra; por la miel, el azúcar y el chocolate son un snack para ocasiones, no para el día a día.",
+  "tips": "Envuélvelas individualmente en papel encerado y guárdalas hasta 1 semana en el refrigerador; a la lonchera van con gel refrigerante. Puedes sustituir parte de la avena por quinua inflada.",
+  "family_mode_note": null,
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Pica un poco los arándanos deshidratados antes de incorporarlos y corta las barritas en cubos pequeños para los más chicos."
+    }
+  ],
+  "ingredients": [
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 160, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "miel", "name": "Miel", "amount": 70, "unit": "g", "note": null, "sort_order": 2 },
+    { "code": "azucar_morena", "name": "Azúcar morena", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 3 },
+    { "code": "mantequilla", "name": "Mantequilla o ghee", "amount": 50, "unit": "g", "note": null, "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 5 },
+    { "code": "arandano_deshidratado", "name": "Arándanos deshidratados", "amount": 75, "unit": "g", "note": null, "sort_order": 6 },
+    { "code": "chips_chocolate", "name": "Chispas de chocolate amargo", "amount": 60, "unit": "g", "note": null, "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Derrite a fuego bajo la mantequilla con la miel y el azúcar morena, revolviendo hasta integrar por completo: esta mezcla caliente es la que liga las barritas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Retira del fuego, agrega la avena y la sal y mezcla hasta cubrir todos los copos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Deja entibiar 5 minutos e incorpora los arándanos y las chispas de chocolate, para que no se derritan del todo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vuelca la mezcla en un molde cubierto con papel encerado y presiónala muy firme con el dorso de una cuchara: de esto depende que no se desarmen.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Refrigera 1-2 horas hasta que endurezcan, desmolda y corta las barritas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [73], "pages": [103] },
+  "image_filename": "receta-barritas-energeticas.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

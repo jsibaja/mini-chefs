@@ -1,0 +1,57 @@
+{
+  "slug": "espaguetis-de-calabacita-con-tomate",
+  "title": "Espaguetis de Calabacita con Tomate",
+  "description": "Divertidos \"espaguetis\" de calabacita (zucchini) salteados con salsa casera de tomate y orégano: una forma juguetona de servir la verdura.",
+  "category": "cena",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["verde", "rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La calabacita aporta agua, fibra y vitaminas que ayudan a la hidratación y a la digestión, y el tomate suma vitamina C y licopeno. Un acompañamiento colorido para cualquier proteína.",
+  "tips": "No cocines de más los espaguetis de calabacita para que no suelten agua. Si quieres sumar proteína y grasas buenas, espolvorea nueces o almendras finamente molidas (nunca enteras para menores de 5 años).",
+  "family_mode_note": "Para rendir más o para quienes prefieren pasta, mezcla mitad espaguetis de trigo y mitad de calabacita: la salsa alcanza para ambos.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Corta los espaguetis de calabacita en trocitos de 1-2 cm, cocínalos hasta que estén muy blandos y sirve la porción del bebé sin sal."
+    }
+  ],
+  "ingredients": [
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 2, "unit": "unidad", "note": "medianas", "sort_order": 1 },
+    { "code": "tomate_triturado", "name": "Tomate triturado", "amount": 200, "unit": "g", "note": "natural, sin sal ni azúcar añadidos", "sort_order": 2 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 4 },
+    { "code": "oregano", "name": "Orégano seco", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela para menores de 1 año", "sort_order": 7 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 1, "unit": "cucharada", "note": "opcional, para servir", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava las calabacitas y córtalas en forma de espagueti con un rallador en espiral o un pelador de verduras.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una sartén con el aceite de oliva, sofríe el ajo y la cebolla picados hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el tomate triturado y el orégano, y sazona con una pizca de sal.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocina la salsa a fuego medio durante 10 minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Incorpora los espaguetis de calabacita y cocina 2-3 minutos más, hasta que estén tiernos pero no aguados.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Sirve caliente, con queso rallado por encima si lo deseas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [32], "pages": [83, 84] },
+  "image_filename": "receta-espaguetis-de-calabacita-con-tomate.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "nuggets-de-pollo-caseros",
+  "title": "Nuggets de Pollo Caseros",
+  "description": "Nuggets dorados hechos en casa con pechuga de verdad y empanizado sazonado, con un dip cremoso de yogur: al horno o a la sartén, sin ultraprocesados.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [
+    3,
+    4,
+    5
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": [
+    "almuerzo",
+    "cena",
+    "lonchera"
+  ],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Hechos en casa controlas los ingredientes: pechuga de pollo con proteínas para crecer y mucho menos sodio que las versiones industriales.",
+  "tips": "Congélalos ya empanizados en crudo, separados con papel para hornear, hasta por 2 meses: se hornean directo del congelador sumando 5 minutos. Si van a la lonchera, empácalos bien fríos y con gel refrigerante. ¿Sin gluten? Empaniza con harina de maíz.",
+  "family_mode_note": "Los adultos pueden acompañarlos con una salsa picante aparte, sin cambiar la receta de los niños.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Corta los nuggets en trocitos pequeños antes de servir y comprueba que el interior esté suave y jugoso; ofrece el dip de yogur para que moje sin ayuda."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "pechuga_pollo",
+      "name": "Pechuga de pollo",
+      "amount": 200,
+      "unit": "g",
+      "note": null,
+      "sort_order": 1
+    },
+    {
+      "code": "huevo",
+      "name": "Huevo",
+      "amount": 1,
+      "unit": "unidad",
+      "note": null,
+      "sort_order": 2
+    },
+    {
+      "code": "pan_molido",
+      "name": "Pan molido (pan rallado)",
+      "amount": 50,
+      "unit": "g",
+      "note": null,
+      "sort_order": 3
+    },
+    {
+      "code": "ajo_en_polvo",
+      "name": "Ajo en polvo",
+      "amount": 1,
+      "unit": "cucharadita",
+      "note": null,
+      "sort_order": 4
+    },
+    {
+      "code": "oregano",
+      "name": "Orégano",
+      "amount": 1,
+      "unit": "cucharadita",
+      "note": null,
+      "sort_order": 5
+    },
+    {
+      "code": "sal",
+      "name": "Sal",
+      "amount": 1,
+      "unit": "pizca",
+      "note": "poca: los niños necesitan mucho menos sodio que los adultos",
+      "sort_order": 6
+    },
+    {
+      "code": "aceite_oliva",
+      "name": "Aceite de oliva",
+      "amount": 1,
+      "unit": "cucharada",
+      "note": null,
+      "sort_order": 7
+    },
+    {
+      "code": "yogur_natural",
+      "name": "Yogur natural sin azúcar",
+      "amount": 4,
+      "unit": "cucharada",
+      "note": "para el dip",
+      "sort_order": 8
+    },
+    {
+      "code": "limon",
+      "name": "Limón",
+      "amount": 0.25,
+      "unit": "unidad",
+      "note": "su jugo, para el dip",
+      "sort_order": 9
+    },
+    {
+      "code": "aguacate",
+      "name": "Aguacate",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": "opcional, para servir como guacamole en lugar del dip de yogur",
+      "sort_order": 10
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Precalienta el horno a 180 °C (o ten lista una sartén con el aceite de oliva).",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "Corta la pechuga de pollo en trozos pequeños, tamaño bocado y de grosor parejo.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 3,
+      "instruction": "En un tazón, bate el huevo con la pizca de sal.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "En otro tazón, mezcla el pan molido con el ajo en polvo y el orégano.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 5,
+      "instruction": "Pasa cada trozo de pollo primero por el huevo y luego por la mezcla de pan molido; lávate las manos al terminar de manipular el pollo crudo.",
+      "is_safety_critical": true
+    },
+    {
+      "step_number": 6,
+      "instruction": "Hornea 20 minutos volteando a la mitad (o dóralos en la sartén por tandas), hasta que estén dorados y completamente cocidos: corta el nugget más grande y verifica que no quede rosado por dentro.",
+      "is_safety_critical": true
+    },
+    {
+      "step_number": 7,
+      "instruction": "Mientras se hornean, mezcla el yogur natural con unas gotas de jugo de limón para el dip; si prefieres guacamole, machaca el aguacate con un poco de limón.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 8,
+      "instruction": "Deja entibiar los nuggets un par de minutos y sírvelos con el dip.",
+      "is_safety_critical": false
+    }
+  ],
+  "source": {
+    "book": "saborcitos",
+    "numbers": [
+      54
+    ],
+    "pages": [
+      128,
+      129
+    ]
+  },
+  "image_filename": "receta-nuggets-de-pollo-caseros.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

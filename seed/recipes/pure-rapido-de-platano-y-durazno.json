@@ -1,0 +1,49 @@
+{
+  "slug": "pure-rapido-de-platano-y-durazno",
+  "title": "Puré rápido de plátano y durazno",
+  "description": "Un puré dulce y sedoso de plátano y durazno (melocotón) que se prepara sin cocción en minutos: la primera fruta perfecta para una merienda rápida.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El plátano aporta energía de rápido acceso y potasio, y el durazno suma vitamina C y betacarotenos; juntos hacen un puré naturalmente dulce sin azúcar añadida.",
+  "tips": "Prepáralo justo antes de servir: el plátano se oscurece enseguida al contacto con el aire. Si tu peque recién empieza, ofrécele el durazno solo unos días antes de combinarlo para vigilar cómo lo tolera.",
+  "family_mode_note": "El mismo puré funciona como topping natural para el yogur o la avena del resto de la familia.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura todo muy fino hasta que quede sin grumos y, si hace falta, aclara con un poco de leche materna o fórmula tibia agregada fuera del fuego (nunca la hiervas)." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca la fruta con un tenedor dejando trocitos muy blandos para que tu bebé practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "platano", "name": "Plátano maduro", "amount": 0.5, "unit": "unidad", "note": "bien maduro", "sort_order": 1 },
+    { "code": "durazno", "name": "Durazno (melocotón)", "amount": 0.5, "unit": "unidad", "note": "maduro, pelado y sin carozo", "sort_order": 2 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna o fórmula", "amount": 1, "unit": "cucharada", "note": "opcional, para suavizar", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela el plátano y el durazno, y retira el carozo (hueso) del durazno.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Corta ambas frutas en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura con un tenedor o en la licuadora hasta obtener una textura suave y sin grumos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Si hace falta, añade un poco de agua o de leche materna o fórmula tibia (fuera del fuego) para suavizar la mezcla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Sirve de inmediato.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [27], "pages": [45] },
+  "image_filename": "receta-pure-rapido-de-platano-y-durazno.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

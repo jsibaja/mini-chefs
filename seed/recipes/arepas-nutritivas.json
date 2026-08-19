@@ -1,0 +1,49 @@
+{
+  "slug": "arepas-nutritivas",
+  "title": "Arepas Nutritivas",
+  "description": "Arepas de maíz caseras, naturalmente sin gluten, blanditas para los bebés y listas para rellenar con aguacate o queso fresco.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "maiz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La arepa de maíz da energía y es naturalmente sin gluten; rellénala con aguacate o queso fresco para sumar grasas buenas o calcio.",
+  "tips": "La versión dorada y crujiente es mejor a partir de los 12 meses; para bebés, hazlas finas y blandas. Congélalas ya cocidas hasta 3 meses y recaliéntalas en la sartén. Rellénalas con puré de aguacate o queso fresco sin sal.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Haz las arepas finas y cocínalas solo hasta que estén blandas, sin dorar ni dejar crujientes; ofrécelas en tiras." },
+    { "age_band": "12_24m", "adaptation_text": "A esta edad puedes dejarlas doradas y un poco crujientes; vigílalas mientras comen." }
+  ],
+  "ingredients": [
+    { "code": "harina_maiz", "name": "Harina de maíz precocida", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "agua", "name": "Agua", "amount": 0.25, "unit": "taza", "note": "tibia", "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla la harina de maíz con el agua tibia hasta obtener una masa suave que no se pegue en las manos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Divide la masa en porciones pequeñas y forma las arepas; hazlas finas para que se cocinen bien por dentro.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Calienta una sartén con el aceite de oliva a fuego medio.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocina las arepas 3-4 minutos por lado. Para bebés, retíralas cuando estén cocidas y blandas; deja la versión dorada y crujiente para mayores de 12 meses.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja entibiar y, si quieres, rellénalas con puré de aguacate o queso fresco sin sal.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [76], "pages": [97] },
+  "image_filename": "receta-arepas-nutritivas.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

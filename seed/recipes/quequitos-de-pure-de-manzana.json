@@ -1,0 +1,51 @@
+{
+  "slug": "quequitos-de-pure-de-manzana",
+  "title": "Quequitos de puré de manzana y canela",
+  "description": "Quequitos esponjosos de avena endulzados solo con puré de manzana y un toque de canela. Sin azúcar añadida y horneados en 20 minutos.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La avena entrega fibra y energía de liberación lenta, el huevo aporta proteína completa y hierro, y la manzana suma dulzor natural sin azúcar añadida.",
+  "tips": "El dulzor viene solo de la manzana; puedes cambiarla por puré de pera o durazno maduro. Contienen huevo: al introducirlo, ofrécelo solo y observa 2-3 días. Se congelan hasta 2 meses.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Ofrece el quequito en tiras blandas del tamaño de un dedo para que el bebé lo agarre; humedécelo con un poco de bebida de avena si está seco." }
+  ],
+  "ingredients": [
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "pure_manzana", "name": "Puré de manzana", "amount": 0.25, "unit": "taza", "note": "sin azúcar", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "canela", "name": "Canela", "amount": 1, "unit": "cucharadita", "note": "molida", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y engrasa moldes para muffins.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Bate el huevo hasta que esté bien mezclado.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Añade el puré de manzana y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega la harina de avena y la canela; mezcla hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Vierte la mezcla en los moldes y hornea 20 minutos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Comprueba con un palillo que salgan limpios y que el huevo quede bien cocido, sin partes líquidas.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Deja enfriar antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [80], "pages": [101] },
+  "image_filename": "receta-quequitos-de-pure-de-manzana.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

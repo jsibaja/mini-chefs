@@ -1,0 +1,47 @@
+{
+  "slug": "pure-de-zanahoria-y-papa",
+  "title": "Puré de zanahoria y papa",
+  "description": "Puré clásico y muy cremoso de zanahoria y papa: sabor suave y ligeramente dulce, perfecto para las primeras comidas saladas del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La zanahoria aporta betacarotenos y la papa energía de fácil digestión; un puré de sabor suave y textura muy cremosa para iniciar la alimentación complementaria.",
+  "tips": "Al servir, una cucharadita de aceite de oliva mejora la absorción de vitaminas y suaviza aún más el puré. Congela en cubetera y descongela solo lo necesario; usa siempre caldo casero sin sal.",
+  "family_mode_note": "Con sal, pimienta y un chorrito de aceite se vuelve un puré de guarnición para los grandes.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Machaca la zanahoria y la papa con un tenedor dejando grumos suaves en lugar de licuar, para introducir textura." }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "grande", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "mediana", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela la zanahoria y la papa y córtalas en trozos pequeños para que se cocinen parejo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocínalas en agua hirviendo o caldo casero sin sal hasta que estén muy tiernas, 15-20 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Escurre, reservando un poco del líquido de cocción.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura con licuadora o batidora hasta obtener un puré cremoso y homogéneo; agrega líquido reservado si lo quieres más ligero.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [5, 24], "pages": [23, 42] },
+  "image_filename": "receta-pure-de-zanahoria-y-papa.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

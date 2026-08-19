@@ -1,0 +1,51 @@
+{
+  "slug": "yogur-con-fresas-y-arandanos",
+  "title": "Yogur con Fresas y Arándanos",
+  "description": "Yogur natural con fresas y arándanos frescos: una merienda de colores lista en minutos, endulzada solo por la fruta.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["rojo", "morado"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las fresas y los arándanos aportan vitamina C, y el yogur suma calcio y proteínas para el crecimiento. Sin azúcar añadida: el dulzor lo pone la fruta.",
+  "tips": "Deja macerar las frutas picadas 10 minutos antes de mezclar: sueltan su jugo y endulzan el yogur de forma natural. Para la lonchera, arma el vasito bien frío y mándalo junto a un gel refrigerante. Con yogur griego natural queda más cremoso y con más proteínas.",
+  "family_mode_note": "Los adultos pueden sumar granola o frutos secos; para menores de 5 años los frutos secos van siempre molidos, nunca enteros.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura las frutas con el yogur hasta lograr un puré suave y homogéneo; si usas semillas de chía, muélelas antes." },
+    { "age_band": "9_11m", "adaptation_text": "Aplasta los arándanos con un tenedor y pica las fresas muy finas antes de mezclarlas con el yogur." }
+  ],
+  "ingredients": [
+    { "code": "yogur_natural", "name": "Yogur natural sin azúcar", "amount": 200, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "fresa", "name": "Fresas", "amount": 50, "unit": "g", "note": "frescas (frutillas)", "sort_order": 2 },
+    { "code": "arandano", "name": "Arándanos", "amount": 50, "unit": "g", "note": "frescos", "sort_order": 3 },
+    { "code": "semilla_chia", "name": "Semillas de chía", "amount": 1, "unit": "cucharada", "note": "opcional", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava bien las fresas y los arándanos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Corta las fresas en trocitos pequeños y, para menores de 4 años, parte los arándanos por la mitad o aplástalos: enteros pueden atragantar.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Coloca el yogur natural como base en un vaso o bol.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega las frutas por encima y mezcla con suavidad.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Si quieres, espolvorea las semillas de chía para un toque crocante.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Sirve de inmediato o refrigera 5 minutos para que quede más fresco.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [57], "pages": [135, 136] },
+  "image_filename": "receta-yogur-con-fresas-y-arandanos.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "barritas-de-manzana-y-amaranto",
+  "title": "Barritas de Manzana y Amaranto",
+  "description": "Barritas horneadas de manzana rallada y amaranto expandido, ligadas con un toque de miel o pasta de dátiles. Un snack dulce y compacto para llevar.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "servings": 8,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "El amaranto aporta proteína vegetal y minerales, y la manzana suma fibra y dulzor de fruta; la miel se usa en poca cantidad, solo para ligar.",
+  "tips": "Envuélvelas individualmente en papel encerado para la lonchera y guarda el resto en el refrigerador hasta 3 días.",
+  "family_mode_note": "Es una receta ideal para cocinar juntos: los niños pueden rallar la manzana con un rallador de mano y formar las barritas apretándolas con las palmas.",
+  "variants": [
+    { "age_band": "2_5a", "adaptation_text": "Corta cada barrita en trozos del tamaño de un bocado y sírvelos sentado: son densas y masticables. Omite el ajonjolí y el coco deshidratado si el niño todavía se atraganta con texturas pequeñas y sueltas." }
+  ],
+  "ingredients": [
+    { "code": "manzana", "name": "Manzana", "amount": 2, "unit": "unidad", "note": "peladas y ralladas", "sort_order": 1 },
+    { "code": "amaranto_expandido", "name": "Amaranto expandido", "amount": 1, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "miel", "name": "Miel", "amount": 3, "unit": "cucharada", "note": "o pasta de dátiles, para ligar las barritas", "sort_order": 3 },
+    { "code": "ajonjoli", "name": "Ajonjolí (sésamo)", "amount": 1, "unit": "cucharada", "note": "opcional; es alérgeno, revisa la política de la escuela", "sort_order": 4 },
+    { "code": "coco_deshidratado", "name": "Coco deshidratado", "amount": 2, "unit": "cucharada", "note": "opcional", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 175 °C y prepara una bandeja engrasada o con papel de horno.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela y ralla las manzanas; exprime muy bien el exceso de jugo con las manos o con un paño limpio para que las barritas compacten.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla la manzana rallada con la miel o la pasta de dátiles hasta integrar.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora el amaranto expandido (y el ajonjolí o el coco, si los usas) y mezcla hasta obtener una masa que se compacte al presionarla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Con las manos ligeramente húmedas, forma barritas y acomódalas en la bandeja.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Hornea a 170-180 °C durante 25-30 minutos, hasta que se doren y se sientan firmes al tacto.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Déjalas enfriar por completo antes de despegarlas: al enfriarse terminan de compactar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [89], "pages": [120] },
+  "image_filename": "receta-barritas-de-manzana-y-amaranto.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "platano-maduro-dorado-con-queso-fresco",
+  "title": "Plátano Maduro Dorado con Queso Fresco",
+  "description": "Rodajas de plátano maduro doradas en la sartén con apenas una cucharadita de aceite y queso fresco desmenuzado encima. Dulce de verdad, sin una pizca de azúcar.",
+  "category": "desayuno",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El plátano maduro aporta energía de fácil digestión, potasio y fibra, y el queso fresco suma la proteína y el calcio que este desayuno necesita para sostener la mañana.",
+  "tips": "Si prefieres evitar la sartén, hornea las rodajas 20 minutos a 200 °C sobre papel para hornear, volteándolas a la mitad. El plátano verde no sirve para esta receta: queda duro, seco y nada dulce.",
+  "family_mode_note": "Los adultos pueden acompañarlo con frijoles refritos y un queso más salado; para los niños, queso fresco sin sal añadida.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Aplasta cada rodaja con el tenedor hasta dejarla plana y blanda, o córtala en trocitos pequeños: el plátano cocido es pegajoso y las rodajas redondas enteras no son seguras a esta edad." },
+    { "age_band": "2_5a", "adaptation_text": "Sirve las rodajas cortadas por la mitad y deja que arme sus propios bocaditos poniendo el queso encima." }
+  ],
+  "ingredients": [
+    { "code": "platano_macho", "name": "Plátano maduro (plátano macho)", "amount": 1, "unit": "unidad", "note": "de cáscara amarilla con manchas negras", "sort_order": 1 },
+    { "code": "queso_fresco", "name": "Queso fresco", "amount": 60, "unit": "g", "note": "desmenuzado", "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Elige un plátano bien maduro, de cáscara amarilla con manchas negras: de ahí sale todo el dulzor, sin necesidad de agregar azúcar.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pélalo y córtalo en rodajas de un centímetro de grosor.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Calienta una sartén antiadherente a fuego medio con el aceite y acomoda las rodajas sin encimarlas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Dóralas de 3 a 4 minutos por lado, hasta que estén caramelizadas por fuera y muy blandas por dentro; deben ceder sin esfuerzo al presionarlas con la espátula.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Aplasta ligeramente cada rodaja con el tenedor o pártela en trozos pequeños antes de servir a menores de 5 años: el plátano cocido es pegajoso y en rodajas enteras puede atragantar.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Desmenuza el queso fresco encima, espolvorea la canela y deja entibiar antes de llevar a la mesa.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-platano-maduro-dorado-con-queso-fresco.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

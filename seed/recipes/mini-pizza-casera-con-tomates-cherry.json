@@ -1,0 +1,60 @@
+{
+  "slug": "mini-pizza-casera-con-tomates-cherry",
+  "title": "Mini Pizza Casera con Tomates Cherry",
+  "description": "Mini pizzas sobre pan pita o tortilla de trigo con salsa de tomate casera, queso fundido y tomatitos cherry: ideales para armar en familia.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["rojo"],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El tomate aporta vitamina C y licopeno, y el queso suma calcio y proteínas para huesos fuertes; la base delgada la hace ligera y crujiente.",
+  "tips": "Deja que cada niño arme su propia mini pizza con toppings como champiñones o espinaca picada: comen con más ganas lo que ellos mismos prepararon. Para la lonchera, envíala fría con gel refrigerante.",
+  "family_mode_note": "Multiplica las bases y monta una pizzería en casa: cada quien elige y reparte sus ingredientes antes de hornear.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Hornea 2-3 minutos menos para que la base quede blandita, corta la pizza en tiritas pequeñas y no agregues sal; los cherry siempre en cuartos a lo largo."
+    }
+  ],
+  "ingredients": [
+    { "code": "tortilla_trigo", "name": "Tortilla de trigo o pan pita", "amount": 2, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "salsa_tomate", "name": "Salsa de tomate casera", "amount": 100, "unit": "g", "note": "sin azúcar añadida", "sort_order": 2 },
+    { "code": "queso_mozzarella", "name": "Queso mozzarella rallado", "amount": 100, "unit": "g", "note": null, "sort_order": 3 },
+    { "code": "tomate_cherry", "name": "Tomate cherry", "amount": 8, "unit": "unidad", "note": "8 a 10 tomatitos", "sort_order": 4 },
+    { "code": "oregano", "name": "Orégano", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca, opcional", "sort_order": 7 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 200 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Extiende las tortillas de trigo o panes pita en una bandeja para hornear.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Unta la salsa de tomate sobre cada base.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Reparte la mozzarella rallada de manera uniforme.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Corta los tomates cherry en cuartos a lo largo y repártelos sobre las pizzas; para menores de 5 años este corte es obligatorio, porque los cherry enteros o en mitades pueden causar atragantamiento.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Espolvorea el orégano y, si quieres, una pizca de sal y pimienta.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Rocía con el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Hornea 10-12 minutos, hasta que el queso se derrita y la base quede crujiente.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Sirve caliente, cortada en porciones pequeñas, con ensalada fresca.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [19], "pages": [57, 58] },
+  "image_filename": "receta-mini-pizza-casera-con-tomates-cherry.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

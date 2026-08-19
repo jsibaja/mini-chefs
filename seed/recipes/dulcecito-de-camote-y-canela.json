@@ -1,0 +1,51 @@
+{
+  "slug": "dulcecito-de-camote-y-canela",
+  "title": "Dulcecito de Camote y Canela",
+  "description": "Camote cocido y machacado hasta quedar cremoso, perfumado con canela y ralladura de naranja. Un postre dulce de verdad, sin una sola cucharada de azúcar.",
+  "category": "postre",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El camote es dulce por naturaleza y aporta betacarotenos (provitamina A), fibra y energía suave. Al no llevar azúcares añadidos, el paladar del bebé se acostumbra al dulzor real de los alimentos.",
+  "tips": "Congela el puré en cubetas de hielo y descongela un cubo por porción en el refrigerador: dura hasta 3 meses. La calabaza (zapallo) madura funciona igual de bien y queda todavía más cremosa.",
+  "family_mode_note": "Con la misma olla los adultos arman su postre agregando yogur natural y nuez molida encima.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Pasa el puré por un colador fino o licúalo con un poco más de leche materna o fórmula hasta que quede completamente liso, sin grumos ni hilos." },
+    { "age_band": "9_11m", "adaptation_text": "Déjalo con textura de puré machacado y sirve al lado dos o tres bastones de camote cocido para que practique llevárselos solo a la boca." },
+    { "age_band": "12_24m", "adaptation_text": "Prepáralo con leche entera en lugar de fórmula y sírvelo con una cucharada de yogur natural encima." }
+  ],
+  "ingredients": [
+    { "code": "camote", "name": "Camote (batata)", "amount": 1, "unit": "unidad", "note": "mediano, pelado y en cubos", "sort_order": 1 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna o fórmula", "amount": 4, "unit": "cucharada", "note": "leche entera si ya cumplió 12 meses", "sort_order": 2 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": null, "sort_order": 3 },
+    { "code": "ralladura_naranja", "name": "Ralladura de naranja", "amount": 0.25, "unit": "cucharadita", "note": "opcional, solo la parte naranja de la cáscara", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava, pela y corta el camote en cubos parejos para que se cocinen todos al mismo tiempo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocínalo al vapor durante 15 minutos, o hiérvelo en poca agua, hasta que un tenedor entre sin ningún esfuerzo.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Machácalo aún caliente con el tenedor o el prensapapas hasta que quede cremoso y sin hilos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Deja entibiar el puré y recién entonces agrega la leche materna o la fórmula, poco a poco, hasta lograr la textura que tu bebé necesita. La leche materna nunca se hierve ni se calienta al fuego: se suma tibia y fuera de la olla.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Perfuma con la canela y la ralladura de naranja, mezcla bien y sirve tibio.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-dulcecito-de-camote-y-canela.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

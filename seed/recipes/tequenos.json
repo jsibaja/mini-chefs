@@ -1,0 +1,57 @@
+{
+  "slug": "tequenos",
+  "title": "Tequeños",
+  "description": "Bastones de queso envueltos en masa casera y horneados hasta dorar. El favorito de las fiestas, en versión ligera para la lonchera. Contienen gluten, huevo y lácteos.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 90,
+  "cook_minutes": 20,
+  "servings": 6,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": [],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El queso aporta calcio y proteínas para huesos en crecimiento, y al hornearse llevan mucha menos grasa que la versión frita.",
+  "tips": "Congela los tequeños crudos hasta 2 meses y hornéalos directo del congelador sumando unos minutos. En la lonchera viajan con gel refrigerante y se consumen antes de 4 horas.",
+  "family_mode_note": "Acompáñalos con una salsa de tomate natural para remojar; para los adultos, espolvorea orégano antes de hornear.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Córtalos en rodajitas pequeñas y verifica que estén apenas tibios antes de ofrecerlos."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_trigo", "name": "Harina de trigo", "amount": 250, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "mantequilla", "name": "Mantequilla", "amount": 50, "unit": "g", "note": "a temperatura ambiente", "sort_order": 3 },
+    { "code": "sal", "name": "Sal", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "agua", "name": "Agua", "amount": 60, "unit": "ml", "note": null, "sort_order": 5 },
+    { "code": "queso_para_derretir", "name": "Queso para derretir", "amount": 250, "unit": "g", "note": "mozzarella o queso blanco firme, cortado en bastones", "sort_order": 6 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": "para engrasar la bandeja", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol la harina, la sal, el huevo y la mantequilla.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el agua poco a poco mientras amasas, hasta formar una masa elástica.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Deja reposar la masa en el refrigerador durante 1 hora.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Estira la masa con un rodillo y córtala en tiras largas.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Envuelve cada bastón de queso con una tira de masa, cubriéndolo por completo para que el queso no se escape al cocinarse.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Colócalos en la bandeja engrasada y hornéalos a 200 °C por 18-20 minutos, hasta que estén dorados y la masa bien cocida por dentro (lleva huevo); en freidora de aire, 10-12 minutos a 190 °C.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Déjalos entibiar 5 minutos antes de servir: el queso derretido puede quemar la boca.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [68], "pages": [98] },
+  "image_filename": "receta-tequenos.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

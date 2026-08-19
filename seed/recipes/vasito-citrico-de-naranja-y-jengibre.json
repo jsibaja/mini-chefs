@@ -1,0 +1,51 @@
+{
+  "slug": "vasito-citrico-de-naranja-y-jengibre",
+  "title": "Vasito Cítrico de Naranja y Jengibre",
+  "description": "Un vasito pequeño de jugo de naranja y limón con un toque suave de jengibre, diluido y pensado para paladares de niños. Se sirve muy frío y en porciones mini.",
+  "category": "bebida",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 6,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "Aporta vitamina C de las frutas cítricas dentro de una dieta variada; el jengibre solo da sabor, no efectos medicinales.",
+  "tips": "Si el sabor del jengibre resulta fuerte, empieza con la mitad de la cantidad y auméntala poco a poco; sírvelo siempre bien frío y recién colado.",
+  "family_mode_note": "Los adultos pueden prepararlo más concentrado y con más jengibre; esta versión está suavizada, diluida y sin pimienta ni vinagre, especialmente para niños.",
+  "variants": [
+    { "age_band": "2_5a", "adaptation_text": "Usa la mitad del jengibre (2-3 g) y agrega un poco más de agua para suavizar el sabor; sirve solo 30 ml." }
+  ],
+  "ingredients": [
+    { "code": "naranja", "name": "Naranja", "amount": 2, "unit": "unidad", "note": "el jugo", "sort_order": 1 },
+    { "code": "limon", "name": "Limón", "amount": 1, "unit": "unidad", "note": "el jugo", "sort_order": 2 },
+    { "code": "jengibre", "name": "Jengibre fresco", "amount": 5, "unit": "g", "note": "rallado fino (aprox. 1 cucharadita); máximo 10 g", "sort_order": 3 },
+    { "code": "miel", "name": "Miel", "amount": 2, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "curcuma", "name": "Cúrcuma", "amount": 0.25, "unit": "cucharadita", "note": "opcional", "sort_order": 5 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": "fría, para diluir", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Exprime las naranjas y el limón.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela y ralla finamente el jengibre.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla los jugos con el jengibre, la miel, la cúrcuma (si la usas) y el agua fría; revuelve bien hasta disolver la miel.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cuela la mezcla y guárdala en una botella de vidrio en el refrigerador.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Sirve bien frío en vasitos pequeños de 30-60 ml; consúmelo en un máximo de 2-3 días refrigerado.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [99], "pages": [131] },
+  "image_filename": "receta-vasito-citrico-de-naranja-y-jengibre.webp",
+  "fallback_image": "placeholder-categoria-bebidas.webp"
+}

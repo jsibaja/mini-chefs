@@ -1,0 +1,53 @@
+{
+  "slug": "tostadas-francesas",
+  "title": "Tostadas Francesas",
+  "description": "Pan integral bañado en huevo y leche con un toque de canela, dorado en la sartén hasta quedar crujiente por fuera y suave por dentro.",
+  "category": "desayuno",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": [],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Huevo y pan integral aportan proteína y carbohidratos para empezar el día con energía; la avena de la mezcla suma fibra extra.",
+  "tips": "Para escuelas libres de frutos secos, decóralas con semillas de girasol molidas; si van en la lonchera, empácalas ya frías junto a un gel refrigerante.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Corta las tostadas en tiras del ancho de un dedo de adulto, cocina hasta que el huevo esté totalmente firme y sirve solas o con fruta madura en trocitos, sin acompañamientos dulces." }
+  ],
+  "ingredients": [
+    { "code": "pan_integral", "name": "Pan integral", "amount": 2, "unit": "rebanada", "note": null, "sort_order": 1 },
+    { "code": "leche", "name": "Leche", "amount": 1, "unit": "taza", "note": "o bebida vegetal", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 3, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 0.5, "unit": "cucharadita", "note": "o unas gotas de esencia de vainilla", "sort_order": 5 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": "o aceite de coco, para la sartén", "sort_order": 6 },
+    { "code": "fruta_fresca", "name": "Fruta fresca picada", "amount": 0.5, "unit": "taza", "note": "opcional, para acompañar", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Bate el huevo con la leche en un plato hondo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega la avena y la canela y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Sumerge las rebanadas de pan por ambos lados, cuidando que absorban el líquido sin deshacerse.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Calienta el aceite en una sartén a fuego medio.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Dora las tostadas 3-4 minutos por lado, hasta que estén doradas y el huevo esté completamente cocido, sin zonas húmedas.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Sirve con la fruta fresca picada.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [51], "pages": [78] },
+  "image_filename": "receta-tostadas-francesas.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

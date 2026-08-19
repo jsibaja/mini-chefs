@@ -1,0 +1,59 @@
+{
+  "slug": "pasta-con-espinacas-y-pollo",
+  "title": "Pasta con Espinacas y Pollo",
+  "description": "Pasta integral con trocitos de pollo dorado y espinacas en una salsa cremosa con queso. Un plato completo que se prepara en menos de media hora.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_termo",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["verde"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteínas de alta calidad para crecer y las espinacas suman hierro, ácido fólico y fibra; la pasta integral entrega energía constante para toda la jornada.",
+  "tips": "Si a tu hijo le cuestan las espinacas, pícalas muy finas para que se fundan con la salsa; probar un alimento nuevo 10-15 veces en distintas ocasiones ayuda a aceptarlo.",
+  "family_mode_note": "Para la lonchera escolar, transpórtala caliente en un termo de boca ancha precalentado con agua hirviendo.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Corta la pasta y el pollo en trocitos pequeños, sirve tibio y con muy poca sal; verifica que los trozos de pollo estén blandos y jugosos."
+    }
+  ],
+  "ingredients": [
+    { "code": "pasta_integral", "name": "Pasta integral", "amount": 200, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 200, "unit": "g", "note": "en trozos pequeños", "sort_order": 2 },
+    { "code": "espinaca", "name": "Espinacas frescas", "amount": 100, "unit": "g", "note": "lavadas", "sort_order": 3 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 4 },
+    { "code": "crema_leche", "name": "Crema de leche", "amount": 100, "unit": "ml", "note": "o bebida vegetal sin azúcar", "sort_order": 5 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pasta en agua hirviendo según las instrucciones del paquete; escúrrela y reserva.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una sartén con el aceite de oliva, cocina los trozos de pollo a fuego medio hasta que estén dorados por fuera y completamente cocidos por dentro, sin partes rosadas; resérvalos.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "En la misma sartén, sofríe el ajo picado hasta que esté dorado.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega las espinacas y cocina 2 minutos, hasta que reduzcan su tamaño.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Incorpora la crema de leche y el queso rallado, y revuelve bien a fuego bajo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Regresa el pollo a la sartén, mézclalo con la salsa y déjalo un par de minutos para que tome sabor; sazona con muy poca sal.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Añade la pasta escurrida y mezcla hasta integrar todo.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sirve caliente, con más queso rallado por encima si lo deseas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [30], "pages": [79, 80] },
+  "image_filename": "receta-pasta-con-espinacas-y-pollo.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

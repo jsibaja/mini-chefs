@@ -1,0 +1,50 @@
+{
+  "slug": "quinoa-con-verduras-al-vapor",
+  "title": "Quinua con Verduras al Vapor",
+  "description": "Quinua esponjosa con zanahoria y calabacita al vapor, terminada con un hilo de aceite de oliva: un plato vegetariano suave, colorido y completo.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": "quinua",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La quinua es un pseudocereal que aporta proteína vegetal completa, hierro y energía; la zanahoria y la calabacita suman fibra y vitaminas, y el aceite de oliva ayuda a absorber los nutrientes.",
+  "tips": "Enjuaga bien la quinua antes de cocinarla para quitarle el sabor amargo natural. Para una comida más completa, suma pollo desmenuzado o lentejas aplastadas. Sin proteína animal, se congela hasta 3 meses.",
+  "family_mode_note": "Para toda la familia, saltea la quinua con más verduras y un poco de ajo; sirve la porción del bebé antes de agregar sal.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura la quinua con las verduras y un poco de agua hasta obtener un puré suave." },
+    { "age_band": "9_11m", "adaptation_text": "Sirve la quinua bien cocida con las verduras en trocitos muy blandos para tomar con la pinza." }
+  ],
+  "ingredients": [
+    { "code": "quinua", "name": "Quinua cocida", "amount": 0.25, "unit": "taza", "note": "enjuagada antes de cocinar", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "en trozos pequeños", "sort_order": 2 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 0.5, "unit": "unidad", "note": "en rodajas o trozos pequeños", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la quinua enjuagada en agua hasta que esté blanda y el grano se abra.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela y corta la zanahoria en trozos pequeños y la calabacita en rodajas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina las verduras al vapor hasta que estén bien tiernas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mezcla la quinua con las verduras al vapor.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega el aceite de oliva y sirve a temperatura tibia; tritura si buscas una textura más suave.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [60], "pages": [80] },
+  "image_filename": "receta-quinoa-con-verduras-al-vapor.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

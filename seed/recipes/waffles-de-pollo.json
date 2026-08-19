@@ -1,0 +1,57 @@
+{
+  "slug": "waffles-de-pollo",
+  "title": "Waffles de Pollo",
+  "description": "Waffles salados de pollo desmenuzado y avena, dorados y esponjosos: proteína en un formato divertido que se come con la mano.",
+  "category": "lonchera",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "almuerzo", "colacion_pm", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Doble aporte de proteína (pollo y huevo) con la energía de la avena: un plato completo y fácil de comer para la jornada escolar.",
+  "tips": "Córtalos en bastones y empácalos con un dip de yogur natural con limón; en la lonchera van con gel refrigerante y se consumen antes de 4 horas.",
+  "family_mode_note": "La misma masa sirve para el desayuno de toda la familia: agrega hierbas frescas picadas para los adultos.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara la masa sin sal y sirve el waffle en tiras blandas o trocitos pequeños, bien cocido por dentro."
+    }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo_cocida", "name": "Pechuga de pollo cocida", "amount": 1, "unit": "taza", "note": "desmenuzada fina", "sort_order": 1 },
+    { "code": "avena_molida", "name": "Avena molida", "amount": 0.5, "unit": "taza", "note": "o harina de avena", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "leche", "name": "Leche", "amount": 0.5, "unit": "taza", "note": "o caldo de pollo casero sin sal", "sort_order": 4 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 6 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": null, "sort_order": 7 },
+    { "code": "aceite", "name": "Aceite vegetal", "amount": 1, "unit": "cucharadita", "note": "para engrasar la wafflera o la sartén", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un tazón el pollo desmenuzado con la avena, el huevo y la leche hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el polvo de hornear, la pizca de sal y la pimienta, y bate bien hasta integrar todo.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Precalienta la wafflera y engrásala con un poco de aceite.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte una porción de la mezcla y cocina 4-5 minutos, hasta que el waffle esté dorado y completamente cocido en el centro (la masa lleva huevo).", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Si no tienes wafflera, cocina la mezcla en una sartén engrasada como si fueran panqueques, 3 minutos por lado.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Deja enfriar sobre una rejilla antes de empacar para que no se humedezcan.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [16], "pages": [39] },
+  "image_filename": "receta-waffles-de-pollo.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

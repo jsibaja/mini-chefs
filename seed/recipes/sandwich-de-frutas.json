@@ -1,0 +1,52 @@
+{
+  "slug": "sandwich-de-frutas",
+  "title": "Sándwich de Frutas",
+  "description": "Un sándwich diferente: pan integral untado con crema de maní y relleno de fruta fresca en láminas finas, con semillas crocantes por dentro.",
+  "category": "lonchera",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 5,
+  "servings": 1,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "legumbre",
+  "veggie_colors": ["rojo", "verde"],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Combina fruta fresca, semillas y pan integral: energía, fibra y grasas buenas en un formato que los niños reconocen y disfrutan.",
+  "tips": "Rocía la banana y el aguacate con unas gotas de jugo de limón para que no se oscurezcan hasta el recreo, y empaca el sándwich con un gel refrigerante.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Prepáralo en tiras con una capa muy fina de crema de maní y la fruta en láminas delgadas y suaves; omite los frutos secos y usa el pan sin tostar." }
+  ],
+  "ingredients": [
+    { "code": "pan_integral", "name": "Pan integral", "amount": 2, "unit": "rebanada", "note": null, "sort_order": 1 },
+    { "code": "crema_mani", "name": "Crema de maní", "amount": 1, "unit": "cucharada", "note": "o hummus o mermelada 100% fruta sin azúcar", "sort_order": 2 },
+    { "code": "banana", "name": "Banana (plátano)", "amount": 0.5, "unit": "unidad", "note": "en rodajas finas", "sort_order": 3 },
+    { "code": "fresa", "name": "Fresas", "amount": 3, "unit": "unidad", "note": "en láminas finas", "sort_order": 4 },
+    { "code": "aguacate", "name": "Aguacate", "amount": 0.25, "unit": "unidad", "note": "en láminas (opcional)", "sort_order": 5 },
+    { "code": "semilla_chia", "name": "Semillas de chía", "amount": 1, "unit": "cucharadita", "note": "o ajonjolí (sésamo)", "sort_order": 6 },
+    { "code": "fruto_seco_molido", "name": "Frutos secos molidos", "amount": 1, "unit": "cucharadita", "note": "opcionales; siempre molidos, nunca enteros, para menores de 5 años", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Unta una rebanada de pan con la crema de maní (o la opción que elijas).", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Acomoda encima la fruta cortada en láminas finas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Espolvorea las semillas y, si usas, los frutos secos finamente molidos: para menores de 5 años nunca deben ir enteros ni en trozos.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Cubre con la otra rebanada y presiona suavemente; corta en mitades o triángulos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Si quieres una versión crujiente, dora el sándwich en una sartén 2-3 minutos por lado y deja entibiar antes de empacar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [53], "pages": [80] },
+  "image_filename": "receta-sandwich-de-frutas.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

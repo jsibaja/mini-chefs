@@ -1,0 +1,50 @@
+{
+  "slug": "pizza-de-coliflor-blw",
+  "title": "Pizza de coliflor BLW sin gluten",
+  "description": "Base de pizza de coliflor, ligera y suave, ligada con huevo y queso. Se hornea firme y se cubre con los ingredientes que más le gusten al peque.",
+  "category": "cena",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La coliflor suma fibra y vitamina C en una base ligera, mientras el huevo y el queso aportan proteína y calcio para huesos en crecimiento.",
+  "tips": "Para que sea realmente sin gluten, usa avena certificada sin gluten. Cubre con verduras ralladas o pollo cocido para una cena más completa. Corta en tiras para facilitar el agarre.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Corta la base ya horneada en tiras blandas del grosor de un dedo y ofrécela sin sal para que el bebé la agarre." }
+  ],
+  "ingredients": [
+    { "code": "coliflor", "name": "Coliflor rallada", "amount": 1, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "queso_rallado", "name": "Queso rallado sin sal", "amount": 0.25, "unit": "taza", "note": "pasteurizado", "sort_order": 3 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 2, "unit": "cucharada", "note": "certificada sin gluten", "sort_order": 4 },
+    { "code": "salsa_tomate", "name": "Salsa de tomate casera", "amount": 2, "unit": "cucharada", "note": "sin sal, para cubrir", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra una bandeja con papel de hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla la coliflor rallada, el huevo, el queso y la harina de avena hasta obtener una masa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Extiende la masa formando una base sobre el papel y hornea 15 minutos hasta que esté firme.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cubre con la salsa de tomate y los ingredientes que prefieras (más queso, verduras o pollo cocido) y hornea 5 minutos más; asegúrate de que el huevo de la base quede bien cocido.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja entibiar y corta en tiras antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [89], "pages": [111] },
+  "image_filename": "receta-pizza-de-coliflor-blw.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

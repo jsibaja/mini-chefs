@@ -1,0 +1,54 @@
+{
+  "slug": "bocaditos-de-chocolate-y-avellana",
+  "title": "Bocaditos de Chocolate y Avellana",
+  "description": "Bolitas energéticas de frutos secos tostados envueltos en crema de avellanas con cacao. Un bocado intenso y sin azúcar añadida para la lonchera.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 5,
+  "servings": 6,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El maní, las almendras y las avellanas concentran proteína vegetal, grasas buenas y minerales; con crema sin azúcar añadida y cacao puro, el dulzor es todo del fruto seco.",
+  "tips": "Muchas escuelas tienen política libre de maní y frutos secos: revisa las reglas del colegio antes de enviarlos en la lonchera. En casa se conservan hasta 1 semana refrigerados en recipiente hermético.",
+  "family_mode_note": "Formar las bolitas es un paso ideal para manos pequeñas; los adultos se encargan de tostar los frutos secos en la sartén.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Tritura finamente el maní, las almendras y las avellanas (textura de arena gruesa) antes de mezclarlos con la crema: los frutos secos enteros o en trozos están prohibidos antes de los 5 años por riesgo de atragantamiento."
+    }
+  ],
+  "ingredients": [
+    { "code": "mani", "name": "Maní", "amount": 50, "unit": "g", "note": "sin sal; alérgeno: maní", "sort_order": 1 },
+    { "code": "almendra", "name": "Almendras", "amount": 50, "unit": "g", "note": "alérgeno: frutos secos", "sort_order": 2 },
+    { "code": "avellana", "name": "Avellanas", "amount": 50, "unit": "g", "note": "alérgeno: frutos secos", "sort_order": 3 },
+    { "code": "crema_avellana", "name": "Crema de avellanas o de maní", "amount": 200, "unit": "g", "note": "sin azúcar añadida", "sort_order": 4 },
+    { "code": "cacao_polvo", "name": "Cacao en polvo sin azúcar", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Tuesta el maní, las almendras y las avellanas en una sartén seca a fuego medio de 3 a 5 minutos, moviendo para que no se quemen. Deja entibiar.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Si los comerán menores de 5 años, tritura los frutos secos tostados hasta que queden finamente molidos: nunca enteros ni en trozos grandes.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Mezcla la crema de avellanas con el cacao en polvo hasta obtener una pasta uniforme.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega los frutos secos a la crema y mezcla bien hasta cubrirlos por completo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Forma bolitas pequeñas con las manos y colócalas en una bandeja con papel encerado.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Cubre y refrigera de 1 a 2 horas, hasta que endurezcan.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [76], "pages": [106] },
+  "image_filename": "receta-bocaditos-de-chocolate-y-avellana.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "berenjenas-empanizadas",
+  "title": "Berenjenas Empanizadas",
+  "description": "Rodajas de berenjena con empanizado dorado de avena y hierbas, en sartén o al horno: una forma distinta y rica de sumar verdura. Incluye 1 hora de remojo para quitar el amargor.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 75,
+  "cook_minutes": 20,
+  "servings": 3,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": ["morado"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La berenjena queda cremosa por dentro y crocante por fuera: una textura amable que anima a los niños a probar más verduras.",
+  "tips": "Úsalas como base de mini pizzas: agrega salsa de tomate y queso encima y gratina unos minutos. Contienen huevo, y gluten si usas pan rallado de trigo.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Corta las rodajas ya cocidas en bastones pequeños y verifica que el interior esté bien blando." }
+  ],
+  "ingredients": [
+    { "code": "berenjena", "name": "Berenjena", "amount": 1, "unit": "unidad", "note": "grande", "sort_order": 1 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": "o pan rallado", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevos", "amount": 2, "unit": "unidad", "note": "batidos", "sort_order": 3 },
+    { "code": "hierbas_secas", "name": "Hierbas secas", "amount": 1, "unit": "cucharadita", "note": "orégano, tomillo o albahaca, al gusto", "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 5 },
+    { "code": "jugo_limon", "name": "Jugo de limón", "amount": 2, "unit": "cucharada", "note": "el jugo de 1 limón, para el agua del remojo", "sort_order": 6 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharada", "note": "para la sartén", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Corta la berenjena en rodajas y sumérgelas en agua con el jugo de limón durante 1 hora para quitar el sabor amargo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Escurre las rodajas y sécalas bien con una servilleta.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En un recipiente, mezcla la harina de avena (o el pan rallado) con las hierbas secas y la sal.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Pasa cada rodaja por el huevo batido y luego por la mezcla seca, cubriéndolas bien.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cocínalas en sartén con un poco de aceite a fuego medio hasta dorarlas por ambos lados, o al horno a 200 °C por 20 minutos volteando a la mitad, hasta que el empanizado con huevo esté crujiente y bien cocido.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [33], "pages": [58] },
+  "image_filename": "receta-berenjenas-empanizadas.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

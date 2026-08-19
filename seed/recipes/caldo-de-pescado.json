@@ -1,0 +1,51 @@
+{
+  "slug": "caldo-de-pescado",
+  "title": "Caldo de Pescado",
+  "description": "Un caldo casero de pescado blanco y verduras, ligero y sin sal, ideal como base nutritiva para papillas y sopas.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pescado",
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Un caldo casero de pescado blanco y verduras aporta líquidos, minerales y un sabor suave, sin sal añadida, ideal como base de papillas.",
+  "tips": "El pescado es un alérgeno: introdúcelo solo y en pequeña cantidad, observando 2-3 días. Cuela muy bien el caldo y revisa que no queden espinas antes de usarlo. Congélalo en cubetera hasta 2 meses.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Usa el caldo colado y tibio para diluir papillas y purés; introduce el pescado por separado la primera vez." }
+  ],
+  "ingredients": [
+    { "code": "pescado_blanco", "name": "Pescado blanco", "amount": 50, "unit": "g", "note": "sin espinas (merluza, tilapia o corvina)", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "en trozos", "sort_order": 2 },
+    { "code": "papa", "name": "Papa", "amount": 0.5, "unit": "unidad", "note": "en trozos", "sort_order": 3 },
+    { "code": "agua", "name": "Agua", "amount": 1, "unit": "taza", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava, pela y corta la zanahoria y la papa en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una cacerola, lleva el agua a ebullición.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega las verduras y cocina a fuego medio unos 10 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Revisa que el pescado no tenga espinas y agrégalo; cocina 5 minutos más, hasta que esté bien cocido y se desmenuce con facilidad.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Retira del fuego y deja reposar unos minutos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Cuela el caldo para obtener un líquido limpio.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Deja entibiar antes de servir o usar como base.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [69], "pages": [89] },
+  "image_filename": "receta-caldo-de-pescado.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

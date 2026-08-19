@@ -1,0 +1,50 @@
+{
+  "slug": "papilla-de-pollo-y-calabacin",
+  "title": "Papilla de pollo y calabacín",
+  "description": "Pollo tierno triturado con calabacín (zucchini) y zanahoria: una papilla completa y suave que suma proteína a las comidas del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["verde", "naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína y hierro de fácil absorción, y el calabacín y la zanahoria suman vegetales suaves para una comida completa.",
+  "tips": "Cocina una pechuga extra y congela porciones hasta por 2 meses para tener comidas listas. Usa siempre caldo casero sin sal y, si quieres, una cucharadita de aceite de oliva al final para más energía.",
+  "family_mode_note": "Reserva la porción del bebé antes de condimentar; el resto se sirve como crema de pollo y verduras para todos.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Pica el pollo bien fino y machaca las verduras con un tenedor en lugar de licuar." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve el pollo desmenuzado y las verduras en cubitos blandos, sin triturar, para comer con cuchara o con las manos." }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 1, "unit": "unidad", "note": "pequeña", "sort_order": 1 },
+    { "code": "calabacin", "name": "Calabacín (zucchini)", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "pequeña", "sort_order": 3 },
+    { "code": "caldo_pollo", "name": "Caldo de pollo casero sin sal", "amount": 1, "unit": "taza", "note": "o agua", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": "opcional, al servir", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pechuga en agua o caldo casero sin sal hasta que esté completamente cocida, sin partes rosadas por dentro.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Pela y corta el calabacín y la zanahoria en trozos pequeños, y cocínalos hasta que estén muy blandos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura el pollo con las verduras y un poco del caldo hasta obtener una papilla homogénea; ajusta la consistencia con más líquido.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Si quieres, añade una cucharadita de aceite de oliva al servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [8], "pages": [26] },
+  "image_filename": "receta-papilla-de-pollo-y-calabacin.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

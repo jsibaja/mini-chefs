@@ -1,0 +1,59 @@
+{
+  "slug": "flan-suave-de-platano",
+  "title": "Flan Suave de Plátano",
+  "description": "Flan cremoso de plátano y vainilla cocido al baño maría, apenas endulzado con miel. Un postre suave para ocasiones especiales (el tiempo incluye las 2 horas de refrigeración).",
+  "category": "postre",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 140,
+  "cook_minutes": 40,
+  "servings": 6,
+  "difficulty": 2,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "El plátano, la leche y los huevos aportan energía, potasio, calcio y proteínas que acompañan el crecimiento. La miel y el jarabe de agave también son azúcares libres, igual que el azúcar de mesa, así que este flan es un postre ocasional.",
+  "tips": "Para una textura aún más cremosa, usa mitad leche y mitad yogur natural; una ralladura de naranja o de limón realza el sabor del plátano. Bien tapado, dura hasta 3 días en el refrigerador y no conviene congelarlo: el huevo se vuelve granuloso.",
+  "family_mode_note": "Todos comen el mismo flan: los adultos pueden acompañar su porción con nueces enteras y los niños con coco rallado fino.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sirve una porción pequeña y decora solo con coco rallado fino: para menores de 5 años los frutos secos van siempre bien molidos, nunca enteros ni en trozos."
+    }
+  ],
+  "ingredients": [
+    { "code": "platano", "name": "Plátano (banana)", "amount": 2, "unit": "unidad", "note": "bien maduros", "sort_order": 1 },
+    { "code": "leche", "name": "Leche entera", "amount": 500, "unit": "ml", "note": "o bebida vegetal sin azúcar", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 3, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "miel", "name": "Miel", "amount": 2, "unit": "cucharada", "note": "o jarabe (miel) de agave; suma 2 cucharadas más si preparas el caramelo opcional del molde", "sort_order": 4 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": null, "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C. Ten listo un molde para flan y una bandeja honda donde quepa, para el baño maría.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Caramelo opcional: en una olla pequeña calienta a fuego bajo 2 cucharadas de miel (aparte de las de la mezcla) con 1 cucharadita de agua, de 1 a 2 minutos, solo hasta que burbujee suave y tome color dorado. No la dejes hervir fuerte, porque la miel se quema muy rápido. Viértela de inmediato en el fondo del molde y ladéalo para cubrirlo.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Pela los plátanos y tritúralos con un tenedor o en la licuadora hasta obtener un puré sin grumos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "En un bol grande, bate los huevos con las 2 cucharadas de miel de la mezcla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega la leche, la esencia de vainilla y la canela, y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Incorpora el puré de plátano y bate hasta que la mezcla quede homogénea.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Vierte la mezcla en el molde. Coloca el molde dentro de la bandeja y llena la bandeja con agua caliente hasta la mitad de la altura del molde.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Hornea de 35 a 40 minutos, hasta que los bordes estén firmes y el centro tiemble apenas, como gelatina. La prueba del palillo no sirve para el flan, porque termina de cuajar al enfriarse; lo que no puede quedar es mezcla líquida: el huevo tiene que estar completamente cocido.", "is_safety_critical": true },
+    { "step_number": 9, "instruction": "Deja enfriar a temperatura ambiente y refrigera por lo menos 2 horas antes de servir.", "is_safety_critical": false },
+    { "step_number": 10, "instruction": "Pasa un cuchillo por el borde, desmolda y sirve frío, decorado con coco rallado fino.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [67], "pages": [155, 156] },
+  "image_filename": "receta-flan-suave-de-platano.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "caldo-de-pollo",
+  "title": "Caldo de Pollo",
+  "description": "Un caldo de pollo casero y sin sal, suave y versátil, para dar sabor a papillas, sopas y guisos del bebé.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 25,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Un caldo de pollo casero y sin sal aporta líquidos y sabor suave; sirve como base para papillas, sopas y guisos del bebé.",
+  "tips": "Deja enfriar el caldo en el refrigerador y retira la grasa que sube a la superficie para un caldo más ligero. Congélalo en cubetera hasta 2 meses. La cebolla cocida es apta desde los 6 meses y aporta sabor sin sal.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Usa el caldo colado y tibio para preparar o aligerar papillas y purés." }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 0.5, "unit": "unidad", "note": "sin piel", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "opcional", "sort_order": 3 },
+    { "code": "agua", "name": "Agua", "amount": 1, "unit": "taza", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca la pechuga de pollo, la zanahoria y la cebolla (si la usas) en una cacerola.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cubre con el agua.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina a fuego medio unos 20 minutos, hasta que el pollo esté completamente cocido.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Retira el pollo y desménuzalo para aprovecharlo en otra preparación.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cuela el caldo para eliminar las verduras y los restos de pollo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Si prefieres un caldo más líquido, agrega un poco más de agua; para uno más concentrado, cocínalo destapado unos minutos más.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Sirve tibio o úsalo como base para sopas y guisos.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [70], "pages": [90] },
+  "image_filename": "receta-caldo-de-pollo.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

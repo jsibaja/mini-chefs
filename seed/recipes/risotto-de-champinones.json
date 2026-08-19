@@ -1,0 +1,59 @@
+{
+  "slug": "risotto-de-champinones",
+  "title": "Risotto de Champiñones",
+  "description": "Arroz cremoso con champiñones dorados y queso parmesano, cocinado poco a poco con caldo de verduras en lugar de vino. Suave, reconfortante y apto para toda la familia.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 30,
+  "servings": 3,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los champiñones aportan fibra, potasio y selenio, y el arroz entrega energía de liberación sostenida; el parmesano suma calcio y mucho sabor con poca cantidad.",
+  "tips": "Este risotto pide arroz redondo (arborio u otro), que suelta el almidón que da la cremosidad. Si solo tienes arroz integral no quedará un risotto tradicional: cocínalo aparte 40-45 minutos con más caldo y mézclalo al final con los champiñones y el queso.",
+  "family_mode_note": "Para un plato más completo, corona con pollo cocido desmenuzado o cubos de tofu salteado al servir.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Sirve la porción del bebé sin sal y con muy poco queso, y pica los champiñones en trozos pequeños y bien cocidos; la textura cremosa del risotto es ideal a esta edad."
+    }
+  ],
+  "ingredients": [
+    { "code": "arroz_arborio", "name": "Arroz arborio u otro arroz redondo", "amount": 200, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "champinon", "name": "Champiñones", "amount": 150, "unit": "g", "note": "laminados", "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada fina", "sort_order": 3 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 4 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 750, "unit": "ml", "note": "casero o bajo en sodio, caliente", "sort_order": 5 },
+    { "code": "queso_parmesano", "name": "Queso parmesano rallado", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "muy poca: el parmesano ya es salado", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Calienta el caldo de verduras en una olla pequeña y mantenlo caliente a fuego bajo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una sartén amplia con el aceite de oliva, sofríe la cebolla y el ajo picados hasta que estén tiernos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega los champiñones laminados y cocina hasta que reduzcan su tamaño.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora el arroz y tuéstalo ligeramente durante 2 minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Añade un cucharón de caldo caliente y revuelve hasta que el arroz lo absorba.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Continúa agregando caldo poco a poco, revolviendo con frecuencia, hasta que el arroz esté cremoso y tierno (20-25 minutos).", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Retira del fuego, incorpora el queso parmesano y mezcla bien; prueba y ajusta con muy poca sal solo si hace falta.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sirve caliente, con perejil picado por encima si lo deseas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [33], "pages": [85, 86] },
+  "image_filename": "receta-risotto-de-champinones.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

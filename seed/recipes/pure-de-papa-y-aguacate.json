@@ -1,0 +1,49 @@
+{
+  "slug": "pure-de-papa-y-aguacate",
+  "title": "Puré de papa y aguacate",
+  "description": "Un puré cremoso de papa con aguacate maduro: suave, saciante y cargado de grasas buenas, ideal para las primeras cucharadas del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 5,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["verde", "blanco_amarillo"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La papa aporta energía y potasio, y el aguacate suma grasas saludables importantes para el desarrollo del cerebro; la combinación resulta muy cremosa y fácil de aceptar.",
+  "tips": "El aguacate se oscurece y amarga al reposar: mezcla solo la cantidad que vas a servir y agrega el resto al momento. Si sobra puré, guárdalo tapado en el refrigerador y consúmelo el mismo día.",
+  "family_mode_note": "Convierte la base en guacamole suave para los más grandes agregando tomate picado y unas gotas de limón después de reservar la porción del bebé.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura la papa hasta un puré muy fino y, si hace falta, aclara con leche materna o fórmula tibia agregada fuera del fuego (nunca la hiervas)." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca la papa con un tenedor dejando la textura más gruesa y mezcla el aguacate en trocitos blandos." }
+  ],
+  "ingredients": [
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "pequeña", "sort_order": 1 },
+    { "code": "aguacate", "name": "Aguacate maduro", "amount": 0.25, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna o fórmula", "amount": 1, "unit": "cucharada", "note": "opcional, para suavizar", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y corta la papa en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cuécela en agua hirviendo unos 15 minutos, hasta que esté bien blanda.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Escurre la papa y tritúrala hasta obtener un puré suave.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Pela el aguacate, córtalo y agrégalo al puré; mezcla hasta lograr una textura homogénea.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Si hace falta, aclara con agua o leche materna o fórmula tibia (fuera del fuego). Deja entibiar y sirve.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [28], "pages": [46] },
+  "image_filename": "receta-pure-de-papa-y-aguacate.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

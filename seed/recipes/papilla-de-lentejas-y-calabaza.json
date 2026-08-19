@@ -1,0 +1,48 @@
+{
+  "slug": "papilla-de-lentejas-y-calabaza",
+  "title": "Papilla de lentejas y calabaza",
+  "description": "Un puré suave de lentejas y calabaza, dulce y aterciopelado, que combina proteína vegetal e hierro con el color naranja de la calabaza.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las lentejas aportan proteína vegetal, hierro y fibra, y la calabaza suma betacarotenos y un dulzor suave; una papilla nutritiva y económica para el crecimiento del bebé.",
+  "tips": "Aplasta bien las lentejas: antes de los 12 meses deben quedar sin grumos firmes para evitar atragantamientos. Acompaña con una fruta rica en vitamina C (naranja, mango) para aprovechar mejor el hierro. Congela porciones hasta por 3 meses.",
+  "family_mode_note": "Aumenta las cantidades y sazona la porción de los adultos con comino y un chorrito de aceite de oliva para un guiso de lentejas familiar.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Deja la textura un poco más gruesa, con las lentejas y la calabaza machacadas en trocitos muy blandos." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve las lentejas enteras bien blandas junto a la calabaza en cubitos, sin triturar del todo." }
+  ],
+  "ingredients": [
+    { "code": "lenteja", "name": "Lentejas cocidas", "amount": 0.25, "unit": "taza", "note": "bien blandas", "sort_order": 1 },
+    { "code": "calabaza", "name": "Calabaza", "amount": 0.5, "unit": "taza", "note": "en trozos", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la calabaza en agua o caldo casero sin sal hasta que esté bien blanda, unos 15 minutos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla la calabaza cocida con las lentejas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura los ingredientes hasta obtener un puré suave, aplastando bien las lentejas para que no queden grumos firmes.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Si hace falta, agrega más líquido para ajustar la consistencia y sirve tibia.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [35], "pages": [53] },
+  "image_filename": "receta-papilla-de-lentejas-y-calabaza.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

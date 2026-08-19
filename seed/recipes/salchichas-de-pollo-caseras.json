@@ -1,0 +1,58 @@
+{
+  "slug": "salchichas-de-pollo-caseras",
+  "title": "Salchichas de Pollo Caseras",
+  "description": "Salchichas hechas en casa con pechuga de pollo, zanahoria y avena: una alternativa a los embutidos, sin conservadores y con sabor suave que encanta a los niños.",
+  "category": "lonchera",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Proteína de pollo con verdura rallada y avena: una versión casera de la salchicha con mucho menos sodio y sin conservadores.",
+  "tips": "Congela las salchichas ya cocidas hasta 2 meses y descongélalas en el refrigerador la noche anterior; en la lonchera viajan siempre en lonchera térmica con gel refrigerante y se consumen antes de 4 horas.",
+  "family_mode_note": "Para los adultos, sírvelas con mostaza extra o una salsa con picante aparte; la base es la misma para todos.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara la masa sin sal y sin mostaza, cocina la salchicha hasta que esté completamente cocida y sírvela desmenuzada o en trocitos muy pequeños."
+    }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo_molida", "name": "Pechuga de pollo molida", "amount": 500, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "rallada fina", "sort_order": 2 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado fino", "sort_order": 3 },
+    { "code": "mostaza", "name": "Mostaza", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "avena_molida", "name": "Avena molida", "amount": 0.5, "unit": "taza", "note": "o pan rallado", "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 6 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": null, "sort_order": 7 },
+    { "code": "papel_horno", "name": "Papel de horno (papel encerado)", "amount": 8, "unit": "trozo", "note": "o film APTO para cocción a altas temperaturas; nunca papel film común", "sort_order": 8 },
+    { "code": "aceite", "name": "Aceite vegetal", "amount": 1, "unit": "cucharadita", "note": "solo para dorarlas (opcional)", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol el pollo molido, la zanahoria rallada, el ajo, la mostaza, la avena, la pizca de sal y la pimienta hasta obtener una masa uniforme.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Divide la mezcla en 8 porciones y, con las manos húmedas, forma cilindros del tamaño de una salchicha.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Envuelve cada cilindro en papel de horno o en film apto para cocción a altas temperaturas (nunca papel film común, que puede transferir plásticos al alimento) y gira los extremos como un caramelo para sellar.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Cocina las salchichas envueltas en agua hirviendo por 12-15 minutos; al cortar una por el centro no debe quedar ninguna parte rosada.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Retira el envoltorio y, si quieres una textura más dorada, pásalas por una sartén con un poquito de aceite.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Para menores de 5 años, corta las salchichas a lo largo en cuartos y luego en trozos pequeños; nunca en rodajas redondas tipo moneda, que pueden causar atragantamiento.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [14], "pages": [37] },
+  "image_filename": "receta-salchichas-de-pollo-caseras.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

@@ -1,0 +1,196 @@
+{
+  "slug": "salpicon-de-frutas",
+  "title": "Salpicón de Frutas",
+  "description": "Un arcoíris de frutas picadas bañadas en jugo de naranja natural, al estilo del clásico salpicón. También se puede armar en capas con yogur griego y granola.",
+  "category": "colacion",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [
+    3,
+    4,
+    5
+  ],
+  "prep_minutes": 15,
+  "cook_minutes": 0,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": [
+    "colacion_am",
+    "colacion_pm",
+    "lonchera"
+  ],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [
+    "naranja",
+    "rojo",
+    "blanco_amarillo"
+  ],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Un arcoíris de frutas con fibra y vitamina C: la variedad de colores es una forma sencilla de sumar nutrientes distintos en una sola porción.",
+  "tips": "Empácalo bien frío en recipiente hermético con gel refrigerante; una pizca de canela o ralladura de limón le cambia el aroma. Si usas frutos secos en la versión en capas, siempre finamente triturados y confirmando la política de alérgenos de la escuela. Los jugos de fruta no se recomiendan antes de los 12 meses: para los más pequeños, sirve solo la fruta picada sin el jugo.",
+  "family_mode_note": "En casa y para una ocasión especial, puedes acompañarlo con una bolita de helado de vainilla, como se sirve tradicionalmente.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Tritura las frutas maduras (banana, papaya, mango) como puré suave, sin jugo de naranja añadido: los jugos no se recomiendan antes de los 12 meses."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Machaca las frutas blandas o sírvelas en trocitos muy blandos; usa la manzana rallada o cocida y omite el jugo de naranja."
+    },
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve las frutas en trozos pequeños con apenas un chorrito de jugo de naranja natural, o sin jugo."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "pina",
+      "name": "Piña",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "en trozos pequeños",
+      "sort_order": 1
+    },
+    {
+      "code": "mango",
+      "name": "Mango",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "en trozos pequeños",
+      "sort_order": 2
+    },
+    {
+      "code": "fresa",
+      "name": "Fresas",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "en trozos pequeños",
+      "sort_order": 3
+    },
+    {
+      "code": "manzana",
+      "name": "Manzana",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "en trozos pequeños",
+      "sort_order": 4
+    },
+    {
+      "code": "banana",
+      "name": "Banana (plátano)",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "en trozos",
+      "sort_order": 5
+    },
+    {
+      "code": "papaya",
+      "name": "Papaya",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "en trozos pequeños",
+      "sort_order": 6
+    },
+    {
+      "code": "jugo_naranja",
+      "name": "Jugo de naranja natural",
+      "amount": 3,
+      "unit": "taza",
+      "note": "recién exprimido (o jugo de papaya o de sandía)",
+      "sort_order": 7
+    },
+    {
+      "code": "uva",
+      "name": "Uvas",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "opcional; en cuartos a lo largo para menores de 5 años",
+      "sort_order": 8
+    },
+    {
+      "code": "yogur_griego",
+      "name": "Yogur griego natural",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "opcional, para la versión en capas (ensalada de frutas)",
+      "sort_order": 9
+    },
+    {
+      "code": "granola",
+      "name": "Granola sin azúcar añadida",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "opcional, para la versión en capas (o avena en hojuelas tostada)",
+      "sort_order": 10
+    },
+    {
+      "code": "nuez",
+      "name": "Nueces y arándanos secos",
+      "amount": 2,
+      "unit": "cucharada",
+      "note": "opcional, para la versión en capas; siempre finamente triturados. Alérgeno: frutos secos; confirma la política de la escuela (muchas son libres de maní)",
+      "sort_order": 11
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Lava y pela las frutas; córtalas en trozos pequeños, del tamaño de un bocado de niño.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "Si agregas uvas, córtalas siempre en cuartos a lo largo para los menores de 5 años: enteras son riesgo de atragantamiento.",
+      "is_safety_critical": true
+    },
+    {
+      "step_number": 3,
+      "instruction": "Coloca las frutas en un tazón o jarra, vierte el jugo de naranja y mezcla bien.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Refrigera al menos 30 minutos y sirve bien frío.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 5,
+      "instruction": "Para la versión en capas (ensalada de frutas): omite el jugo y alterna capas de frutas con yogur griego en un vaso; corona con granola justo antes de comer para que no se ablande.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 6,
+      "instruction": "Si agregas frutos secos, tritúralos muy finos: antes de los 5 años los frutos secos enteros o en trozos están prohibidos por riesgo de atragantamiento.",
+      "is_safety_critical": true
+    },
+    {
+      "step_number": 7,
+      "instruction": "Empaca en recipiente hermético con gel refrigerante y consume antes de 4 horas: la fruta picada necesita cadena de frío.",
+      "is_safety_critical": true
+    }
+  ],
+  "source": {
+    "book": "loncheras",
+    "numbers": [
+      94,
+      98
+    ],
+    "pages": [
+      126,
+      130
+    ]
+  },
+  "image_filename": "receta-salpicon-de-frutas.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

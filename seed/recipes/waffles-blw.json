@@ -1,0 +1,49 @@
+{
+  "slug": "waffles-blw",
+  "title": "Waffles BLW de Plátano y Avena",
+  "description": "Waffles blandos de plátano, avena y huevo, sin azúcar añadida. Su forma con relieve es perfecta para que manos pequeñas los agarren.",
+  "category": "desayuno",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El plátano aporta dulzor natural y potasio, la avena fibra y energía, y el huevo proteína completa, hierro y colina. Sin azúcar añadida.",
+  "tips": "El huevo es un alérgeno: si es la primera vez, ofrécelo solo y observa 2-3 días. Congélalos separados con papel para hornear (hasta 2 meses) y recaliéntalos en la tostadora. Si no tienes wafflera, cocina la misma masa como panqueques en una sartén.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Córtalos en tiras del grosor de un dedo para que los tome con la mano (método BLW); asegúrate de que queden bien cocidos por dentro y no agregues ningún endulzante." }
+  ],
+  "ingredients": [
+    { "code": "avena_molida", "name": "Avena molida", "amount": 0.5, "unit": "taza", "note": "o harina de avena", "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": "alérgeno: huevo", "sort_order": 2 },
+    { "code": "platano", "name": "Plátano (banana)", "amount": 0.5, "unit": "unidad", "note": "maduro", "sort_order": 3 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna, fórmula o agua", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Tritura el plátano con un tenedor hasta obtener un puré.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla el puré de plátano con el huevo, la avena y el líquido hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Vierte la mezcla en una wafflera precalentada y ligeramente engrasada.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocina hasta que los waffles estén dorados y bien cocidos por dentro, sin masa líquida.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja entibiar antes de servir, solos o con compota de frutas o yogur natural sin azúcar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [51], "pages": [70] },
+  "image_filename": "receta-waffles-blw.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

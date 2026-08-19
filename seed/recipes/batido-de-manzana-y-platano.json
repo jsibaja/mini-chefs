@@ -1,0 +1,48 @@
+{
+  "slug": "batido-de-manzana-y-platano",
+  "title": "Batido de Manzana y Plátano",
+  "description": "Batido suave y cremoso de manzana y plátano, dulce solo con fruta. Un desayuno o colación fresca que se prepara en minutos.",
+  "category": "bebida",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La manzana y el plátano aportan fibra, potasio y dulzor natural, y la base de leche materna o fórmula suma nutrientes. Sin azúcar añadida ni jugos concentrados.",
+  "tips": "Es un batido de fruta entera (no un jugo), por eso es apto desde los 6 meses; a esa edad ofrécelo con cuchara, bien espeso. Sírvelo recién hecho para que no se oxide. Para los más grandes, congélalo en moldes de paleta.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Cocina la manzana al vapor antes de licuarla para que sea más suave y digerible, usa leche materna o fórmula como líquido y ofrécelo espeso, con cuchara." },
+    { "age_band": "9_11m", "adaptation_text": "Puedes agregar una pizca de chía o avena molida para sumar fibra y espesor." }
+  ],
+  "ingredients": [
+    { "code": "manzana", "name": "Manzana", "amount": 0.5, "unit": "unidad", "note": "pelada y en trozos", "sort_order": 1 },
+    { "code": "platano", "name": "Plátano (banana)", "amount": 0.5, "unit": "unidad", "note": "maduro", "sort_order": 2 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna, fórmula o agua", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca la manzana, el plátano y el líquido en la licuadora.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Tritura hasta obtener un batido suave y homogéneo, sin trozos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Ajusta la consistencia con un poco más de líquido si hace falta.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Sirve de inmediato, o enfríalo un poco antes si lo prefieres frío.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [46], "pages": [65] },
+  "image_filename": "receta-batido-de-manzana-y-platano.webp",
+  "fallback_image": "placeholder-categoria-bebidas.webp"
+}

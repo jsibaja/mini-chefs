@@ -1,0 +1,46 @@
+{
+  "slug": "batido-de-aguacate",
+  "title": "Batido de Aguacate",
+  "description": "Batido verde, suave y muy cremoso de aguacate y banana con leche. Naturalmente dulce y lleno de energía buena.",
+  "category": "bebida",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["verde", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El aguacate aporta grasas saludables que participan en el desarrollo del cerebro, y la banana suma potasio y dulzor natural.",
+  "tips": "Unas gotas de jugo de limón evitan que el batido se oscurezca; prepáralo el mismo día y, si va a la lonchera, llévalo en termo frío.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Prepáralo más espeso, con la mitad de la leche, y sírvelo con cucharita: a esta edad el aguacate se aprovecha mejor como crema que como bebida." }
+  ],
+  "ingredients": [
+    { "code": "banana", "name": "Banana (plátano)", "amount": 1, "unit": "unidad", "note": "madura", "sort_order": 1 },
+    { "code": "aguacate", "name": "Aguacate", "amount": 1, "unit": "unidad", "note": "maduro", "sort_order": 2 },
+    { "code": "leche", "name": "Leche", "amount": 200, "unit": "ml", "note": "o bebida vegetal sin azúcar añadida", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela la banana y el aguacate; retira la semilla del aguacate.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Licúa la fruta con la leche hasta obtener una mezcla cremosa y sin grumos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Sírvelo bien frío, o refrigéralo hasta el momento de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [96], "pages": [128] },
+  "image_filename": "receta-batido-de-aguacate.webp",
+  "fallback_image": "placeholder-categoria-bebidas.webp"
+}

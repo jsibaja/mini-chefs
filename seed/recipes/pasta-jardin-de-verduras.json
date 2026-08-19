@@ -1,0 +1,62 @@
+{
+  "slug": "pasta-jardin-de-verduras",
+  "title": "Pasta Jardín de Verduras",
+  "description": "Pasta integral con una salsa de tomate llena de verduras de colores, como un jardín en el plato; funciona con macarrones, espagueti o la forma favorita de tu niño.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "naranja", "verde"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La pasta integral aporta fibra y energía duradera, y las verduras suman vitaminas A y C junto con el licopeno del tomate.",
+  "tips": "Prepara doble cantidad de salsa y congélala hasta 3 meses: tendrás una base lista para pasta, arroz o pizza. Un toque de albahaca fresca al servir la hace especial.",
+  "family_mode_note": "La misma salsa sirve para toda la familia; los adultos pueden sumar pimienta o ají en su plato al final.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Usa pasta chica muy bien cocida y sin sal; machaca la pasta con las verduras y la salsa hasta dejar trocitos blandos."
+    }
+  ],
+  "ingredients": [
+    { "code": "pasta_integral", "name": "Pasta integral", "amount": 200, "unit": "g", "note": "macarrones, espagueti o la forma que prefieran", "sort_order": 1 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "pimiento_rojo", "name": "Pimiento rojo (morrón)", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 4 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": null, "sort_order": 5 },
+    { "code": "tomate_triturado", "name": "Tomate triturado (puré de tomate)", "amount": 200, "unit": "g", "note": "sin azúcar añadida", "sort_order": 6 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 7 },
+    { "code": "oregano", "name": "Orégano", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 8 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 9 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela en porciones para menores de 12 meses", "sort_order": 10 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 11 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pon a hervir agua con poca sal y cuece la pasta según las indicaciones del paquete.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava y corta en trozos pequeños la calabacita, el pimiento, la cebolla y la zanahoria.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén con el aceite de oliva, sofríe el ajo y la cebolla hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega el pimiento y la zanahoria y cocina 5 minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Incorpora la calabacita y el tomate triturado y cocina a fuego medio 10 minutos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Agrega el orégano y una pizca de pimienta; prueba antes de decidir si hace falta más sal.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Escurre la pasta y mézclala con la salsa de verduras.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sirve caliente, con queso rallado por encima si quieres.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [20, 23], "pages": [59, 60, 65, 66] },
+  "image_filename": "receta-pasta-jardin-de-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

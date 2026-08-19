@@ -1,0 +1,51 @@
+{
+  "slug": "galletas-de-coco",
+  "title": "Galletas de Coco",
+  "description": "Galletas suaves de solo tres ingredientes: plátano maduro, huevo y coco. Dulces por la fruta, sin una pizca de azúcar añadida. Contienen huevo y coco.",
+  "category": "colacion",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El plátano aporta dulzor natural y potasio, y el huevo suma proteína completa; no llevan azúcares añadidos.",
+  "tips": "Mientras más maduro el plátano, más dulces quedan. Guárdalas hasta 2 días en un recipiente hermético o congélalas ya horneadas hasta 2 meses.",
+  "family_mode_note": null,
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara la versión con mitad avena para una textura más suave, omite las decoraciones y ofrécelas desmenuzadas en trocitos blandos."
+    }
+  ],
+  "ingredients": [
+    { "code": "platano_banana", "name": "Plátano (banana) maduro", "amount": 3, "unit": "unidad", "note": "medianos", "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "coco_deshidratado", "name": "Coco deshidratado sin azúcar", "amount": 1.5, "unit": "taza", "note": "puedes sustituir la mitad por avena en hojuelas para una textura más suave", "sort_order": 3 },
+    { "code": "pasas", "name": "Pasas o arándanos deshidratados", "amount": 2, "unit": "cucharada", "note": "opcional, para decorar antes de hornear; pícalos para menores de 4 años", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Tritura los plátanos en un bol con un tenedor hasta obtener un puré.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el huevo y el coco deshidratado y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Toma pequeñas porciones, forma las galletas y aplánalas sobre una bandeja con papel de horno. Decora con las pasas si las usas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea a 180 °C por 15 minutos, hasta que estén firmes y doradas: así el huevo queda bien cocido. Sin horno: cocínalas en sartén a fuego medio con un poco de aceite de coco, dorándolas por ambos lados.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [71], "pages": [101] },
+  "image_filename": "receta-galletas-de-coco.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

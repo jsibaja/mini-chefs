@@ -1,0 +1,50 @@
+{
+  "slug": "tortilla-colorida",
+  "title": "Tortilla Colorida de Verduras",
+  "description": "Tortilla de huevo llena de color con zanahoria y calabacín rallados, blanda y fácil de agarrar. Perfecta en tiras para manos pequeñas.",
+  "category": "desayuno",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo aporta proteína completa, hierro y colina, y la zanahoria y el calabacín suman betacarotenos, fibra y color. Un desayuno salado y completo.",
+  "tips": "El huevo es un alérgeno: si es la primera vez, ofrécelo solo y observa 2-3 días. Puedes sumar un poco de espinaca picada, pero antes de los 12 meses úsala en cantidad pequeña por su contenido de nitratos, o mejor omítela. En la lonchera viaja fría con gel refrigerante; córtala en tiras del grosor de un dedo.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Córtala en tiras blandas del grosor de un dedo para que la tome con la mano (método BLW); asegúrate de que el huevo quede bien cuajado, sin sal, y omite la espinaca." }
+  ],
+  "ingredients": [
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": "alérgeno: huevo", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "rallada fina", "sort_order": 2 },
+    { "code": "calabacin", "name": "Calabacín (zucchini)", "amount": 0.5, "unit": "unidad", "note": "rallado fino", "sort_order": 3 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna o fórmula", "amount": 1, "unit": "cucharada", "note": "opcional", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": "para la sartén", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Bate los huevos con la leche materna o fórmula, si la usas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega la zanahoria y el calabacín rallados finos y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Calienta una sartén antiadherente con el aceite a fuego bajo y vierte la mezcla.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocina a fuego bajo hasta que cuaje por completo, sin partes líquidas, dándole vuelta si hace falta.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja entibiar y córtala en tiras o trozos pequeños según la edad del niño.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [49, 73], "pages": [68, 94] },
+  "image_filename": "receta-tortilla-colorida.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

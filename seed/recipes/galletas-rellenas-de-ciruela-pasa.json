@@ -1,0 +1,66 @@
+{
+  "slug": "galletas-rellenas-de-ciruela-pasa",
+  "title": "Galletas Rellenas de Ciruela Pasa",
+  "description": "Una masa suave de avena y harina integral que envuelve un relleno espeso de ciruelas pasas cocidas con naranja. Se cortan en cuadritos, aguantan la mochila y son la colación dulce de los días especiales.",
+  "category": "lonchera",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 30,
+  "cook_minutes": 25,
+  "servings": 12,
+  "difficulty": 3,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": true,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["morado"],
+  "carb_base": "avena",
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La masa de avena y harina integral aporta fibra y energía sostenida, y el relleno de ciruela suma potasio y hierro vegetal. Como la ciruela pasa triturada concentra azúcares libres, son galletas para ocasiones y no para todos los días.",
+  "tips": "Se conservan una semana en un frasco hermético a temperatura ambiente y hasta 3 meses congeladas de a una en bolsa. Si prefieres otro relleno, cambia las ciruelas por orejones de durazno hidratados en agua caliente durante 20 minutos.",
+  "family_mode_note": "Los niños pueden ayudar a extender el relleno con el dorso de una cuchara y a marcar los cuadritos con un cuchillo de mesa antes de hornear.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Ofrece medio cuadrito por porción y acompáñalo con agua: el relleno es pegajoso y conviene que coma sentado y sin prisa."
+    },
+    {
+      "age_band": "6_9a",
+      "adaptation_text": "Un cuadrito entero es la porción para la lonchera escolar; combínalo con fruta fresca para equilibrar el dulzor."
+    }
+  ],
+  "ingredients": [
+    { "code": "ciruela_pasa", "name": "Ciruelas pasas sin hueso", "amount": 200, "unit": "g", "note": "revisa una por una que no tengan hueso", "sort_order": 1 },
+    { "code": "jugo_naranja", "name": "Jugo de naranja", "amount": 100, "unit": "ml", "note": "recién exprimido; también sirve agua", "sort_order": 2 },
+    { "code": "harina_trigo_integral", "name": "Harina de trigo integral", "amount": 180, "unit": "g", "note": "1½ tazas; alérgeno: gluten", "sort_order": 3 },
+    { "code": "hojuelas_avena", "name": "Hojuelas de avena", "amount": 100, "unit": "g", "note": "1 taza", "sort_order": 4 },
+    { "code": "aceite_vegetal", "name": "Aceite vegetal", "amount": 80, "unit": "ml", "note": "⅓ de taza", "sort_order": 5 },
+    { "code": "agua", "name": "Agua fría", "amount": 60, "unit": "ml", "note": "agrégala cucharada a cucharada", "sort_order": 6 },
+    { "code": "canela", "name": "Canela molida", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "ralladura_naranja", "name": "Ralladura de naranja", "amount": 1, "unit": "cucharadita", "note": "solo la parte naranja de la cáscara", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Revisa una por una las ciruelas pasas y retira cualquier hueso que haya quedado: un hueso escondido puede atragantar o romper un diente.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Cocina las ciruelas con el jugo de naranja a fuego bajo durante 10 minutos, hasta que estén muy blandas y el líquido casi se haya consumido.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritúralas con la licuadora o el procesador hasta obtener una pasta espesa que se sostenga en la cuchara. Si queda muy líquida, devuélvela al fuego 3 minutos más.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Deja enfriar el relleno mientras preparas la masa; caliente empapa la masa y la deja cruda por dentro.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Mezcla la harina integral, las hojuelas de avena, la canela y la ralladura de naranja en un tazón.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Agrega el aceite y frótalo con los dedos; luego suma el agua fría cucharada a cucharada hasta formar una masa que se una sin pegarse. Divídela en dos partes iguales.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Precalienta el horno a 180 °C. Estira la primera mitad de la masa entre dos hojas de papel para hornear hasta formar un rectángulo de 20 x 25 cm y pásala a la bandeja con el papel de abajo.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Extiende el relleno frío sobre la masa dejando 1 cm libre en los bordes, estira la segunda mitad del mismo tamaño y colócala encima. Presiona los bordes con un tenedor para sellarlos.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Pincha la superficie con un tenedor y marca 12 cuadritos con un cuchillo sin llegar hasta abajo, para que después sea fácil separarlos.", "is_safety_critical": false },
+    { "step_number": 10, "instruction": "Hornea de 22 a 25 minutos, hasta que la superficie esté dorada y firme al tacto.", "is_safety_critical": false },
+    { "step_number": 11, "instruction": "Deja enfriar por completo antes de cortar por las marcas: en caliente el relleno se desborda y las galletas se rompen.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-galletas-rellenas-de-ciruela-pasa.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

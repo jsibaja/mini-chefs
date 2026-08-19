@@ -1,0 +1,55 @@
+{
+  "slug": "tortitas-de-calabaza",
+  "title": "Tortitas de Calabaza",
+  "description": "Tortitas suaves de puré de calabaza y avena con un toque de canela, endulzadas solo con plátano maduro: un desayuno color naranja sin azúcar añadida.",
+  "category": "desayuno",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Endulzadas solo con fruta: la calabaza y el plátano maduro aportan dulzor natural y betacarotenos, y la avena con huevo dan energía y proteína para empezar el día.",
+  "tips": "Congélalas con papel de horno entre capas hasta 2 meses y caliéntalas directo en el tostador o la sartén; en la lonchera acompáñalas con yogur natural o fruta fresca y gel refrigerante.",
+  "family_mode_note": "La misma mezcla sirve para panqueques familiares más grandes; los adultos pueden coronarlos con nueces picadas.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Sirve la tortita en tiras blandas que el bebé pueda agarrar, bien cocida por dentro y sin ningún endulzante extra."
+    }
+  ],
+  "ingredients": [
+    { "code": "calabaza_cocida", "name": "Calabaza cocida", "amount": 1, "unit": "taza", "note": "auyama o zapallo, hecha puré", "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": "o avena molida", "sort_order": 3 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "canela_molida", "name": "Canela molida", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 5 },
+    { "code": "platano_maduro", "name": "Plátano (banana) maduro", "amount": 0.5, "unit": "unidad", "note": "machacado, para dar dulzor natural", "sort_order": 6 },
+    { "code": "aceite", "name": "Aceite vegetal", "amount": 1, "unit": "cucharadita", "note": "para la sartén", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol el puré de calabaza con el huevo y el plátano machacado.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega la harina de avena, el polvo de hornear y la canela, y mezcla hasta obtener una masa suave y espesa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Calienta una sartén a fuego medio con un poco de aceite y vierte porciones de masa con una cuchara, aplanándolas ligeramente.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Dora 2-3 minutos por lado, hasta que las tortitas estén firmes y cocidas por dentro (la masa lleva huevo).", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Déjalas enfriar sobre una rejilla antes de guardarlas o empacarlas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [21], "pages": [44] },
+  "image_filename": "receta-tortitas-de-calabaza.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "quesadilla-mananera-de-frijol-y-queso",
+  "title": "Quesadilla Mañanera de Frijol y Queso",
+  "description": "Tortilla de maíz dorada, rellena de pasta de frijol y queso derretido, cortada en tiras fáciles de agarrar. Lista en poco más de 10 minutos y con proteína de verdad.",
+  "category": "desayuno",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 8,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "legumbre",
+  "veggie_colors": ["verde"],
+  "carb_base": "maiz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los frijoles aportan proteína vegetal, hierro y fibra, y el queso fresco suma calcio y proteína. Con la tortilla de maíz se arma un desayuno completo y muy económico.",
+  "tips": "Prepara el doble de pasta de frijol y guárdala hasta 3 días tapada en el refrigerador: sirve para untar pan o rellenar arepas. Si tu niño recién empieza con los frijoles, pásalos por un colador para retirar las cáscaras y la pasta quedará mucho más suave.",
+  "family_mode_note": "Es la misma quesadilla para toda la mesa: los adultos suman salsa picante y cebolla morada encima, la de los niños se queda sin picante y con poca sal.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Machaca los frijoles hasta que no quede ningún grano entero, usa poca sal y corta la quesadilla en tiras del ancho de tu dedo. Sírvela tibia, nunca recién salida de la sartén." },
+    { "age_band": "2_5a", "adaptation_text": "Córtala en triángulos y deja que participe: puede untar el frijol con el reverso de una cuchara y repartir el queso." }
+  ],
+  "ingredients": [
+    { "code": "tortilla_maiz", "name": "Tortilla de maíz", "amount": 2, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "frijol_negro", "name": "Frijoles negros cocidos", "amount": 0.5, "unit": "taza", "note": "escurridos, sin caldo", "sort_order": 2 },
+    { "code": "queso_fresco", "name": "Queso fresco", "amount": 40, "unit": "g", "note": "rallado o desmenuzado", "sort_order": 3 },
+    { "code": "aguacate", "name": "Aguacate", "amount": 0.25, "unit": "unidad", "note": "maduro, para acompañar", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "comino_polvo", "name": "Comino en polvo", "amount": 1, "unit": "pizca", "note": null, "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Escurre los frijoles cocidos y machácalos con un tenedor hasta formar una pasta espesa; mézclalos con la pizca de comino.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Calienta una sartén a fuego medio con el aceite y coloca una tortilla.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Unta la mitad de la tortilla con la pasta de frijol y reparte el queso encima; dobla la tortilla por la mitad.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Dórala 2 minutos por cada lado, presionando suave con la espátula, hasta que el queso se derrita. Repite con la segunda tortilla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Retira del fuego y deja entibiar 2 minutos antes de cortar: el relleno de frijol y queso guarda mucho calor por dentro aunque la tortilla se sienta tibia por fuera.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Corta la quesadilla en tiras del ancho de un dedo y sirve con bastones de aguacate maduro al lado.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-quesadilla-mananera-de-frijol-y-queso.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

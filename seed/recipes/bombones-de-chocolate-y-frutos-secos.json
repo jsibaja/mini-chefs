@@ -1,0 +1,53 @@
+{
+  "slug": "bombones-de-chocolate-y-frutos-secos",
+  "title": "Bombones de Chocolate y Frutos Secos",
+  "description": "Bocaditos sin horno de pasta de dátiles y almendras molidas envueltos en cacao puro. Un gusto energético y sin azúcar añadida para los más grandes.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 0,
+  "servings": 8,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "Los dátiles y las almendras molidas aportan energía, fibra y grasas buenas para crecer. Como los dátiles triturados concentran azúcares libres y el cacao contiene estimulantes naturales, son un gusto ocasional a partir de los 2 años y no un dulce diario.",
+  "tips": "Para ofrecerlos desde el año sin cacao, reemplázalo por harina de algarroba en la misma cantidad: aporta sabor dulce y no contiene cafeína. Se conservan hasta 5 días refrigerados en un recipiente hermético.",
+  "family_mode_note": "Formar las bolitas o aplanarlas en discos es una tarea ideal para manos pequeñas; los adultos se encargan del procesador.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Aplana cada porción en un disco blando en lugar de una bolita firme: las esferas del tamaño de una nuez son riesgo de atragantamiento antes de los 3 años. Verifica además que las almendras estén molidas muy finas, nunca enteras ni en trozos."
+    }
+  ],
+  "ingredients": [
+    { "code": "datil", "name": "Dátiles sin semilla", "amount": 90, "unit": "g", "note": "½ taza", "sort_order": 1 },
+    { "code": "almendra", "name": "Almendras molidas", "amount": 30, "unit": "g", "note": "¼ taza; alérgeno: frutos secos", "sort_order": 2 },
+    { "code": "cacao_polvo", "name": "Cacao en polvo sin azúcar", "amount": 1, "unit": "cucharada", "note": "o harina de algarroba para menores de 2 años", "sort_order": 3 },
+    { "code": "coco_rallado", "name": "Coco rallado", "amount": 2, "unit": "cucharada", "note": "opcional, para rebozar (o más cacao)", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca los dátiles en un procesador de alimentos y tritúralos hasta obtener una pasta pegajosa.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Si las almendras no vienen molidas, muélelas muy finas: para menores de 5 años los frutos secos nunca van enteros ni en trozos, por riesgo de atragantamiento.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Mezcla la pasta de dátiles con las almendras molidas y el cacao en polvo hasta obtener una masa uniforme.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Toma porciones pequeñas y forma bolitas; para menores de 3 años aplánalas en discos blandos en lugar de esferas firmes.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Colócalas en un plato o bandeja con papel encerado. Si quieres, rebózalas en coco rallado o en más cacao.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Refrigera durante 1 hora para que tomen consistencia antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [125], "pages": [150] },
+  "image_filename": "receta-bombones-de-chocolate-y-frutos-secos.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

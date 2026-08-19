@@ -1,0 +1,53 @@
+{
+  "slug": "croquetas-de-pollo-y-brocoli",
+  "title": "Croquetas de pollo y brócoli sin huevo",
+  "description": "Croquetas al horno de pollo y brócoli, sin huevo, ligadas con harina de garbanzo. Ideales para aprovechar sobras y horneadas hasta dorar.",
+  "category": "cena",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína y hierro, el brócoli suma vitamina C y fibra, y la harina de garbanzo liga todo sin necesidad de huevo.",
+  "tips": "Es una receta ideal para aprovechar sobras de pollo y verduras. Puedes congelar la masa cruda o las croquetas ya formadas hasta 2 meses. Para una versión sin gluten, usa pan rallado sin gluten.",
+  "family_mode_note": "Los adultos pueden añadir ajo, cebolla en polvo o hierbas a la masa.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Forma croquetas pequeñas y aplástalas un poco; verifica que el interior esté blando y ofrécelas cortadas para facilitar el agarre." }
+  ],
+  "ingredients": [
+    { "code": "brocoli", "name": "Brócoli", "amount": 0.5, "unit": "unidad", "note": "medio ramillete, cocido y muy blando", "sort_order": 1 },
+    { "code": "muslo_pollo", "name": "Muslos de pollo", "amount": 3, "unit": "unidad", "note": "cocidos, sin hueso ni piel", "sort_order": 2 },
+    { "code": "harina_garbanzo", "name": "Harina de garbanzo", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 3 },
+    { "code": "agua", "name": "Agua", "amount": 3, "unit": "cucharada", "note": "para disolver la harina de garbanzo", "sort_order": 4 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 5 },
+    { "code": "pan_rallado", "name": "Pan rallado sin sal", "amount": 0.5, "unit": "taza", "note": "para rebozar", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Si no tienes sobras, cuece el brócoli hasta que esté muy blando y cocina los muslos de pollo (guisados u horneados) hasta que estén completamente cocidos; retira huesos y piel.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Calienta el aceite en una cazuela y saltea el brócoli unos minutos, deshaciéndolo un poco.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Pica el pollo en trocitos muy pequeños e incorpóralo a la cazuela; remueve.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Disuelve la harina de garbanzo en el agua hasta que quede como huevo batido y viértela sobre el brócoli y el pollo; remueve hasta formar una masa.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Pasa la masa a un recipiente y deja enfriar; puedes refrigerarla o congelarla.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Con una cuchara, toma porciones y dales forma de croqueta; pásalas por pan rallado sin sal.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Colócalas sobre papel de horno en una bandeja y hornea a 180-200 °C unos 10 minutos, hasta que el rebozado empiece a dorarse.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [91], "pages": [113, 114] },
+  "image_filename": "receta-croquetas-de-pollo-y-brocoli.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

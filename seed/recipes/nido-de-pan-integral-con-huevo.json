@@ -1,0 +1,52 @@
+{
+  "slug": "nido-de-pan-integral-con-huevo",
+  "title": "Nido de Pan Integral con Huevo",
+  "description": "Una rebanada de pan integral con un huevo cocido en el centro, dorada en la sartén. Divertida de mirar, rapidísima de hacer y llena de proteína para arrancar el día.",
+  "category": "desayuno",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 7,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": [],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo entero aporta proteína completa, hierro y grasas buenas, y el pan integral suma fibra y energía que dura toda la mañana. Desde los 6 meses el huevo se ofrece completo, yema y clara, siempre bien cocido.",
+  "tips": "Tuesta en la misma sartén los círculos de pan que sacaste del centro: quedan crocantes y sirven para que moje. Al comprar el pan, revisa que el primer ingrediente sea harina integral y que no lleve azúcar añadida.",
+  "family_mode_note": "Mismo desayuno para todos: los adultos lo terminan con pimienta y hojuelas de chile, y los niños con un poco de queso rallado.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Corta el nido en tiras del ancho de un dedo, retirando los bordes más duros del pan, y sírvelo tibio para que pueda agarrarlo con la mano." },
+    { "age_band": "2_5a", "adaptation_text": "Déjalo sacar el círculo con el borde de un vaso y cascar el huevo dentro del hueco; sirve la rebanada entera con tenedor." }
+  ],
+  "ingredients": [
+    { "code": "pan_integral", "name": "Pan integral", "amount": 2, "unit": "rebanada", "note": null, "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "mantequilla", "name": "Mantequilla", "amount": 1, "unit": "cucharadita", "note": "o aceite de oliva", "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 1, "unit": "cucharada", "note": "opcional", "sort_order": 4 },
+    { "code": "perejil", "name": "Perejil fresco", "amount": 1, "unit": "cucharadita", "note": "picado fino", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Con el borde de un vaso pequeño, saca un círculo en el centro de cada rebanada de pan y reserva los círculos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Calienta una sartén antiadherente a fuego medio-bajo con la mantequilla y coloca las rebanadas junto con los círculos de pan.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Casca un huevo dentro del hueco de cada rebanada, con cuidado de que no se desborde.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tapa la sartén y cocina de 4 a 5 minutos, hasta que la clara esté blanca y firme y la yema completamente cuajada. No debe quedar nada líquido: el huevo va siempre bien cocido para los niños.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Voltea con una espátula ancha y dora 30 segundos más si quieres el pan más crocante.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Espolvorea el queso rallado y el perejil, deja entibiar y corta en tiras antes de servir a los más pequeños.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-nido-de-pan-integral-con-huevo.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

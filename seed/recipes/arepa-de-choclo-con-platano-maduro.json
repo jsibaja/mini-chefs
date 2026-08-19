@@ -1,0 +1,55 @@
+{
+  "slug": "arepa-de-choclo-con-platano-maduro",
+  "title": "Arepa de Choclo con Plátano Maduro",
+  "description": "Arepas doraditas de choclo (maíz tierno) con plátano macho maduro y un toque de queso: dulzor natural y sabor casero para el desayuno o la lonchera.",
+  "category": "desayuno",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": "maiz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El choclo y el plátano macho aportan carbohidratos complejos con dulzor natural, energía perfecta para empezar el día sin azúcar añadida.",
+  "tips": "Prepara una tanda doble: las arepas ya cocidas se congelan hasta por 2 meses y reviven en minutos en sartén o tostadora.",
+  "family_mode_note": "Sirve las de los adultos con queso fresco desmenuzado por encima para completar el desayuno familiar.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara su porción sin sal y ofrécela en trocitos blandos del centro de la arepa, retirando los bordes si quedaron tostados o duros."
+    }
+  ],
+  "ingredients": [
+    { "code": "choclo", "name": "Granos de choclo (maíz tierno o elote)", "amount": 1, "unit": "taza", "note": "desgranado, fresco o descongelado", "sort_order": 1 },
+    { "code": "platano_macho", "name": "Plátano macho maduro", "amount": 0.5, "unit": "unidad", "note": "de cáscara amarilla con manchas negras; no es banana de fruta", "sort_order": 2 },
+    { "code": "harina_maiz", "name": "Harina de maíz", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 4 },
+    { "code": "mantequilla", "name": "Mantequilla", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "omítela para menores de 1 año", "sort_order": 6 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharadita", "note": "para la plancha o sartén", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Tritura el choclo con el plátano macho en una licuadora o procesador hasta obtener una mezcla homogénea.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Vierte la mezcla en un tazón y agrega la harina de maíz, el queso rallado, la mantequilla y la pizca de sal.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Amasa hasta formar una masa suave; si queda pegajosa, suma un poco más de harina de maíz.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Toma porciones y dales forma de arepas pequeñas y aplanadas.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cocina en plancha o sartén a fuego medio con un poco de aceite, 4-5 minutos por lado, hasta que estén doradas y firmes. También puedes hornearlas a 200 °C por 15 minutos, volteándolas a la mitad.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [8], "pages": [31] },
+  "image_filename": "receta-arepa-de-choclo-con-platano-maduro.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

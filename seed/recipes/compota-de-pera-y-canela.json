@@ -1,0 +1,51 @@
+{
+  "slug": "compota-de-pera-y-canela",
+  "title": "Compota de Pera y Canela",
+  "description": "Compota suave de pera con canela y un toque de limón: dulzor 100 % de la fruta, lista en 20 minutos. Sirve desde los primeros purés hasta el postre familiar.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La pera cocida es suave para la pancita y aporta fibra; el limón suma vitamina C. El dulzor es solo de la fruta, sin azúcar añadida.",
+  "tips": "Congélala en porciones pequeñas (una cubetera funciona perfecto) hasta por 3 meses: te sirve para yogur, panqueques o avena. En el refrigerador dura 5 días en frasco de vidrio bien tapado, y para la lonchera va en recipiente hermético con un gel refrigerante. Una pizca de jengibre en polvo le da un giro rico para los más grandes.",
+  "family_mode_note": "Sírvela tibia sobre yogur natural o avena para el desayuno de los adultos.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura hasta lograr un puré fino y homogéneo, sin trozos, y usa apenas una pizca de canela." },
+    { "age_band": "9_11m", "adaptation_text": "Machácala con tenedor dejando trocitos muy blandos, para que practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "pera", "name": "Pera", "amount": 2, "unit": "unidad", "note": "maduras", "sort_order": 1 },
+    { "code": "canela", "name": "Canela en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 2 },
+    { "code": "agua", "name": "Agua", "amount": 100, "unit": "ml", "note": null, "sort_order": 3 },
+    { "code": "jugo_limon", "name": "Jugo de limón", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava, pela y corta las peras en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Colócalas en una olla pequeña con el agua y la canela.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina a fuego medio 10 minutos, revolviendo de vez en cuando.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega el jugo de limón y cocina 5 minutos más.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Tritura con tenedor o licuadora, según la textura que busques; si queda muy espesa, suma un poco de agua.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Deja enfriar y sirve, o guárdala en frascos de vidrio en el refrigerador hasta por 5 días.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [63], "pages": [147, 148] },
+  "image_filename": "receta-compota-de-pera-y-canela.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "bastones-suaves-de-res-y-camote",
+  "title": "Bastones Suaves de Res y Camote",
+  "description": "Bastones horneados de carne molida de res y camote, tan tiernos que se deshacen entre los dedos. La forma alargada es perfecta para que el bebé de 9 a 11 meses los tome con el puño y los muerda por la punta.",
+  "category": "colacion",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3],
+  "prep_minutes": 20,
+  "cook_minutes": 35,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["colacion_am", "almuerzo", "colacion_pm", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "carne_roja",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La carne de res es la fuente de hierro que mejor aprovecha el cuerpo del bebé, justo en la etapa en que sus reservas del nacimiento se agotan. El camote suaviza la textura y aporta betacarotenos y un dulzor que hace más fácil aceptar la carne.",
+  "tips": "Rinde para dos o tres comidas: congela los bastones ya fríos, separados en una bandeja y después en bolsa, hasta 2 meses. Descongélalos en el refrigerador de un día para otro y caliéntalos bien antes de servir.",
+  "family_mode_note": "Con el resto de la mezcla arma hamburguesas para los adultos: agrégales ajo, perejil y sal solo a esa porción, después de haber separado la del bebé.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Puedes darles forma de albondiguita y sazonarlas con una pizca de sal y orégano. Sírvelas partidas por la mitad a lo largo, acompañadas de puré de papa o arroz."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sírvelas enteras como plato principal con verduras al vapor; a esta edad ya puede usar tenedor y mojarlas en salsa de tomate casera."
+    }
+  ],
+  "ingredients": [
+    { "code": "carne_molida_res", "name": "Carne molida de res magra", "amount": 200, "unit": "g", "note": "pide que la muelan dos veces para que quede más fina", "sort_order": 1 },
+    { "code": "camote", "name": "Camote (batata)", "amount": 250, "unit": "g", "note": "pelado y en cubos", "sort_order": 2 },
+    { "code": "hojuelas_avena", "name": "Hojuelas de avena molidas", "amount": 40, "unit": "g", "note": "½ taza, pasadas por licuadora hasta textura de harina", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla rallada", "amount": 2, "unit": "cucharada", "note": "rallada muy fina", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina el camote al vapor de 15 a 18 minutos, hasta que se deshaga al pincharlo, escúrrelo muy bien y machácalo hasta obtener un puré sin grumos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Calienta el aceite en una sartén y sofríe la cebolla rallada 3 minutos a fuego bajo, sin que se dore.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega la carne molida y cocínala de 8 a 10 minutos deshaciéndola con una cuchara de madera, hasta que no quede ni una sola parte rosada: la carne molida debe cocinarse por completo, nunca jugosa por dentro.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Retira del fuego, deja entibiar 5 minutos y mezcla la carne con el puré de camote y la avena molida hasta formar una masa que se pueda moldear.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Precalienta el horno a 190 °C y forra una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Con las manos húmedas forma 12 bastones del largo y grosor de tu dedo índice, unos 8 cm por 1,5 cm. Ese tamaño permite que el bebé lo sostenga con el puño cerrado y muerda la punta que sobresale.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Hornea 18 minutos, girándolos a la mitad del tiempo, hasta que estén firmes por fuera y bien calientes en el centro.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Antes de servir, comprueba que cada bastón se aplasta sin esfuerzo entre tu pulgar y tu índice. Si opone resistencia, no es seguro: desármalo y ofrécelo machacado con un poco de caldo o agua.", "is_safety_critical": true },
+    { "step_number": 9, "instruction": "Deja entibiar hasta temperatura de mano y ofrece un bastón a la vez, con el bebé sentado erguido y siempre acompañado mientras come.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-bastones-suaves-de-res-y-camote.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

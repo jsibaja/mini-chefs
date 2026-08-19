@@ -1,0 +1,50 @@
+{
+  "slug": "torta-de-pera-y-remolacha",
+  "title": "Torta de Pera y Remolacha",
+  "description": "Bizcocho húmedo de avena que esconde remolacha (betabel) y se endulza solo con peras maduras: un clásico de lonchera para cortar en cuadritos.",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "servings": 8,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["morado"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La avena y la fruta aportan fibra y energía estable para la jornada escolar; se endulza solo con peras maduras y remolacha, sin azúcar añadida.",
+  "tips": "Corta la torta en cuadritos y congélalos por separado: pasa uno congelado a la lonchera en la mañana y estará descongelado a la hora del recreo.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Ofrece una porción pequeña en trocitos blandos. Como la remolacha aporta nitratos, sírvela con moderación y no todos los días en los más pequeños." }
+  ],
+  "ingredients": [
+    { "code": "pera", "name": "Pera", "amount": 4, "unit": "unidad", "note": "bien maduras (son las que endulzan), peladas y en trozos", "sort_order": 1 },
+    { "code": "remolacha", "name": "Remolacha (betabel)", "amount": 1, "unit": "unidad", "note": "cocida y pelada", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 2, "unit": "taza", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela las peras y la remolacha cocida y córtalas en trozos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Procesa las peras, la remolacha, los huevos y la avena en la licuadora o procesador hasta obtener una masa uniforme.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Vierte la mezcla en un molde engrasado.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea a 180 °C durante 40 minutos, hasta que al insertar un palillo salga limpio: así el huevo queda bien cocido.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Si no tienes horno, cocina la torta en una sartén tapada a fuego bajo durante 35-40 minutos y verifica igual con un palillo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Deja enfriar por completo antes de desmoldar y cortar en cuadritos.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [50], "pages": [77] },
+  "image_filename": "receta-torta-de-pera-y-remolacha.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

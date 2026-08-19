@@ -1,0 +1,51 @@
+{
+  "slug": "gomitas-de-frutas",
+  "title": "Gomitas de Frutas",
+  "description": "Gomitas caseras hechas solo con fruta real y gelatina sin sabor: sin colorantes, sin azúcar añadida y con formas divertidas para la lonchera.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 5,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Se endulzan únicamente con la fruta, así que no llevan azúcar añadida ni colorantes artificiales. Son una forma divertida de sumar fruta real a la lonchera.",
+  "tips": "Engrasa los moldes con un poco de aceite de coco para desmoldarlas fácilmente. Se conservan hasta 5 días en el refrigerador en un recipiente hermético; envíalas a la escuela con un gel refrigerante para que no se ablanden.",
+  "family_mode_note": "Los niños pueden ayudar a elegir la fruta y a llenar los moldes de silicona con una cucharita o un gotero.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Para los más pequeños prepara una versión más blanda: usa medio sobre de gelatina para la misma cantidad de fruta y sirve en cubos grandes tipo gelatina. Las gomitas firmes exigen supervisión en menores de 5 años."
+    }
+  ],
+  "ingredients": [
+    { "code": "fruta_dulce", "name": "Fruta dulce bien madura", "amount": 1, "unit": "taza", "note": "fresas, mango o uvas; elige fruta madura para que endulce sola", "sort_order": 1 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "gelatina_sin_sabor", "name": "Gelatina sin sabor (grenetina)", "amount": 1, "unit": "sobre", "note": "aprox. 7 g", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Licúa la fruta con el agua hasta obtener una mezcla homogénea.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Vierte la mezcla en una olla pequeña, espolvorea la gelatina sin sabor por encima y deja hidratar 5 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Calienta a fuego bajo revolviendo constantemente, solo hasta que la gelatina se disuelva por completo. No dejes que hierva: la gelatina hervida pierde su capacidad de cuajar.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte en moldes de silicona y refrigera de 3 a 4 horas hasta que cuajen por completo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Desmolda. Para menores de 5 años sírvelas en trozos pequeños y supervisa mientras las comen: las gomitas firmes pueden causar atragantamiento.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [74], "pages": [104] },
+  "image_filename": "receta-gomitas-de-frutas.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "papas-empanizadas-al-horno",
+  "title": "Papas Empanizadas al Horno",
+  "description": "Gajos de papa con una cubierta especiada de harina de maíz, dorados al horno: crocantes por fuera y suaves por dentro.",
+  "category": "colacion",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La papa aporta energía de calidad para jugar y aprender, y al hornearse con poco aceite queda mucho más ligera que la versión frita.",
+  "tips": "Espolvorea queso parmesano rallado sobre los gajos antes de hornear para un toque extra de sabor.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Antes de condimentar, aparta unos gajos solo con aceite (sin sal ni especias), hornéalos igual y ofrece los trozos blandos del centro." }
+  ],
+  "ingredients": [
+    { "code": "papa", "name": "Papas", "amount": 1, "unit": "kilogramo", "note": "cortadas en gajos", "sort_order": 1 },
+    { "code": "harina_maiz", "name": "Harina de maíz", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 2 },
+    { "code": "romero_seco", "name": "Romero seco", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 3 },
+    { "code": "tomillo_seco", "name": "Tomillo seco", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "paprika", "name": "Paprika (pimentón dulce en polvo)", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "ajo_en_polvo", "name": "Ajo en polvo", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 220 °C y forra una bandeja con papel de hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava las papas, córtalas en gajos parejos y sécalos bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En un bol, mezcla la harina de maíz con las hierbas, la paprika, el ajo en polvo y la sal.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Rocía el aceite de oliva sobre las papas y cúbrelas bien con la mezcla de especias.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Hornea 40 minutos, volteando los gajos a la mitad del tiempo, hasta que estén dorados y crujientes por fuera y blandos por dentro.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [30], "pages": [55] },
+  "image_filename": "receta-papas-empanizadas-al-horno.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

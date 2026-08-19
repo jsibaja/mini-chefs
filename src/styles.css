@@ -1,0 +1,290 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * MiniChefs — Design System "Huerto Alegre"
+ *
+ * Paleta (referencia):
+ *   #FFF6EC crema  · #6BBF59 verde manzana (primario) · #F4913A naranja zanahoria
+ *   #F7C948 amarillo maíz · #F27E63 coral · #A8D8C9 menta · #2F5D3A verde profundo
+ *
+ * Regla: el rojo (--danger / destructive) se reserva EXCLUSIVAMENTE para
+ * avisos de seguridad alimentaria. Todo lo demás debe usar los tokens
+ * semánticos (bg-primary, text-accent-orange, etc.). Nunca hex sueltos.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --font-display: "Baloo 2", "Nunito", system-ui, sans-serif;
+  --font-sans: "Nunito", system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ring-offset-background: var(--background);
+
+  /* Acentos Huerto Alegre */
+  --color-carrot: var(--carrot);
+  --color-carrot-foreground: var(--carrot-foreground);
+  --color-corn: var(--corn);
+  --color-corn-foreground: var(--corn-foreground);
+  --color-coral: var(--coral);
+  --color-coral-foreground: var(--coral-foreground);
+  --color-mint: var(--mint);
+  --color-mint-foreground: var(--mint-foreground);
+  --color-deep-green: var(--deep-green);
+  --color-deep-green-foreground: var(--deep-green-foreground);
+  --color-cream: var(--cream);
+
+  /* Alerta de seguridad alimentaria (uso exclusivo) */
+  --color-safety: var(--safety);
+  --color-safety-foreground: var(--safety-foreground);
+  --color-safety-soft: var(--safety-soft);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --shadow-soft: 0 2px 8px -2px oklch(0.42 0.09 148 / 0.08), 0 4px 16px -4px oklch(0.42 0.09 148 / 0.06);
+  --shadow-warm: 0 4px 20px -6px oklch(0.72 0.16 55 / 0.18);
+  --shadow-lift: 0 8px 32px -8px oklch(0.42 0.09 148 / 0.16);
+}
+
+:root {
+  --radius: 1rem;
+
+  /* Superficies */
+  --background: oklch(0.98 0.021 82);        /* #FFF6EC crema cálido */
+  --foreground: oklch(0.32 0.055 148);       /* verde muy oscuro para texto */
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.32 0.055 148);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.32 0.055 148);
+
+  /* Primario: verde manzana #6BBF59 */
+  --primary: oklch(0.73 0.17 137);
+  --primary-foreground: oklch(0.99 0.01 100);
+
+  /* Secundario: menta suave */
+  --secondary: oklch(0.92 0.04 165);
+  --secondary-foreground: oklch(0.32 0.055 148);
+
+  --muted: oklch(0.95 0.018 82);
+  --muted-foreground: oklch(0.48 0.04 148);
+
+  /* Accent = coral para llamados suaves */
+  --accent: oklch(0.94 0.03 40);
+  --accent-foreground: oklch(0.42 0.09 148);
+
+  /* Destructive = safety (mismo token) */
+  --destructive: oklch(0.58 0.22 27);
+  --destructive-foreground: oklch(0.99 0.01 100);
+
+  --border: oklch(0.9 0.025 82);
+  --input: oklch(0.92 0.02 82);
+  --ring: oklch(0.73 0.17 137);
+
+  /* Acentos Huerto Alegre */
+  --carrot: oklch(0.72 0.16 55);              /* #F4913A */
+  --carrot-foreground: oklch(0.99 0.01 100);
+  --corn: oklch(0.86 0.15 92);                /* #F7C948 */
+  --corn-foreground: oklch(0.32 0.055 148);
+  --coral: oklch(0.72 0.15 32);               /* #F27E63 */
+  --coral-foreground: oklch(0.99 0.01 100);
+  --mint: oklch(0.85 0.06 165);               /* #A8D8C9 */
+  --mint-foreground: oklch(0.32 0.055 148);
+  --deep-green: oklch(0.42 0.09 148);         /* #2F5D3A */
+  --deep-green-foreground: oklch(0.99 0.01 100);
+  --cream: oklch(0.98 0.021 82);
+
+  /* Safety (rojo — SOLO seguridad alimentaria) */
+  --safety: oklch(0.58 0.22 27);
+  --safety-foreground: oklch(0.99 0.01 100);
+  --safety-soft: oklch(0.94 0.06 27);
+
+  --chart-1: oklch(0.73 0.17 137);
+  --chart-2: oklch(0.72 0.16 55);
+  --chart-3: oklch(0.86 0.15 92);
+  --chart-4: oklch(0.72 0.15 32);
+  --chart-5: oklch(0.85 0.06 165);
+
+  --sidebar: oklch(0.98 0.021 82);
+  --sidebar-foreground: oklch(0.32 0.055 148);
+  --sidebar-primary: oklch(0.73 0.17 137);
+  --sidebar-primary-foreground: oklch(0.99 0.01 100);
+  --sidebar-accent: oklch(0.94 0.03 40);
+  --sidebar-accent-foreground: oklch(0.42 0.09 148);
+  --sidebar-border: oklch(0.9 0.025 82);
+  --sidebar-ring: oklch(0.73 0.17 137);
+}
+
+.dark {
+  --background: oklch(0.22 0.025 148);
+  --foreground: oklch(0.96 0.02 82);
+  --card: oklch(0.27 0.03 148);
+  --card-foreground: oklch(0.96 0.02 82);
+  --popover: oklch(0.27 0.03 148);
+  --popover-foreground: oklch(0.96 0.02 82);
+
+  --primary: oklch(0.75 0.17 137);
+  --primary-foreground: oklch(0.18 0.03 148);
+
+  --secondary: oklch(0.32 0.04 148);
+  --secondary-foreground: oklch(0.96 0.02 82);
+
+  --muted: oklch(0.28 0.03 148);
+  --muted-foreground: oklch(0.72 0.03 82);
+
+  --accent: oklch(0.32 0.04 40);
+  --accent-foreground: oklch(0.96 0.02 82);
+
+  --destructive: oklch(0.65 0.22 27);
+  --destructive-foreground: oklch(0.99 0.01 100);
+
+  --border: oklch(1 0 0 / 12%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.75 0.17 137);
+
+  --carrot: oklch(0.75 0.16 55);
+  --carrot-foreground: oklch(0.18 0.03 148);
+  --corn: oklch(0.86 0.15 92);
+  --corn-foreground: oklch(0.18 0.03 148);
+  --coral: oklch(0.74 0.15 32);
+  --coral-foreground: oklch(0.18 0.03 148);
+  --mint: oklch(0.72 0.06 165);
+  --mint-foreground: oklch(0.18 0.03 148);
+  --deep-green: oklch(0.55 0.1 148);
+  --deep-green-foreground: oklch(0.99 0.01 100);
+  --cream: oklch(0.98 0.021 82);
+
+  --safety: oklch(0.65 0.22 27);
+  --safety-foreground: oklch(0.99 0.01 100);
+  --safety-soft: oklch(0.35 0.1 27);
+
+  --chart-1: oklch(0.75 0.17 137);
+  --chart-2: oklch(0.75 0.16 55);
+  --chart-3: oklch(0.86 0.15 92);
+  --chart-4: oklch(0.74 0.15 32);
+  --chart-5: oklch(0.72 0.06 165);
+
+  --sidebar: oklch(0.22 0.025 148);
+  --sidebar-foreground: oklch(0.96 0.02 82);
+  --sidebar-primary: oklch(0.75 0.17 137);
+  --sidebar-primary-foreground: oklch(0.18 0.03 148);
+  --sidebar-accent: oklch(0.32 0.04 40);
+  --sidebar-accent-foreground: oklch(0.96 0.02 82);
+  --sidebar-border: oklch(1 0 0 / 12%);
+  --sidebar-ring: oklch(0.75 0.17 137);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01";
+    /* Safe areas iOS */
+    padding-top: env(safe-area-inset-top);
+    /* padding-bottom aplicado por el shell para tab bar */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  /* Sin scroll horizontal en móvil */
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Ningún texto se sale de su tarjeta, por largo que sea el título o la
+     palabra (nombres de recetas largos, correos, URLs). `anywhere` parte la
+     palabra solo cuando no hay otra opción y además evita que el contenido
+     estire los contenedores flex/grid. */
+  h1, h2, h3, h4, h5, h6, p, span, a, li, td, th, label, button, strong, em, div {
+    overflow-wrap: anywhere;
+  }
+
+  /* Los hijos de flex/grid pueden encogerse: sin esto, un texto largo empuja el
+     ancho del contenedor y desborda la tarjeta. */
+  .min-w-0 { min-width: 0; }
+
+  /* Touch targets accesibles */
+  button, a, [role="button"] {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Cursor de manito en TODO lo interactivo.
+     Los <button>/<select> nativos muestran flecha por defecto; esto lo corrige
+     en toda la app sin tener que tocar cada componente. */
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]),
+  select:not(:disabled),
+  summary,
+  a[href],
+  label:has(input[type="checkbox"]),
+  label:has(input[type="radio"]) {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  select:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+}
+
+@utility safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+@utility safe-top {
+  padding-top: env(safe-area-inset-top);
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "arroz-con-pollo-y-verduras",
+  "title": "Arroz con Pollo y Verduras",
+  "description": "Arroz blandito cocido en caldo con pollo desmenuzado y zanahoria: un plato completo que crece con el niño, del puré a los trocitos.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 25,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína magra y hierro, el arroz energía, y la zanahoria betacarotenos (provitamina A). Un plato equilibrado en una sola preparación.",
+  "tips": "Cocina la zanahoria junto con el arroz y el pollo: la zanahoria cruda rallada no es segura para los bebés. Una pizca de cúrcuma le da color y sabor sin sal. Congela en porciones individuales hasta por 2 meses.",
+  "family_mode_note": "Duplica las cantidades en una olla grande y sepáralo antes de condimentar: resuelve el almuerzo de toda la familia.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Cocina todo bien blando y tritura hasta lograr una papilla fina y homogénea, sin trozos, ajustando con caldo casero sin sal." },
+    { "age_band": "9_11m", "adaptation_text": "Aplasta con tenedor dejando una textura grumosa; el pollo bien desmenuzado en hebras finas y la zanahoria en cubitos muy blandos." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve en trocitos pequeños y blandos, sin triturar, para que coma solo con cuchara o con las manos." }
+  ],
+  "ingredients": [
+    { "code": "arroz", "name": "Arroz", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo sin piel", "amount": 0.5, "unit": "unidad", "note": "aprox. 80 g", "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "rallada gruesa o en cubitos", "sort_order": 3 },
+    { "code": "caldo_pollo", "name": "Caldo de pollo o verduras", "amount": 0.5, "unit": "taza", "note": "casero y sin sal; ten extra a mano", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": "opcional", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina el arroz en el caldo casero sin sal hasta que esté bien blando; agrega más caldo caliente si se seca.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina la pechuga de pollo hasta que esté completamente cocida, sin partes rosadas, y desmenúzala en hebras finas.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Cocina la zanahoria rallada o en cubitos junto con el arroz y el pollo unos minutos, hasta que esté tierna.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mezcla todo hasta integrar y sirve cuando esté a una temperatura tibia y segura para el niño.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [43, 55], "pages": [61, 75] },
+  "image_filename": "receta-arroz-con-pollo-y-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

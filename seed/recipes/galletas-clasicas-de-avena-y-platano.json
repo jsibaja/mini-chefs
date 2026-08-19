@@ -1,0 +1,49 @@
+{
+  "slug": "galletas-clasicas-de-avena-y-platano",
+  "title": "Galletas clásicas de avena y plátano",
+  "description": "Galletas suaves de avena y plátano maduro, sin azúcar añadida, ideales para manitos que aprenden a agarrar y para encías en dentición.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La avena y el plátano combinan fibra, potasio y energía para acompañar el juego y el aprendizaje, con un dulzor que viene solo de la fruta.",
+  "tips": "El plátano maduro las endulza sin azúcar añadida. Guárdalas en un recipiente hermético hasta 4 días. Para una versión sin gluten, usa avena certificada sin gluten.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Hornéalas un par de minutos menos para que queden más blandas y ofrécelas en piezas grandes que el bebé pueda sostener y chupar." }
+  ],
+  "ingredients": [
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "pure_platano", "name": "Puré de plátano maduro", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharadita", "note": "derretido", "sort_order": 3 },
+    { "code": "canela", "name": "Canela", "amount": 0.5, "unit": "cucharadita", "note": "opcional", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla la harina de avena, el puré de plátano, el aceite de coco y la canela hasta formar una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Forma pequeñas bolitas y aplánalas para darles forma de galleta; colócalas en la bandeja con espacio entre ellas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea 15 minutos o hasta que estén doradas.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Deja enfriar antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [81, 85, 113, 119, 123], "pages": [102, 106, 137, 144, 148] },
+  "image_filename": "receta-galletas-clasicas-de-avena-y-platano.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

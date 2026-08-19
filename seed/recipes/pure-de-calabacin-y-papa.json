@@ -1,0 +1,47 @@
+{
+  "slug": "pure-de-calabacin-y-papa",
+  "title": "Puré de calabacín y papa",
+  "description": "Puré ligero y cremoso de calabacín (zucchini) y papa: sabor suave y textura sedosa, perfecto para las primeras cucharadas del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La papa aporta energía de fácil digestión y el calabacín suma agua, fibra y vitaminas con muy poca grasa, para un puré ligero y suave.",
+  "tips": "Una cucharadita de aceite de oliva al servir ayuda al bebé a aprovechar mejor las vitaminas. Congela porciones en cubetas de hielo y descongela solo lo que necesites.",
+  "family_mode_note": "Para la familia, licúa el puré con un poco de caldo y queso crema para convertirlo en una crema de calabacín.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Machaca el calabacín y la papa con un tenedor dejando grumos suaves, en lugar de licuar, para que el bebé practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "calabacin", "name": "Calabacín (zucchini)", "amount": 0.5, "unit": "unidad", "note": "pelado", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "mediana", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela el calabacín y la papa y córtalos en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Hierve ambos en agua o caldo casero sin sal hasta que estén blandos, unos 15 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Escurre, deja entibiar y tritura con licuadora o tenedor hasta obtener una textura suave y homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Ajusta la consistencia con un poco de caldo o agua y sirve tibio.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [23], "pages": [41] },
+  "image_filename": "receta-pure-de-calabacin-y-papa.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

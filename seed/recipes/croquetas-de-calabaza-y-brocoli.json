@@ -1,0 +1,60 @@
+{
+  "slug": "croquetas-de-calabaza-y-brocoli",
+  "title": "Croquetas de Calabaza y Brócoli",
+  "description": "Croquetas horneadas naranjas y verdes de calabaza dulce con arbolitos de brócoli: suaves por dentro y doradas por fuera.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La calabaza aporta betacarotenos que el cuerpo convierte en vitamina A, el brócoli suma fibra y vitamina C, y el huevo y el queso completan el plato con proteínas y calcio.",
+  "tips": "Si la masa queda muy húmeda, agrega pan molido de a poco hasta poder formarlas. Para una versión sin gluten usa hojuelas de avena certificada sin gluten trituradas en lugar de pan molido.",
+  "family_mode_note": "El dulzor natural de la calabaza hace que estas croquetas conquisten hasta a quienes le hacen caras al brócoli.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara algunas croquetas sin sal y aplástalas con un tenedor antes de ofrecerlas."
+    }
+  ],
+  "ingredients": [
+    { "code": "calabaza", "name": "Calabaza cocida y triturada", "amount": 1, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "brocoli", "name": "Brócoli cocido", "amount": 0.5, "unit": "taza", "note": "picado", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "pan_molido", "name": "Pan molido (pan rallado)", "amount": 50, "unit": "g", "note": null, "sort_order": 4 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 50, "unit": "g", "note": "opcional", "sort_order": 5 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 6 },
+    { "code": "perejil", "name": "Perejil fresco picado", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; evítala en menores de 1 año", "sort_order": 8 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "al gusto", "sort_order": 9 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": "para rociar", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Tritura la calabaza cocida hasta obtener un puré.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Pica finamente el brócoli cocido y agrégalo al puré de calabaza.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora el ajo, el perejil, el queso, el pan molido y el huevo; sazona con poca sal y pimienta y mezcla hasta lograr una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Forma croquetas pequeñas con la masa, acomódalas en la bandeja y rocíalas con aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Hornea 25-30 minutos, hasta que estén doradas y bien cocidas por dentro.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Sírvelas calientes con salsa de yogur o de tomate casera.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [11], "pages": [40, 41] },
+  "image_filename": "receta-croquetas-de-calabaza-y-brocoli.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

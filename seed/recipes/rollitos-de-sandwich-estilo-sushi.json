@@ -1,0 +1,52 @@
+{
+  "slug": "rollitos-de-sandwich-estilo-sushi",
+  "title": "Rollitos de Sándwich Estilo Sushi",
+  "description": "Rollitos de pan integral rellenos de pescado que se cortan en rodajas como si fueran sushi: divertidos, fáciles y sin ingredientes crudos.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 0,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "pescado",
+  "veggie_colors": [],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pescado aporta proteína y grasas omega que acompañan el crecimiento, en un formato divertido que anima a probarlo.",
+  "tips": "Empaca los rollitos con gel refrigerante y que se coman antes de 4 horas: el pescado nunca debe viajar sin frío. Puedes sumar tiras finas de aguacate o pimiento morrón al relleno.",
+  "family_mode_note": "Para escolares mayores y adultos puedes usar salmón ahumado en lugar de pescado cocido; es más salado, así que resérvalo para ocasiones.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Prepara su rollito sin salsa de soya ni pepinillos, con pescado cocido sin sal añadida, y corta las rodajas en mitades para bocados más pequeños." }
+  ],
+  "ingredients": [
+    { "code": "pan_integral", "name": "Pan integral", "amount": 8, "unit": "rebanada", "note": "de molde, sin corteza", "sort_order": 1 },
+    { "code": "salmon", "name": "Salmón cocido", "amount": 150, "unit": "gramo", "note": "desmenuzado; también sirve pescado blanco cocido, siempre sin espinas", "sort_order": 2 },
+    { "code": "mantequilla", "name": "Mantequilla", "amount": 2, "unit": "cucharada", "note": "suave, para untar", "sort_order": 3 },
+    { "code": "mayonesa", "name": "Mayonesa envasada", "amount": 1, "unit": "cucharada", "note": "opcional; nunca mayonesa casera con huevo crudo", "sort_order": 4 },
+    { "code": "salsa_soya", "name": "Salsa de soya", "amount": 1, "unit": "cucharadita", "note": "unas gotas, o salsa agridulce", "sort_order": 5 },
+    { "code": "pepinillo", "name": "Pepinillos en vinagre", "amount": 2, "unit": "unidad", "note": "picados muy finos (opcional)", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Quita la corteza al pan y aplana cada rebanada con un rodillo hasta dejarla delgada y flexible.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Unta cada rebanada con una capa fina de mantequilla o de mayonesa envasada.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Revisa el pescado desmenuzado con los dedos y retira cualquier espina antes de usarlo.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Reparte el pescado y el pepinillo picado sobre el pan, dejando 2 cm libres en un borde para poder cerrar; agrega unas gotas de salsa de soya.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Enrolla cada rebanada apretando bien; puedes ayudarte con papel film para compactar el rollo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Refrigera los rollos 15-30 minutos, retira el papel film y córtalos en rodajas, como sushi.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [60], "pages": [88] },
+  "image_filename": "receta-rollitos-de-sandwich-estilo-sushi.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

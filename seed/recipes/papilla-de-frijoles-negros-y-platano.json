@@ -1,0 +1,47 @@
+{
+  "slug": "papilla-de-frijoles-negros-y-platano",
+  "title": "Papilla de frijoles negros y plátano",
+  "description": "Papilla suave que une frijoles negros bien cocidos con plátano maduro: el dulzor de la fruta equilibra el frijol y aporta hierro y fibra al bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los frijoles negros aportan hierro vegetal, proteína y fibra, y el plátano suma potasio y energía; ofrecer una fruta con vitamina C en la misma comida ayuda a aprovechar mejor el hierro.",
+  "tips": "Aplasta o tritura siempre bien los frijoles antes del año para evitar atragantamientos. Prepara los frijoles sin sal y congela la papilla en porciones hasta por 3 meses.",
+  "family_mode_note": "Para la familia, sirve los frijoles con arroz y un poco de plátano frito como acompañamiento.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Aplasta los frijoles y el plátano con un tenedor dejando grumos muy suaves, sin licuar, para que el bebé practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "frijol_negro", "name": "Frijoles negros cocidos", "amount": 0.25, "unit": "taza", "note": "sin piel y sin sal", "sort_order": 1 },
+    { "code": "platano", "name": "Plátano maduro", "amount": 0.5, "unit": "unidad", "note": "pelado", "sort_order": 2 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": "para ajustar la textura", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Si partes de frijoles crudos, remójalos y cuécelos sin sal hasta que estén muy blandos; si ya están cocidos, solo entíbialos hasta que se aplasten con facilidad.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela y corta el plátano en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura los frijoles con el plátano hasta lograr una textura suave y sin grumos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Ajusta la consistencia con un poco de agua si es necesario y sirve tibio.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [18], "pages": [36] },
+  "image_filename": "receta-papilla-de-frijoles-negros-y-platano.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

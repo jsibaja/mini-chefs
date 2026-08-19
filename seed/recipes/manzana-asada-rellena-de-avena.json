@@ -1,0 +1,52 @@
+{
+  "slug": "manzana-asada-rellena-de-avena",
+  "title": "Manzana Asada Rellena de Avena",
+  "description": "Manzanas horneadas hasta quedar blanditas, con un relleno de avena y canela que se dora encima. El horno concentra su dulzor: no necesita azúcar de ningún tipo.",
+  "category": "postre",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 30,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["rojo"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Al hornearse, la manzana concentra su propio dulzor y se vuelve muy fácil de digerir; la avena aporta fibra y energía. Un postre tibio, suave y sin azúcares añadidos.",
+  "tips": "Sin horno también sale: cocínalas tapadas en el microondas de 4 a 5 minutos a máxima potencia, hasta que estén blandas. Elige manzanas dulces y maduras (gala, roja deliciosa o fuji); las muy ácidas piden azúcar y aquí no la usamos.",
+  "family_mode_note": "Salen del horno para toda la familia: los adultos suman nuez picada y yogur natural sobre su manzana.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Retira la cáscara, saca la pulpa con una cuchara y machácala junto con la avena hasta lograr un puré grumoso y tibio." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve media manzana sin cáscara, cortada en trozos pequeños y bien blandos, con parte del relleno de avena mezclado." },
+    { "age_band": "2_5a", "adaptation_text": "Sirve la manzana entera sin cáscara, en un plato hondo, acompañada de una cucharada de yogur natural." }
+  ],
+  "ingredients": [
+    { "code": "manzana", "name": "Manzana", "amount": 4, "unit": "unidad", "note": "dulces y maduras", "sort_order": 1 },
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 4, "unit": "cucharada", "note": null, "sort_order": 2 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 3 },
+    { "code": "mantequilla", "name": "Mantequilla", "amount": 1, "unit": "cucharadita", "note": "derretida, o aceite suave", "sort_order": 4 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": "para el fondo de la fuente", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava las manzanas y retira el corazón desde arriba con un descorazonador o un cuchillo pequeño, sin atravesar la base. Asegúrate de sacar todas las semillas y las partes duras: no pueden quedar restos en el hueco.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Mezcla en un bol la avena con la canela y la mantequilla derretida, y rellena con esa mezcla el hueco de cada manzana.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Acomódalas en una fuente, agrega el agua en el fondo para que no se sequen y hornea 30 minutos, hasta que la pulpa esté muy blanda al pincharla con un palillo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Deja entibiar al menos 10 minutos antes de servir: el relleno guarda mucho calor. Retira la cáscara para los menores de 2 años, porque no la pueden masticar.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-manzana-asada-rellena-de-avena.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

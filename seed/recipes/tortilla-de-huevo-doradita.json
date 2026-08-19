@@ -1,0 +1,48 @@
+{
+  "slug": "tortilla-de-huevo-doradita",
+  "title": "Tortilla de Huevo Doradita",
+  "description": "Una tortilla de huevo doradita con queso, blandita y fácil de cortar en tiras; lista en minutos para el desayuno o la merienda.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 10,
+  "servings": 1,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo bien cocido aporta proteína completa y colina para el desarrollo; el queso suma calcio en una porción pequeña.",
+  "tips": "El huevo y el queso son alérgenos: obsérvalos 2-3 días al introducirlos. Para una versión rellena, suma una cucharada de espinaca cocida y picada fina (mejor como protagonista desde los 12 meses, o en muy poca cantidad antes, sin recalentar el sobrante).",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Corta la tortilla bien cocida en tiras finas y blandas, o desmenúzala, para que sea fácil de agarrar o de tragar." }
+  ],
+  "ingredients": [
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "queso", "name": "Queso rallado", "amount": 1, "unit": "cucharadita", "note": "pasteurizado y sin sal", "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Bate el huevo hasta que quede bien mezclado.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el queso rallado y mezcla de nuevo.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Calienta una sartén con el aceite de oliva a fuego bajo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte la mezcla y cocina lentamente hasta que el huevo cuaje por completo, sin partes líquidas; voltéala para dorarla apenas por ambos lados.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja entibiar y córtala en tiras o trozos pequeños según la edad del bebé.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [75, 78], "pages": [96, 99] },
+  "image_filename": "receta-tortilla-de-huevo-doradita.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

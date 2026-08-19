@@ -1,0 +1,48 @@
+{
+  "slug": "pescado-blanco-con-salsa-de-kiwi",
+  "title": "Pescado Blanco con Salsa de Kiwi",
+  "description": "Pescado blanco al vapor con una salsa fresca de kiwi maduro: una combinación suave, jugosa y con un toque frutal que aporta vitamina C.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "pescado",
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pescado blanco aporta proteína magra y grasas omega-3 para el desarrollo, y el kiwi suma vitamina C, que ayuda al cuerpo a aprovechar mejor el hierro de los alimentos.",
+  "tips": "Contiene dos alérgenos frecuentes, pescado y kiwi: introdúcelos por separado y observa 2-3 días cada uno. Revisa el pescado con los dedos para descartar espinas. Prepara la salsa de kiwi al momento y no la guardes; el pescado cocido, refrigéralo y consúmelo en 24 horas.",
+  "family_mode_note": "Para los grandes, sirve el pescado a la plancha con la salsa de kiwi por encima y unas gotas de limón.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura el pescado con el puré de kiwi hasta obtener una textura suave y sin grumos." },
+    { "age_band": "9_11m", "adaptation_text": "Desmenuza el pescado en lascas muy blandas y acompáñalo con el kiwi machacado con tenedor." }
+  ],
+  "ingredients": [
+    { "code": "pescado_blanco", "name": "Pescado blanco (merluza, tilapia o corvina)", "amount": 50, "unit": "g", "note": "sin espinas", "sort_order": 1 },
+    { "code": "kiwi", "name": "Kiwi", "amount": 0.5, "unit": "unidad", "note": "maduro", "sort_order": 2 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": "para ajustar la textura", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina el pescado al vapor hasta que esté completamente opaco y se deshaga en lascas; revísalo con los dedos para descartar cualquier espina.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Pela el kiwi y machácalo o tritúralo hasta obtener un puré.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla el puré de kiwi con el pescado cocido; agrega un poco de agua si deseas una textura más líquida.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Sirve en trocitos o triturado según la edad, revisando siempre la temperatura antes de ofrecerlo.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [62], "pages": [82] },
+  "image_filename": "receta-pescado-blanco-con-salsa-de-kiwi.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

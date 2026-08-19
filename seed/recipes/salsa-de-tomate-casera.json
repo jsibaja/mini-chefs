@@ -1,0 +1,49 @@
+{
+  "slug": "salsa-de-tomate-casera",
+  "title": "Salsa de Tomate Casera",
+  "description": "Una salsa de tomate suave hecha en casa, sin sal ni azúcar añadidos, lista para acompañar pastas, arroces y más.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Una salsa de tomate hecha en casa aporta licopeno y vitamina C, sin la sal ni los azúcares de las versiones envasadas.",
+  "tips": "Rinde para varias comidas: guárdala en frasco en el refrigerador hasta 4 días o congélala en porciones hasta 3 meses. Desde los 12 meses puedes servirla con pollo en trocitos pequeños dorado en la sartén, tipo pollito crujiente.",
+  "family_mode_note": "Para los adultos, realza la salsa con ajo, albahaca y una pizca de sal tras apartar la porción del bebé.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Usa la salsa bien lisa y colada como base para diluir papillas de verdura o cereal." }
+  ],
+  "ingredients": [
+    { "code": "tomate", "name": "Tomate", "amount": 2, "unit": "unidad", "note": "maduros, sin piel ni semillas", "sort_order": 1 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "rallada, opcional para un toque dulce", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela los tomates y retírales las semillas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Tritúralos hasta obtener una salsa suave.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Calienta el aceite de oliva en una sartén a fuego medio.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega el tomate triturado y cocina a fuego lento unos 10 minutos, revolviendo de vez en cuando para que no se pegue, hasta que espese.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Si lo deseas, incorpora la zanahoria rallada y cocina 5 minutos más para que se ablande.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Retira del fuego y deja entibiar antes de servir o usar como base.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [67, 100], "pages": [87, 122] },
+  "image_filename": "receta-salsa-de-tomate-casera.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

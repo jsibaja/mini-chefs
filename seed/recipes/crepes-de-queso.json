@@ -1,0 +1,53 @@
+{
+  "slug": "crepes-de-queso",
+  "title": "Crepes de Queso",
+  "description": "Crepes finos y flexibles rellenos de queso derretido, listos para doblar o enrollar: un plato salado que funciona igual de bien en el desayuno, la cena o la lonchera.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 40,
+  "cook_minutes": 20,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El queso y la leche aportan calcio y proteína para huesos y dientes en crecimiento, y en formato de rollito se comen fácil con la mano en el descanso.",
+  "tips": "Suma jamón o espinaca salteada al relleno para una versión más completa. Enfríalos por completo antes de cerrar la lonchera y acompáñalos siempre con un gel refrigerante.",
+  "family_mode_note": "La masa rinde para todos: los adultos pueden rellenarlos con champiñones, pollo o verduras salteadas.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Prepara la mezcla sin sal y ofrece el crepe con el queso derretido cortado en tiritas suaves." }
+  ],
+  "ingredients": [
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "leche", "name": "Leche", "amount": 1, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "harina_trigo", "name": "Harina de trigo", "amount": 1, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "mantequilla", "name": "Mantequilla", "amount": 4, "unit": "cucharada", "note": "derretida, o aceite de coco; reserva un poco más para engrasar la sartén", "sort_order": 4 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "omítela para menores de 1 año", "sort_order": 6 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 1, "unit": "taza", "note": "mozzarella o el que prefieras, para el relleno", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Licúa o bate a mano el agua, la leche, la mantequilla derretida, los huevos y la sal hasta integrar.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Añade la harina de trigo y mezcla de nuevo hasta obtener una masa homogénea y sin grumos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Refrigera la mezcla durante 30 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Calienta una sartén antiadherente a fuego medio y engrásala con un poco de mantequilla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Vierte un cucharón de mezcla y gira la sartén para extenderla en una capa fina; cocina hasta que los bordes se despeguen.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Voltea el crepe y cocínalo por el otro lado hasta que el huevo esté completamente cocido; reparte queso rallado encima y, cuando se derrita, dóblalo o enróllalo. Repite con el resto de la mezcla.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [44], "pages": [71] },
+  "image_filename": "receta-crepes-de-queso.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

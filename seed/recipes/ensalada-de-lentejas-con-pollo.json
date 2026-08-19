@@ -1,0 +1,48 @@
+{
+  "slug": "ensalada-de-lentejas-con-pollo",
+  "title": "Ensalada de Lentejas con Pollo",
+  "description": "Lentejas suaves con pollo desmenuzado y tomate fresco, servida tibia o fría: una comida completa rica en hierro y proteínas que también viaja bien en la lonchera.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las lentejas aportan hierro vegetal y fibra, el pollo suma proteína para crecer y el tomate agrega vitamina C, que ayuda a aprovechar mejor ese hierro.",
+  "tips": "Antes de los 12 meses aplasta bien las lentejas para evitar atragantamientos. Es ideal para la lonchera: envíala fría con gel refrigerante. Un chorrito de aceite de oliva la vuelve más suave y nutritiva.",
+  "family_mode_note": "Sirve la versión de los grandes como ensalada fría con cebolla morada, un poco de limón y aceite de oliva.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura las lentejas, el pollo y el tomate juntos hasta obtener un puré suave, sin grumos firmes." },
+    { "age_band": "9_11m", "adaptation_text": "Aplasta las lentejas con un tenedor y desmenuza el pollo bien fino; corta el tomate en trocitos pequeños." }
+  ],
+  "ingredients": [
+    { "code": "lenteja", "name": "Lentejas cocidas", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 0.5, "unit": "unidad", "note": "sin piel", "sort_order": 2 },
+    { "code": "tomate", "name": "Tomate", "amount": 0.5, "unit": "unidad", "note": "sin piel ni semillas", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pechuga de pollo hasta que esté completamente cocida, sin partes rosadas, y desmenúzala en trozos pequeños.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Mezcla las lentejas cocidas con el pollo desmenuzado; si el niño tiene menos de 12 meses, aplasta bien las lentejas.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Corta el tomate en trocitos pequeños y añádelo a la mezcla.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Revuelve todo hasta integrar y sirve tibia o fría, según la preferencia.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [56], "pages": [76] },
+  "image_filename": "receta-ensalada-de-lentejas-con-pollo.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

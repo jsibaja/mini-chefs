@@ -1,0 +1,63 @@
+{
+  "slug": "frutero-del-recreo",
+  "title": "Frutero del Recreo",
+  "description": "La selección de frutas que aguantan la mochila sin refrigeración: mandarina en gajos, manzana en bastones con limón, uvas en cuartos y plátano con su cáscara. Cinco minutos de preparación y color garantizado.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 1,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "rojo", "morado"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La fruta entera conserva la fibra que se pierde al hacerla jugo, y combinar tres colores distintos suma vitamina C, potasio y agua para la jornada escolar. Al no llevar lácteos ni proteína animal, viaja segura sin gel refrigerante.",
+  "tips": "Elige siempre frutas firmes: manzana, pera de pulpa dura, mandarina, uva y plátano resisten los golpes de la mochila. Deja fuera la fresa, el melón y la papaya en trozos, que se aguan y se estropean en pocas horas fuera del frío.",
+  "family_mode_note": "Deja que el niño arme su propio frutero eligiendo dos o tres frutas de las que tengas en casa: participar en el armado sube muchísimo la probabilidad de que la lonchera vuelva vacía.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Ofrece solo fruta blanda o cocida: gajos de mandarina sin semillas ni hollejo duro, plátano en bastones y manzana rallada o cocida al vapor. La manzana cruda en bastones todavía es demasiado dura a esta edad."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Ya puede con manzana cruda en bastones finos, pero las uvas siguen yendo siempre partidas en cuartos a lo largo y bajo supervisión mientras come."
+    },
+    {
+      "age_band": "6_9a",
+      "adaptation_text": "Puede llevar la fruta entera y pelarla en la escuela; incluye una mandarina, una manzana pequeña y un puñado de uvas partidas por la mitad."
+    }
+  ],
+  "ingredients": [
+    { "code": "mandarina", "name": "Mandarina", "amount": 1, "unit": "unidad", "note": "pelada y separada en gajos", "sort_order": 1 },
+    { "code": "manzana", "name": "Manzana", "amount": 1, "unit": "unidad", "note": "pequeña y firme", "sort_order": 2 },
+    { "code": "uva", "name": "Uvas sin semilla", "amount": 8, "unit": "unidad", "note": "lavadas", "sort_order": 3 },
+    { "code": "platano", "name": "Plátano", "amount": 1, "unit": "unidad", "note": "firme, con cáscara", "sort_order": 4 },
+    { "code": "limon", "name": "Jugo de limón", "amount": 1, "unit": "cucharadita", "note": "para que la manzana no se oxide", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava todas las frutas bajo el chorro de agua, frotando la cáscara de la manzana y las uvas con la mano, y sécalas bien con un paño limpio: la humedad acelera que se estropeen.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Parte cada uva en cuartos a lo largo, nunca por la mitad ni entera: las frutas redondas del tamaño de la tráquea son la principal causa de atragantamiento en menores de 5 años.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Corta la manzana en bastones delgados de medio centímetro de grosor, sin cáscara si el niño tiene menos de 3 años, y descarta el corazón con las semillas.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Rocía los bastones de manzana con el jugo de limón y muévelos para cubrirlos: así llegan blancos y no oscurecidos al recreo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Pela la mandarina, separa los gajos y retira las semillas y los hilos blancos que sean duros.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Acomoda las uvas, la manzana y la mandarina en compartimentos separados de un recipiente hermético para que no se mezclen los jugos, y guarda el plátano entero con su cáscara al lado, no dentro del recipiente.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Cierra bien la lonchera y guárdala lejos del sol directo. Así preparada aguanta sin problema entre 4 y 5 horas a temperatura ambiente.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-frutero-del-recreo.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "nuggets-de-brocoli",
+  "title": "Nuggets de Brócoli",
+  "description": "Bocaditos dorados de brócoli con queso y avena, crujientes por fuera y suaves por dentro: la forma más divertida de sumar verdura verde a la lonchera.",
+  "category": "lonchera",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "colacion_pm", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["verde"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Combina la energía de la avena con la proteína del huevo y el queso, y suma una porción de verdura verde en un formato que los niños aceptan con gusto.",
+  "tips": "Prepara doble tanda y congela los nuggets ya cocidos hasta 2 meses; pasan del congelador a la lonchera térmica con gel refrigerante y se descongelan justo para el recreo.",
+  "family_mode_note": "Rinden como entrada para toda la familia: duplica las cantidades y sírvelos con una salsa de yogur natural con limón.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara la masa sin sal, forma mini porciones bien aplanadas, cocínalas hasta que estén completamente cocidas por dentro y sírvelas partidas en trozos pequeños."
+    }
+  ],
+  "ingredients": [
+    { "code": "brocoli", "name": "Brócoli", "amount": 2, "unit": "taza", "note": "de floretes cocidos y picados fino (1 brócoli mediano, unos 300 g)", "sort_order": 1 },
+    { "code": "avena_molida", "name": "Avena molida", "amount": 0.5, "unit": "taza", "note": "o pan rallado, más 1/4 de taza extra para el empanizado", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado fino", "sort_order": 5 },
+    { "code": "oregano_seco", "name": "Orégano seco", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 7 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": null, "sort_order": 8 },
+    { "code": "aceite", "name": "Aceite vegetal", "amount": 1, "unit": "cucharada", "note": "solo para la versión en sartén", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol el brócoli picado con la avena molida, el queso, el ajo, el orégano, la pizca de sal y la pimienta.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el huevo y mezcla hasta obtener una masa compacta; si queda muy húmeda, suma 1 cucharada más de avena.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Con las manos ligeramente húmedas, forma nuggets pequeños y aplanados, y pásalos por la avena o el pan rallado extra para que queden crujientes.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Al horno: precalienta a 200 °C y hornéalos sobre una bandeja con papel de horno por 20-25 minutos, volteándolos a la mitad del tiempo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "En sartén: dóralos con 1 cucharada de aceite a fuego medio, 3-4 minutos por lado.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Verifica que estén firmes y bien cocidos por dentro (la masa lleva huevo y debe quedar completamente cocida) y déjalos entibiar antes de empacar.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [13], "pages": [36] },
+  "image_filename": "receta-nuggets-de-brocoli.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

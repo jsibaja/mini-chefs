@@ -1,0 +1,51 @@
+{
+  "slug": "bizcocho-de-calabaza-blw",
+  "title": "Bizcocho de calabaza BLW sin lactosa",
+  "description": "Bizcocho suave de calabaza y canela, sin lactosa, cortado en bastones para autoalimentación. Naturalmente dulce y muy fácil de masticar.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 25,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La calabaza aporta vitamina A y betacarotenos que le dan su color naranja, y la avena suma fibra y energía para media mañana o media tarde.",
+  "tips": "El polvo de hornear y el aceite evitan que quede denso y gomoso. Puedes bañarlo con salsa de algarroba (ver receta) para un toque especial. Se congela hasta 3 meses.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Corta el bizcocho en bastones del tamaño de un dedo para que el bebé lo agarre; verifica que la miga esté bien blanda." }
+  ],
+  "ingredients": [
+    { "code": "pure_calabaza", "name": "Puré de calabaza (zapallo/auyama)", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "canela", "name": "Canela", "amount": 1, "unit": "cucharadita", "note": "molida", "sort_order": 3 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharadita", "note": "derretido", "sort_order": 5 },
+    { "code": "bebida_avena", "name": "Bebida de avena", "amount": 2, "unit": "cucharada", "note": "si la masa queda muy espesa", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y engrasa ligeramente un molde para bizcocho.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla el puré de calabaza, la harina de avena, la canela, el polvo de hornear y el aceite de coco hasta obtener una masa homogénea; añade la bebida de avena si queda muy espesa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Vierte la mezcla en el molde preparado.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea 25 minutos o hasta que al insertar un palillo salga limpio.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Deja enfriar antes de desmoldar y cortar en bastones para servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [87], "pages": [108] },
+  "image_filename": "receta-bizcocho-de-calabaza-blw.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

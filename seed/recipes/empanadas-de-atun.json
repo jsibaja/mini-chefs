@@ -1,0 +1,58 @@
+{
+  "slug": "empanadas-de-atun",
+  "title": "Empanadas de Atún",
+  "description": "Empanaditas horneadas con relleno cremoso de atún y papa, doradas y crujientes. Aguantan muy bien el viaje en la lonchera. Contienen pescado y gluten.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 30,
+  "cook_minutes": 40,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pescado",
+  "veggie_colors": [],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El atún aporta proteína y grasas omega-3 que acompañan el crecimiento, y la papa entrega energía duradera para la jornada escolar.",
+  "tips": "Congela las empanadas crudas hasta 2 meses y hornéalas directo del congelador sumando 5 minutos. En la lonchera viajan con gel refrigerante y se consumen antes de 4 horas.",
+  "family_mode_note": "Para los adultos, agrega al relleno cebolla salteada y un toque de paprika (pimentón dulce en polvo).",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve la empanada tibia y partida en trocitos pequeños; machaca bien el relleno y usa la mínima sal en la masa."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_trigo", "name": "Harina de trigo", "amount": 0.75, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "sal", "name": "Sal", "amount": 0.25, "unit": "cucharadita", "note": "para la masa", "sort_order": 2 },
+    { "code": "mantequilla", "name": "Mantequilla fría", "amount": 0.33, "unit": "taza", "note": "puede ser margarina vegetal sin sal o aceite vegetal", "sort_order": 3 },
+    { "code": "jugo_limon", "name": "Jugo de limón", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "agua", "name": "Agua fría", "amount": 0.25, "unit": "taza", "note": "para la masa", "sort_order": 5 },
+    { "code": "atun", "name": "Atún en conserva", "amount": 150, "unit": "g", "note": "en agua, bien escurrido", "sort_order": 6 },
+    { "code": "papa", "name": "Papa", "amount": 4, "unit": "unidad", "note": "medianas, peladas y en cubos", "sort_order": 7 },
+    { "code": "aceite_vegetal", "name": "Aceite vegetal", "amount": 1, "unit": "cucharadita", "note": "para engrasar la bandeja", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol la harina con la sal y la mantequilla fría hasta obtener una textura arenosa.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el jugo de limón y el agua fría y amasa hasta que la masa quede elástica. Forma una bola, cúbrela con un paño húmedo y déjala reposar 15 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mientras reposa la masa, cocina las papas en cubos en agua hirviendo por 12-15 minutos, hasta que estén tiernas. Escúrrelas y machácalas ligeramente con un tenedor.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mezcla el atún bien escurrido con la papa machacada hasta integrar el relleno.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Extiende la masa con un rodillo y corta círculos medianos con un vaso o cortador.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Coloca una cucharada de relleno en cada círculo, dobla y sella los bordes presionando con un tenedor.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Acomoda las empanadas en la bandeja engrasada y hornéalas a 200 °C por 20-25 minutos, hasta que estén doradas y crujientes. También funcionan en freidora de aire a 190 °C por 12-15 minutos.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [62], "pages": [91] },
+  "image_filename": "receta-empanadas-de-atun.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

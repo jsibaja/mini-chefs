@@ -1,0 +1,50 @@
+{
+  "slug": "cerdo-con-verduras",
+  "title": "Cerdo con Verduras",
+  "description": "Un puré suave de cerdo magro con zanahoria y papa, cremoso y fácil de tragar: una comida completa y reconfortante para los primeros platos con carne.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 25,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "carne_roja",
+  "veggie_colors": ["naranja"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El cerdo magro aporta proteína, hierro y zinc para el crecimiento, la zanahoria suma betacarotenos y la papa da energía en un puré suave y fácil de digerir.",
+  "tips": "Un chorrito de aceite de oliva al final mejora la textura y la absorción de nutrientes. Cocina la carne hasta que esté muy tierna para triturarla bien. Se congela hasta 2 meses en porciones individuales.",
+  "family_mode_note": "Para toda la familia, corta el cerdo y las verduras en trozos y guísalos con hierbas; reserva la porción del bebé antes de salar.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura la carne con las verduras y un poco de agua hasta obtener un puré fino y homogéneo." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca las verduras con un tenedor y desmenuza la carne bien fina para una textura con grumos suaves." },
+    { "age_band": "12_24m", "adaptation_text": "Puedes sumar remolacha (betabel) para dar color y dulzor: cocínala aparte 20-25 minutos hasta que esté tierna y agrégala al puré. Por su contenido de nitratos conviene ofrecerla desde el año, en porción pequeña, y consumir el puré el mismo día sin recalentarlo varias veces." }
+  ],
+  "ingredients": [
+    { "code": "carne_cerdo", "name": "Carne de cerdo magra", "amount": 50, "unit": "g", "note": "sin grasa", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "en trozos pequeños", "sort_order": 2 },
+    { "code": "papa", "name": "Papa", "amount": 0.5, "unit": "unidad", "note": "en trozos pequeños", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": "opcional, al final", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la carne de cerdo hasta que esté completamente cocida y muy tierna, sin partes rosadas.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Pela y corta la zanahoria y la papa en trozos pequeños y cocínalas hasta que estén blandas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura la carne con las verduras y un poco de agua hasta obtener un puré suave.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Ajusta la consistencia con más agua si es necesario y, si lo deseas, agrega el aceite de oliva antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [64, 101], "pages": [84, 123] },
+  "image_filename": "receta-cerdo-con-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

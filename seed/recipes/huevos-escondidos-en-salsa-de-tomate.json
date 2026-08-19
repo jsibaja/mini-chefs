@@ -1,0 +1,59 @@
+{
+  "slug": "huevos-escondidos-en-salsa-de-tomate",
+  "title": "Huevos Escondidos en Salsa de Tomate",
+  "description": "Huevos cocidos dentro de una salsa espesa de tomate y pimiento, servidos con pan para mojar. Todo se hace en una sola sartén y desaparece del plato en minutos.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 6,
+  "cook_minutes": 14,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["rojo", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo entero, con yema incluida, aporta proteína completa, hierro y colina, nutrientes clave para el crecimiento y el sistema nervioso. El tomate cocido con aceite mejora el aprovechamiento de sus carotenos.",
+  "tips": "Si la salsa queda ácida, no le agregues azúcar: una zanahoria rallada fina cocida junto con el tomate la endulza de forma natural. La salsa sola se puede dejar hecha desde el mediodía y solo agregar los huevos a la hora de la cena.",
+  "family_mode_note": "Para los adultos, espolvorea pimentón ahumado y hojuelas de chile sobre su mitad de la sartén una vez servidos los platos de los niños.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Prepara la salsa sin sal. Sirve el huevo completamente cuajado, tanto la clara como la yema, córtalo en trocitos del tamaño de un frijol y mézclalo con la salsa; ofrece el pan en tiras blandas, sin corteza dura."
+    }
+  ],
+  "ingredients": [
+    { "code": "huevo", "name": "Huevos", "amount": 4, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "tomate", "name": "Tomate maduro", "amount": 4, "unit": "unidad", "note": "picado en cubos", "sort_order": 2 },
+    { "code": "pimiento_rojo", "name": "Pimiento rojo", "amount": 1, "unit": "unidad", "note": "en tiras finas", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 1, "unit": "unidad", "note": "pequeña, picada", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "pan_integral", "name": "Pan integral", "amount": 3, "unit": "rebanada", "note": "para acompañar", "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "solo para las porciones de mayores de 1 año", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Calienta el aceite en una sartén amplia a fuego medio y sofríe la cebolla y el pimiento 3 minutos, hasta que se ablanden.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el ajo, revuelve 30 segundos y suma el tomate picado.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina 6 minutos aplastando el tomate con la cuchara, hasta que se deshaga y la salsa se vea espesa.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Haz cuatro huecos en la salsa con el dorso de una cuchara y casca un huevo en cada uno.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Tapa la sartén y cocina a fuego bajo 5 minutos, hasta que la clara esté blanca y firme y la yema completamente cuajada, sin partes líquidas.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Agrega la pizca de sal solo sobre las porciones de los mayores de 1 año.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Sirve cada huevo con salsa en el plato y deja entibiar 2 minutos antes de darlo al niño.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Acompaña con el pan cortado en tiras para mojar en la salsa.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-huevos-escondidos-en-salsa-de-tomate.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "churros-caseros-de-avena",
+  "title": "Churros caseros de avena",
+  "description": "Churros al horno de avena, sin fritura y sin azúcar añadida, crujientes por fuera. Un antojo especial para acompañar con salsa de algarroba o con fresas.",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 2,
+  "suitable_slots": ["colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "Hechos con avena integral y horneados en vez de fritos, aportan fibra y energía para un antojo más ligero.",
+  "tips": "Acompáñalos con salsa de algarroba (ver receta) o con fresas cortadas en cuartos a lo largo. Se disfrutan mejor recién horneados, cuando están crujientes. Para una versión sin gluten, usa avena certificada sin gluten.",
+  "family_mode_note": "Los adultos pueden espolvorear canela y un poco de azúcar sobre su porción.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Hornéalos un par de minutos menos para que queden un poco más blandos y córtalos en trozos cortos; ofrécelos siempre con supervisión." }
+  ],
+  "ingredients": [
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": "más 1 cucharada extra si la masa queda muy blanda", "sort_order": 1 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una cacerola, calienta el agua con el aceite de oliva hasta que hierva.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Baja el fuego, agrega la harina de avena y remueve sin parar hasta formar una masa firme que se despegue de la cacerola; si queda muy blanda, añade harina de avena de a poco.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Retira del fuego y deja entibiar la masa hasta poder manejarla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Con una manga pastelera o con las manos, forma churros del largo de un dedo y colócalos en la bandeja.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Hornea 15 minutos o hasta que estén dorados y firmes.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Deja enfriar antes de servir; los churros crujientes se ofrecen a partir de los 12 meses y siempre con supervisión.", "is_safety_critical": true }
+  ],
+  "source": { "book": "gourmets", "numbers": [84, 109, 122], "pages": [105, 132, 147] },
+  "image_filename": "receta-churros-caseros-de-avena.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

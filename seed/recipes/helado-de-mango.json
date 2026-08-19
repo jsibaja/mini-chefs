@@ -1,0 +1,46 @@
+{
+  "slug": "helado-de-mango",
+  "title": "Helado de Mango",
+  "description": "Helado cremoso hecho solo con mango: fruta fresca y fruta congelada licuadas hasta lograr textura de helado suave, sin azúcar añadida.",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Se prepara solo con fruta: todo el dulzor es natural del mango, que además aporta vitamina C y fibra.",
+  "tips": "Si la mezcla no gira en la licuadora, agrega 1 o 2 cucharadas de agua fría y raspa los bordes; con mango bien maduro no necesita endulzante.",
+  "family_mode_note": "Postre para disfrutar en casa: al ser congelado no viaja bien en la lonchera escolar, porque se derrite y se rompe la cadena de frío.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Sirve una porción pequeña semiderretida en un vasito con cuchara, para que el frío no sea tan intenso." }
+  ],
+  "ingredients": [
+    { "code": "mango", "name": "Mango", "amount": 2, "unit": "unidad", "note": "1 maduro fresco y 1 en cubos congelado (al menos 4 horas)", "sort_order": 1 },
+    { "code": "limon", "name": "Limón", "amount": 0.5, "unit": "unidad", "note": "el jugo, opcional", "sort_order": 2 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Con anticipación, pela uno de los mangos, córtalo en cubos y congélalo al menos 4 horas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela y pica el mango fresco, retirando la semilla.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Licúa el mango fresco con los cubos congelados y el jugo de limón hasta obtener una consistencia cremosa, deteniéndote para raspar los bordes si hace falta.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Sirve de inmediato como helado suave, o congela 1-2 horas en moldes si prefieres una textura más firme.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [95], "pages": [127] },
+  "image_filename": "receta-helado-de-mango.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "hamburguesa-de-salmon",
+  "title": "Hamburguesa de Salmón",
+  "description": "Hamburguesas caseras de salmón fresco con eneldo, doradas en sartén: jugosas por dentro y perfectas solas, con ensalada o dentro de un pan integral.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pescado",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El salmón es rico en omega-3, grasas buenas que acompañan el desarrollo del cerebro, y aporta proteínas de alta calidad para crecer fuerte.",
+  "tips": "Una salsa rápida de yogur natural con limón y eneldo las acompaña muy bien. Congela las hamburguesas crudas separadas con papel para hornear y descongélalas en el refrigerador antes de cocinarlas.",
+  "family_mode_note": "Con pan integral, hojas verdes y rodajas de tomate arma una hamburguesada familiar de pescado.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Forma mini hamburguesitas sin sal ni mostaza para el bebé, desmenúzalas al servir y revisa de nuevo que no quede ninguna espina."
+    }
+  ],
+  "ingredients": [
+    { "code": "salmon", "name": "Salmón fresco", "amount": 200, "unit": "g", "note": "sin piel ni espinas", "sort_order": 1 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada fina", "sort_order": 2 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 3 },
+    { "code": "pan_molido", "name": "Pan molido (pan rallado)", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "mostaza", "name": "Mostaza", "amount": 1, "unit": "cucharadita", "note": "opcional", "sort_order": 5 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 6 },
+    { "code": "eneldo", "name": "Eneldo fresco", "amount": 1, "unit": "cucharadita", "note": "picado; puedes usar perejil", "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela para menores de 1 año", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Revisa el salmón cuidadosamente con los dedos y retira cualquier espina que encuentres antes de continuar.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Pica finamente el salmón con un cuchillo o tritúralo con pulsos cortos en un procesador de alimentos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En un tazón, mezcla el salmón con la cebolla, el ajo, el pan molido, el huevo, la mostaza y el eneldo; sazona con muy poca sal.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Integra todo hasta obtener una masa homogénea y forma 4 hamburguesas medianas; si la masa está muy blanda, refrigérala 15 minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Calienta una sartén con el aceite de oliva y cocina las hamburguesas 3-4 minutos por lado, hasta que estén doradas por fuera y completamente cocidas por dentro (el huevo y el pescado no deben quedar crudos).", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Sirve calientes, con ensalada, camote asado o dentro de un pan integral.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [37], "pages": [94, 95] },
+  "image_filename": "receta-hamburguesa-de-salmon.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

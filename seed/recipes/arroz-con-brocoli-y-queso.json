@@ -1,0 +1,59 @@
+{
+  "slug": "arroz-con-brocoli-y-queso",
+  "title": "Arroz con Brócoli y Queso",
+  "description": "Arroz integral con \"arbolitos\" de brócoli tiernos y queso fundido que lo envuelve todo. Cremoso, reconfortante y con truco para que los niños pidan más verdura.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 45,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_termo",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": ["verde"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El brócoli aporta vitamina C y fibra, el queso suma calcio y proteínas para huesos en crecimiento, y el arroz integral entrega energía duradera para jugar y aprender.",
+  "tips": "Llama a los ramilletes \"arbolitos con nieve de queso\": ponerle nombres divertidos a la verdura ayuda a que los niños la prueben. Las sobras del día siguiente sirven de base para croquetas de arroz al horno.",
+  "family_mode_note": "Los adultos pueden sumar hojuelas de chile o pimienta negra en su plato al servir. Para llevarlo a la escuela, envásalo bien caliente en un termo de boca ancha precalentado con agua hirviendo: lleva queso y necesita mantenerse caliente.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Cocina el brócoli hasta que esté muy blando, machaca la porción del bebé junto con el arroz, usa apenas una pizca de queso y no agregues sal."
+    }
+  ],
+  "ingredients": [
+    { "code": "arroz_integral", "name": "Arroz integral", "amount": 200, "unit": "g", "note": "enjuagado", "sort_order": 1 },
+    { "code": "brocoli", "name": "Brócoli", "amount": 1, "unit": "unidad", "note": "mediano, en ramilletes pequeños", "sort_order": 2 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 100, "unit": "g", "note": "mozzarella o parmesano", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 600, "unit": "ml", "note": "casero o bajo en sodio", "sort_order": 6 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "muy poca: el queso ya aporta sal", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Enjuaga el arroz integral bajo agua fría y escúrrelo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una olla con el aceite de oliva, sofríe la cebolla y el ajo hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el arroz y tuéstalo ligeramente durante 2 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte el caldo caliente, tapa y cocina a fuego medio-bajo durante 35-40 minutos; agrega más caldo caliente si se seca antes de tiempo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cuando falten 8-10 minutos, añade el brócoli en ramilletes pequeños para que quede tierno.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Sazona con muy poca sal y revuelve bien.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Retira del fuego, agrega el queso rallado y mezcla hasta que se derrita.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sirve caliente, acompañado de una ensalada fresca si lo deseas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [35], "pages": [89, 90] },
+  "image_filename": "receta-arroz-con-brocoli-y-queso.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

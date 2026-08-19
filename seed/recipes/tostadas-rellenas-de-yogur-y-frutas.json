@@ -1,0 +1,51 @@
+{
+  "slug": "tostadas-rellenas-de-yogur-y-frutas",
+  "title": "Tostadas Rellenas de Yogur y Frutas",
+  "description": "Tostadas con bordes crujientes y centro cremoso de yogur, huevo y vainilla, coronadas con fresas o arándanos: como un pastelito de queso en rebanada de pan.",
+  "category": "postre",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["rojo", "morado"],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El yogur y el huevo aportan proteína y calcio para el crecimiento; las fresas y los arándanos suman color y vitamina C sin azúcar añadida.",
+  "tips": "Prepáralas la noche anterior y guárdalas refrigeradas: en la lonchera viajan con gel refrigerante y se comen frías, como un pastelito de queso.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Corta la tostada en tiras, verifica que el relleno de huevo esté completamente firme y parte los arándanos por la mitad antes de ponerlos." }
+  ],
+  "ingredients": [
+    { "code": "pan_integral", "name": "Pan multicereal", "amount": 4, "unit": "rebanada", "note": "o pan integral", "sort_order": 1 },
+    { "code": "yogur_griego", "name": "Yogur griego natural", "amount": 2.5, "unit": "cucharada", "note": "sin azúcar", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "fresa", "name": "Fresas", "amount": 0.5, "unit": "taza", "note": "o arándanos, en trocitos", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla los huevos, el yogur y la vainilla en un tazón.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Aplana el centro de cada rebanada de pan con el dorso de una cuchara, dejando los bordes elevados como un marco.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Rellena el centro con la mezcla y reparte la fruta encima.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Hornea a 180 °C por 10-12 minutos (horno o freidora de aire), hasta que el relleno esté firme y sin partes líquidas: el huevo debe quedar completamente cocido.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "En sartén: cocina tapado a fuego medio-bajo unos 15 minutos, verificando que el relleno cuaje por completo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Deja enfriar antes de empacar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [59], "pages": [87] },
+  "image_filename": "receta-tostadas-rellenas-de-yogur-y-frutas.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

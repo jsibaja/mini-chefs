@@ -1,0 +1,59 @@
+{
+  "slug": "pan-rosado",
+  "title": "Pan Rosado de Remolacha",
+  "description": "Panecillos suaves teñidos de rosa natural con remolacha (betabel) y zanahoria escondidas en la masa. Vegetales que los niños comen sin darse cuenta.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 30,
+  "cook_minutes": 25,
+  "servings": 8,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["morado", "naranja"],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La remolacha y la zanahoria dan color natural, fibra y un toque dulce sin azúcar añadida, y la avena suma fibra extra al pan de trigo. Un carbohidrato completo para la lonchera.",
+  "tips": "Pinta los panecillos con un poco de aceite antes de hornear y espolvorea semillas de sésamo (ajonjolí) o chía. Ya horneados, congélalos en bolsa cerrada: pasan directo del congelador a la lonchera y se descongelan solos a media mañana.",
+  "family_mode_note": "Los niños pueden amasar y formar sus propias bolitas de pan; el color rosado hace que quieran comerse su propia creación.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve el panecillo partido en trozos pequeños y sin corteza dura. A esta edad la remolacha va en porciones pequeñas como esta, integrada en la masa."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_trigo", "name": "Harina de trigo", "amount": 1.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 0.75, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria cocida", "amount": 1, "unit": "unidad", "note": "hecha puré", "sort_order": 3 },
+    { "code": "remolacha", "name": "Remolacha (betabel) cruda rallada", "amount": 3, "unit": "cucharada", "note": "rallado fino para un color parejo", "sort_order": 4 },
+    { "code": "levadura_seca", "name": "Levadura seca", "amount": 2, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "agua", "name": "Agua tibia", "amount": 1, "unit": "taza", "note": "tibia, no caliente, para no matar la levadura", "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un bol la harina, la avena, la sal y la levadura seca.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el puré de zanahoria, la remolacha rallada, el aceite y el agua tibia poco a poco. Incorporar los vegetales desde el inicio, antes del leudado, asegura un color parejo y una masa que crece bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Amasa de 8 a 10 minutos hasta obtener una masa suave y elástica.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Deja levar la masa cubierta en un lugar tibio durante 1 hora, hasta que casi doble su tamaño.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Desgasifica suavemente, forma bolitas pequeñas y colócalas en una bandeja engrasada, dejando espacio entre ellas.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Deja levar 45 minutos más, hasta que se vean esponjadas.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Hornea a 180 °C de 20 a 25 minutos, hasta que estén doradas y suenen huecas al golpear la base.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Deja enfriar sobre una rejilla antes de guardar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [78], "pages": [108] },
+  "image_filename": "receta-pan-rosado.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

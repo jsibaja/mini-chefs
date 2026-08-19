@@ -1,0 +1,60 @@
+{
+  "slug": "pasta-con-pavo-y-pimientos",
+  "title": "Pasta con Pavo y Pimientos",
+  "description": "Pasta integral con tiras de pavo doradas y pimientos rojo y verde salteados: un plato colorido, ligero y lleno de sabor que se hace en una sola sartén.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_termo",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["rojo", "verde"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pavo es una carne magra rica en proteínas para crecer fuerte, y los pimientos son de las mejores fuentes de vitamina C, que además ayuda a absorber el hierro de los alimentos.",
+  "tips": "Una pizca de cúrcuma o comino da un color dorado y un aroma que suele gustar a los niños. Corta el pavo en tiras delgadas y parejas para que se cocine rápido y quede jugoso.",
+  "family_mode_note": "Versión vegetariana: sustituye el pavo por cubos de tofu firme salteados; el resto de la receta no cambia. Para la lonchera, transpórtala bien caliente en un termo de boca ancha precalentado con agua hirviendo.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Corta la pasta, el pavo y los pimientos en trocitos pequeños y cocina los pimientos hasta que estén bien blandos; sirve con muy poca sal."
+    }
+  ],
+  "ingredients": [
+    { "code": "pasta_integral", "name": "Pasta integral", "amount": 200, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "pechuga_pavo", "name": "Pechuga de pavo", "amount": 150, "unit": "g", "note": "en tiras delgadas", "sort_order": 2 },
+    { "code": "pimiento_rojo", "name": "Pimiento rojo", "amount": 0.5, "unit": "unidad", "note": "en tiras", "sort_order": 3 },
+    { "code": "pimiento_verde", "name": "Pimiento verde", "amount": 0.5, "unit": "unidad", "note": "en tiras", "sort_order": 4 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 5 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 6 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 7 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 50, "unit": "ml", "note": "casero o bajo en sodio", "sort_order": 8 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 1, "unit": "cucharada", "note": "opcional, para servir", "sort_order": 9 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pasta en agua hirviendo según las instrucciones del paquete; escúrrela y reserva.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una sartén con el aceite de oliva, sofríe la cebolla y el ajo picados hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega los pimientos en tiras y cocina durante 5 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora el pavo en tiras y cocínalo hasta que esté dorado por fuera y completamente cocido por dentro, sin partes rosadas.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Vierte el caldo de verduras, deja reducir 3 minutos y sazona con muy poca sal.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Agrega la pasta escurrida y mezcla bien con la preparación.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Sirve caliente y espolvorea el queso rallado por encima, si lo deseas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [34], "pages": [87, 88] },
+  "image_filename": "receta-pasta-con-pavo-y-pimientos.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

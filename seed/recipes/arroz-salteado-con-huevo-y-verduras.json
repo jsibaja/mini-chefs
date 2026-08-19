@@ -1,0 +1,58 @@
+{
+  "slug": "arroz-salteado-con-huevo-y-verduras",
+  "title": "Arroz Salteado con Huevo y Verduras",
+  "description": "El arroz que sobró del almuerzo se convierte en una cena completa con huevo revuelto, zanahoria y arvejas. Diez minutos en la sartén y no queda nada en el plato.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 8,
+  "cook_minutes": 10,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Une el arroz, que da energía de digestión rápida, con la proteína completa del huevo y el hierro vegetal de las arvejas. La zanahoria aporta betacarotenos, que el cuerpo transforma en vitamina A para la vista y la piel.",
+  "tips": "El arroz del día anterior, frío y suelto, queda mucho mejor que el recién hecho, que se apelmaza. Eso sí, guárdalo en el refrigerador dentro de las dos horas posteriores a cocinarlo y úsalo como máximo al día siguiente.",
+  "family_mode_note": "Para los adultos, termina su porción con salsa de soya y cebollín picado; para la lonchera, empaca el arroz ya frío con un gel refrigerante y consúmelo el mismo día.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sin sal ni salsa de soya. Pica la zanahoria en cubos muy pequeños y cocínala hasta que se aplaste con el dedo; sirve el arroz un poco más húmedo, con una cucharada extra de agua de cocción, para que sea fácil de tragar."
+    }
+  ],
+  "ingredients": [
+    { "code": "arroz_cocido", "name": "Arroz blanco cocido", "amount": 3, "unit": "taza", "note": "frío, del día anterior", "sort_order": 1 },
+    { "code": "huevo", "name": "Huevos", "amount": 3, "unit": "unidad", "note": "batidos", "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "en cubos muy pequeños", "sort_order": 3 },
+    { "code": "arveja", "name": "Arvejas", "amount": 1, "unit": "taza", "note": "frescas o congeladas", "sort_order": 4 },
+    { "code": "cebollin", "name": "Cebollín", "amount": 2, "unit": "cucharada", "note": "picado fino", "sort_order": 5 },
+    { "code": "aceite_girasol", "name": "Aceite de girasol", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "solo para las porciones de mayores de 1 año", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la zanahoria y las arvejas en agua hirviendo 5 minutos, hasta que la zanahoria se aplaste con facilidad; escúrrelas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Calienta media cucharada de aceite en una sartén grande a fuego medio y vierte los huevos batidos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Revuelve el huevo sin parar hasta que quede completamente cuajado y seco, sin zonas líquidas; pásalo a un plato y córtalo en trocitos.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Sube el fuego, agrega el aceite restante y suma el arroz frío, separando los granos con la espátula.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Saltea el arroz 3 minutos moviéndolo, hasta que esté caliente y humeante en todo el centro de la sartén.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Incorpora la zanahoria, las arvejas y el huevo picado, y mezcla 1 minuto más.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Apaga el fuego, agrega el cebollín y la pizca de sal solo en las porciones de mayores de 1 año.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sirve tibio; si sobra, refrigéralo apenas se enfríe y recaliéntalo bien antes de volver a servirlo.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-arroz-salteado-con-huevo-y-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

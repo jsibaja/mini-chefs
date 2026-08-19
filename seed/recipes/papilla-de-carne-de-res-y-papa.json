@@ -1,0 +1,49 @@
+{
+  "slug": "papilla-de-carne-de-res-y-papa",
+  "title": "Papilla de carne de res y papa",
+  "description": "Papilla suave de carne de res magra y papa: una preparación clásica rica en hierro, ideal para sumar proteína animal al menú del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "carne_roja",
+  "veggie_colors": [],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La carne de res magra es una de las mejores fuentes de hierro y proteína de fácil absorción, y la papa aporta energía suave para el crecimiento del bebé.",
+  "tips": "Ofrecer una fruta o verdura con vitamina C en la misma comida ayuda a aprovechar mejor el hierro de la carne. Congela en porciones individuales hasta por 2 meses.",
+  "family_mode_note": "Cocina más carne y papa, reserva la porción del bebé antes de salar y convierte el resto en un guiso familiar con verduras.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Pica la carne muy fina y machaca la papa con un tenedor dejando grumos suaves, en lugar de licuar, para que el bebé mastique." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve la carne desmenuzada muy fina con la papa en puré rústico y un poco de caldo casero sin sal." }
+  ],
+  "ingredients": [
+    { "code": "carne_res", "name": "Carne de res magra", "amount": 30, "unit": "g", "note": "en trozos pequeños", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "mediana", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca la carne en una olla con agua o caldo casero sin sal y cocínala a fuego medio hasta que esté completamente cocida y tierna, unos 15-20 minutos.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Pela la papa, córtala en trozos pequeños y cocínala en otra olla con agua hasta que esté blanda, unos 15 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Retira la carne y desmenúzala en trozos pequeños para facilitar el triturado.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura la carne con la papa y un poco de caldo hasta obtener una papilla suave y homogénea; agrega más caldo si es necesario.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Deja entibiar antes de ofrecérsela al bebé.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [20], "pages": [38] },
+  "image_filename": "receta-papilla-de-carne-de-res-y-papa.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

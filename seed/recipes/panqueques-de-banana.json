@@ -1,0 +1,57 @@
+{
+  "slug": "panqueques-de-banana",
+  "title": "Panqueques de Banana",
+  "description": "Panqueques suaves y naturalmente dulces gracias a la banana madura, con avena para energía duradera. Perfectos para el desayuno o la lonchera.",
+  "category": "desayuno",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La avena aporta carbohidratos de energía sostenida y fibra, y la banana endulza de forma natural sin necesidad de azúcar añadida.",
+  "tips": "Para una versión de chocolate, agrega 2 cucharaditas de cacao puro en polvo a la mezcla. Se conservan 3 días en el refrigerador o hasta 2 meses congelados: descongela en el refrigerador la noche anterior a la lonchera.",
+  "family_mode_note": "La misma mezcla rinde para toda la familia: duplica las cantidades y sirve los panqueques de los adultos con fruta fresca y yogur natural.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Prepara la mezcla sin sal y cocina panqueques delgados y bien blandos; ofrécelos tibios en tiras del ancho de un dedo adulto para que el bebé los tome con la mano."
+    }
+  ],
+  "ingredients": [
+    { "code": "banana", "name": "Banana madura", "amount": 1, "unit": "unidad", "note": "banana de fruta (guineo/plátano de seda); no es plátano macho", "sort_order": 1 },
+    { "code": "leche", "name": "Leche o agua", "amount": 80, "unit": "ml", "note": "aprox. 1/3 de taza", "sort_order": 2 },
+    { "code": "harina_avena", "name": "Avena en hojuelas o harina de avena", "amount": 1, "unit": "taza", "note": "si usas hojuelas, muélelas antes", "sort_order": 3 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": "opcional; ayuda a que no se desarmen", "sort_order": 4 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "canela", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "omítela para menores de 1 año", "sort_order": 7 },
+    { "code": "aceite", "name": "Aceite o mantequilla", "amount": 1, "unit": "cucharadita", "note": "para la sartén", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Tritura la banana con un tenedor hasta obtener un puré homogéneo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el huevo (si lo usas) y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Incorpora la harina de avena, la sal, la canela y el polvo de hornear, y bate. Añade la leche o el agua poco a poco hasta lograr una mezcla uniforme y espesa pero vertible.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Calienta una sartén antiadherente a fuego medio con un poco de aceite o mantequilla y vierte porciones pequeñas de la mezcla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cocina 2-3 minutos hasta que se formen burbujas en la superficie, voltea y dora 1-2 minutos más.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Deja entibiar y sirve con fruta fresca picada.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [1], "pages": [23] },
+  "image_filename": "receta-panqueques-de-banana.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

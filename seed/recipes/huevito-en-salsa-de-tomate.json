@@ -1,0 +1,53 @@
+{
+  "slug": "huevito-en-salsa-de-tomate",
+  "title": "Huevito Escondido en Salsa de Tomate",
+  "description": "Un huevo cocido dentro de una salsa de tomate suave y perfumada, con bastones de pan integral para mojar. Se hace en una sola sartén y en 15 minutos está en la mesa.",
+  "category": "desayuno",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["rojo"],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo entero aporta proteína completa y hierro, el tomate cocido suma licopeno y vitamina C, y el pan integral pone la fibra y la energía de la mañana.",
+  "tips": "Duplica la salsa y guárdala hasta 3 días en el refrigerador: sirve para pasta, arroz o para mojar tortillas. Si el tomate está ácido, ralla media zanahoria dentro mientras se cocina: redondea el sabor sin agregar azúcar.",
+  "family_mode_note": "La misma sartén alimenta a todos: agrega más huevos según las personas, y los adultos terminan su porción con pimienta, cilantro y un toque de chile.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Pica el huevo cocido con el tenedor y mézclalo con un poco de salsa; sirve el pan en bastones blandos, sin corteza dura, y con muy poca sal." },
+    { "age_band": "2_5a", "adaptation_text": "Sirve el huevo entero sobre la salsa con el pan en triángulos para mojar; puede romperlo él mismo con la cuchara." }
+  ],
+  "ingredients": [
+    { "code": "tomate", "name": "Tomate", "amount": 2, "unit": "unidad", "note": "bien maduros", "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 2, "unit": "cucharada", "note": "picada muy fina", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "oregano_seco", "name": "Orégano seco", "amount": 1, "unit": "pizca", "note": null, "sort_order": 5 },
+    { "code": "pan_integral", "name": "Pan integral", "amount": 1, "unit": "rebanada", "note": "cortada en bastones", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Calienta el aceite en una sartén pequeña y sofríe la cebolla 2 minutos a fuego medio, hasta que esté transparente.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Ralla los tomates maduros por el lado grueso del rallador y descarta la cáscara que queda en tu mano; agrégalos a la sartén con el orégano.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina la salsa 4 minutos a fuego medio, moviendo de vez en cuando, hasta que espese y pierda el sabor a tomate crudo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Haz dos huecos en la salsa con la cuchara y casca un huevo dentro de cada uno.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Tapa la sartén y cocina de 4 a 5 minutos, hasta que la clara esté firme y la yema completamente cuajada. El huevo debe quedar bien cocido, sin partes líquidas.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Tuesta los bastones de pan integral, sirve el huevo con salsa encima y deja entibiar; para menores de 2 años pícalo con el tenedor antes de dárselo.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-huevito-en-salsa-de-tomate.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

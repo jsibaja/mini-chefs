@@ -1,0 +1,67 @@
+{
+  "slug": "guiso-de-pavo-con-papas-y-verduras",
+  "title": "Guiso de Pavo con Papas y Verduras",
+  "description": "Un guiso reconfortante de pavo con papas, zanahoria y pimiento que se cocina en una sola olla y sabe a comida de casa.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pavo es una carne magra rica en proteínas que apoyan el crecimiento, y las papas y zanahorias aportan energía y betacarotenos para días llenos de juego.",
+  "tips": "Este guiso sabe aún mejor al día siguiente: guárdalo en el refrigerador hasta 3 días o congélalo en porciones individuales. Si lo quieres más espeso, machaca algunas papas y mézclalas con el caldo.",
+  "family_mode_note": "La misma olla rinde para todos: sirve primero las porciones infantiles y deja que los adultos ajusten sal y pimienta en su plato.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Antes de agregar la sal, reserva una porción y tritúrala hasta obtener un puré suave; revisa que no queden trocitos de la hoja de laurel."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Sirve una porción sin sal machacada con tenedor: las papas y verduras quedan blanditas y el pavo debe ir desmenuzado bien fino."
+    }
+  ],
+  "ingredients": [
+    { "code": "pavo", "name": "Pavo", "amount": 200, "unit": "g", "note": "en trozos pequeños", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 2, "unit": "unidad", "note": "medianas, en cubos", "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "pimiento_verde", "name": "Pimiento verde (morrón)", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 4 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 5 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 6 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 500, "unit": "ml", "note": "casero o bajo en sodio", "sort_order": 7 },
+    { "code": "laurel", "name": "Hoja de laurel", "amount": 1, "unit": "hoja", "note": null, "sort_order": 8 },
+    { "code": "paprika_dulce", "name": "Paprika dulce (pimentón dulce)", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 9 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 10 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela en porciones para menores de 12 meses", "sort_order": 11 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 12 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Corta las papas, la zanahoria y el pimiento en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una olla con el aceite de oliva, sofríe la cebolla y el ajo picados hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el pavo y cocínalo 5 minutos, hasta sellarlo por todos lados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora el pimiento y la zanahoria y revuelve bien.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega la paprika dulce y la hoja de laurel.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte el caldo de verduras y agrega las papas.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Cocina a fuego medio 30-35 minutos, hasta que las papas estén tiernas y el pavo completamente cocido, sin partes rosadas.", "is_safety_critical": true },
+    { "step_number": 8, "instruction": "Prueba, ajusta con muy poca sal y pimienta, y retira la hoja de laurel antes de servir.", "is_safety_critical": true }
+  ],
+  "source": { "book": "saborcitos", "numbers": [14], "pages": [46, 47] },
+  "image_filename": "receta-guiso-de-pavo-con-papas-y-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

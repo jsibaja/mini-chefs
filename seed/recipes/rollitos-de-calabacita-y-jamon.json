@@ -1,0 +1,57 @@
+{
+  "slug": "rollitos-de-calabacita-y-jamon",
+  "title": "Rollitos de Calabacita y Jamón Cocido",
+  "description": "Láminas de calabacita enrolladas con jamón y queso, gratinadas al horno hasta que el queso se derrite. Un plato ligero y divertido de enrollar en familia.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "carne_roja",
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La calabacita aporta agua y fibra, el queso suma calcio para huesos en crecimiento y el jamón aporta proteínas; una combinación ligera para completar con ensalada.",
+  "tips": "El jamón cocido es un embutido: elígelo de buena calidad y bajo en sal, y resérvalo como opción ocasional; la pechuga de pavo natural funciona igual de bien en esta receta.",
+  "family_mode_note": "Para los adultos, sirve los rollitos sobre una ensalada de hojas verdes con tomate.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Corta los rollitos en rueditas pequeñas, elige jamón bajo en sodio y no agregues sal extra."
+    }
+  ],
+  "ingredients": [
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 2, "unit": "unidad", "note": "medianas", "sort_order": 1 },
+    { "code": "jamon_cocido", "name": "Jamón cocido", "amount": 150, "unit": "g", "note": "en rebanadas, de buena calidad y bajo en sal", "sort_order": 2 },
+    { "code": "queso_mozzarella", "name": "Queso mozzarella o queso crema", "amount": 100, "unit": "g", "note": null, "sort_order": 3 },
+    { "code": "oregano", "name": "Orégano", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 5 },
+    { "code": "pimienta", "name": "Pimienta negra", "amount": 1, "unit": "pizca", "note": "al gusto", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava las calabacitas y córtalas a lo largo en láminas finas con un pelador o una mandolina (este paso es para el adulto).", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén con unas gotas de aceite de oliva, cocina brevemente las láminas hasta que estén flexibles.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Coloca sobre cada lámina un trozo de jamón y una porción de queso; espolvorea orégano y pimienta.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Enrolla cada lámina con cuidado y, si hace falta, sujétala con un palillo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Acomoda los rollitos en una bandeja y hornea 10 minutos, hasta que el queso se derrita.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Retira todos los palillos antes de servir, especialmente a menores de 5 años.", "is_safety_critical": true },
+    { "step_number": 8, "instruction": "Sirve caliente, acompañado de una ensalada fresca.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [2, 43], "pages": [22, 23, 106, 107] },
+  "image_filename": "receta-rollitos-de-calabacita-y-jamon.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

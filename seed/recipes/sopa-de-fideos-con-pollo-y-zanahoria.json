@@ -1,0 +1,59 @@
+{
+  "slug": "sopa-de-fideos-con-pollo-y-zanahoria",
+  "title": "Sopa de Fideos con Pollo y Zanahoria",
+  "description": "Fideos finos, tiritas de pollo y zanahoria en un caldo claro y reconfortante. La cena de siempre para las noches frías, resuelta en veinte minutos con una sola olla.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 8,
+  "cook_minutes": 12,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_termo",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína y zinc para el crecimiento, la zanahoria suma betacarotenos y los fideos dan energía fácil de digerir antes de dormir. El caldo casero además ayuda a mantener al niño bien hidratado.",
+  "tips": "Los fideos siguen absorbiendo caldo después de apagar el fuego: si vas a guardar sobras, cuécelos aparte y únelos al servir para que no se deshagan. Corta el pollo en tiras delgadas antes de cocinarlo, así se hace en la mitad del tiempo.",
+  "family_mode_note": "Para los adultos, sirve con jugo de limón y cilantro fresco. Para la lonchera escolar, llena un termo de boca ancha con agua hirviendo, vacíalo y recién entonces vierte la sopa caliente.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Cocina con caldo casero sin sal. Parte los fideos en trozos cortos antes de echarlos a la olla, deshilacha el pollo con dos tenedores y sirve con poco caldo, en un plato hondo tibio, para que pueda comerlo con cuchara."
+    }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 250, "unit": "g", "note": "en tiras delgadas", "sort_order": 1 },
+    { "code": "fideo_cabello_angel", "name": "Fideos finos", "amount": 120, "unit": "g", "note": "tipo cabello de ángel", "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 2, "unit": "unidad", "note": "en rodajas delgadas", "sort_order": 3 },
+    { "code": "apio", "name": "Apio", "amount": 1, "unit": "tallo", "note": "picado fino", "sort_order": 4 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 1, "unit": "unidad", "note": "pequeña, picada", "sort_order": 5 },
+    { "code": "agua", "name": "Agua", "amount": 1500, "unit": "ml", "note": "o caldo casero sin sal", "sort_order": 6 },
+    { "code": "perejil", "name": "Perejil fresco", "amount": 2, "unit": "cucharada", "note": "picado", "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "solo para las porciones de mayores de 1 año", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Calienta el aceite en una olla y sofríe la cebolla, la zanahoria y el apio 3 minutos, moviendo de vez en cuando.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el agua y lleva a hervor a fuego alto.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Suma las tiras de pollo y cocina 6 minutos a hervor suave, hasta que al abrir la tira más gruesa se vea blanca por completo, sin zonas rosadas.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Saca el pollo con una espumadera, deshiláchalo con dos tenedores y devuélvelo a la olla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega los fideos y cocina 3 minutos, hasta que estén blandos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Apaga el fuego, incorpora el perejil y agrega la pizca de sal solo a las porciones de los mayores de 1 año.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Sirve en platos hondos y deja entibiar 5 minutos antes de acercar el plato al niño.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-sopa-de-fideos-con-pollo-y-zanahoria.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "pure-de-brocoli-y-pollo",
+  "title": "Puré de brócoli y pollo",
+  "description": "Un puré completo de pollo tierno y brócoli al vapor, suave y homogéneo, que combina proteína y verdura verde en la misma cucharada.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína de calidad y hierro para el crecimiento, y el brócoli suma vitamina C, folatos y fibra; la vitamina C ayuda además a absorber mejor el hierro del pollo.",
+  "tips": "Una cucharadita de aceite de oliva al final aporta energía y ayuda a absorber las vitaminas del brócoli. Congela en porciones individuales y consúmelas dentro de 2 meses.",
+  "family_mode_note": "Cocina más pollo y brócoli para toda la familia; reserva la porción del bebé antes de condimentar y saltea el resto con ajo.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Deja el puré más grueso, con el pollo bien desmenuzado y el brócoli machacado en trocitos muy blandos." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve el brócoli en arbolitos blandos y el pollo desmenuzado junto a la papilla, sin triturar del todo." }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo sin piel", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "brocoli", "name": "Brócoli", "amount": 0.5, "unit": "taza", "note": "en floretes", "sort_order": 2 },
+    { "code": "caldo_pollo", "name": "Caldo de pollo casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": "opcional", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pechuga hervida o al vapor hasta que esté completamente cocida, sin partes rosadas en el interior, unos 12 a 15 minutos.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Lava el brócoli y cocínalo al vapor unos 5 minutos, hasta que esté tierno.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura el pollo y el brócoli con el caldo hasta obtener una textura homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Ajusta la consistencia con más caldo o agua, agrega el aceite de oliva si lo usas, deja entibiar y sirve.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [33], "pages": [51] },
+  "image_filename": "receta-pure-de-brocoli-y-pollo.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

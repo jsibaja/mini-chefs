@@ -1,0 +1,47 @@
+{
+  "slug": "papilla-de-pera-y-yogur",
+  "title": "Papilla de pera y yogur natural",
+  "description": "Pera cocida al vapor y triturada con yogur natural: una papilla cremosa, suave y ligeramente dulce, fácil de digerir para el bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 5,
+  "cook_minutes": 5,
+  "servings": 1,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La pera aporta fibra suave y el yogur natural suma calcio y proteína; juntos forman una papilla cremosa y fácil de digerir.",
+  "tips": "Usa yogur natural entero, pasteurizado y sin azúcar; los lácteos son un alérgeno a vigilar, así que la primera vez ofrécelo solo y observa 2-3 días. Prepárala fresca y consúmela dentro de las 24 horas; no conviene congelarla porque el yogur se corta.",
+  "family_mode_note": "Con más fruta y un poco de granola encima es un postre cremoso para los hermanos mayores.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Aplasta la pera con un tenedor dejando trocitos blandos y mézclala con el yogur para una textura con más cuerpo." }
+  ],
+  "ingredients": [
+    { "code": "pera", "name": "Pera", "amount": 1, "unit": "unidad", "note": "madura", "sort_order": 1 },
+    { "code": "yogur_natural", "name": "Yogur natural entero", "amount": 2, "unit": "cucharada", "note": "pasteurizado y sin azúcar", "sort_order": 2 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava, pela y retira el corazón de la pera; córtala en trozos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina la pera al vapor unos 5 minutos, hasta que esté blanda.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura la pera con un tenedor hasta obtener un puré suave y deja entibiar.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega el yogur natural (sin cocinarlo) y mezcla hasta lograr una papilla cremosa.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Sirve fresca, a temperatura adecuada para el bebé.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [6], "pages": [24] },
+  "image_filename": "receta-papilla-de-pera-y-yogur.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

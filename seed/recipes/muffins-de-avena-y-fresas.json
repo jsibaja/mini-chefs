@@ -1,0 +1,51 @@
+{
+  "slug": "muffins-de-avena-y-fresas",
+  "title": "Muffins de avena y fresas sin huevo y sin lactosa",
+  "description": "Muffins húmedos de avena y fresa, sin huevo y sin lactosa, endulzados solo con la fruta. Una merienda esponjosa lista en media hora.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["rojo"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La avena aporta fibra y energía, y las fresas suman vitamina C y color, con un dulzor natural que no necesita azúcar añadida.",
+  "tips": "Las fresas se pueden ofrecer desde los 6 meses, no hace falta esperar al año; al introducirlas, ofrécelas solas y observa 2-3 días. El polvo de hornear y el aceite dan una miga más esponjosa. Se congelan hasta 3 meses.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Ofrece el muffin en tiras blandas para que el bebé lo agarre; asegúrate de que la miga esté bien tierna." }
+  ],
+  "ingredients": [
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "pure_fresa", "name": "Puré de fresas", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "bebida_avena", "name": "Bebida de avena", "amount": 0.25, "unit": "taza", "note": "sin azúcar", "sort_order": 3 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharadita", "note": "derretido", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y engrasa moldes para muffins o coloca capacillos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla la harina de avena con el polvo de hornear.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Añade el puré de fresas, la bebida de avena y el aceite de coco; mezcla hasta formar una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte la masa en los moldes, llenándolos hasta la mitad.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Hornea 20 minutos o hasta que al insertar un palillo salga limpio.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Deja enfriar antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [86], "pages": [107] },
+  "image_filename": "receta-muffins-de-avena-y-fresas.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "frijoles-blancos-con-costillas-de-cerdo",
+  "title": "Frijoles Blancos con Costillas de Cerdo",
+  "description": "Frijoles blancos cremosos guisados con costilla de cerdo tierna deshuesada: un plato de cuchara sustancioso, con hierro y proteína, ideal para el almuerzo.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 50,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "legumbre",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los frijoles blancos aportan hierro vegetal, fibra y proteína, y la costilla de cerdo suma proteína animal y sabor; juntos hacen una comida de cuchara nutritiva.",
+  "tips": "La carne va con hueso: retírala toda y revísala con los dedos para descartar esquirlas antes de servir. Antes de los 12 meses aplasta bien los frijoles. Usa caldo casero sin sal y cocina la costilla hasta que la carne se desprenda sola.",
+  "family_mode_note": "Para los grandes, guisa los frijoles con un sofrito de cebolla, ajo y tomate; sirve la porción del bebé antes de salar.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura los frijoles con la carne deshuesada y un poco de caldo hasta obtener un puré suave y sin grumos firmes." },
+    { "age_band": "9_11m", "adaptation_text": "Aplasta los frijoles con un tenedor y desmenuza la carne bien fina, dejando una textura espesa y blanda." }
+  ],
+  "ingredients": [
+    { "code": "frijol_blanco", "name": "Frijoles blancos cocidos", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "costilla_cerdo", "name": "Costilla de cerdo", "amount": 1, "unit": "unidad", "note": "sin grasa", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 0.5, "unit": "taza", "note": "casero y sin sal, o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la costilla en agua hasta que la carne esté muy tierna y se desprenda fácilmente del hueso.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Retira toda la carne del hueso, revísala con los dedos para descartar esquirlas y desménuzala.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Mezcla los frijoles cocidos con la carne desmenuzada; si el niño tiene menos de 12 meses, aplasta bien los frijoles.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Cocina todo junto unos minutos con el caldo para integrar los sabores y ajustar la textura.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Retira cualquier fibra de carne difícil de masticar y sirve a temperatura tibia.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [63], "pages": [83] },
+  "image_filename": "receta-frijoles-blancos-con-costillas-de-cerdo.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

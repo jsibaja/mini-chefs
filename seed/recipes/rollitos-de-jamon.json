@@ -1,0 +1,48 @@
+{
+  "slug": "rollitos-de-jamon",
+  "title": "Rollitos de Jamón",
+  "description": "Rollitos de jamón de pavo con queso, hojas verdes y aguacate: proteína lista en cinco minutos, sin encender la estufa.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["lonchera", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El jamón de pavo y el queso aportan proteína y calcio, mientras las hojas verdes y el aguacate suman frescura y grasas buenas.",
+  "tips": "Empaca con gel refrigerante y consume antes de 4 horas. El jamón es un embutido: resérvalo para loncheras ocasionales y alterna con pollo cocido desmenuzado en casa.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Corta los rollitos en ruedas pequeñas y sirve siempre sin palillos, para que los tome con la mano." }
+  ],
+  "ingredients": [
+    { "code": "jamon_pavo", "name": "Jamón de pavo", "amount": 4, "unit": "rebanada", "note": "o de pollo", "sort_order": 1 },
+    { "code": "queso", "name": "Queso en rebanadas", "amount": 4, "unit": "rebanada", "note": "tipo mozzarella o el que prefieras", "sort_order": 2 },
+    { "code": "aguacate", "name": "Aguacate", "amount": 0.5, "unit": "unidad", "note": "en rodajas; opcional", "sort_order": 3 },
+    { "code": "espinaca", "name": "Hojas de espinaca", "amount": 4, "unit": "hoja", "note": "o de lechuga", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Extiende una rebanada de jamón y coloca encima una rebanada de queso.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega una hoja de espinaca o lechuga y una rodaja de aguacate.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Enrolla con cuidado y corta por la mitad si deseas porciones más pequeñas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Si usas palillos para sujetarlos, elige palillos de punta roma y retíralos siempre antes de servir a menores de 5 años.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [36], "pages": [61] },
+  "image_filename": "receta-rollitos-de-jamon.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

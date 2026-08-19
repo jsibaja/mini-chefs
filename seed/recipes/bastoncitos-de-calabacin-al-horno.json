@@ -1,0 +1,50 @@
+{
+  "slug": "bastoncitos-de-calabacin-al-horno",
+  "title": "Bastoncitos de calabacín al horno",
+  "description": "Bastones de calabacín rebozados en harina de avena y horneados con un hilo de aceite: un snack de verdura perfecto para comer con las manos.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El calabacín aporta agua, fibra y vitaminas, y al hornearse con muy poco aceite queda suave; su forma de bastón ayuda a practicar el agarre.",
+  "tips": "Para menores de 12 meses hornéalos menos tiempo, hasta que queden blandos y no crujientes: las texturas crujientes son un riesgo de atragantamiento antes del año. Sírvelos el mismo día y acompáñalos con un dip de yogur natural sin azúcar. La avena contiene gluten.",
+  "family_mode_note": "Para el resto de la familia puedes espolvorear un poco de queso rallado o pimentón sobre los bastones antes de hornear, después de separar los del bebé.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Corta bastones gruesos, del largo de un dedo adulto, y hornéalos solo hasta que estén blandos (no crujientes) para que pueda sostenerlos y aplastarlos con las encías. También puedes machacar el calabacín cocido con un tenedor." },
+    { "age_band": "9_11m", "adaptation_text": "Córtalos en trozos pequeños tamaño garbanzo, siempre blandos, para que practique la pinza." }
+  ],
+  "ingredients": [
+    { "code": "calabacin", "name": "Calabacín (zucchini)", "amount": 0.5, "unit": "unidad", "note": "en bastones del tamaño de un dedo", "sort_order": 1 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 2, "unit": "cucharada", "note": "contiene gluten; usa avena certificada sin gluten si hay celiaquía", "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y cubre una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava el calabacín y córtalo en bastones del tamaño de un dedo.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Reboza los bastoncitos en la harina de avena hasta cubrirlos por todos lados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Colócalos separados en la bandeja y rocíalos con el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Hornea 15-20 minutos. Para menores de 12 meses retíralos antes, cuando estén blandos y aún no crujientes.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Deja enfriar hasta que estén tibios antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [116], "pages": [141] },
+  "image_filename": "receta-bastoncitos-de-calabacin-al-horno.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

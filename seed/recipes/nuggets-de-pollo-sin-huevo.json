@@ -1,0 +1,53 @@
+{
+  "slug": "nuggets-de-pollo-sin-huevo",
+  "title": "Nuggets de pollo sin huevo y sin lactosa",
+  "description": "Nuggets de pollo al horno, sin huevo y sin lactosa, con rebozado crujiente de avena y pan rallado. Se acompañan con salsa de tomate casera.",
+  "category": "cena",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína magra y hierro para el crecimiento, y el rebozado de avena suma fibra en una versión al horno más ligera que la frita.",
+  "tips": "Acompáñalos con salsa de tomate casera sin sal o con puré de verduras. Puedes congelarlos ya horneados hasta 2 meses. Para más jugosidad usa muslo en lugar de pechuga, y para una versión sin gluten usa pan rallado y avena sin gluten.",
+  "family_mode_note": "Los adultos pueden sumar pimentón, ajo en polvo o hierbas al rebozado de su porción.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Corta los nuggets en tiras o trozos pequeños, verifica que el pollo esté jugoso y bien blando, y ofrécelos sin sal." }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 1, "unit": "unidad", "note": "en trozos del tamaño de un bocado", "sort_order": 1 },
+    { "code": "pan_rallado", "name": "Pan rallado sin sal", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 2 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "bebida_avena", "name": "Bebida de avena o agua", "amount": 0.25, "unit": "taza", "note": "sin azúcar", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra una bandeja con papel de hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Corta la pechuga de pollo en trozos pequeños del tamaño de un bocado.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Pasa cada trozo por la harina de avena, asegurándote de cubrirlo bien.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Sumerge los trozos en la bebida de avena o en el agua.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Rebózalos con el pan rallado, presionando ligeramente para que se adhiera bien.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Coloca los nuggets en la bandeja y rocíalos con el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Hornea 20-25 minutos, volteándolos a mitad del tiempo, hasta que estén dorados y el pollo esté completamente cocido por dentro, sin partes rosadas.", "is_safety_critical": true },
+    { "step_number": 8, "instruction": "Deja entibiar y, para los más pequeños, corta cada nugget en tiras antes de servir.", "is_safety_critical": true }
+  ],
+  "source": { "book": "gourmets", "numbers": [92], "pages": [115] },
+  "image_filename": "receta-nuggets-de-pollo-sin-huevo.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

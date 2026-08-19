@@ -1,0 +1,49 @@
+{
+  "slug": "avena-cremosa-de-camote-y-manzana",
+  "title": "Avena Cremosa de Camote y Manzana",
+  "description": "Avena tibia con camote dulce y manzana, cremosa y reconfortante. Rica en fibra y de fácil digestión para empezar el día.",
+  "category": "desayuno",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El camote aporta betacarotenos (provitamina A) y dulzor natural, y la avena suma fibra y energía sostenida. Una combinación suave para la pancita.",
+  "tips": "Una pizca de canela realza el sabor sin endulzantes. Congela en porciones individuales hasta por 3 meses: sirve para el desayuno o como base de otras papillas. Cocina bien la manzana para que quede suave, en lugar de rallarla cruda.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Cocina la manzana al vapor junto con el camote y tritura todo hasta lograr un puré fino y homogéneo, sin trozos." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca con tenedor dejando una textura más grumosa para que practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "camote", "name": "Camote (batata)", "amount": 0.5, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "manzana", "name": "Manzana", "amount": 0.5, "unit": "unidad", "note": "pelada", "sort_order": 2 },
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina el camote al vapor o hervido hasta que esté bien tierno.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela la manzana y cocínala al vapor hasta que esté blanda (o rállala fina para mayores de 12 meses).", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina la avena con el agua a fuego medio hasta que espese.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura el camote, la manzana y la avena juntos hasta obtener una mezcla homogénea y sirve tibio.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [47], "pages": [66] },
+  "image_filename": "receta-avena-cremosa-de-camote-y-manzana.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

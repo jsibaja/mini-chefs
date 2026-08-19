@@ -1,0 +1,49 @@
+{
+  "slug": "muslos-de-pollo-asados-con-manzana",
+  "title": "Muslos de Pollo Asados con Manzana",
+  "description": "Muslo de pollo jugoso horneado junto a rodajas de manzana que se ablandan y se vuelven dulces en el horno: un plato reconfortante con dulzor natural, sin azúcar añadida.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 35,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El muslo de pollo es una carne jugosa y rica en hierro y proteína, y la manzana asada aporta fibra y un dulzor suave que hace el plato más apetecible.",
+  "tips": "El pollo va con hueso: retira toda la carne del hueso y revísala con los dedos para descartar esquirlas antes de servir. La manzana horneada da dulzor sin necesidad de azúcar. Acompaña con puré de papa o camote.",
+  "family_mode_note": "Para los grandes, deja la piel del muslo y añade romero y un chorrito de aceite de oliva; sirve entero o en presas después de apartar la porción del bebé.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Desmenuza el pollo bien fino ya sin hueso y machaca la manzana asada hasta formar un puré; mezcla ambos para una textura suave." },
+    { "age_band": "9_11m", "adaptation_text": "Ofrece el pollo deshuesado en trocitos muy blandos y la manzana en cubos suaves para tomar con la pinza." }
+  ],
+  "ingredients": [
+    { "code": "muslo_pollo", "name": "Muslo de pollo", "amount": 1, "unit": "unidad", "note": "sin piel", "sort_order": 1 },
+    { "code": "manzana", "name": "Manzana", "amount": 0.5, "unit": "unidad", "note": "en rodajas", "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Coloca el muslo de pollo y las rodajas de manzana en una bandeja y rocía con el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Hornea unos 30-35 minutos, hasta que el pollo esté completamente cocido: al pincharlo, el jugo debe salir transparente y la carne no quedar rosada junto al hueso.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Retira toda la carne del hueso, desménuzala y revísala con los dedos para descartar cualquier esquirla antes de servir.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Sirve el pollo desmenuzado con las rodajas de manzana ablandada.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [57], "pages": [77] },
+  "image_filename": "receta-muslos-de-pollo-asados-con-manzana.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

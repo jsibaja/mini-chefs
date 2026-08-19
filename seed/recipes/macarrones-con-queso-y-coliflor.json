@@ -1,0 +1,55 @@
+{
+  "slug": "macarrones-con-queso-y-coliflor",
+  "title": "Macarrones con Queso en Salsa de Coliflor",
+  "description": "Macarrones cremosos con una salsa de queso que esconde coliflor: el clásico favorito de los niños, con una porción extra de verdura camuflada.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_termo",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El queso y la leche aportan calcio para huesos en crecimiento, y la coliflor suma verdura sin cambiar el sabor del plato favorito.",
+  "tips": "Es un plato caliente: precalienta el termo con agua hirviendo 5 minutos antes de llenarlo, así se mantiene caliente y seguro hasta la hora del recreo.",
+  "family_mode_note": "Agrega espinaca picada o champiñones (hongos) salteados a la porción de los grandes para hacerla aún más completa.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Usa fideos bien cocidos cortados en trocitos y prepara su porción sin sal; la salsa de coliflor cocida con leche en pequeña cantidad está bien desde los 9 meses."
+    }
+  ],
+  "ingredients": [
+    { "code": "pasta_corta", "name": "Macarrones integrales o de trigo", "amount": 1, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "coliflor", "name": "Coliflor cocida", "amount": 2, "unit": "taza", "note": "aprox. media coliflor pequeña", "sort_order": 2 },
+    { "code": "leche", "name": "Leche", "amount": 240, "unit": "ml", "note": "o caldo de verduras casero sin sal; aprox. 1 taza", "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 0.5, "unit": "taza", "note": "cheddar, mozzarella o el de tu preferencia", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "mantequilla", "name": "Mantequilla", "amount": 1, "unit": "cucharada", "note": "o aceite de oliva", "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "y pimienta al gusto", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pasta en agua con poca sal según las indicaciones del paquete y escúrrela.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Licúa la coliflor cocida con la leche, el ajo y la mantequilla hasta obtener una salsa cremosa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Lleva la salsa a una sartén a fuego bajo, agrega el queso rallado y revuelve hasta que se derrita.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora la pasta cocida y mezcla bien para que se impregne de la salsa; cocina 2 minutos más.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Sirve caliente en casa o llévalo bien caliente en un termo precalentado para la lonchera.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [12], "pages": [35] },
+  "image_filename": "receta-macarrones-con-queso-y-coliflor.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

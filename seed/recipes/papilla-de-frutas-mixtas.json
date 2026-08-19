@@ -1,0 +1,58 @@
+{
+  "slug": "papilla-de-frutas-mixtas",
+  "title": "Papilla de frutas mixtas",
+  "description": "Plátano, manzana, pera y fresas cocidas y trituradas en una papilla dulce y suave: una fiesta de primeros sabores frutales para tu bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Cuatro frutas enteras que aportan fibra, vitamina C y dulzor natural sin azúcares añadidos: una forma amable de acostumbrar al bebé a nuevos sabores.",
+  "tips": "Las fresas pueden ofrecerse desde los 6 meses, pero son un alérgeno a vigilar: la primera vez introdúcelas solas, en pequeña cantidad y de día, y observa 2-3 días. Congela porciones en cubetera hasta 3 meses.",
+  "family_mode_note": "Servida fría con yogur o avena funciona como compota de postre para el resto de la familia.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Machaca las frutas con un tenedor dejando grumos suaves en lugar de licuar, para que practique la masticación."
+    },
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Cocina las frutas un poco menos y sírvelas en trocitos blandos como ensalada de fruta tibia; corta las fresas en cuartos a lo largo."
+    }
+  ],
+  "ingredients": [
+    { "code": "platano", "name": "Plátano maduro", "amount": 1, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "manzana", "name": "Manzana", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "pera", "name": "Pera", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "fresa", "name": "Fresas frescas", "amount": 0.5, "unit": "taza", "note": "lavadas y sin tallo", "sort_order": 4 },
+    { "code": "agua", "name": "Agua", "amount": 0.25, "unit": "taza", "note": "opcional, para ajustar la consistencia", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava y pela las frutas; retira las semillas y el corazón de la manzana y la pera, y el tallo de las fresas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Corta todas las frutas en trozos pequeños y colócalas en una cacerola.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega un poco de agua y cocina a fuego medio 10-15 minutos, hasta que las frutas estén tiernas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Retira del fuego y deja enfriar unos minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Tritura con un tenedor, procesador o licuadora hasta obtener una textura suave; agrega más agua si es necesario.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Sirve la papilla tibia o refrigérala de inmediato en un recipiente tapado.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [1], "pages": [19] },
+  "image_filename": "receta-papilla-de-frutas-mixtas.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

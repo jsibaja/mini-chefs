@@ -1,0 +1,56 @@
+{
+  "slug": "bolitas-de-pollo",
+  "title": "Bolitas de Pollo",
+  "description": "Bolitas suaves de pollo con zanahoria y avena, al horno o a la sartén: la versión casera de las albóndigas que triunfa en la lonchera.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Proteína magra del pollo con avena y zanahoria: saciantes, suaves de masticar y fáciles de comer con la mano en el recreo.",
+  "tips": "Haz doble tanda y congela las bolitas ya cocidas hasta por 2 meses. Para la lonchera, llévalas siempre con gel refrigerante y que se consuman antes de 4 horas.",
+  "family_mode_note": "Sirve la versión familiar con una salsa de tomate casera o guacamole para acompañar.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara su porción sin sal y desmenuza la bolita en trocitos pequeños y blandos antes de servir."
+    }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo molida", "amount": 500, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 2 },
+    { "code": "harina_avena", "name": "Avena molida", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 4 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "rallada fina", "sort_order": 5 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.25, "unit": "unidad", "note": "picada fina", "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "y especias al gusto: orégano, pimienta, comino", "sort_order": 7 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharada", "note": "para la sartén", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un tazón el pollo molido, el ajo, la avena, el huevo, la zanahoria, la cebolla, la sal y las especias hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Forma bolitas pequeñas con las manos húmedas y colócalas en una bandeja.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Al horno: precalienta a 200 °C y hornea 25 minutos, girándolas a la mitad del tiempo para que doren de manera uniforme.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "En sartén: calienta el aceite a fuego medio y cocínalas 12-15 minutos, girándolas cada 3 minutos hasta dorar por todos lados.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Parte una bolita por la mitad: el centro debe verse completamente cocido, sin partes rosadas, antes de servir.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [9], "pages": [32] },
+  "image_filename": "receta-bolitas-de-pollo.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "machacado-de-pollo-choclo-y-papa-con-trocitos",
+  "title": "Machacado de Pollo, Choclo y Papa con Trocitos",
+  "description": "El paso siguiente al puré: papa machacada con grumos blandos, choclo aplastado y muslo de pollo deshilachado en hebras finas. Se sirve con unos bastones de papa al lado para que el bebé también coma con la mano.",
+  "category": "papilla",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["blanco_amarillo", "naranja"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El muslo de pollo tiene más hierro y zinc que la pechuga y queda mucho más jugoso al deshilacharlo. Los grumos blandos de la papa y las hebras de pollo enseñan al bebé a mover la comida en la boca antes de tragar.",
+  "tips": "Guarda el caldo de cocción en un frasco aparte: sirve para ajustar la textura del machacado al recalentarlo y para las papillas de los días siguientes. En el refrigerador dura 24 horas y en el congelador, 2 meses en porciones individuales.",
+  "family_mode_note": "De la misma olla salen el almuerzo del bebé y el de los grandes: separa su porción antes de agregar sal, ají o cualquier aliño al resto.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Deja los trozos más grandes y solo parte los granos de choclo por la mitad. Ya puedes agregar una pizca de sal y un poco de perejil picado, y servirlo con una cuchara para que coma solo."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sírvelo como guiso, con el pollo en trozos de bocado, la papa en cubos y el choclo entero, acompañado de arroz o de una ensalada picada fina."
+    }
+  ],
+  "ingredients": [
+    { "code": "muslo_pollo", "name": "Muslo de pollo sin piel ni hueso", "amount": 150, "unit": "g", "note": "también sirve pierna deshuesada", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 200, "unit": "g", "note": "1 grande, pelada y en cubos", "sort_order": 2 },
+    { "code": "choclo", "name": "Choclo (elote) desgranado", "amount": 80, "unit": "g", "note": "fresco o congelado", "sort_order": 3 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "pequeña, pelada y en rodajas", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "agua", "name": "Agua", "amount": 500, "unit": "ml", "note": "sin sal", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca el muslo de pollo en una olla con el agua fría, lleva a hervor y cocina a fuego medio durante 20 minutos, hasta que la carne se separe sola y no quede ningún punto rosado ni jugo rosado al cortarla.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Agrega la papa, la zanahoria y el choclo a la misma olla durante los últimos 15 minutos, hasta que la papa se deshaga al pincharla.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Retira el pollo, déjalo entibiar y revísalo con los dedos: quita cualquier resto de hueso, cartílago o tendón antes de deshilacharlo.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Deshilacha el pollo en hebras muy finas, más cortas que tu uña. Las hebras largas o los trozos firmes de carne no son seguros a esta edad.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Aplasta los granos de choclo uno a uno con el dorso de un tenedor o pícalos finos: los granos enteros son redondos, resbalosos y del tamaño exacto que puede obstruir la vía aérea de un bebé.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Reserva dos bastones de papa cocida del largo de tu dedo y machaca el resto de la papa y la zanahoria con un tenedor, dejando grumos blandos a propósito: no la conviertas en puré liso.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Mezcla el machacado con las hebras de pollo, el choclo aplastado y el aceite de oliva, y agrega caldo de la cocción cucharada a cucharada hasta lograr una textura espesa que se sostenga en la cuchara.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sirve el machacado tibio, a temperatura de mano, y coloca al lado los bastones de papa para que el bebé los tome con la mano y practique llevárselos solo a la boca.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Acompáñalo durante toda la comida, con el bebé sentado y erguido en su silla, y nunca lo dejes comer solo ni acostado.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-machacado-de-pollo-choclo-y-papa-con-trocitos.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

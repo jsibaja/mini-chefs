@@ -1,0 +1,63 @@
+{
+  "slug": "bolitas-de-espinacas-y-queso",
+  "title": "Bolitas de Espinacas y Queso",
+  "description": "Bocaditos horneados de espinaca y queso, dorados por fuera y suaves por dentro, perfectos para mojar en salsa de yogur o de tomate.",
+  "category": "colacion",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 25,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "colacion_pm", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La espinaca aporta hierro y el queso con el huevo suman calcio y proteínas, un combo que acompaña huesos y músculos en crecimiento. Al hornearse en lugar de freírse, quedan ligeras.",
+  "tips": "Congela las bolitas ya horneadas hasta 2 meses y caliéntalas en el horno para que recuperen lo crujiente. Si van en la lonchera, envíalas con un gel refrigerante.",
+  "family_mode_note": "Funcionan como entrada para los adultos con ensalada o como plato principal infantil acompañadas de arroz.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Prepara su porción con muy poca sal, forma bolitas más chicas y achatadas, y córtalas en mitades o cuartos antes de servir para que sean fáciles de masticar."
+    }
+  ],
+  "ingredients": [
+    { "code": "espinaca", "name": "Espinaca fresca", "amount": 200, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "queso_ricotta", "name": "Queso ricotta o mozzarella rallada", "amount": 100, "unit": "g", "note": null, "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "pan_molido", "name": "Pan molido", "amount": 2, "unit": "cucharada", "note": "más extra para rebozar", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "perejil", "name": "Perejil fresco", "amount": 1, "unit": "cucharadita", "note": "picado", "sort_order": 6 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 1, "unit": "cucharada", "note": "opcional, para rebozar", "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": "para rociar antes de hornear", "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca", "sort_order": 9 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava bien las espinacas y escáldalas en agua hirviendo 1-2 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Escúrrelas muy bien, apretándolas para sacar el agua, y pícalas finamente.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "En un bol, mezcla las espinacas con el queso, el huevo, el pan molido, el ajo y el perejil.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega una pizca de sal y pimienta y mezcla hasta obtener una masa que se pueda moldear.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Forma bolitas pequeñas y pásalas por harina de avena o pan molido extra.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Colócalas en una bandeja con papel para hornear y rocíalas con el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Hornea 20-25 minutos, hasta que estén doradas y firmes por dentro; el huevo de la masa debe quedar bien cocido.", "is_safety_critical": true },
+    { "step_number": 9, "instruction": "Para menores de 4 años, corta cada bolita en mitades o cuartos antes de servir: los bocados redondos y del tamaño de la garganta son un riesgo de atragantamiento.", "is_safety_critical": true },
+    { "step_number": 10, "instruction": "Sirve calientes con salsa de yogur natural o de tomate casera.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [18], "pages": [54, 55] },
+  "image_filename": "receta-bolitas-de-espinacas-y-queso.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

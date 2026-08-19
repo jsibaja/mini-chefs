@@ -1,0 +1,48 @@
+{
+  "slug": "papilla-de-avena-con-platano",
+  "title": "Papilla de avena con plátano",
+  "description": "Avena cremosa cocida y triturada con plátano maduro: un desayuno reconfortante y lleno de energía para empezar el día del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 5,
+  "cook_minutes": 8,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La avena aporta fibra y energía de liberación lenta y el plátano suma dulzor natural y potasio; un desayuno reconfortante para el bebé.",
+  "tips": "Si hay antecedentes de celiaquía, usa avena certificada sin gluten. Nunca hiervas la leche materna, ya que pierde nutrientes: cocina la avena en agua y agrega la leche tibia al final. Prepárala al momento para conservar mejor sus propiedades.",
+  "family_mode_note": "Con un puñado de frutos rojos o un poco de canela es un tazón de avena para el desayuno de toda la familia (los frutos secos, solo triturados para menores de 5 años).",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Deja la avena más espesa y con trocitos de plátano machacado para que el bebé mastique." }
+  ],
+  "ingredients": [
+    { "code": "avena", "name": "Avena en hojuelas", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "agua", "name": "Agua", "amount": 0.75, "unit": "taza", "note": "para cocinar la avena", "sort_order": 2 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna o fórmula", "amount": 0.5, "unit": "taza", "note": "tibia, para agregar al final", "sort_order": 3 },
+    { "code": "platano", "name": "Plátano maduro", "amount": 1, "unit": "unidad", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "En una olla, cocina la avena en el agua a fuego bajo 5-7 minutos, removiendo, hasta que espese.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Retira del fuego e incorpora la leche materna o fórmula tibia para dar cremosidad; nunca la hiervas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el plátano cortado en trozos y tritura con tenedor o licuadora hasta una textura suave.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Deja entibiar antes de ofrecerla al bebé.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [9], "pages": [27] },
+  "image_filename": "receta-papilla-de-avena-con-platano.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

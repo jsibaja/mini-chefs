@@ -1,0 +1,51 @@
+{
+  "slug": "crema-de-calabaza",
+  "title": "Crema de Calabaza",
+  "description": "Una crema suave de calabaza y zanahoria, dulce por naturaleza y fácil de digerir, perfecta desde los primeros purés.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La calabaza y la zanahoria dan una crema suave y anaranjada, rica en betacarotenos y fácil de digerir para los más pequeños.",
+  "tips": "Un chorrito de leche materna, fórmula o un poco de aceite de oliva al final la hace más cremosa. Congélala en cubetera hasta 3 meses para tener porciones listas.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura hasta lograr un puré fino y homogéneo, sin trozos, y omite el comino." }
+  ],
+  "ingredients": [
+    { "code": "calabaza", "name": "Calabaza", "amount": 0.5, "unit": "taza", "note": "en cubos", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "unidad", "note": "en rodajas", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 0.5, "unit": "taza", "note": "casero sin sal (o agua)", "sort_order": 3 },
+    { "code": "comino", "name": "Comino", "amount": 1, "unit": "pizca", "note": "opcional, desde los 12 meses", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava y pela la calabaza y la zanahoria.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Corta la zanahoria en rodajas finas y la calabaza en cubos pequeños.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Colócalas en una olla con el caldo casero sin sal o el agua.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocina a fuego medio 15-20 minutos, hasta que estén muy tiernas.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Retira del fuego y deja reposar unos minutos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Tritura con tenedor o licuadora hasta obtener un puré suave; si queda muy espeso, suma un poco de caldo.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Sirve tibia y, si lo deseas y el bebé ya cumplió un año, añade una pizca de comino.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [68, 102], "pages": [88, 124] },
+  "image_filename": "receta-crema-de-calabaza.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

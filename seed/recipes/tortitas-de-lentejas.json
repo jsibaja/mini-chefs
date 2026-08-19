@@ -1,0 +1,57 @@
+{
+  "slug": "tortitas-de-lentejas",
+  "title": "Tortitas de Lentejas",
+  "description": "Tortitas doradas de lentejas con zanahoria: proteína vegetal, sabor suave y una textura que conquista incluso a quienes no aman las legumbres.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "legumbre",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las lentejas aportan hierro y proteína vegetal, claves para la energía y el crecimiento; la zanahoria y la avena suman fibra y color.",
+  "tips": "Rinden muy bien en tandas: congela las tortitas ya cocidas hasta por 2 meses y descongélalas en el refrigerador la noche anterior a la lonchera.",
+  "family_mode_note": "Acompaña la versión de los adultos con una ensalada fresca o una salsa de yogur con limón.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara su porción sin sal, cocina las tortitas más delgadas y blandas, y ofrécelas desmenuzadas o en trocitos que pueda tomar con la mano."
+    }
+  ],
+  "ingredients": [
+    { "code": "lenteja", "name": "Lentejas cocidas y escurridas", "amount": 1, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "rallada fina", "sort_order": 2 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada fina", "sort_order": 4 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 5 },
+    { "code": "hojuelas_avena", "name": "Avena en hojuelas o pan molido", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "y pimienta y comino al gusto", "sort_order": 7 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharada", "note": "para la sartén o para pincelar la bandeja", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Tritura las lentejas con un tenedor o en un procesador hasta obtener una pasta gruesa.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Incorpora la zanahoria rallada, el ajo y la cebolla, y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el huevo, la sal, las especias y la avena o el pan molido hasta lograr una masa que se pueda manipular con facilidad; si queda muy húmeda, suma un poco más de avena.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Forma tortitas pequeñas con las manos y colócalas en una bandeja.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Al horno: precalienta a 200 °C y hornea 20-25 minutos sobre papel de hornear, volteándolas a la mitad del tiempo hasta que doren.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "En sartén: calienta el aceite a fuego medio y cocina 3-4 minutos por lado, hasta que estén doradas y firmes.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [7], "pages": [30] },
+  "image_filename": "receta-tortitas-de-lentejas.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

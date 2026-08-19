@@ -1,0 +1,56 @@
+{
+  "slug": "pan-de-queso",
+  "title": "Pan de Queso",
+  "description": "Bolitas de pan de queso elásticas y doradas hechas con almidón de yuca, al estilo sudamericano. Perfectas tibias en casa o frías en la lonchera.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 25,
+  "cook_minutes": 20,
+  "servings": 8,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": [],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El queso aporta calcio y proteína para huesos en crecimiento, y el almidón de yuca da la energía del recreo. Además, la masa es naturalmente libre de trigo.",
+  "tips": "Congela las bolitas crudas en una bandeja y pásalas a una bolsa: se hornean directo del congelador sumando 5 minutos. Sin horno, cocínalas tapadas en sartén a fuego medio-bajo 15 a 20 minutos, girándolas hasta dorar.",
+  "family_mode_note": "Amasar y bolear es la parte favorita de los niños; un adulto maneja la leche hirviendo del escaldado. Los mayores pueden espolvorear queso extra encima para un acabado más dorado.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve el pan tibio o a temperatura ambiente partido en trozos pequeños: la miga es elástica, así que ofrécelo en porciones chicas y supervisa mientras come."
+    }
+  ],
+  "ingredients": [
+    { "code": "almidon_yuca", "name": "Almidón de yuca (mandioca)", "amount": 500, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 250, "unit": "g", "note": "un queso semiduro de buen sabor; alérgeno: lácteos", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevos", "amount": 3, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "leche", "name": "Leche", "amount": 240, "unit": "ml", "note": "1 vaso", "sort_order": 4 },
+    { "code": "aceite", "name": "Aceite", "amount": 120, "unit": "ml", "note": "1/2 vaso", "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "oregano", "name": "Orégano o hierbas aromáticas", "amount": 1, "unit": "cucharadita", "note": "opcional", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Calienta la leche con el aceite y la sal hasta que hierva.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Vierte la mezcla caliente sobre el almidón de yuca y revuelve bien con una cuchara: este escaldado da la textura elástica típica.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Deja enfriar hasta que la masa esté tibia antes de continuar, para que los huevos no se cocinen al agregarlos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega el queso rallado y los huevos, y amasa hasta obtener una masa suave y homogénea.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Forma bolitas pequeñas y colócalas en una bandeja engrasada o con papel para hornear, dejando espacio entre ellas.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Hornea en horno precalentado a 180 °C por 20 minutos, hasta que estén infladas y doradas y la masa con huevo quede completamente cocida por dentro.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [82], "pages": [112] },
+  "image_filename": "receta-pan-de-queso.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

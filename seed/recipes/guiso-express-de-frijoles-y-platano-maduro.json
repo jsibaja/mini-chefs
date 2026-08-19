@@ -1,0 +1,60 @@
+{
+  "slug": "guiso-express-de-frijoles-y-platano-maduro",
+  "title": "Guiso Express de Frijoles y Plátano Maduro",
+  "description": "Frijoles ya cocidos que se convierten en guiso espeso con tomate y trozos de plátano maduro dorado. Dulce, salado y reconfortante, en el tiempo que tarda la mesa en ponerse.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 6,
+  "cook_minutes": 14,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": ["rojo", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los frijoles aportan proteína vegetal, fibra y hierro; el tomate suma vitamina C, que ayuda al cuerpo a absorber ese hierro. El plátano maduro entrega potasio y un dulzor natural que suele conquistar a los más exigentes.",
+  "tips": "El plátano debe tener la cáscara bien manchada de negro: si está amarillo firme queda duro y poco dulce. Congela el guiso en porciones individuales hasta 3 meses y descongélalo la noche anterior en el refrigerador.",
+  "family_mode_note": "Para los adultos, sirve con arroz blanco, un poco de queso rallado y cilantro fresco encima.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Prepara el guiso sin sal. Aplasta los frijoles y el plátano con un tenedor hasta dejar una textura de puré grueso con trocitos blandos, y asegúrate de que los cubos de plátano no superen el tamaño de la uña de tu meñique."
+    }
+  ],
+  "ingredients": [
+    { "code": "frijol_negro", "name": "Frijoles negros cocidos", "amount": 2, "unit": "taza", "note": "escurridos y enjuagados", "sort_order": 1 },
+    { "code": "platano_maduro", "name": "Plátano maduro", "amount": 1, "unit": "unidad", "note": "en cubos pequeños", "sort_order": 2 },
+    { "code": "tomate", "name": "Tomate", "amount": 2, "unit": "unidad", "note": "picado", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 1, "unit": "unidad", "note": "pequeña, picada fina", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "comino", "name": "Comino molido", "amount": 1, "unit": "pizca", "note": null, "sort_order": 6 },
+    { "code": "aceite_girasol", "name": "Aceite de girasol", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 7 },
+    { "code": "agua", "name": "Agua", "amount": 150, "unit": "ml", "note": "o caldo casero sin sal", "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "solo para las porciones de mayores de 1 año", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Calienta el aceite en una olla a fuego medio y dora los cubos de plátano maduro 3 minutos, moviéndolos con cuidado; sácalos y resérvalos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En la misma olla, sofríe la cebolla 2 minutos y agrega el ajo y el comino.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Suma el tomate picado y cocina 4 minutos, aplastándolo con la cuchara hasta que se deshaga.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega los frijoles y el agua, y deja hervir suave 4 minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Aplasta un tercio de los frijoles contra la pared de la olla para espesar el guiso de forma natural.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Regresa el plátano, mezcla con suavidad y cocina 1 minuto más.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Agrega la pizca de sal solo a las porciones de los mayores de 1 año.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sirve tibio, comprobando con el dorso de la muñeca que el guiso no esté demasiado caliente para el niño.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-guiso-express-de-frijoles-y-platano-maduro.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

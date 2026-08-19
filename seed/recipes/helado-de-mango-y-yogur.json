@@ -1,0 +1,50 @@
+{
+  "slug": "helado-de-mango-y-yogur",
+  "title": "Helado de Mango y Yogur",
+  "description": "Helado cremoso de mango congelado y yogur natural, sin azúcar añadida: un postre refrescante que se hace en el procesador en minutos.",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 240,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El mango aporta vitaminas A y C, y el yogur suma calcio y proteínas para huesos fuertes. El dulzor viene solo de la fruta madura, sin azúcar añadida.",
+  "tips": "Cambia el mango por fresas o plátano congelado para crear nuevos sabores. Si lo dejas en el congelador más de una hora, bátelo otra vez antes de servir para recuperar la cremosidad; deja siempre 5 minutos fuera del congelador antes de porcionar.",
+  "family_mode_note": "Una pizca de jengibre o canela en polvo le da un toque especial a la porción de los adultos.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Sírvelo recién procesado (estilo suave) en porción pequeña y déjalo reposar 2 minutos: muy congelado puede molestar las encías." }
+  ],
+  "ingredients": [
+    { "code": "mango", "name": "Mango", "amount": 1, "unit": "unidad", "note": "maduro", "sort_order": 1 },
+    { "code": "yogur_natural", "name": "Yogur natural sin azúcar", "amount": 200, "unit": "g", "note": null, "sort_order": 2 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 3 },
+    { "code": "leche", "name": "Leche o bebida vegetal", "amount": 50, "unit": "ml", "note": "opcional, para ajustar la textura", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela el mango y córtalo en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Congela los trozos extendidos en una bandeja unas 4 horas, hasta que estén firmes.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Pasa el mango congelado al procesador con el yogur y la vainilla.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Procesa hasta lograr una mezcla cremosa; si queda muy espesa, agrega un poco de leche.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Sírvelo de inmediato como helado suave, o congela 30 minutos más para una textura firme.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Decóralo con trocitos de fruta fresca. Si usas frutos secos, siempre molidos: nunca enteros para menores de 5 años.", "is_safety_critical": true }
+  ],
+  "source": { "book": "saborcitos", "numbers": [65], "pages": [151, 152] },
+  "image_filename": "receta-helado-de-mango-y-yogur.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

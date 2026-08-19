@@ -1,0 +1,50 @@
+{
+  "slug": "costillas-de-cerdo-al-horno-con-papas",
+  "title": "Costillas de Cerdo al Horno con Papas",
+  "description": "Costilla de cerdo horneada lentamente bajo papel aluminio hasta que la carne se desprende del hueso, con papas doradas alrededor: tierna, jugosa y fácil de deshacer.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 60,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "carne_roja",
+  "veggie_colors": [],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El cerdo aporta proteína, hierro y zinc para el crecimiento, y la papa suma energía en forma de carbohidratos suaves y fáciles de digerir.",
+  "tips": "La carne va con hueso: retírala toda del hueso y revísala con los dedos para descartar esquirlas antes de servir. Hornear tapado con papel aluminio la deja mucho más tierna; si aun así quedara dura, hiérvela 15 minutos antes de hornear. Acompaña con puré de calabacita para más jugosidad.",
+  "family_mode_note": "Para los grandes, unta las costillas con un adobo de tomate, ajo y hierbas antes de tapar; sirve la porción del bebé sin condimentar.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Deshuesa y tritura la carne con la papa y un poco de su jugo hasta lograr un puré suave y homogéneo." },
+    { "age_band": "9_11m", "adaptation_text": "Sirve la carne deshuesada en hebras muy blandas y la papa machacada con un tenedor." }
+  ],
+  "ingredients": [
+    { "code": "costilla_cerdo", "name": "Costilla de cerdo", "amount": 1, "unit": "unidad", "note": "pequeña, sin grasa", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 0.5, "unit": "unidad", "note": "mediana, en rodajas finas", "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela la papa y córtala en rodajas finas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Coloca la costilla en una bandeja con papel de hornear y reparte las rodajas de papa alrededor.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Rocía con el aceite de oliva, cubre bien la bandeja con papel aluminio y hornea 45-60 minutos, hasta que la carne se desprenda del hueso con facilidad.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Retira el aluminio y hornea 10 minutos más para dorar ligeramente; verifica que la carne esté completamente cocida, sin partes rosadas.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Retira toda la carne del hueso, revísala con los dedos para descartar esquirlas y córtala en trozos pequeños; sírvela con las papas.", "is_safety_critical": true }
+  ],
+  "source": { "book": "gourmets", "numbers": [58, 95], "pages": [78, 118] },
+  "image_filename": "receta-costillas-de-cerdo-al-horno-con-papas.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

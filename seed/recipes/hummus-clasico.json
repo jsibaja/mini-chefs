@@ -1,0 +1,50 @@
+{
+  "slug": "hummus-clasico",
+  "title": "Hummus Clásico",
+  "description": "Puré cremoso de garbanzos con limón, perejil y un toque de tahini: perfecto para untar en pan o como dip de verduras.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los garbanzos aportan proteína vegetal, hierro y fibra en una textura suave que hace fácil comer legumbres a cualquier edad.",
+  "tips": "Acompáñalo con bastones de zanahoria blanqueada o pepino, o úntalo en pan integral. El tahini contiene sésamo (ajonjolí), un alérgeno que conviene declarar en la escuela.",
+  "family_mode_note": "Para la porción de los adultos puedes sumar ajo y una pizca de comino al procesar.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Prepáralo extra cremoso agregando más agua, y ofrécelo untado en pan suave o sobre bastones gruesos de verdura bien cocida." }
+  ],
+  "ingredients": [
+    { "code": "garbanzo_cocido", "name": "Garbanzos cocidos", "amount": 100, "unit": "gramo", "note": null, "sort_order": 1 },
+    { "code": "jugo_limon", "name": "Jugo de limón", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva extra virgen", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 3 },
+    { "code": "perejil", "name": "Perejil picado", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "agua", "name": "Agua", "amount": 2, "unit": "cucharadita", "note": "agrega más si lo quieres más ligero", "sort_order": 5 },
+    { "code": "tahini", "name": "Tahini (pasta de sésamo)", "amount": 1, "unit": "cucharadita", "note": "opcional; contiene sésamo (ajonjolí)", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca en el procesador los garbanzos, el jugo de limón, el perejil, el tahini y el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Tritura hasta obtener una pasta espesa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el agua poco a poco y sigue procesando hasta conseguir la textura deseada.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Refrigera 20 minutos antes de servir y consérvalo siempre en frío, hasta 3 días en recipiente tapado.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [27], "pages": [51] },
+  "image_filename": "receta-hummus-clasico.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

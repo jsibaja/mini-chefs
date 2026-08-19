@@ -1,0 +1,74 @@
+{
+  "slug": "albondigas-con-salsa-de-calabaza",
+  "title": "Albóndigas con Salsa de Calabaza",
+  "description": "Albóndigas suaves de pollo o pavo bañadas en una salsa cremosa y naturalmente dulce de calabaza que conquista a los niños.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo o pavo aporta proteínas para músculos en crecimiento, y la calabaza suma betacarotenos (provitamina A) y fibra en una salsa naturalmente dulce.",
+  "tips": "Una pizca de canela o nuez moscada en la salsa le da un toque dulce sin azúcar. Duplica la tanda y congela las albóndigas con su salsa en porciones: tendrás comida lista para días con prisa.",
+  "family_mode_note": "Sirve con arroz o puré para los niños y suma una ensalada para los adultos; la salsa de calabaza gusta a todas las edades.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Antes de salar, reserva una albóndiga bien cocida con un poco de salsa y tritúralas juntas hasta lograr un puré suave."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Sirve su porción sin sal: machaca la albóndiga con un tenedor y mézclala con la salsa hasta dejar trocitos blandos."
+    },
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Forma albóndigas achatadas en lugar de redondas y córtalas en cuartos antes de servir; báñalas con bastante salsa para que se deslicen con facilidad."
+    }
+  ],
+  "ingredients": [
+    { "code": "carne_molida_pollo", "name": "Carne molida de pollo o pavo", "amount": 250, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "pure_calabaza", "name": "Puré de calabaza", "amount": 0.5, "unit": "taza", "note": "calabaza cocida y machacada, para la mezcla de las albóndigas", "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 1, "unit": "unidad", "note": "picada; la mitad para las albóndigas y la mitad para la salsa", "sort_order": 3 },
+    { "code": "ajo", "name": "Ajo", "amount": 2, "unit": "diente", "note": "picados; 1 para las albóndigas y 1 para la salsa", "sort_order": 4 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 5 },
+    { "code": "pan_molido", "name": "Pan molido", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "perejil", "name": "Perejil", "amount": 1, "unit": "cucharadita", "note": "picado", "sort_order": 7 },
+    { "code": "oregano", "name": "Orégano", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 8 },
+    { "code": "calabaza", "name": "Calabaza", "amount": 200, "unit": "g", "note": "en trozos, para la salsa", "sort_order": 9 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 200, "unit": "ml", "note": "casero o bajo en sodio, para la salsa", "sort_order": 10 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 2, "unit": "cucharada", "note": "1 para dorar y 1 para la salsa", "sort_order": 11 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela en porciones para menores de 12 meses", "sort_order": 12 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 13 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "En un bol, mezcla la carne molida con el puré de calabaza, la mitad de la cebolla, un diente de ajo picado, el huevo, el pan molido, el perejil y el orégano.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega una pizca de sal y pimienta y forma albóndigas pequeñas con las manos húmedas; si vas a servirlas a niños pequeños, achátalas un poco en lugar de dejarlas redondas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén con una cucharada de aceite, dora las albóndigas 5 minutos y resérvalas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Para la salsa, sofríe el resto de la cebolla y el otro diente de ajo en el aceite restante hasta que estén tiernos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega la calabaza en trozos y cocina 10 minutos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte el caldo de verduras y cocina hasta que la calabaza esté blanda.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Licúa o tritura la salsa hasta obtener una textura cremosa.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Regresa las albóndigas a la salsa y cocina a fuego bajo 10 minutos, hasta que estén completamente cocidas por dentro, sin partes rosadas.", "is_safety_critical": true },
+    { "step_number": 9, "instruction": "Para menores de 4 años, corta cada albóndiga en cuartos antes de servir: las bolitas del tamaño de un bocado son un riesgo de atragantamiento.", "is_safety_critical": true },
+    { "step_number": 10, "instruction": "Sirve calientes acompañadas de arroz o puré de papa.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [16, 41], "pages": [50, 51, 102, 103] },
+  "image_filename": "receta-albondigas-con-salsa-de-calabaza.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

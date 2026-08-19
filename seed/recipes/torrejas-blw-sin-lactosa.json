@@ -1,0 +1,51 @@
+{
+  "slug": "torrejas-blw-sin-lactosa",
+  "title": "Torrejas BLW sin lactosa",
+  "description": "Torrejas (tostadas francesas) sin lactosa, doradas en la sartén y cortadas en tiritas para agarrar. Un desayuno reconfortante con canela.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": [],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pan integral y el huevo aportan energía y proteína, mientras la canela suma aroma sin necesidad de azúcar.",
+  "tips": "Usa bebida de avena en lugar de almendras si prefieres evitar los frutos secos. Sírvela con puré de fruta. Contiene huevo, frutos secos (si usas bebida de almendras) y gluten: al introducir cada alérgeno, hazlo por separado y observa 2-3 días.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Corta la torreja en tiras del grosor de un dedo y verifica que el centro esté bien blando antes de ofrecerla." }
+  ],
+  "ingredients": [
+    { "code": "pan_integral", "name": "Pan integral sin sal", "amount": 1, "unit": "rebanada", "note": null, "sort_order": 1 },
+    { "code": "bebida_almendras", "name": "Bebida de almendras o de avena", "amount": 0.25, "unit": "taza", "note": "sin azúcar", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "canela", "name": "Canela", "amount": 1, "unit": "cucharadita", "note": "molida", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": "para la sartén", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Remoja la rebanada de pan en la bebida de almendras o de avena hasta que se empape bien.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Bate el huevo con la canela en un tazón.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Pasa el pan remojado por el huevo batido hasta cubrirlo completamente.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Calienta la sartén con el aceite de oliva a fuego medio-bajo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cocina el pan por ambos lados hasta que esté dorado y el huevo quede completamente cuajado, sin partes líquidas (unos 3-4 minutos por lado).", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Deja entibiar y corta en tiritas del tamaño de un dedo antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [82, 120], "pages": [103, 145] },
+  "image_filename": "receta-torrejas-blw-sin-lactosa.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

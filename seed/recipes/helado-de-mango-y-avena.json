@@ -1,0 +1,47 @@
+{
+  "slug": "helado-de-mango-y-avena",
+  "title": "Helado cremoso de mango y bebida de avena",
+  "description": "Un helado suave hecho solo con mango maduro y bebida de avena, licuados hasta quedar cremosos. Sin azúcar añadida y con una versión de higos igual de rica.",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 240,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Se prepara solo con fruta y bebida de avena: todo el dulzor es natural del mango, que aporta vitamina C y fibra.",
+  "tips": "Para otra versión, cambia el mango por 4 higos maduros bien lavados y sin tallo. Sírvelo siempre cremoso o semiderretido, nunca en trozos duros congelados, que son un riesgo de atragantamiento. La bebida de avena no sustituye la leche materna o fórmula.",
+  "family_mode_note": "Es un postre para disfrutar en casa: al ser congelado no viaja bien en la lonchera porque se derrite y se rompe la cadena de frío.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Deja atemperar el helado unos minutos y sírvelo semiderretido, cremoso, en un vasito con cuchara para que el frío no sea tan intenso." }
+  ],
+  "ingredients": [
+    { "code": "mango", "name": "Mango maduro", "amount": 1, "unit": "unidad", "note": "o 4 higos maduros para la versión de higos", "sort_order": 1 },
+    { "code": "bebida_avena", "name": "Bebida de avena", "amount": 0.5, "unit": "taza", "note": "sin azúcar; no sustituye la leche materna o fórmula", "sort_order": 2 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y corta el mango en trozos pequeños, retirando la semilla.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Licúa el mango junto con la bebida de avena hasta obtener una mezcla muy suave y homogénea.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Vierte la mezcla en moldes de helado o en un recipiente apto para congelar.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Congela al menos 4 horas, hasta que esté firme.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Deja atemperar unos minutos y sírvelo cremoso o semiderretido; nunca ofrezcas trozos duros congelados a los niños pequeños.", "is_safety_critical": true }
+  ],
+  "source": { "book": "gourmets", "numbers": [107, 108], "pages": [130, 131] },
+  "image_filename": "receta-helado-de-mango-y-avena.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

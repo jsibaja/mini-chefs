@@ -1,0 +1,58 @@
+{
+  "slug": "arroz-con-arvejas-y-jamon",
+  "title": "Arroz con Arvejas y Jamón",
+  "description": "Arroz integral salteado con arvejas (chícharos) y cubitos de jamón cocido: un plato de un solo sartén, con puntitos verdes que dan color y sabor.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 45,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_termo",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "carne_roja",
+  "veggie_colors": ["verde"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las arvejas aportan proteína vegetal, hierro y fibra, y el arroz integral entrega energía sostenida. El jamón cocido es carne procesada: resérvalo como opción ocasional y elige versiones bajas en sal.",
+  "tips": "Zanahoria rallada o pimiento rojo en cubitos suman color y vitaminas. Para una versión menos procesada, cambia el jamón por pollo o pavo cocido desmenuzado: el resto de la receta no cambia.",
+  "family_mode_note": "Con un huevo cocido en cuartos por plato se convierte en una comida aún más completa para toda la familia. Si va a la lonchera, llénalo bien caliente en un termo de boca ancha precalentado: lleva jamón y no debe pasar horas a temperatura ambiente.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve la porción del niño con las arvejas ligeramente aplastadas con un tenedor y el jamón picado muy pequeño; no agregues sal extra, el jamón ya aporta suficiente."
+    }
+  ],
+  "ingredients": [
+    { "code": "arroz_integral", "name": "Arroz integral", "amount": 200, "unit": "g", "note": "enjuagado", "sort_order": 1 },
+    { "code": "arveja", "name": "Arvejas (chícharos)", "amount": 100, "unit": "g", "note": "frescas o congeladas", "sort_order": 2 },
+    { "code": "jamon_cocido", "name": "Jamón cocido bajo en sal", "amount": 100, "unit": "g", "note": "en cubos pequeños; opción ocasional", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras", "amount": 600, "unit": "ml", "note": "casero o bajo en sodio, o agua", "sort_order": 6 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "muy poca: el jamón ya aporta sal", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Enjuaga el arroz integral bajo agua fría y escúrrelo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una olla con el aceite de oliva, sofríe la cebolla y el ajo hasta que estén tiernos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega las arvejas y el jamón en cubos pequeños, y cocina por 3 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora el arroz y tuéstalo ligeramente durante 2 minutos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Vierte el caldo caliente y sazona con muy poca sal.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Tapa y cocina a fuego medio-bajo durante 35-40 minutos, hasta que el arroz esté tierno; agrega más caldo caliente si se seca antes de tiempo.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Deja reposar unos minutos antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [31], "pages": [81, 82] },
+  "image_filename": "receta-arroz-con-arvejas-y-jamon.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

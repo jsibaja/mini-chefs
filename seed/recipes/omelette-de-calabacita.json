@@ -1,0 +1,57 @@
+{
+  "slug": "omelette-de-calabacita",
+  "title": "Omelette de Calabacita",
+  "description": "Una omelette esponjosa con calabacita rallada y cebollita dorada: una cena ligera y rápida que también funciona de desayuno.",
+  "category": "cena",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo aporta proteínas completas y colina, que participa en el desarrollo del cerebro; la calabacita suma agua, fibra y una textura muy suave.",
+  "tips": "Agrega queso rallado o un poco de orégano a la mezcla para variar el sabor; si la quieres más esponjosa, bate los huevos con una cucharada de leche antes de cocinarlos.",
+  "family_mode_note": "Para toda la familia, duplica las cantidades y cocínala en una sartén grande, o prepara una omelette por persona con rellenos a elección.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara su porción sin sal y bien cuajada; córtala en tiritas anchas que pueda agarrar con la mano."
+    }
+  ],
+  "ingredients": [
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 1, "unit": "unidad", "note": "rallada", "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada finamente", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela en porciones para menores de 12 meses", "sort_order": 5 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava y ralla la calabacita; apriétala con las manos para quitarle el exceso de agua.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pica finamente la cebolla y sofríela en una sartén con el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega la calabacita rallada y cocina 5 minutos, hasta que reduzca su tamaño.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "En un bol, bate los huevos con una pizca de sal y pimienta.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Incorpora la calabacita cocida y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte la mezcla en la sartén y cocina a fuego medio hasta que la base esté dorada.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Voltéala con ayuda de un plato y cocina por el otro lado hasta que el huevo esté completamente cuajado, sin partes líquidas.", "is_safety_critical": true },
+    { "step_number": 8, "instruction": "Sirve caliente con ensalada fresca o pan integral.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [17], "pages": [52, 53] },
+  "image_filename": "receta-omelette-de-calabacita.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

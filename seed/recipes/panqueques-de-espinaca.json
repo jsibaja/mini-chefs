@@ -1,0 +1,57 @@
+{
+  "slug": "panqueques-de-espinaca",
+  "title": "Panqueques de Espinaca",
+  "description": "Panqueques verdes y esponjosos que esconden espinaca en cada bocado. Una forma divertida de sumar verduras al desayuno o la lonchera.",
+  "category": "desayuno",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La espinaca aporta hierro y folato, y la avena energía sostenida: un panqueque que acompaña el juego y el estudio.",
+  "tips": "La espinaca concentra nitratos: en menores de 1 año ofrécela solo en porciones pequeñas y de forma ocasional. Los panqueques se congelan hasta 2 meses separados con papel encerado.",
+  "family_mode_note": "Para los adultos quedan muy bien con huevo revuelto o queso fresco por encima.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara la mezcla sin sal y ofrece 1 panqueque pequeño cortado en trocitos blandos. A esta edad la espinaca va en porciones pequeñas y no todos los días."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_avena", "name": "Avena en hojuelas o harina de avena", "amount": 1, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "espinaca", "name": "Espinaca fresca", "amount": 1, "unit": "taza", "note": "hojas lavadas", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": "opcional; da esponjosidad", "sort_order": 3 },
+    { "code": "leche", "name": "Leche o agua", "amount": 120, "unit": "ml", "note": "aprox. 1/2 taza", "sort_order": 4 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "omítela para menores de 1 año", "sort_order": 6 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharadita", "note": "para la sartén", "sort_order": 7 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 2, "unit": "cucharada", "note": "opcional, para servir", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Licúa la espinaca con la leche o el agua hasta obtener una mezcla homogénea. Si usas avena en hojuelas, agrégala a la licuadora y procesa hasta integrar.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pasa la mezcla a un tazón y agrega la harina de avena (si no la licuaste), el polvo de hornear y la sal; mezcla bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Incorpora el huevo (si lo usas) y bate hasta integrar todo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Calienta una sartén antiadherente a fuego medio con un poco de aceite y vierte porciones pequeñas de la mezcla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cocina hasta que aparezcan burbujas en la superficie, voltea y dora 1-2 minutos por el otro lado.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Sirve los panqueques solos o con un poco de queso rallado por encima.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [5], "pages": [27] },
+  "image_filename": "receta-panqueques-de-espinaca.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

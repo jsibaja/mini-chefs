@@ -1,0 +1,50 @@
+{
+  "slug": "snack-de-manzana",
+  "title": "Snack de Manzana",
+  "description": "Sándwiches de rodajas de manzana rellenos de crema de maní o almendras: crocantes, cremosos y listos en 10 minutos sin encender la estufa.",
+  "category": "colacion",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La manzana aporta fibra y agua, y la crema de maní o almendras suma proteína vegetal y grasas buenas que ayudan a mantener la energía hasta el recreo.",
+  "tips": "Rocía las rodajas con unas gotas de jugo de limón para que no se oxiden en la lonchera. Si la escuela es libre de maní, sustituye por crema de semillas de girasol, que no es un fruto seco.",
+  "family_mode_note": "Los niños pueden armar sus propios sándwiches de manzana y elegir la decoración: es una merienda perfecta para preparar juntos.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Corta la manzana en láminas muy finas o usa manzana cocida al vapor hasta que esté blanda, y unta solo una capa delgada de crema de maní: la manzana cruda dura es un riesgo de atragantamiento a esta edad."
+    }
+  ],
+  "ingredients": [
+    { "code": "manzana", "name": "Manzana", "amount": 1, "unit": "unidad", "note": "o pera, para variar el sabor", "sort_order": 1 },
+    { "code": "crema_mani", "name": "Crema de maní o de almendras", "amount": 2, "unit": "cucharada", "note": "sin azúcar añadida; contiene maní o frutos secos", "sort_order": 2 },
+    { "code": "granola", "name": "Granola o maní finamente triturado", "amount": 1, "unit": "cucharada", "note": "opcional, para decorar", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava bien la manzana y córtala en rodajas delgadas de forma transversal.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Retira el centro, las semillas y el tallo de cada rodaja.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Unta una rodaja con la crema de maní o almendras y tapa con otra rodaja, como un sándwich.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Decora los bordes con granola o maní finamente triturado. Para menores de 5 años usa siempre frutos secos molidos, nunca enteros ni en trozos, y granola sin frutos secos enteros.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [75], "pages": [105] },
+  "image_filename": "receta-snack-de-manzana.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

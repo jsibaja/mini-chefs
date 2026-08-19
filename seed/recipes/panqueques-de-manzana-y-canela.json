@@ -1,0 +1,65 @@
+{
+  "slug": "panqueques-de-manzana-y-canela",
+  "title": "Panqueques de Manzana y Canela",
+  "description": "Panqueques esponjosos de avena con manzana rallada y canela, sin endulzantes añadidos: todo el dulzor viene de la fruta. Perfectos para un desayuno en familia.",
+  "category": "desayuno",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["rojo"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La manzana aporta fibra natural y la avena, carbohidratos de energía sostenida; el huevo y la leche suman proteínas y calcio para crecer. No llevan azúcar ni miel: el dulzor sale de la fruta y de la canela.",
+  "tips": "Se congelan muy bien: guárdalos con un papel para hornear entre uno y otro y recaliéntalos en la tostadora o en la sartén. Para más proteína, agrega 1 cucharada de yogur natural a la masa. Si van en la lonchera, mándalos con un gel refrigerante.",
+  "family_mode_note": "La misma masa sirve para toda la familia: los adultos pueden coronar los suyos con miel o frutos secos, servidos aparte de los platos de los niños.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Usa leche materna o fórmula en lugar de leche de vaca y corta el panqueque en tiras suaves del ancho de un dedo para que lo agarre con la mano. Sírvelo solo o con fruta machacada, nunca con miel ni otros acompañamientos dulces."
+    },
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve el panqueque cortado en cuadritos del tamaño de un bocado y acompáñalo con fruta fresca picada fina o yogur natural sin azúcar."
+    }
+  ],
+  "ingredients": [
+    { "code": "manzana", "name": "Manzana", "amount": 1, "unit": "unidad", "note": "grande y madura, pelada y rallada", "sort_order": 1 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 100, "unit": "g", "note": "puedes moler hojuelas de avena", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "leche", "name": "Leche entera", "amount": 100, "unit": "ml", "note": "o bebida vegetal sin azúcar; leche materna o fórmula si es menor de 12 meses", "sort_order": 4 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharada", "note": "o aceite de oliva suave, para la sartén", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y ralla la manzana en un bol grande.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Añade el huevo, la leche y la esencia de vainilla, y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Incorpora la harina de avena, la canela y el polvo de hornear.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mezcla hasta obtener una masa homogénea y sin grumos; si queda muy espesa, agrega un chorrito más de leche.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Calienta una sartén con un poco del aceite a fuego medio.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte porciones pequeñas de masa en la sartén formando los panqueques.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Cocina de 2 a 3 minutos, hasta que aparezcan burbujas en la superficie.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Voltea los panqueques y cocina 2 minutos más, hasta que estén dorados y bien cocidos por dentro, sin masa cruda en el centro: llevan huevo.", "is_safety_critical": true },
+    { "step_number": 9, "instruction": "Retira del fuego y repite con el resto de la masa, agregando aceite a la sartén solo si hace falta.", "is_safety_critical": false },
+    { "step_number": 10, "instruction": "Sirve tibios con fruta fresca picada o yogur natural.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [70], "pages": [161, 162] },
+  "image_filename": "receta-panqueques-de-manzana-y-canela.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

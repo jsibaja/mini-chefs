@@ -1,0 +1,61 @@
+{
+  "slug": "mini-lasanas-de-calabacita-y-pollo",
+  "title": "Mini Lasañas de Calabacita y Pollo",
+  "description": "Lasañas individuales donde láminas de calabacita reemplazan la pasta, rellenas de pollo con salsa de tomate y gratinadas con queso.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["verde", "rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteínas para el crecimiento, el tomate suma vitamina C y licopeno, y la calabacita agrega fibra y agua en capas suaves y fáciles de comer.",
+  "tips": "Para una versión vegetariana, cambia el pollo por espinacas salteadas con champiñones; una capa fina de ricotta entre los pisos la vuelve extra cremosa.",
+  "family_mode_note": "Arma las mini lasañas en moldes individuales: cada niño puede montar las capas de la suya.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara una porción sin sal y pícala en trocitos blandos o machácala con un tenedor antes de servir."
+    }
+  ],
+  "ingredients": [
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 2, "unit": "unidad", "note": "medianas", "sort_order": 1 },
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 200, "unit": "g", "note": "cocida y desmenuzada", "sort_order": 2 },
+    { "code": "tomate_triturado", "name": "Tomate triturado", "amount": 150, "unit": "g", "note": null, "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 50, "unit": "g", "note": "mozzarella o parmesano", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 5 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 6 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 7 },
+    { "code": "oregano", "name": "Orégano", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; evítala en menores de 1 año", "sort_order": 9 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "al gusto", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lava las calabacitas y córtalas a lo largo en láminas finas con mandolina o cuchillo afilado (este paso es para el adulto).", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén con el aceite de oliva, sofríe la cebolla y el ajo hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega el pollo desmenuzado y el tomate triturado, sazona con poca sal y pimienta y cocina 5 minutos a fuego medio. Asegúrate de que el pollo esté completamente cocido, sin partes rosadas, antes de armar las lasañas.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "En un molde para horno arma capas alternadas: láminas de calabacita, mezcla de pollo y tomate, y repite hasta lograr 3 o 4 pisos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Espolvorea el queso rallado y el orégano sobre la última capa.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Hornea 20 minutos, hasta que el queso esté gratinado.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Deja reposar 5 minutos antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [3], "pages": [24, 25] },
+  "image_filename": "receta-mini-lasanas-de-calabacita-y-pollo.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

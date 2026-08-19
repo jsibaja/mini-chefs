@@ -1,0 +1,55 @@
+{
+  "slug": "paletas-de-sandia-y-kiwi",
+  "title": "Paletas de Sandía y Kiwi",
+  "description": "Paletas heladas de dos capas: sandía roja abajo y kiwi con jugo de naranja arriba. Refrescantes y de pura fruta, sin endulzantes añadidos (el tiempo incluye las 4 horas de congelación).",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 255,
+  "cook_minutes": 0,
+  "servings": 6,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La sandía y el kiwi hidratan y aportan vitamina C y fibra, y el dulzor sale solo de la fruta, sin miel ni azúcar. Aun así, el jugo de naranja concentra el azúcar natural de la fruta y no reemplaza a la fruta entera: son un gusto refrescante para los días de calor.",
+  "tips": "Si la fruta está bien madura no necesitan ningún endulzante; no les agregues miel, sobre todo a los menores de 2 años. Varía las capas con mango, durazno o fresas. Se conservan hasta 3 meses en el congelador, aunque el sabor y la textura son mejores en las primeras 2 semanas.",
+  "family_mode_note": "Una misma tanda alcanza para toda la familia: usa moldes pequeños para los niños y grandes para los adultos.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Ofrece la paleta partida en trocitos dentro de un tazón, sin el palito y en porción pequeña: el frío intenso y el palito no son para los más chiquitos. Si prefieres, reemplaza el jugo de naranja por la misma cantidad de agua."
+    }
+  ],
+  "ingredients": [
+    { "code": "sandia", "name": "Sandía", "amount": 200, "unit": "g", "note": "sin semillas, en cubos", "sort_order": 1 },
+    { "code": "kiwi", "name": "Kiwi", "amount": 2, "unit": "unidad", "note": "maduros", "sort_order": 2 },
+    { "code": "jugo_naranja", "name": "Jugo de naranja o mandarina", "amount": 100, "unit": "ml", "note": "natural, recién exprimido", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y corta la sandía y los kiwis en cubos pequeños. Revisa la sandía y retira todas las semillas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Tritura la sandía en la licuadora o el procesador hasta obtener un puré liso.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Vierte el puré de sandía en los moldes para paletas, llenándolos hasta la mitad.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Congela durante 1 hora, hasta que la capa de sandía esté firme.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Tritura los kiwis con el jugo de naranja hasta obtener un puré homogéneo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte la mezcla de kiwi sobre la capa de sandía en los moldes.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Inserta palitos anchos de madera, sin punta, y congela 3 horas más.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Saca las paletas del congelador 5 minutos antes de servir para desmoldarlas con facilidad.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Sirve siempre con un adulto presente. A los menores de 3 años dales la paleta en trocitos dentro de un tazón, sin el palito, para evitar accidentes.", "is_safety_critical": true }
+  ],
+  "source": { "book": "saborcitos", "numbers": [69], "pages": [159, 160] },
+  "image_filename": "receta-paletas-de-sandia-y-kiwi.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "rollo-de-zanahoria",
+  "title": "Rollo de Zanahoria",
+  "description": "Un crepe esponjoso de zanahoria y huevo enrollado con queso crema, jamón de pavo y vegetales frescos. Colorido, práctico y perfecto para la lonchera.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["lonchera", "almuerzo", "cena", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja", "verde", "rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo y el pavo aportan proteína completa, y la zanahoria suma vitamina A y color: un rollo que alimenta la vista y el crecimiento.",
+  "tips": "Para la lonchera, envuelve el rollo en papel encerado y llévalo siempre con gel refrigerante; debe consumirse antes de 4 horas.",
+  "family_mode_note": "Cambia el relleno según lo que haya en casa: aguacate, pollo desmenuzado o queso fresco funcionan igual de bien.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Prepara su porción con muy poca sal y, si es posible, jamón de pavo bajo en sodio; corta las ruedas del rollo en mitades para lograr bocados pequeños y fáciles de masticar."
+    }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "rallada fina", "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "maicena", "name": "Maicena (fécula de maíz)", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 3 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "y pimienta al gusto", "sort_order": 4 },
+    { "code": "paprika", "name": "Paprika (pimentón dulce en polvo)", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 5 },
+    { "code": "queso_crema", "name": "Queso crema", "amount": 3, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "espinaca", "name": "Hojas de espinaca", "amount": 1, "unit": "taza", "note": "o lechuga, lavadas y secas", "sort_order": 7 },
+    { "code": "tomate", "name": "Tomate", "amount": 1, "unit": "unidad", "note": "en rodajas finas", "sort_order": 8 },
+    { "code": "jamon_pavo", "name": "Jamón de pavo", "amount": 3, "unit": "rebanada", "note": null, "sort_order": 9 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharadita", "note": "para la sartén", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla en un tazón la zanahoria rallada, los huevos, la maicena, la sal, la pimienta y la paprika hasta integrar.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Calienta una sartén antiadherente engrasada a fuego medio-bajo, vierte la mezcla y extiéndela como un crepe grueso. Cocina 3-4 minutos, voltea con cuidado y cocina 2 minutos más, hasta que el huevo esté completamente cuajado, sin partes líquidas.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Retira del fuego y deja enfriar unos minutos sobre una rejilla o plato.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Unta el queso crema y acomoda encima las hojas de espinaca (o lechuga), el tomate y el jamón de pavo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Enrolla con cuidado, presiona suavemente y corta en ruedas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [4], "pages": [26] },
+  "image_filename": "receta-rollo-de-zanahoria.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

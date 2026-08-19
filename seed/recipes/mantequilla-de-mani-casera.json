@@ -1,0 +1,48 @@
+{
+  "slug": "mantequilla-de-mani-casera",
+  "title": "Mantequilla de Maní Casera",
+  "description": "Crema de maní 100 % casera, tostada y sin azúcar: rinde un frasco entero para untar en pan, fruta o avena.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 10,
+  "servings": 12,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": true,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "legumbre",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El maní aporta proteína vegetal y grasas buenas que acompañan el crecimiento; esta versión casera no lleva azúcar ni aceites añadidos innecesarios.",
+  "tips": "Muchas escuelas son 'libres de maní': para la lonchera escolar prepara la misma receta con semillas de girasol tostadas y tendrás una crema segura para el aula. El frasco se conserva mejor en el refrigerador, hasta 1 mes.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Mezcla media cucharadita con puré de fruta o con su papilla de avena, o unta una capa muy fina sobre pan suave: así se introduce el maní de forma segura." }
+  ],
+  "ingredients": [
+    { "code": "mani", "name": "Maní", "amount": 2, "unit": "taza", "note": "sin sal y sin piel", "sort_order": 1 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharada", "note": "o aceite de oliva", "sort_order": 2 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "opcional; omítela para menores de 1 año", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Extiende el maní en una bandeja y tuéstalo en el horno a 180 °C por 10 minutos para resaltar su sabor.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Deja entibiar y procesa en licuadora o procesador, raspando los bordes de vez en cuando: primero se hará polvo y luego una pasta (toma de 5 a 10 minutos, ten paciencia).", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Añade el aceite y sigue triturando hasta lograr una consistencia cremosa; agrega la pizca de sal solo si la usas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Guarda en un frasco hermético limpio.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Sirve siempre untada en capa fina: nunca ofrezcas cucharadas grandes de crema espesa ni maní entero a menores de 5 años.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [34], "pages": [59] },
+  "image_filename": "receta-mantequilla-de-mani-casera.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

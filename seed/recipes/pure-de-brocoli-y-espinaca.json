@@ -1,0 +1,49 @@
+{
+  "slug": "pure-de-brocoli-y-espinaca",
+  "title": "Puré de brócoli y espinaca",
+  "description": "Puré verde y cremoso de brócoli y espinaca con papa: una forma amable de presentar los vegetales de hoja verde en las primeras comidas.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["verde", "blanco_amarillo"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El brócoli y la espinaca aportan fibra, hierro vegetal y vitamina C, y la papa da cremosidad y energía; una buena forma de presentar los vegetales verdes.",
+  "tips": "La espinaca contiene nitratos: antes de los 12 meses ofrécela en raciones pequeñas y como acompañamiento, no guardes el puré más de 24 horas ni lo recalientes. Si tu bebé aún no se acostumbra a los verdes, mezcla el puré con un poco de manzana.",
+  "family_mode_note": "Con queso rallado y un toque de sal es una crema verde para acompañar la mesa familiar.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Usa solo un puñado pequeño de espinaca (unos 35 g) y aumenta el brócoli y la papa; ofrécela recién hecha y no la guardes de un día para otro." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca las verduras con un tenedor en lugar de licuar para dejar grumos suaves." }
+  ],
+  "ingredients": [
+    { "code": "brocoli", "name": "Brócoli", "amount": 1, "unit": "taza", "note": "en floretes", "sort_order": 1 },
+    { "code": "espinaca", "name": "Espinaca", "amount": 1, "unit": "taza", "note": "fresca", "sort_order": 2 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "pequeña", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": "al servir", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava bien el brócoli y la espinaca; pela y corta la papa en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina el brócoli, la espinaca y la papa en agua hirviendo 10-12 minutos, hasta que estén tiernos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Escurre y tritura con licuadora o batidora hasta obtener un puré suave.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Al servir, mezcla el aceite de oliva para sumar energía y suavizar el puré.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [7], "pages": [25] },
+  "image_filename": "receta-pure-de-brocoli-y-espinaca.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

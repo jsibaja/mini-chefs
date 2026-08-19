@@ -1,0 +1,47 @@
+{
+  "slug": "pure-de-sandia-y-fresas",
+  "title": "Puré de Sandía y Fresas",
+  "description": "Puré rosado y refrescante de sandía y fresas, dulce solo con fruta. Ideal para los días calurosos, desde las primeras papillas.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La sandía es agua en su mayor parte y ayuda a hidratar, y la fresa aporta vitamina C. El dulzor es 100 % de la fruta, sin azúcar añadida.",
+  "tips": "La fresa es un alérgeno a vigilar: la primera vez ofrécela sola, en poca cantidad y de día, y observa 2-3 días. Para los más grandes, congela el puré en moldes de paleta: es un premio ideal para el calor.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Cuela el puré para eliminar cualquier semilla de la sandía o pepita de la fresa y lograr una textura bien fina." },
+    { "age_band": "9_11m", "adaptation_text": "Ya no hace falta colar: machaca la fruta con tenedor dejando grumos blandos para que practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "sandia", "name": "Sandía", "amount": 0.5, "unit": "taza", "note": "en cubos, sin semillas", "sort_order": 1 },
+    { "code": "fresa", "name": "Fresas", "amount": 4, "unit": "unidad", "note": "frescas y maduras; alérgeno: fresa", "sort_order": 2 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava bien las fresas y retírales las hojas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Corta la sandía en trozos pequeños y revisa que no queden semillas, ni siquiera las blancas.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Tritura la sandía y las fresas hasta lograr un puré suave.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Si lo ves necesario, cuela la mezcla para eliminar residuos, y sírvela bien fresca y recién preparada.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [39], "pages": [57] },
+  "image_filename": "receta-pure-de-sandia-y-fresas.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "mini-muffins-de-zanahoria-y-queso",
+  "title": "Mini Muffins de Zanahoria y Queso",
+  "description": "Bocaditos horneados de zanahoria y queso, blanditos y del tamaño justo para manos pequeñas; perfectos para la merienda.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 6,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo aporta proteína, la zanahoria betacarotenos y la avena energía de liberación lenta, en un bocado del tamaño justo para manos pequeñas.",
+  "tips": "El huevo, el queso y la avena son alérgenos: preséntalos por separado la primera vez y observa 2-3 días. Usa queso pasteurizado y sin sal. Si viajan en la lonchera, lleva gel refrigerante. Para versión sin gluten, usa avena certificada.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Desmenuza un muffin y mézclalo con un poco de leche materna o fórmula hasta formar una papilla blanda." }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.5, "unit": "taza", "note": "rallada", "sort_order": 1 },
+    { "code": "queso", "name": "Queso rallado", "amount": 0.25, "unit": "taza", "note": "pasteurizado y sin sal", "sort_order": 2 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.5, "unit": "taza", "note": "certificada sin gluten si se requiere", "sort_order": 3 },
+    { "code": "polvo_hornear", "name": "Polvo de hornear", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 5 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna o fórmula", "amount": 0.25, "unit": "taza", "note": "o agua", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y engrasa un molde para mini muffins.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla la zanahoria rallada con el queso y la harina de avena.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el huevo, la leche y el polvo de hornear; mezcla bien hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte la mezcla en los moldes y hornea 15-20 minutos, hasta que estén dorados y bien cocidos por dentro: al insertar un palillo, debe salir limpio.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja enfriar y, para los más pequeños, córtalos en trozos del tamaño de un bocado para evitar atragantamientos.", "is_safety_critical": true }
+  ],
+  "source": { "book": "gourmets", "numbers": [72, 118], "pages": [93, 143] },
+  "image_filename": "receta-mini-muffins-de-zanahoria-y-queso.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

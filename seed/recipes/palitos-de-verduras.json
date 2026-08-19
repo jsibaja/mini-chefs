@@ -1,0 +1,52 @@
+{
+  "slug": "palitos-de-verduras",
+  "title": "Palitos de Verduras",
+  "description": "Bastones coloridos de zanahoria, pepino, pimiento y apio con un toque de limón y dip de yogur: frescura crujiente para la lonchera.",
+  "category": "colacion",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 5,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "verde", "rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Tres colores de verdura en un mismo empaque: agua, fibra y vitaminas en un snack que cruje y refresca.",
+  "tips": "Envía los bastones en un contenedor hermético con un paño húmedo para que lleguen crujientes, y el dip de yogur en un frasquito cerrado junto al gel refrigerante.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Cocina las verduras al vapor hasta que estén bien blandas y sirve bastones gruesos que pueda agarrar con la mano; omite la sal y la pimienta del dip." },
+    { "age_band": "12_24m", "adaptation_text": "Mantén la zanahoria y el apio blanqueados y en tiras finas; el pepino sin cáscara se mastica más fácil." }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "grande", "sort_order": 1 },
+    { "code": "pepino", "name": "Pepino", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "pimiento_rojo", "name": "Pimiento morrón rojo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "apio", "name": "Apio", "amount": 1, "unit": "tallo", "note": null, "sort_order": 4 },
+    { "code": "jugo_limon", "name": "Jugo de limón", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 5 },
+    { "code": "yogur_natural", "name": "Yogur natural", "amount": 1, "unit": "cucharada", "note": "opcional, para el dip", "sort_order": 6 },
+    { "code": "sal", "name": "Sal y pimienta", "amount": 1, "unit": "pizca", "note": "opcional, solo para el dip", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava bien todas las verduras y córtalas en bastones delgados y alargados.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Para menores de 5 años, corta la zanahoria y el apio crudos en tiras muy finas (tipo fósforo) o blanquéalos 2-3 minutos en agua hirviendo y enfríalos: crudos y en trozos gruesos son riesgo de atragantamiento.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Rocía los bastones con el jugo de limón para realzar su sabor y evitar que se oscurezcan.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Si deseas, mezcla el yogur natural con una pizca de sal y pimienta y sírvelo como dip.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [35], "pages": [60] },
+  "image_filename": "receta-palitos-de-verduras.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

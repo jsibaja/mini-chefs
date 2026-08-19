@@ -1,0 +1,48 @@
+{
+  "slug": "papilla-de-cereal-con-leche-materna",
+  "title": "Papilla de cereal con leche materna",
+  "description": "Cereal infantil de arroz o maíz preparado con leche materna o fórmula tibia: una papilla suave y reconfortante para dar los primeros cereales al bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 5,
+  "cook_minutes": 5,
+  "servings": 1,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El cereal infantil aporta energía e hierro, y la leche materna o fórmula lo vuelve cremoso y familiar para el paladar del bebé.",
+  "tips": "Introduce un solo tipo de cereal a la vez y espera 2-3 días antes de probar otro. Si hay antecedentes de celiaquía, elige cereal certificado sin gluten. Nunca hiervas la leche materna: agrégala tibia al final para conservar sus nutrientes, y descarta las sobras que hayan tenido contacto con la saliva del bebé.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Prepárala más espesa y con menos líquido para que tome cuerpo y el bebé la coma con cuchara." }
+  ],
+  "ingredients": [
+    { "code": "cereal_infantil", "name": "Cereal infantil sin gluten (arroz o maíz)", "amount": 30, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna o fórmula", "amount": 150, "unit": "ml", "note": "tibia", "sort_order": 2 },
+    { "code": "manzana", "name": "Manzana", "amount": 0.5, "unit": "unidad", "note": "rallada, opcional", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Si vas a usar fórmula, entíbiala en una cacerola a fuego bajo sin dejar que hierva. Si usas leche materna, resérvala aparte y no la calientes.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Retira del fuego, agrega el cereal poco a poco y mezcla bien para deshacer los grumos hasta que la papilla espese.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Si usas leche materna, incorpórala tibia al final, fuera del fuego, para conservar sus nutrientes; nunca la hiervas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Añade la manzana rallada si quieres un sabor más dulce.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Comprueba que esté tibia (no caliente) antes de ofrecerla al bebé.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [3], "pages": [21] },
+  "image_filename": "receta-papilla-de-cereal-con-leche-materna.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

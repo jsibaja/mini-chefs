@@ -1,0 +1,115 @@
+{
+  "slug": "pure-de-remolacha-y-naranja",
+  "title": "Puré de remolacha y naranja",
+  "description": "Remolacha (betabel) cocida y triturada con naranja: un puré de color intenso y sabor dulce con un toque cítrico, distinto y vistoso.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [
+    1,
+    2,
+    3
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 25,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": [
+    "desayuno",
+    "colacion_am",
+    "colacion_pm"
+  ],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [
+    "morado",
+    "naranja"
+  ],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La remolacha aporta folato y color, y la naranja suma vitamina C, que favorece la absorción del hierro de origen vegetal.",
+  "tips": "La remolacha contiene nitratos: antes de los 12 meses ofrécela en poca cantidad y no conserves el puré más de 24 horas. Usa la naranja entera triturada, no en jugo colado (los jugos no se recomiendan antes del año). No te asustes si el pañal se tiñe de rojo: es normal por la remolacha.",
+  "family_mode_note": "Con un poco de yogur natural se convierte en un batido colorido para los más grandes.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Ofrece solo una porción pequeña, con la remolacha en cantidad reducida, como acompañamiento, y consúmelo el mismo día."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Ofrece solo una porción pequeña, con la remolacha en cantidad reducida, como acompañamiento, y consúmelo el mismo día."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "remolacha",
+      "name": "Remolacha (betabel)",
+      "amount": 1,
+      "unit": "unidad",
+      "note": "mediana",
+      "sort_order": 1
+    },
+    {
+      "code": "naranja",
+      "name": "Naranja",
+      "amount": 1,
+      "unit": "unidad",
+      "note": "grande, pelada y sin semillas",
+      "sort_order": 2
+    },
+    {
+      "code": "agua",
+      "name": "Agua",
+      "amount": 0.25,
+      "unit": "taza",
+      "note": "opcional, para ajustar la consistencia",
+      "sort_order": 3
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Lava bien la remolacha y córtala en trozos pequeños para que se cocine más rápido.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "Hierve la remolacha 20-30 minutos, hasta que esté tierna, y deja enfriar un poco.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 3,
+      "instruction": "Pela la naranja, retira las semillas y separa los gajos.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Coloca la remolacha cocida y la naranja en la licuadora y tritura hasta obtener una textura suave; agrega un poco de agua si es necesario.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 5,
+      "instruction": "Deja entibiar antes de ofrecer al bebé.",
+      "is_safety_critical": false
+    }
+  ],
+  "source": {
+    "book": "gourmets",
+    "numbers": [
+      10
+    ],
+    "pages": [
+      28
+    ]
+  },
+  "image_filename": "receta-pure-de-remolacha-y-naranja.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

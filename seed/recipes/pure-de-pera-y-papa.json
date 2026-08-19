@@ -1,0 +1,47 @@
+{
+  "slug": "pure-de-pera-y-papa",
+  "title": "Puré de pera y papa",
+  "description": "Puré suave que combina la papa con el dulzor natural de la pera madura: una mezcla de fruta y tubérculo muy amable para empezar.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La papa aporta energía de fácil digestión y la pera suma fibra, agua y un dulzor natural sin azúcares añadidos, para un puré suave y nutritivo.",
+  "tips": "Elige una pera bien madura para que aporte dulzor sin necesidad de endulzar. Congela porciones en cubetas de hielo hasta por 3 meses y descongela solo lo que necesites.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Machaca la papa y la pera con un tenedor dejando grumos suaves, en lugar de licuar, para que el bebé practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "pera", "name": "Pera madura", "amount": 1, "unit": "unidad", "note": "pelada y sin corazón", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "pequeña", "sort_order": 2 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": "para ajustar la textura", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela la pera y la papa y córtalas en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Hierve la papa en agua hasta que esté tierna, unos 15 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Coloca la papa cocida y la pera en la licuadora o usa una batidora de mano hasta obtener un puré suave y homogéneo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Ajusta la textura con un poco de agua si el puré está muy espeso y sirve tibio.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [26], "pages": [44] },
+  "image_filename": "receta-pure-de-pera-y-papa.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

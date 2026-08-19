@@ -1,0 +1,53 @@
+{
+  "slug": "mermelada-de-fresa",
+  "title": "Mermelada de Fresa",
+  "description": "Mermelada rápida de fresas con semillas de chía y limón, sin azúcar añadida: la chía espesa la fruta de forma natural en minutos.",
+  "category": "desayuno",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 10,
+  "servings": 8,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Solo fruta, limón y chía: conserva la fibra de la fresa entera y no añade azúcares libres, a diferencia de las mermeladas comerciales.",
+  "tips": "Cambia las fresas por moras o mango para variar el sabor; dura 5-7 días bien tapada en el refrigerador, o congélala en porciones pequeñas hasta 3 meses.",
+  "family_mode_note": "Úsala para toda la familia sobre pan, panqueques, yogur o avena; rinde aproximadamente 1 taza.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Sirve 1-2 cucharaditas mezcladas con papilla de fruta o de avena; a esta edad no añadas ningún endulzante."
+    }
+  ],
+  "ingredients": [
+    { "code": "fresa", "name": "Fresas", "amount": 300, "unit": "g", "note": "frescas, lavadas y sin hojas", "sort_order": 1 },
+    { "code": "semilla_chia", "name": "Semillas de chía", "amount": 10, "unit": "g", "note": "aproximadamente 1 cucharada", "sort_order": 2 },
+    { "code": "limon", "name": "Limón", "amount": 0.5, "unit": "unidad", "note": "su jugo", "sort_order": 3 },
+    { "code": "agua", "name": "Agua", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 0.5, "unit": "cucharadita", "note": "opcional, o una pizca de canela", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava bien las fresas, retira las hojas y córtalas en trozos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Colócalas en una olla pequeña con las 2 cucharadas de agua y calienta a fuego medio, revolviendo de vez en cuando, 8-10 minutos, hasta que se deshagan; ayúdate machacándolas con un tenedor.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el jugo de limón y cocina 2 minutos más.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Retira del fuego, añade las semillas de chía y la vainilla, y revuelve muy bien para que espesen la mezcla.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Pasa la mermelada a un frasco limpio con tapa y refrigérala al menos 2 horas antes de usarla, para que tome cuerpo.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [24], "pages": [48] },
+  "image_filename": "receta-mermelada-de-fresa.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

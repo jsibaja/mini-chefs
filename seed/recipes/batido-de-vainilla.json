@@ -1,0 +1,47 @@
+{
+  "slug": "batido-de-vainilla",
+  "title": "Batido de Vainilla",
+  "description": "Batido espumoso de yogur, banana y jugo de naranja con aroma de vainilla. Cremoso, naturalmente dulce y listo en 5 minutos.",
+  "category": "bebida",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El yogur y la banana aportan calcio, potasio y energía para empezar el día o recargar a media mañana, sin azúcar añadida.",
+  "tips": "Agrega cubos de hielo al licuar para una textura más espumosa; si va a la lonchera, llévalo en termo frío y que se consuma antes de 4 horas.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Sirve media porción en vaso con tapa o con cucharita y omite cualquier endulzante: la banana bien madura ya aporta todo el dulzor que necesita." }
+  ],
+  "ingredients": [
+    { "code": "yogur_natural", "name": "Yogur natural", "amount": 125, "unit": "ml", "note": null, "sort_order": 1 },
+    { "code": "naranja", "name": "Naranja", "amount": 1, "unit": "unidad", "note": "el jugo", "sort_order": 2 },
+    { "code": "banana", "name": "Banana (plátano)", "amount": 1, "unit": "unidad", "note": "madura", "sort_order": 3 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 1, "unit": "cucharadita", "note": "opcional", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca el yogur, el jugo de naranja, la banana y la esencia de vainilla en la licuadora.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Licúa hasta obtener una consistencia espumosa y homogénea.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Sirve de inmediato y bien frío, para evitar que la fruta se oxide.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [93], "pages": [125] },
+  "image_filename": "receta-batido-de-vainilla.webp",
+  "fallback_image": "placeholder-categoria-bebidas.webp"
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "tallarines-con-salsa-de-calabaza",
+  "title": "Tallarines con Salsa de Calabaza",
+  "description": "Tallarines bañados en una salsa cremosa de calabaza asada con un toque de queso crema: naranja, suave y brillante, ideal para conquistar paladares pequeños.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 30,
+  "servings": 3,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La calabaza aporta betacarotenos, que el cuerpo convierte en vitamina A para la vista y la piel, y la pasta integral suma fibra y energía duradera para jugar toda la tarde.",
+  "tips": "Asar la calabaza concentra su dulzor natural y hace la salsa más sabrosa que si la hierves. Prepara doble cantidad de salsa y congélala en porciones para una cena exprés.",
+  "family_mode_note": "La misma salsa funciona sobre arroz, ñoquis o como crema de calabaza si la aligeras con más caldo.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Cocina los tallarines hasta que estén muy blandos, córtalos en trozos pequeños y mézclalos con la salsa sin sal; la leche de vaca en preparaciones cocidas pequeñas es adecuada a esta edad."
+    }
+  ],
+  "ingredients": [
+    { "code": "tallarin_integral", "name": "Tallarines integrales", "amount": 200, "unit": "g", "note": null, "sort_order": 1 },
+    { "code": "calabaza", "name": "Calabaza", "amount": 200, "unit": "g", "note": "pelada y en cubos", "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 3 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 4 },
+    { "code": "leche", "name": "Leche", "amount": 100, "unit": "ml", "note": "o bebida vegetal sin azúcar", "sort_order": 5 },
+    { "code": "queso_crema", "name": "Queso crema", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "nuez_moscada", "name": "Nuez moscada", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela para menores de 1 año", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 200 °C. Coloca los cubos de calabaza en una bandeja con la mitad del aceite y hornéalos 20-25 minutos, hasta que estén blandos y ligeramente dorados.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mientras tanto, cocina los tallarines en agua hirviendo según las instrucciones del paquete; escúrrelos y reserva media taza del agua de cocción.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén con el aceite restante, sofríe la cebolla y el ajo picados hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Licúa la calabaza asada con el sofrito, la leche y el queso crema hasta obtener una salsa cremosa; si queda espesa, agrega un poco del agua de cocción reservada.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Regresa la salsa a la sartén, caliéntala a fuego bajo y sazona con una pizca de nuez moscada (opcional) y muy poca sal.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Mezcla los tallarines con la salsa hasta cubrirlos por completo.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Sirve caliente, con un poco de queso rallado por encima si lo deseas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [29], "pages": [77, 78] },
+  "image_filename": "receta-tallarines-con-salsa-de-calabaza.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

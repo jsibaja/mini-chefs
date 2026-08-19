@@ -1,0 +1,52 @@
+{
+  "slug": "hamburguesas-de-lentejas-y-papa",
+  "title": "Hamburguesas de Lentejas y Papa",
+  "description": "Hamburguesas suaves de lentejas y papa, con un toque de zanahoria: proteína vegetal fácil de agarrar y de masticar.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": ["naranja"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las lentejas y la papa forman una hamburguesa vegetariana con proteína, hierro vegetal y fibra; la zanahoria le suma color y betacarotenos.",
+  "tips": "¿Sin gluten? Reemplaza el pan molido por harina de garbanzo o avena certificada. Congela las hamburguesas ya formadas hasta 3 meses, separadas con papel. Combínalas con una fuente de vitamina C, como tomate, para aprovechar mejor el hierro.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "No las dores en la sartén: machaca la mezcla de lentejas y papa con un poco de caldo hasta obtener un puré suave." },
+    { "age_band": "9_11m", "adaptation_text": "Sírvelas en trozos blandos del tamaño de un bocado, bien aplastadas." }
+  ],
+  "ingredients": [
+    { "code": "lenteja", "name": "Lentejas", "amount": 0.5, "unit": "taza", "note": "cocidas", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 0.5, "unit": "unidad", "note": "cocida y triturada", "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.25, "unit": "unidad", "note": "rallada", "sort_order": 3 },
+    { "code": "pan_molido", "name": "Pan molido (pan rallado)", "amount": 1, "unit": "cucharada", "note": "opcional, para ligar", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina las lentejas hasta que estén muy blandas y escúrrelas bien.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Hierve la papa hasta que esté tierna y tritúrala con un tenedor.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Machaca bien las lentejas y mézclalas con la papa y la zanahoria rallada hasta formar una masa; si hace falta, añade el pan molido para ligar. Aplastar bien las lentejas evita atragantamientos en los más pequeños.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Forma pequeñas hamburguesas con las manos.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Calienta una sartén con el aceite de oliva a fuego medio y cocina las hamburguesas hasta dorarlas por ambos lados.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Deja entibiar y sírvelas solas o con puré de verduras.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [74, 90], "pages": [95, 112] },
+  "image_filename": "receta-hamburguesas-de-lentejas-y-papa.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

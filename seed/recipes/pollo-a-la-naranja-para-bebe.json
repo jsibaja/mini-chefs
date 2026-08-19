@@ -1,0 +1,49 @@
+{
+  "slug": "pollo-a-la-naranja-para-bebe",
+  "title": "Pollo a la naranja para bebés",
+  "description": "Trozos de pollo dorados y cocidos en jugo de naranja natural, con zanahoria rallada que aporta un toque dulce; suave y fácil de desmenuzar.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína magra y hierro, y el jugo de naranja suma vitamina C, que ayuda a aprovechar mejor ese hierro.",
+  "tips": "El jugo de naranja se cocina hasta reducir y concentra su dulzor natural, por eso conviene ofrecer este plato a partir de los 12 meses. Acompáñalo con arroz o papa blanda para una comida completa.",
+  "family_mode_note": "Para los adultos puedes reforzar la salsa con un poco de jengibre rallado o ralladura de naranja después de separar la porción del bebé.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Desmenuza bien el pollo o córtalo en trozos muy pequeños y blandos, y verifica que la salsa esté tibia antes de servir." }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 0.5, "unit": "unidad", "note": "sin piel, en trozos pequeños", "sort_order": 1 },
+    { "code": "naranja", "name": "Naranja", "amount": 0.5, "unit": "unidad", "note": "su jugo", "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.25, "unit": "taza", "note": "rallada", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Corta el pollo en trozos pequeños o desmenúzalo si el bebé aún no mastica bien.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Exprime la media naranja y reserva el jugo.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén, calienta el aceite de oliva y sofríe la zanahoria rallada a fuego bajo por 2 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega el pollo y cocínalo hasta que esté bien dorado por fuera.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Añade el jugo de naranja y cocina 5 minutos más, hasta que la salsa reduzca y el pollo esté completamente cocido: al partir un trozo debe estar blanco por dentro, sin partes rosadas ni jugos rosados.", "is_safety_critical": true }
+  ],
+  "source": { "book": "gourmets", "numbers": [97], "pages": [119] },
+  "image_filename": "receta-pollo-a-la-naranja-para-bebe.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "pure-de-lentejas-y-calabacin",
+  "title": "Puré de Lentejas y Calabacín",
+  "description": "Puré cremoso de lentejas y calabacín, suave y lleno de proteína vegetal y fibra. Una papilla salada nutritiva para el almuerzo o la cena.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [
+    1,
+    2,
+    3
+  ],
+  "prep_minutes": 5,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": [
+    "almuerzo",
+    "cena"
+  ],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": "legumbre",
+  "veggie_colors": [
+    "verde"
+  ],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Las lentejas aportan proteína vegetal, hierro y fibra, y el calabacín suma agua y suavidad. Una combinación completa y fácil de digerir para el crecimiento.",
+  "tips": "Antes de los 12 meses las legumbres van siempre bien trituradas o aplastadas para evitar atragantamientos. Una pizca de comino le da aroma sin sal. Congela en porciones individuales hasta por 3 meses.",
+  "family_mode_note": null,
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Tritura hasta lograr un puré fino y homogéneo, sin trozos ni pieles de lenteja."
+    },
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Aplasta con tenedor dejando una textura más grumosa y sirve con trocitos muy blandos de calabacín para que mastique."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "lenteja",
+      "name": "Lentejas cocidas",
+      "amount": 0.25,
+      "unit": "taza",
+      "note": "bien blandas",
+      "sort_order": 1
+    },
+    {
+      "code": "calabacin",
+      "name": "Calabacín (zucchini)",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": "en cubos",
+      "sort_order": 2
+    },
+    {
+      "code": "caldo_verduras",
+      "name": "Caldo de verduras",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "casero y sin sal",
+      "sort_order": 3
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Cocina el calabacín al vapor o en un poco de agua hasta que esté bien tierno.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "Mezcla el calabacín cocido con las lentejas.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 3,
+      "instruction": "Tritura la mezcla hasta obtener una textura homogénea, ajustando la consistencia con el caldo casero sin sal.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Deja entibiar y sirve.",
+      "is_safety_critical": false
+    }
+  ],
+  "source": {
+    "book": "gourmets",
+    "numbers": [
+      41
+    ],
+    "pages": [
+      59
+    ]
+  },
+  "image_filename": "receta-pure-de-lentejas-y-calabacin.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "barritas-de-avena-y-frutos-secos",
+  "title": "Barritas de Avena y Frutos Secos",
+  "description": "Barritas horneadas de avena y frutos secos molidos, unidas con dátiles triturados y un toque de aceite de coco. Energía masticable para la merienda de los más grandes.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 6,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": true,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La avena y los frutos secos molidos aportan energía duradera, fibra y grasas buenas para crecer. Los dátiles triturados concentran azúcares libres, así que son barritas para ocasiones especiales y no un dulce de todos los días.",
+  "tips": "Se conservan hasta 1 semana en un recipiente hermético a temperatura ambiente, o congélalas hasta 3 meses envueltas una a una. Para una versión con menos azúcares, reemplaza los dátiles por medio plátano bien maduro machacado.",
+  "family_mode_note": "Los niños pueden ayudar a presionar la mezcla en el molde y, ya frías, a cortar las barritas con supervisión.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Asegúrate de que los frutos secos queden molidos muy finos, con textura de arena, nunca enteros ni en trozos grandes (prohibidos antes de los 5 años), y corta las barritas en porciones pequeñas: son densas y masticables."
+    }
+  ],
+  "ingredients": [
+    { "code": "hojuelas_avena", "name": "Hojuelas de avena", "amount": 45, "unit": "g", "note": "½ taza; usa avena certificada sin gluten si hay celiaquía", "sort_order": 1 },
+    { "code": "fruto_seco", "name": "Frutos secos molidos", "amount": 30, "unit": "g", "note": "¼ taza (almendras, nueces o avellanas); alérgeno: frutos secos", "sort_order": 2 },
+    { "code": "datil", "name": "Dátiles sin semilla triturados", "amount": 2, "unit": "cucharada", "note": "o pasas trituradas", "sort_order": 3 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra un molde pequeño con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Muele los frutos secos hasta que queden muy finos: para menores de 5 años nunca deben ir enteros ni en trozos grandes, por riesgo de atragantamiento.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Procesa los dátiles (o las pasas) hasta obtener una pasta pegajosa.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mezcla las hojuelas de avena con los frutos secos molidos y la pasta de dátiles hasta formar una masa pegajosa.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega el aceite de coco y mezcla bien para integrarlo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Presiona la mezcla en el molde con una espátula hasta que quede bien compacta.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Hornea de 15 a 20 minutos, hasta que la superficie se vea ligeramente dorada.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Deja enfriar por completo antes de desmoldar y cortar en barritas pequeñas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [124], "pages": [149] },
+  "image_filename": "receta-barritas-de-avena-y-frutos-secos.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

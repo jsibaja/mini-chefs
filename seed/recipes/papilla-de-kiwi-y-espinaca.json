@@ -1,0 +1,110 @@
+{
+  "slug": "papilla-de-kiwi-y-espinaca",
+  "title": "Papilla de kiwi y espinaca",
+  "description": "Kiwi maduro triturado con manzana y espinaca: una papilla fresca de color verde y sabor ligeramente ácido, rica en vitamina C.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [
+    1,
+    2,
+    3
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 5,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": [
+    "desayuno",
+    "colacion_am",
+    "colacion_pm"
+  ],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [
+    "verde",
+    "blanco_amarillo"
+  ],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El kiwi y la manzana aportan vitamina C y fibra, y la espinaca suma hierro vegetal; una papilla fresca de sabor ligeramente ácido.",
+  "tips": "El kiwi es un alérgeno frecuente: la primera vez ofrécelo solo y observa 2-3 días. La espinaca contiene nitratos, así que antes de los 12 meses ofrécela en poca cantidad y consume la papilla el mismo día. Prepárala fresca; no conviene congelarla.",
+  "family_mode_note": "Con más fruta picada se convierte en una ensalada de frutas fresca para los hermanos mayores.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Usa solo un puñado pequeño de espinaca y ofrece una porción reducida el mismo día; cocina también la manzana unos minutos para una textura más suave."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Usa solo un puñado pequeño de espinaca y ofrece una porción reducida el mismo día; cocina también la manzana unos minutos para una textura más suave."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "kiwi",
+      "name": "Kiwi",
+      "amount": 1,
+      "unit": "unidad",
+      "note": "maduro",
+      "sort_order": 1
+    },
+    {
+      "code": "espinaca",
+      "name": "Espinaca",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "fresca",
+      "sort_order": 2
+    },
+    {
+      "code": "manzana",
+      "name": "Manzana",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": "dulce",
+      "sort_order": 3
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Lava bien la espinaca y la manzana; pela el kiwi y la manzana y córtalos en trozos pequeños.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 2,
+      "instruction": "Cocina la espinaca al vapor unos 2 minutos para suavizar su textura (puedes cocinar la manzana junto a ella para los bebés más pequeños).",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 3,
+      "instruction": "Tritura el kiwi, la manzana y la espinaca juntos hasta obtener un puré suave.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Sirve la papilla fresca el mismo día.",
+      "is_safety_critical": false
+    }
+  ],
+  "source": {
+    "book": "gourmets",
+    "numbers": [
+      12
+    ],
+    "pages": [
+      30
+    ]
+  },
+  "image_filename": "receta-papilla-de-kiwi-y-espinaca.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

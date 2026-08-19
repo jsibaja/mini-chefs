@@ -1,0 +1,49 @@
+{
+  "slug": "pure-espeso-de-camote-y-papa",
+  "title": "Puré espeso de camote y papa",
+  "description": "Un puré denso y reconfortante de camote (batata) y papa, con un dulzor natural que suele encantar a los bebés; sirve como plato principal o guarnición.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El camote aporta betacarotenos, fibra y un dulzor natural, y la papa suma energía y potasio; juntos crean un puré espeso y saciante ideal como base de la comida.",
+  "tips": "Esta base combina de maravilla con proteína: mézclala con pollo desmenuzado o lentejas bien aplastadas para armar un plato completo. Congela en cubeteras y descongela solo lo que vas a usar.",
+  "family_mode_note": "Duplica las cantidades y usa el puré espeso como relleno o guarnición para toda la familia, sazonando aparte la porción de los adultos.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Aclara el puré con más agua o caldo casero sin sal hasta dejarlo bien fino y sin grumos." },
+    { "age_band": "9_11m", "adaptation_text": "Deja la textura espesa tal cual, machacada con tenedor, para que tu bebé practique con trocitos blandos." }
+  ],
+  "ingredients": [
+    { "code": "camote", "name": "Camote (batata)", "amount": 0.5, "unit": "unidad", "note": "mediano", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "pequeña", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela el camote y la papa y córtalos en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cuécelos en agua o caldo casero sin sal hirviendo hasta que estén bien tiernos, unos 15 a 20 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Escúrrelos y tritúralos juntos hasta obtener una textura espesa y homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Si queda demasiado espeso, añade más agua o caldo para suavizar.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Deja entibiar a temperatura adecuada antes de ofrecérselo al bebé.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [30], "pages": [48] },
+  "image_filename": "receta-pure-espeso-de-camote-y-papa.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

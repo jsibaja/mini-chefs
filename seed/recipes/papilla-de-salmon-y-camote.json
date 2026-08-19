@@ -1,0 +1,49 @@
+{
+  "slug": "papilla-de-salmon-y-camote",
+  "title": "Papilla de salmón y camote",
+  "description": "Papilla suave de salmón con camote (batata): el dulzor del tubérculo equilibra el sabor del pescado y aporta omega-3 al menú del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pescado",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El salmón aporta proteína y ácidos grasos omega-3 importantes para el desarrollo del cerebro, y el camote suma energía y betacarotenos.",
+  "tips": "El pescado es un alérgeno frecuente: la primera vez ofrécelo solo, en pequeña cantidad y de día, y observa 2-3 días antes de repetirlo. Congela porciones individuales hasta por 2 meses.",
+  "family_mode_note": "Cocina un filete grande: reserva la porción del bebé antes de salar y sirve el resto con el camote en gajos para la familia.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Machaca el camote con un tenedor y mezcla el salmón desmenuzado muy fino en lugar de licuar, para una textura con grumos suaves." },
+    { "age_band": "12_24m", "adaptation_text": "Sirve el salmón desmenuzado (siempre revisado de espinas) junto al camote en cubitos blandos, sin triturar." }
+  ],
+  "ingredients": [
+    { "code": "salmon", "name": "Salmón fresco", "amount": 1, "unit": "unidad", "note": "filete pequeño (unos 60 g), sin piel ni espinas", "sort_order": 1 },
+    { "code": "camote", "name": "Camote (batata)", "amount": 1, "unit": "unidad", "note": "mediano", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela el camote y córtalo en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina el camote en agua hirviendo hasta que esté bien tierno, unos 15 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina el salmón al vapor o hervido durante 5-7 minutos, hasta que esté completamente cocido, opaco y se deshaga en lascas.", "is_safety_critical": true },
+    { "step_number": 4, "instruction": "Desmenuza el salmón y revisa con los dedos que no quede ninguna espina.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Tritura el salmón con el camote y un poco del caldo o agua hasta obtener una textura suave; agrega más líquido si es necesario y sirve tibio.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [14], "pages": [32] },
+  "image_filename": "receta-papilla-de-salmon-y-camote.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "pollo-guisado-con-pimientos-y-tomate",
+  "title": "Pollo Guisado con Pimientos y Tomate",
+  "description": "Pollo tierno bañado en una salsa suave de pimiento rojo y tomate, con un color apetitoso y mucho sabor sin picante: se sirve en trocitos o triturado.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["rojo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína magra y hierro para el crecimiento, mientras el pimiento rojo y el tomate suman vitamina C y color natural al plato.",
+  "tips": "Asar el pimiento antes de triturarlo facilita retirarle la piel y lo vuelve más digerible y dulce. Usa caldo casero sin sal. Sírvelo con arroz o puré de papa para una comida completa.",
+  "family_mode_note": "Para los grandes, suma un sofrito de cebolla y ajo y un toque de pimentón dulce a la salsa; aparta la porción del bebé antes de salar.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura el pollo con la salsa hasta obtener un puré suave y homogéneo." },
+    { "age_band": "9_11m", "adaptation_text": "Desmenuza el pollo bien fino y mézclalo con la salsa para una textura fácil de tomar." }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 0.5, "unit": "unidad", "note": "sin piel", "sort_order": 1 },
+    { "code": "pimiento_rojo", "name": "Pimiento rojo (morrón)", "amount": 0.5, "unit": "unidad", "note": "sin piel", "sort_order": 2 },
+    { "code": "tomate", "name": "Tomate", "amount": 0.5, "unit": "unidad", "note": "sin piel ni semillas", "sort_order": 3 },
+    { "code": "caldo_pollo", "name": "Caldo de pollo", "amount": 0.5, "unit": "taza", "note": "casero y sin sal, o agua", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina el pollo en agua o caldo hasta que esté completamente cocido, sin partes rosadas.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Tritura el pimiento y el tomate hasta formar una salsa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla la salsa con el pollo y cocina todo junto unos 5 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Sirve en trocitos pequeños o triturado, según la textura que necesite el niño.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [61], "pages": [81] },
+  "image_filename": "receta-pollo-guisado-con-pimientos-y-tomate.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

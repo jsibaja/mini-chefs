@@ -1,0 +1,61 @@
+{
+  "slug": "cuadritos-blandos-de-huevo-avena-y-calabacita",
+  "title": "Cuadritos Blandos de Huevo, Avena y Calabacita",
+  "description": "Una preparación horneada de huevo entero y avena con calabacita rallada, que se corta en tiras del ancho de tu dedo. Esponjosa, sin sal y hecha para que el bebé la agarre con la mano.",
+  "category": "colacion",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["verde"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo entero, yema incluida, aporta hierro, colina y proteína completa desde los primeros sólidos, y la avena suma fibra y una textura esponjosa fácil de deshacer con las encías.",
+  "tips": "Guarda los cuadritos en un recipiente hermético en el refrigerador hasta 2 días o congélalos hasta 2 meses. Para variar, cambia la calabacita por zanahoria rallada fina o por brócoli cocido y picado muy menudo.",
+  "family_mode_note": "Duplica la receta y hornea la mitad en un molde aparte con queso rallado y una pizca de sal para el resto de la familia: mismo horno, misma comida, dos versiones.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Agrega 2 cucharadas de queso rallado a la mezcla y una pizca de sal, y corta los cuadritos un poco más grandes para que practique el mordisco."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sírvelos como tortilla en porciones triangulares, acompañados de bastones de pan integral y ensalada de tomate picado fino."
+    }
+  ],
+  "ingredients": [
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": "enteros, con yema; alérgeno: huevo", "sort_order": 1 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 150, "unit": "g", "note": "1 pequeña, rallada gruesa", "sort_order": 2 },
+    { "code": "hojuelas_avena", "name": "Hojuelas de avena", "amount": 60, "unit": "g", "note": "¾ de taza, finas o partidas", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "agua", "name": "Agua", "amount": 3, "unit": "cucharada", "note": "para ablandar la avena", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra un molde cuadrado pequeño, de unos 15 x 15 cm, con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Ralla la calabacita, colócala en un colador y exprímela con las manos hasta sacarle todo el líquido posible: si queda mojada, la mezcla no cuaja.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mezcla las hojuelas de avena con el agua y déjalas hidratar 5 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Bate los huevos enteros con un tenedor hasta que la yema y la clara queden completamente integradas.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Une los huevos batidos con la avena hidratada, la calabacita exprimida y el aceite de oliva, y revuelve bien. No agregues sal: los menores de 12 meses no deben consumir sal añadida.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte la mezcla en el molde formando una capa de 2 cm de alto y alísala con una cuchara.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Hornea de 22 a 25 minutos, hasta que el centro esté firme al tacto y no quede nada de huevo líquido al insertar un cuchillo. El huevo debe quedar siempre bien cocido, sin partes babosas.", "is_safety_critical": true },
+    { "step_number": 8, "instruction": "Deja entibiar, desmolda y corta en tiras del ancho de tu dedo, de unos 2 cm por 7 cm, nunca en cubos pequeños y redondeados que puedan atragantar.", "is_safety_critical": true },
+    { "step_number": 9, "instruction": "Comprueba que la tira se aplasta con facilidad entre tus dedos y ofrécele una a la vez, con el bebé sentado erguido y bajo tu supervisión durante toda la comida.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-cuadritos-blandos-de-huevo-avena-y-calabacita.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

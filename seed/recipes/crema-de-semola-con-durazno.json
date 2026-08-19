@@ -1,0 +1,51 @@
+{
+  "slug": "crema-de-semola-con-durazno",
+  "title": "Crema de Sémola con Durazno",
+  "description": "Sémola cocida en leche hasta quedar cremosa y sedosa, coronada con cubitos de durazno maduro. Un desayuno tibio y reconfortante que se hace en una sola olla.",
+  "category": "desayuno",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 8,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La leche aporta calcio y proteína, la sémola da energía de digestión lenta y el durazno maduro suma vitamina C y todo el dulzor, sin necesidad de azúcar.",
+  "tips": "Al enfriarse la sémola espesa mucho: recaliéntala con un chorrito de leche y bate de nuevo para devolverle la cremosidad. Cuando no haya duraznos, funciona igual de bien con pera madura rallada, mango o papaya.",
+  "family_mode_note": "Sirve la misma olla para todos: los adultos pueden sumar nueces picadas y ralladura de naranja sobre su porción.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Machaca los cubos de durazno con el tenedor y mézclalos con la crema si todavía está practicando los trozos; sirve tibia, nunca caliente." },
+    { "age_band": "2_5a", "adaptation_text": "Sirve el durazno en gajos pequeños aparte para que arme su propio plato y decida cuánta fruta se pone." }
+  ],
+  "ingredients": [
+    { "code": "leche", "name": "Leche entera", "amount": 400, "unit": "ml", "note": "fría", "sort_order": 1 },
+    { "code": "semola_trigo", "name": "Sémola de trigo", "amount": 3, "unit": "cucharada", "note": null, "sort_order": 2 },
+    { "code": "durazno", "name": "Durazno", "amount": 1, "unit": "unidad", "note": "bien maduro", "sort_order": 3 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Vierte la leche fría en una olla y agrega la sémola en lluvia, batiendo desde el primer momento: con la leche fría no se forman grumos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Lleva a fuego medio y cocina de 5 a 6 minutos moviendo sin parar con batidor, hasta que espese como una crema suave.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Retira del fuego e incorpora la vainilla y la canela.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Pela el durazno, retira el carozo por completo y córtalo en cubos pequeños, del tamaño de la uña de tu meñique.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Sirve la crema tibia en un plato hondo, reparte el durazno encima y comprueba la temperatura con el dorso de tu mano antes de dársela.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-crema-de-semola-con-durazno.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

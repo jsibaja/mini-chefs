@@ -1,0 +1,50 @@
+{
+  "slug": "pina-asada",
+  "title": "Piña Asada",
+  "description": "Trozos de piña madura dorados a la parrilla o en la sartén hasta que caramelizan con su propia azúcar natural. Un postre de fruta calientito y jugoso.",
+  "category": "colacion",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 10,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La piña aporta vitamina C y mucha agua, y al asarla su azúcar natural carameliza sin necesidad de endulzantes: sabor a postre con solo fruta.",
+  "tips": "Espolvorea una pizca de canela al servir para realzar el dulzor. Fría también es deliciosa: guárdala en un recipiente hermético y, en días calurosos, envíala en la lonchera con gel refrigerante para que llegue fresca.",
+  "family_mode_note": "Los niños pueden espolvorear la canela y ayudar a elegir los trozos; la parrilla o la sartén caliente las maneja solo el adulto.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve la piña asada tibia y en trocitos pequeños, sin palillo, retirando cualquier parte fibrosa del centro."
+    }
+  ],
+  "ingredients": [
+    { "code": "pina", "name": "Piña madura", "amount": 1, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "palillo_brocheta", "name": "Palillos de brocheta", "amount": 6, "unit": "unidad", "note": "opcionales, para manipular; preferir punta roma", "sort_order": 2 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": "opcional, para servir", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela la piña, retira los ojos y el centro duro, y córtala en triángulos o tiras gruesas.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Si usas palillos para manipular los trozos, elige palillos de punta roma o corta las puntas afiladas con una tijera.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Asa los trozos en una parrilla caliente o en una sartén antiadherente a fuego medio, volteándolos, unos 3 a 4 minutos por lado, hasta que se doren y caramelicen naturalmente.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Deja entibiar antes de servir. Retira siempre los palillos antes de dársela a menores de 5 años: para ellos, corta la piña en trocitos.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [85], "pages": [115] },
+  "image_filename": "receta-pina-asada.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

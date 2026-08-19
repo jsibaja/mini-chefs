@@ -1,0 +1,49 @@
+{
+  "slug": "pure-de-papa-con-brocoli",
+  "title": "Puré de Papa con Brócoli",
+  "description": "Puré suave y cremoso que esconde brócoli entre la papa: un clásico reconfortante que va caliente en termo para el almuerzo escolar o directo a la mesa en casa.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_termo",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Combina la energía de la papa con la fibra, el folato y la vitamina C del brócoli en una textura suave que acepta hasta el comensal más exigente.",
+  "tips": "Precalienta el termo con agua caliente durante 5 minutos, vacíalo y llénalo con el puré bien caliente: así se mantiene a temperatura segura hasta el almuerzo. Un poco de queso rallado lo vuelve más cremoso.",
+  "family_mode_note": "Sirve como guarnición de toda la familia junto a pollo, pescado o huevo.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Prepara la porción del bebé sin sal ni pimienta y aligera el puré con un poco de leche materna o fórmula tibia, agregada fuera del fuego, hasta lograr una textura bien suave y sin grumos." }
+  ],
+  "ingredients": [
+    { "code": "papa", "name": "Papa", "amount": 2, "unit": "unidad", "note": "medianas", "sort_order": 1 },
+    { "code": "brocoli", "name": "Brócoli", "amount": 0.5, "unit": "taza", "note": "en floretes", "sort_order": 2 },
+    { "code": "mantequilla", "name": "Mantequilla", "amount": 1, "unit": "cucharada", "note": "o aceite de oliva", "sort_order": 3 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "omítela para menores de 1 año", "sort_order": 4 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "al gusto", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cuece las papas peladas y en trozos en agua hirviendo durante 15 minutos; agrega los floretes de brócoli en los últimos 5 minutos, hasta que todo esté blando.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Escurre y tritura las papas junto con el brócoli hasta obtener un puré suave.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega la mantequilla o el aceite de oliva y mezcla bien.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Ajusta con muy poca sal y pimienta, y sírvelo caliente o pásalo de inmediato a un termo precalentado.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [40], "pages": [65] },
+  "image_filename": "receta-pure-de-papa-con-brocoli.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

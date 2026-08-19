@@ -1,0 +1,124 @@
+{
+  "slug": "papilla-suave-de-pollo-y-arroz",
+  "title": "Papilla de Pollo al Curry Suave con Arroz",
+  "description": "Papilla cremosa de pollo y arroz con un toque suave de cúrcuma que la vuelve dorada y aromática: la primera aventura de sabor del bebé, sin picante.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [
+    1,
+    2,
+    3
+  ],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": [
+    "almuerzo",
+    "cena"
+  ],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": [
+    "naranja"
+  ],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pollo aporta proteína y hierro, el arroz suma energía de fácil digestión y la zanahoria agrega betacarotenos y color al plato del bebé.",
+  "tips": "Refrigera el arroz cocido de inmediato y consume la papilla dentro de las 24 horas, o congélala en porciones hasta por 2 meses. La cúrcuma es opcional y solo aporta color y aroma suaves.",
+  "family_mode_note": "Reserva la porción del bebé antes de condimentar y, para la familia, saltea el pollo y el arroz con un poco de cebolla y hierbas.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Tritura menos: deja el arroz entero y el pollo picado muy fino con la zanahoria rallada cocida, para una textura con grumos suaves."
+    },
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve el arroz con el pollo desmenuzado y la zanahoria en cubitos blandos, humedecido con un poco de caldo casero sin sal."
+    }
+  ],
+  "ingredients": [
+    {
+      "code": "pechuga_pollo",
+      "name": "Pechuga de pollo",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": "sin piel ni hueso",
+      "sort_order": 1
+    },
+    {
+      "code": "arroz",
+      "name": "Arroz cocido",
+      "amount": 0.25,
+      "unit": "taza",
+      "note": null,
+      "sort_order": 2
+    },
+    {
+      "code": "zanahoria",
+      "name": "Zanahoria",
+      "amount": 0.5,
+      "unit": "unidad",
+      "note": "rallada",
+      "sort_order": 3
+    },
+    {
+      "code": "caldo_pollo",
+      "name": "Caldo de pollo casero sin sal",
+      "amount": 0.5,
+      "unit": "taza",
+      "note": "o agua",
+      "sort_order": 4
+    },
+    {
+      "code": "curcuma",
+      "name": "Cúrcuma",
+      "amount": 1,
+      "unit": "pizca",
+      "note": "opcional",
+      "sort_order": 5
+    }
+  ],
+  "steps": [
+    {
+      "step_number": 1,
+      "instruction": "Cocina el pollo en agua o caldo casero sin sal hasta que esté completamente cocido, sin partes rosadas y con los jugos claros.",
+      "is_safety_critical": true
+    },
+    {
+      "step_number": 2,
+      "instruction": "Si partes de arroz crudo, cocínalo aparte hasta que esté bien tierno; si ya lo tienes cocido, solo entíbialo.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 3,
+      "instruction": "Tritura el pollo con el arroz, la zanahoria rallada y un poco de caldo hasta obtener una textura homogénea.",
+      "is_safety_critical": false
+    },
+    {
+      "step_number": 4,
+      "instruction": "Agrega una pizca de cúrcuma si deseas darle color y aroma, y ajusta la consistencia con más caldo; sirve tibio.",
+      "is_safety_critical": false
+    }
+  ],
+  "source": {
+    "book": "gourmets",
+    "numbers": [
+      17
+    ],
+    "pages": [
+      35
+    ]
+  },
+  "image_filename": "receta-papilla-suave-de-pollo-y-arroz.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

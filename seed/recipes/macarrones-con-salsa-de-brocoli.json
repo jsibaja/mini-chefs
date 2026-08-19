@@ -1,0 +1,49 @@
+{
+  "slug": "macarrones-con-salsa-de-brocoli",
+  "title": "Macarrones con Salsa de Brócoli",
+  "description": "Pasta pequeña bañada en una salsa cremosa de brócoli, suave y de color verde alegre: una forma amable de que el brócoli entre al plato.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El brócoli aporta fibra, vitamina C y folato, y la pasta suma la energía que los niños necesitan para jugar. Una comida ligera y colorida.",
+  "tips": "Contiene gluten (pasta) y, según la salsa, lácteos: introduce cada alérgeno por separado. Para los más grandes, funde encima un poco de queso pasteurizado y sin sal. Prepárala al momento: no vuelvas a hervir la leche materna ni la guardes de un día para otro.",
+  "family_mode_note": "Para toda la familia, usa la misma salsa de brócoli con leche de vaca o crema y un poco de queso; sirve la porción del bebé antes de agregar sal.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura los macarrones junto con la salsa hasta lograr un puré suave, sin trozos de pasta que puedan atragantar." },
+    { "age_band": "9_11m", "adaptation_text": "Sirve los macarrones enteros pero bien blandos, cubiertos con la salsa cremosa para que sean fáciles de tomar con la pinza." }
+  ],
+  "ingredients": [
+    { "code": "macarrones", "name": "Macarrones pequeños", "amount": 0.5, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "brocoli", "name": "Brócoli", "amount": 0.5, "unit": "taza", "note": "cocido al vapor", "sort_order": 2 },
+    { "code": "leche_materna_o_formula", "name": "Leche materna o fórmula", "amount": 0.25, "unit": "taza", "note": "tibia, sin hervir", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina los macarrones en agua hirviendo sin sal hasta que estén bien blandos y escúrrelos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina el brócoli al vapor hasta que esté muy tierno y déjalo entibiar.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura el brócoli tibio con la leche materna o fórmula hasta obtener una salsa cremosa; no la calientes de nuevo para no dañar la leche.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mezcla la salsa con los macarrones y agrega el aceite de oliva antes de servir.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [53], "pages": [73] },
+  "image_filename": "receta-macarrones-con-salsa-de-brocoli.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

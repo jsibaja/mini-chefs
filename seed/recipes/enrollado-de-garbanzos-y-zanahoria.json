@@ -1,0 +1,59 @@
+{
+  "slug": "enrollado-de-garbanzos-y-zanahoria",
+  "title": "Enrollado de Garbanzos y Zanahoria",
+  "description": "Tortilla de trigo untada con garbanzos machacados al limón, zanahoria rallada y queso fresco, enrollada y cortada en ruedas. Sin encender la cocina y lista en doce minutos.",
+  "category": "cena",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 12,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "legumbre",
+  "veggie_colors": ["naranja"],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Los garbanzos aportan proteína vegetal, fibra y hierro, y el queso fresco suma calcio para huesos y dientes. La zanahoria cruda rallada fina añade betacarotenos y una textura crocante suave.",
+  "tips": "Deja el enrollado entero 5 minutos en el refrigerador antes de cortarlo: se firma y las ruedas quedan parejas sin desarmarse. La pasta de garbanzos aguanta tapada 2 días en frío y también sirve para untar galletas de agua.",
+  "family_mode_note": "Para los adultos, añade hojas de rúcula y unas gotas de aceite de oliva antes de enrollar. Si va a la lonchera, empácalo con un gel refrigerante y consúmelo el mismo día.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Ralla la zanahoria con el lado más fino del rallador para que quede casi como una crema y no en hebras largas. Corta el enrollado en ruedas y luego cada rueda por la mitad, para que ningún bocado sea más grande que la punta de tu pulgar."
+    }
+  ],
+  "ingredients": [
+    { "code": "garbanzo_cocido", "name": "Garbanzos cocidos", "amount": 1, "unit": "taza", "note": "escurridos y enjuagados", "sort_order": 1 },
+    { "code": "tortilla_trigo", "name": "Tortillas de trigo", "amount": 2, "unit": "unidad", "note": "grandes y blandas", "sort_order": 2 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "rallada fina", "sort_order": 3 },
+    { "code": "queso_fresco", "name": "Queso fresco", "amount": 60, "unit": "g", "note": "desmenuzado", "sort_order": 4 },
+    { "code": "limon", "name": "Limón", "amount": 1, "unit": "cucharada", "note": "su jugo", "sort_order": 5 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "cilantro", "name": "Cilantro fresco", "amount": 1, "unit": "cucharada", "note": "picado, opcional", "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "solo para las porciones de mayores de 1 año", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca los garbanzos escurridos en un tazón y machácalos con un tenedor hasta obtener una pasta con grumos suaves, sin garbanzos enteros que puedan atragantar.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Mezcla la pasta con el jugo de limón, el aceite de oliva y el cilantro hasta que quede untable; si está seca, agrega una cucharada de agua.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Extiende las tortillas sobre la mesa y unta la pasta de garbanzos dejando un borde libre de dos dedos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Reparte encima la zanahoria rallada y el queso fresco desmenuzado.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega la pizca de sal solo sobre la tortilla destinada a los mayores de 1 año.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Enrolla cada tortilla bien apretada, empezando por el lado con relleno y terminando en el borde libre.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Corta cada rollo en ruedas de dos dedos de ancho con un cuchillo de sierra, apoyando el rollo con la costura hacia abajo.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Sirve de inmediato o mantén el enrollado en el refrigerador hasta el momento de comer.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-enrollado-de-garbanzos-y-zanahoria.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

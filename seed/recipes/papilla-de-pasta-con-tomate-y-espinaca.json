@@ -1,0 +1,49 @@
+{
+  "slug": "papilla-de-pasta-con-tomate-y-espinaca",
+  "title": "Papilla de pasta con tomate y espinaca",
+  "description": "Pasta bien blanda mezclada con un puré suave de tomate y espinaca: una primera introducción a los sabores de la cocina casera, tierna y fácil de comer.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["rojo", "verde"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La pasta aporta energía, el tomate suma vitamina C y licopeno, y la espinaca añade hierro vegetal y folatos; una papilla suave que acerca al bebé a los sabores de la mesa familiar.",
+  "tips": "La espinaca concentra nitratos: antes de los 12 meses ofrécela en porción pequeña y ocasional, no a diario; sirve la papilla recién hecha y no la guardes más de 24 horas ni la recalientes. La pasta de trigo contiene gluten: la primera vez preséntala sola y observa 2 o 3 días.",
+  "family_mode_note": "Aumenta las cantidades y sirve la pasta entera con la salsa de tomate y espinaca para el resto de la familia.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Usa solo una cucharada de espinaca, tritura todo muy fino y sin sal para una papilla completamente lisa." },
+    { "age_band": "9_11m", "adaptation_text": "Ofrece una porción pequeña de espinaca y deja la pasta en trocitos muy blandos, apenas triturada." }
+  ],
+  "ingredients": [
+    { "code": "pasta", "name": "Pasta pequeña", "amount": 0.25, "unit": "taza", "note": "cocida muy blanda", "sort_order": 1 },
+    { "code": "tomate", "name": "Tomate maduro", "amount": 0.5, "unit": "unidad", "note": "sin piel ni semillas", "sort_order": 2 },
+    { "code": "espinaca", "name": "Espinaca fresca", "amount": 0.5, "unit": "taza", "note": "porción pequeña en menores de 12 meses", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la pasta hasta que esté muy blanda.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocina la espinaca al vapor durante unos 2 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Tritura el tomate junto con la espinaca hasta obtener un puré suave.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Mezcla la pasta con el puré de tomate y espinaca.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Si hace falta, ajusta la consistencia con un poco de agua o caldo casero sin sal y sirve recién hecha.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [34], "pages": [52] },
+  "image_filename": "receta-papilla-de-pasta-con-tomate-y-espinaca.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

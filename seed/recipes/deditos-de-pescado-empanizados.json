@@ -1,0 +1,59 @@
+{
+  "slug": "deditos-de-pescado-empanizados",
+  "title": "Deditos de Pescado Empanizados",
+  "description": "Tiras de pescado blanco con empanizado dorado y un toque de limón: crocantes por fuera, suaves por dentro y perfectas para comer con la mano.",
+  "category": "lonchera",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pescado",
+  "veggie_colors": [],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pescado blanco aporta proteína de fácil digestión para el crecimiento; horneados en casa llevan mucho menos grasa que los empanizados comerciales.",
+  "tips": "Contienen pescado, huevo y gluten: verifica la política de alérgenos de la escuela. Puedes congelarlos ya empanizados (crudos) sobre una bandeja y hornearlos directo del congelador sumando 5 minutos; en la lonchera viajan con gel refrigerante.",
+  "family_mode_note": "Sirve los de los adultos con una ensalada fresca y salsa de yogur con hierbas; la técnica es la misma.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara sin sal, cocina el pescado hasta que esté completamente opaco y sírvelo desmenuzado en lascas, revisando de nuevo que no haya espinas."
+    }
+  ],
+  "ingredients": [
+    { "code": "filete_pescado_blanco", "name": "Filete de pescado blanco", "amount": 2, "unit": "unidad", "note": "tilapia, merluza o corvina (unos 400 g), sin piel", "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "pan_rallado", "name": "Pan rallado", "amount": 1, "unit": "taza", "note": "o avena molida", "sort_order": 3 },
+    { "code": "mostaza", "name": "Mostaza", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 4 },
+    { "code": "limon", "name": "Limón", "amount": 0.5, "unit": "unidad", "note": "su jugo", "sort_order": 5 },
+    { "code": "ajo_en_polvo", "name": "Ajo en polvo", "amount": 0.5, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 7 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": null, "sort_order": 8 },
+    { "code": "aceite", "name": "Aceite vegetal", "amount": 1, "unit": "cucharada", "note": "solo para la versión en sartén", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Corta los filetes de pescado en tiras del tamaño de un dedo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pasa los dedos por cada tira y retira cualquier espina que encuentres.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Condimenta las tiras con el jugo de limón, la pizca de sal, la pimienta y el ajo en polvo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Bate el huevo con la mostaza en un tazón.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Pasa cada tira por el huevo batido y luego por el pan rallado hasta cubrirla bien.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Al horno: precalienta a 200 °C y hornea 15-20 minutos hasta que estén dorados. En sartén: cocina con el aceite a fuego medio, 3-4 minutos por lado.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Verifica que el pescado esté completamente cocido: debe verse blanco opaco y deshacerse en lascas.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [17], "pages": [40] },
+  "image_filename": "receta-deditos-de-pescado-empanizados.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

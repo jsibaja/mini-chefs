@@ -1,0 +1,48 @@
+{
+  "slug": "palitos-de-arroz",
+  "title": "Palitos de arroz",
+  "description": "Palitos suaves de arroz con zanahoria y queso crema, perfectos para que el bebé los agarre y se autoalimente. Se preparan en minutos y se sirven fríos.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "arroz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El arroz aporta energía de fácil digestión y el queso crema suma calcio y proteínas; la zanahoria agrega vitamina A y color natural al plato.",
+  "tips": "El arroz cocido puede desarrollar la bacteria Bacillus cereus si se deja tibio: enfríalo rápido, guárdalo en el refrigerador y no lo conserves más de 24 horas. Para variar, cambia la zanahoria por calabaza (zapallo) cocida y machacada.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Cocina la zanahoria al vapor y machácala antes de mezclar para que el palito quede muy blando; ofrécelo del grosor de un dedo adulto para que lo agarre con el puño." }
+  ],
+  "ingredients": [
+    { "code": "arroz_cocido", "name": "Arroz cocido", "amount": 0.5, "unit": "taza", "note": "recién cocido y enfriado rápido", "sort_order": 1 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 0.25, "unit": "unidad", "note": "rallada fina", "sort_order": 2 },
+    { "code": "queso_crema", "name": "Queso crema sin sal", "amount": 1, "unit": "cucharada", "note": "pasteurizado", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina el arroz y enfríalo rápidamente; refrigéralo si no lo vas a usar de inmediato y no lo dejes más de 1 hora a temperatura ambiente.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Mezcla el arroz cocido, la zanahoria rallada fina y el queso crema hasta obtener una masa manejable.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Forma pequeños palitos del grosor de un dedo adulto y colócalos en una bandeja.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Refrigera 30 minutos para que tomen consistencia.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Sirve fríos o a temperatura ambiente el mismo día; guarda las sobras en el refrigerador y consúmelas dentro de 24 horas.", "is_safety_critical": true }
+  ],
+  "source": { "book": "gourmets", "numbers": [79], "pages": [100] },
+  "image_filename": "receta-palitos-de-arroz.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

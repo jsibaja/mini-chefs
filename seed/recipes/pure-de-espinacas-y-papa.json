@@ -1,0 +1,61 @@
+{
+  "slug": "pure-de-espinacas-y-papa",
+  "title": "Puré de Espinacas y Papa",
+  "description": "Un puré verde y cremoso de papa con espinacas salteadas: la guarnición que suma verduras al plato sin esfuerzo.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La papa aporta energía y potasio, y las espinacas suman hierro de origen vegetal, folatos y fibra; la grasa de la mantequilla o el aceite ayuda a aprovechar sus vitaminas.",
+  "tips": "Las espinacas concentran nitratos: en menores de 1 año ofrécelas solo en porciones pequeñas y ocasionales, no como plato diario. Un poco de queso rallado al final hace el puré aún más cremoso.",
+  "family_mode_note": "Es la guarnición perfecta para el pollo o pescado a la plancha de toda la familia.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Sirve solo 1-2 cucharadas mezcladas con más papa, sin sal, y usa leche materna o fórmula agregada tibia fuera del fuego (nunca la hiervas)."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Ofrece una porción pequeña sin sal; en esta preparación cocida puedes usar una cantidad pequeña de leche de vaca."
+    }
+  ],
+  "ingredients": [
+    { "code": "papa", "name": "Papa", "amount": 2, "unit": "unidad", "note": "medianas", "sort_order": 1 },
+    { "code": "espinaca", "name": "Espinacas frescas", "amount": 1, "unit": "taza", "note": "lavadas", "sort_order": 2 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 3 },
+    { "code": "mantequilla", "name": "Mantequilla o aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "leche", "name": "Leche (o bebida vegetal sin azúcar)", "amount": 50, "unit": "ml", "note": null, "sort_order": 5 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; evítala en menores de 1 año", "sort_order": 6 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "al gusto", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela y corta las papas en trozos medianos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cuécelas en agua hirviendo 15-20 minutos, hasta que estén tiernas.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mientras tanto, saltea el ajo picado con un poco de aceite hasta que esté dorado.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega las espinacas y cocina 2 minutos a fuego medio, hasta que reduzcan su tamaño.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Escurre las papas y tritúralas con un tenedor o pasapuré.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Incorpora las espinacas salteadas, la mantequilla y la leche; mezcla hasta lograr un puré cremoso.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Ajusta con poca sal y pimienta y sirve caliente como guarnición.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [7], "pages": [32, 33] },
+  "image_filename": "receta-pure-de-espinacas-y-papa.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

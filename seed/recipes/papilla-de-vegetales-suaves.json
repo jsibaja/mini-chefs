@@ -1,0 +1,50 @@
+{
+  "slug": "papilla-de-vegetales-suaves",
+  "title": "Papilla de vegetales suaves",
+  "description": "Puré cremoso de zanahoria, calabacín (zucchini) y papa: una combinación de verduras de sabor gentil, ideal para las primeras cucharadas del bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "verde", "blanco_amarillo"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Tres verduras de sabor suave que aportan fibra, betacarotenos y potasio; una manera gentil de sumar vegetales a las primeras comidas del bebé.",
+  "tips": "Para los bebés que recién empiezan, puedes colar el puré para que quede aún más fino. Usa siempre caldo casero sin sal (nunca cubos comerciales, que tienen demasiado sodio) y congela porciones en cubetera hasta por 3 meses.",
+  "family_mode_note": "Sin colar y con un poco de sal, hierbas o queso rallado se convierte en una crema de verduras para el resto de la familia.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "En lugar de licuar, machaca las verduras con un tenedor dejando grumos suaves para que el bebé practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "calabacin", "name": "Calabacín (zucchini)", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "pequeña", "sort_order": 3 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 1, "unit": "taza", "note": "o agua, la necesaria para cubrir", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharadita", "note": "opcional, al servir", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava, pela y corta en trozos pequeños la zanahoria, el calabacín y la papa.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Coloca las verduras en una olla y cúbrelas con caldo casero sin sal o agua.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina a fuego medio 15-20 minutos, hasta que estén muy blandas.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura con licuadora o batidora de mano hasta lograr una textura suave; agrega más líquido de cocción si es necesario.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Si quieres, añade unas gotas de aceite de oliva al servir para mejorar la absorción de nutrientes.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [2], "pages": [20] },
+  "image_filename": "receta-papilla-de-vegetales-suaves.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

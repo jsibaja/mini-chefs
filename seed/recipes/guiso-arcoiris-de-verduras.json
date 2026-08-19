@@ -1,0 +1,68 @@
+{
+  "slug": "guiso-arcoiris-de-verduras",
+  "title": "Guiso Arcoíris de Verduras",
+  "description": "Un guiso lleno de colores con zanahoria, calabacita, papa, ejotes y arvejas en un caldito suave: cada cucharada trae un color diferente.",
+  "category": "almuerzo",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 35,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "verde", "rojo"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Cada color aporta algo distinto: betacarotenos de la zanahoria, fibra y proteína vegetal de arvejas y ejotes, y energía de la papa. Comer en colores es la forma más fácil de variar nutrientes.",
+  "tips": "Conviértelo en plato completo agregando huevo cocido en trocitos o pollo desmenuzado al momento de servir.",
+  "family_mode_note": "Invita a los niños a nombrar los colores de su plato: contar el arcoíris ayuda a que prueben todas las verduras.",
+  "variants": [
+    {
+      "age_band": "6_8m",
+      "adaptation_text": "Tritura una porción sin sal hasta obtener un puré suave con un poco del caldo de cocción."
+    },
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Machaca las verduras y las arvejas con un tenedor y sirve sin sal."
+    }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "ejote", "name": "Ejotes (vainitas)", "amount": 100, "unit": "g", "note": "en trozos pequeños", "sort_order": 4 },
+    { "code": "arveja", "name": "Arvejas (chícharos)", "amount": 100, "unit": "g", "note": null, "sort_order": 5 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 6 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 7 },
+    { "code": "tomate", "name": "Tomate", "amount": 1, "unit": "unidad", "note": "maduro, rallado", "sort_order": 8 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal o agua", "amount": 500, "unit": "ml", "note": null, "sort_order": 9 },
+    { "code": "paprika_dulce", "name": "Paprika dulce", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 10 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 11 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; evítala en menores de 1 año", "sort_order": 12 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "al gusto", "sort_order": 13 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava y corta todas las verduras en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una olla con el aceite, sofríe la cebolla y el ajo picados hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Añade el tomate rallado y cocina 5 minutos, hasta que reduzca.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega la zanahoria, la papa y la calabacita, revolviendo bien.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Incorpora los ejotes, las arvejas y la paprika dulce; sazona con poca sal y pimienta.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Vierte el caldo y cocina a fuego medio 25-30 minutos, hasta que todas las verduras estén tiernas.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Antes de servir a menores de 4 años, aplasta las arvejas con un tenedor y corta los ejotes en trocitos pequeños: las legumbres enteras y redondas pueden causar atragantamiento.", "is_safety_critical": true },
+    { "step_number": 8, "instruction": "Rectifica la sazón si hace falta y sirve caliente.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [9], "pages": [36, 37] },
+  "image_filename": "receta-guiso-arcoiris-de-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

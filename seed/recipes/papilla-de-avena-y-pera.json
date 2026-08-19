@@ -1,0 +1,48 @@
+{
+  "slug": "papilla-de-avena-y-pera",
+  "title": "Papilla de Avena y Pera",
+  "description": "Avena cremosa con pera cocida, suave y dulce por naturaleza. Un desayuno cálido que aporta energía y fibra desde los primeros purés.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 5,
+  "cook_minutes": 12,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["verde"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La avena integral aporta fibra y energía de liberación lenta, y la pera cocida es suave para la pancita y suma más fibra. Sin azúcar añadida.",
+  "tips": "Si en casa hay celiaquía, usa avena certificada sin gluten. Si prefieres prepararla con leche materna o fórmula, cocina la avena en agua y agrégala tibia al final, fuera del fuego, para no dañar sus nutrientes. Congélala en cubetera hasta por 3 meses.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Machaca la pera con tenedor en lugar de triturarla y deja la avena más espesa, con grumos blandos, para que practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "pera", "name": "Pera", "amount": 0.5, "unit": "unidad", "note": "madura", "sort_order": 2 },
+    { "code": "agua", "name": "Agua", "amount": 0.5, "unit": "taza", "note": "o leche materna o fórmula para agregar al final", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la avena en el agua a fuego medio, revolviendo, hasta que espese (unos 5 minutos).", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela y corta la pera en trozos pequeños, y cocínala al vapor o en un poco de agua hasta que esté blanda.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Deja entibiar la avena y la pera.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura la avena junto con la pera hasta lograr un puré homogéneo.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Ajusta la consistencia con un poco de agua, o con leche materna o fórmula tibia agregada fuera del fuego.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [40], "pages": [58] },
+  "image_filename": "receta-papilla-de-avena-y-pera.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

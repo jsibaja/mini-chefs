@@ -1,0 +1,56 @@
+{
+  "slug": "lasana-de-platano-maduro",
+  "title": "Lasaña de Plátano Macho Maduro",
+  "description": "Capas cremosas de plátano macho maduro con pollo desmenuzado y queso gratinado: una lasaña sin pasta, dulce y salada a la vez, que encanta a los niños.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 40,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El plátano macho aporta energía y potasio, y el pollo proteína para el crecimiento: un plato completo en una sola porción.",
+  "tips": "Congela porciones individuales ya horneadas hasta por 2 meses. Para la lonchera, llévala bien caliente en termo o bien fría con gel refrigerante y que se consuma antes de 4 horas.",
+  "family_mode_note": "Rinde como plato principal familiar: acompaña la porción de los adultos con una ensalada verde.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Separa una porción antes de salar: machaca el plátano con el pollo finamente desmenuzado, usa muy poco queso y sirve tibio, en textura machacada o trocitos blandos."
+    }
+  ],
+  "ingredients": [
+    { "code": "platano_macho", "name": "Plátano macho maduro", "amount": 3, "unit": "unidad", "note": "de cáscara amarilla con manchas negras; no es banana de fruta", "sort_order": 1 },
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo cocida y desmenuzada", "amount": 300, "unit": "g", "note": "o carne molida de res cocida", "sort_order": 2 },
+    { "code": "queso_mozzarella", "name": "Queso mozzarella rallado", "amount": 1, "unit": "taza", "note": "o cualquier queso que derrita bien", "sort_order": 3 },
+    { "code": "queso_parmesano", "name": "Queso parmesano rallado", "amount": 2, "unit": "cucharada", "note": "opcional, para gratinar", "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "para sazonar el relleno; y pimienta al gusto", "sort_order": 5 },
+    { "code": "aceite", "name": "Aceite", "amount": 1, "unit": "cucharadita", "note": "para engrasar la fuente", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina los plátanos macho con cáscara en agua hirviendo por 15-20 minutos, hasta que estén muy blandos. Pélalos y tritúralos en puré.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Verifica que el pollo (o la carne molida) esté completamente cocido, sin partes rosadas, y sazónalo con la pizca de sal y pimienta.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "Engrasa una fuente para hornear y extiende una capa de puré de plátano.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega una capa de pollo desmenuzado y espolvorea queso mozzarella. Repite las capas hasta terminar los ingredientes.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cubre con una última capa de queso y, si lo deseas, el parmesano para gratinar.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Hornea a 180 °C por 15-20 minutos hasta que el queso se derrita y dore. Sin horno: tapa y cocina en sartén a fuego bajo por 20 minutos.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Deja reposar 5 minutos antes de cortar en porciones: así se desmolda más fácil.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [2], "pages": [24] },
+  "image_filename": "receta-lasana-de-platano-maduro.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

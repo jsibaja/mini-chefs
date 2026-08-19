@@ -1,0 +1,49 @@
+{
+  "slug": "yogur-griego-casero",
+  "title": "Yogur Griego Casero",
+  "description": "Yogur griego natural hecho en casa con solo tres ingredientes, cremoso y sin azúcar: la base perfecta para desayunos, dips y loncheras. Planifica de 8 a 12 horas de fermentación.",
+  "category": "colacion",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 20,
+  "servings": 6,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "lacteo",
+  "veggie_colors": [],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Aporta proteínas y calcio que acompañan el crecimiento de huesos y dientes; al ser natural y sin azúcar, tú decides con qué fruta acompañarlo.",
+  "tips": "Reserva 200 ml de esta tanda como cultivo para tu siguiente preparación, y aprovecha el suero que escurres en batidos o panqueques. En la lonchera debe viajar en contenedor hermético con gel refrigerante.",
+  "family_mode_note": "La misma tanda sirve para toda la familia; los adultos pueden endulzar su porción al momento de servir.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Sírvelo natural mezclado con puré de fruta madura; nunca le agregues miel ni azúcar." }
+  ],
+  "ingredients": [
+    { "code": "leche_entera", "name": "Leche entera", "amount": 1, "unit": "litro", "note": null, "sort_order": 1 },
+    { "code": "leche_en_polvo", "name": "Leche en polvo", "amount": 3, "unit": "cucharada", "note": "da un yogur más firme y cremoso", "sort_order": 2 },
+    { "code": "yogur_natural", "name": "Yogur natural", "amount": 200, "unit": "ml", "note": "sin azúcar y con cultivos vivos (griego o natural)", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Paso solo para adultos: disuelve la leche en polvo en la leche y caliéntala en una olla a fuego medio hasta 82-85 °C, midiendo con termómetro de cocina. Nunca compruebes la temperatura con el dedo.", "is_safety_critical": true },
+    { "step_number": 2, "instruction": "Retira la olla del fuego y deja enfriar la leche hasta 42-45 °C, verificando de nuevo con el termómetro: si está más caliente, los cultivos del yogur mueren y no fermenta.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el yogur natural y mezcla bien hasta integrarlo por completo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte la mezcla en un recipiente hermético, envuélvelo con una toalla y déjalo fermentar de 8 a 12 horas en un lugar tibio, oscuro y sin corrientes de aire.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cuela el yogur con un paño limpio sobre un colador, dentro del refrigerador, por 2 a 4 horas para separar el suero, hasta lograr la textura griega que te guste.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Guárdalo en un frasco tapado en el refrigerador y consúmelo en un máximo de 7 días.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [25], "pages": [49] },
+  "image_filename": "receta-yogur-griego-casero.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

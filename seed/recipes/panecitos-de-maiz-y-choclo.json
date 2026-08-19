@@ -1,0 +1,64 @@
+{
+  "slug": "panecitos-de-maiz-y-choclo",
+  "title": "Panecitos de Maíz y Choclo",
+  "description": "Panecitos dorados de harina de maíz con granos de choclo (elote) por dentro, ligados con linaza en lugar de huevo. Salen esponjosos, no llevan lácteos y viajan enteros en la lonchera.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 25,
+  "servings": 10,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "colacion_am", "almuerzo", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["blanco_amarillo"],
+  "carb_base": "maiz",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El choclo aporta el dulzor natural del panecito y algo de fibra, y la linaza molida lo liga sin necesidad de huevo, lo que permite que aguante horas fuera del refrigerador.",
+  "tips": "Duran 2 días bien tapados a temperatura ambiente y hasta 3 meses en el congelador. Para variar la tanda, agrega una cucharada de perejil picado o de zanahoria rallada fina a la mezcla antes de hornear.",
+  "family_mode_note": "En la mesa familiar sírvelos tibios y abiertos por la mitad, untados con un poco de aceite de oliva o con el untable de semillas que tengas en casa.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Prepara la tanda con el choclo bien machacado o picado, nunca en granos enteros, y ofrece medio panecito partido en tiras del ancho de tu dedo."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Un panecito entero es una porción de colación; sigue partiendo o machacando los granos de choclo hasta los 4 años."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_maiz", "name": "Harina de maíz amarilla", "amount": 150, "unit": "g", "note": "1¼ tazas, de grano fino para hornear", "sort_order": 1 },
+    { "code": "harina_trigo_integral", "name": "Harina de trigo integral", "amount": 100, "unit": "g", "note": "⅘ de taza; alérgeno: gluten", "sort_order": 2 },
+    { "code": "choclo", "name": "Choclo (elote) desgranado", "amount": 150, "unit": "g", "note": "cocido; sirve fresco o congelado", "sort_order": 3 },
+    { "code": "linaza_molida", "name": "Linaza molida", "amount": 1, "unit": "cucharada", "note": "se hidrata con 3 cucharadas de agua y reemplaza al huevo", "sort_order": 4 },
+    { "code": "polvo_hornear", "name": "Polvo para hornear", "amount": 2, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "aceite_vegetal", "name": "Aceite vegetal", "amount": 60, "unit": "ml", "note": "¼ de taza", "sort_order": 6 },
+    { "code": "agua", "name": "Agua", "amount": 200, "unit": "ml", "note": "a temperatura ambiente", "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "solo a partir de los 12 meses", "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Mezcla la linaza molida con 3 cucharadas de agua en un vasito y déjala reposar 10 minutos, hasta que tome consistencia de gel: ese es el ligante que reemplaza al huevo.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Precalienta el horno a 190 °C y engrasa con aceite un molde para 10 panecitos o forra los huecos con capacillos de papel.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cocina el choclo en agua hirviendo durante 5 minutos si está fresco, o 3 minutos si es congelado, y escúrrelo bien.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Aplasta los granos de choclo con un tenedor o pícalos groseramente: enteros son redondos y firmes, y representan riesgo de atragantamiento para menores de 4 años.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "En un tazón grande mezcla la harina de maíz, la harina integral, el polvo para hornear y la pizca de sal.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Agrega el gel de linaza, el aceite y el agua, y revuelve solo hasta integrar; después incorpora el choclo machacado.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Reparte la mezcla en el molde llenando cada hueco hasta tres cuartos de su capacidad.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Hornea de 22 a 25 minutos, hasta que estén dorados por arriba y un palillo salga limpio del centro.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Déjalos enfriar por completo sobre una rejilla antes de empacarlos: si van tibios sudan dentro del recipiente y se ponen gomosos.", "is_safety_critical": false }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-panecitos-de-maiz-y-choclo.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

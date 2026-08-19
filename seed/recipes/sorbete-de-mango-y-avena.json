@@ -1,0 +1,49 @@
+{
+  "slug": "sorbete-de-mango-y-avena",
+  "title": "Sorbete de Mango y Avena",
+  "description": "Paletas cremosas de mango, leche y avena, endulzadas solo con la fruta. Un postre helado para disfrutar en casa después del colegio.",
+  "category": "postre",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 0,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_pm"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "lacteo",
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Combina la vitamina C y el color del mango con la energía de la avena y el calcio de la leche; todo el dulzor viene de la fruta.",
+  "tips": "Añade un poco de yogur natural antes de licuar para un sorbete aún más cremoso.",
+  "family_mode_note": "Receta para disfrutar en casa: al ser congelada no viaja bien en la lonchera escolar, porque se derrite y se rompe la cadena de frío.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Sirve una porción pequeña semiderretida en un vasito con cuchara, en lugar de la paleta entera, para que el frío no sea tan intenso." }
+  ],
+  "ingredients": [
+    { "code": "leche", "name": "Leche", "amount": 2, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "avena_instantanea", "name": "Avena instantánea", "amount": 3, "unit": "cucharadita", "note": null, "sort_order": 2 },
+    { "code": "mango", "name": "Mango", "amount": 1, "unit": "unidad", "note": "maduro, solo la pulpa", "sort_order": 3 },
+    { "code": "fresa", "name": "Fresas", "amount": 0.75, "unit": "taza", "note": "opcional, picadas, para sustituir el mango (también sirven moras)", "sort_order": 4 },
+    { "code": "yogur_natural", "name": "Yogur natural", "amount": 2, "unit": "cucharada", "note": "opcional, para un sorbete más cremoso", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Coloca la leche, la avena y la pulpa del mango en la licuadora y procesa hasta obtener una mezcla homogénea.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Vierte la mezcla en moldes de paletas o en un recipiente hermético apto para congelador.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Congela durante 4-6 horas, o hasta que esté completamente firme.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Para desmoldar con facilidad, pasa el molde por agua tibia unos segundos.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [91], "pages": [123] },
+  "image_filename": "receta-sorbete-de-mango-y-avena.webp",
+  "fallback_image": "placeholder-categoria-postres.webp"
+}

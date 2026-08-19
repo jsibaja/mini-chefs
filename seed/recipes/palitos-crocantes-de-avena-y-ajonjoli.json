@@ -1,0 +1,62 @@
+{
+  "slug": "palitos-crocantes-de-avena-y-ajonjoli",
+  "title": "Palitos Crocantes de Avena y Ajonjolí",
+  "description": "Palitos delgados y crujientes de harina integral y avena, con ajonjolí y un toque de orégano. Se hornean en veinte minutos y viajan enteros en la lonchera sin necesidad de frío.",
+  "category": "lonchera",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 20,
+  "servings": 6,
+  "difficulty": 2,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Son una alternativa casera a los snacks de paquete: llevan harina integral, avena y ajonjolí en lugar de harinas refinadas, y la sal se mantiene en una pizca para toda la tanda.",
+  "tips": "Guárdalos parados en un frasco de vidrio con tapa; se mantienen crocantes hasta 10 días. Si con la humedad se ablandan, vuelven a quedar crujientes con 5 minutos de horno a 160 °C.",
+  "family_mode_note": "Sirve la misma tanda en la mesa familiar junto a un untable de semillas o de garbanzo: los niños arman sus propios bocados y comen lo mismo que los grandes.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Amasa los palitos más gruesos (como un lápiz) y hornéalos 3 minutos menos para que queden firmes pero no duros como vidrio. Ofrécele uno a la vez, siempre sentado y acompañado."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Dos o tres palitos son una porción de colación. Empácalos junto a bastones de zanahoria cocida o fruta firme para completar el recreo."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_trigo_integral", "name": "Harina de trigo integral", "amount": 200, "unit": "g", "note": "1⅔ tazas; alérgeno: gluten", "sort_order": 1 },
+    { "code": "hojuelas_avena", "name": "Hojuelas de avena molidas", "amount": 50, "unit": "g", "note": "½ taza, pasadas por licuadora hasta textura de harina gruesa", "sort_order": 2 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 45, "unit": "ml", "note": "3 cucharadas; puedes usar aceite de girasol", "sort_order": 3 },
+    { "code": "agua", "name": "Agua tibia", "amount": 90, "unit": "ml", "note": "agrégala poco a poco", "sort_order": 4 },
+    { "code": "ajonjoli", "name": "Ajonjolí (semillas de sésamo)", "amount": 3, "unit": "cucharada", "note": "alérgeno: sésamo", "sort_order": 5 },
+    { "code": "oregano", "name": "Orégano seco", "amount": 1, "unit": "cucharadita", "note": "opcional", "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "solo a partir de los 12 meses", "sort_order": 7 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra dos bandejas con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla en un tazón la harina integral, la avena molida, el ajonjolí, el orégano y la pizca de sal.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Agrega el aceite y frótalo con los dedos hasta que la mezcla parezca arena húmeda.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Vierte el agua tibia poco a poco y amasa 3 minutos hasta obtener una masa lisa que no se pegue a las manos. Déjala reposar 10 minutos tapada con un paño.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Estira la masa sobre la mesa enharinada hasta dejarla de 3 mm de grosor y córtala en tiras de 1 cm de ancho por 12 cm de largo con un cuchillo o una rueda de cortar pizza.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Acomoda los palitos en las bandejas separados entre sí y hornéalos de 18 a 22 minutos, hasta que estén dorados y suenen huecos al golpearlos.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Déjalos enfriar por completo sobre una rejilla: terminan de endurecer al enfriarse y solo así quedan bien crocantes.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Ofrece los palitos enteros para que el niño los muerda por la punta y nunca partidos en trocitos redondos. Debe comerlos sentado, sin correr ni hablar con la boca llena, porque los alimentos duros y pequeños son riesgo de atragantamiento antes de los 5 años.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-palitos-crocantes-de-avena-y-ajonjoli.webp",
+  "fallback_image": "placeholder-categoria-loncheras.webp"
+}

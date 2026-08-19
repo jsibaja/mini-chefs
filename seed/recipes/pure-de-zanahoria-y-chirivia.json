@@ -1,0 +1,47 @@
+{
+  "slug": "pure-de-zanahoria-y-chirivia",
+  "title": "Puré de zanahoria y chirivía",
+  "description": "Puré dulce y aromático de zanahoria con chirivía (pastinaca): dos raíces de sabor naturalmente suave que a los bebés les encantan.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "blanco_amarillo"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La zanahoria aporta betacarotenos y la chirivía suma fibra y un dulzor natural suave, para un puré nutritivo y de sabor amable para el bebé.",
+  "tips": "Si no consigues chirivía, reemplázala por una papa blanca o simplemente usa más zanahoria: el puré queda igual de rico. Congela porciones en cubetas de hielo hasta por 3 meses.",
+  "family_mode_note": "Para la familia, licúa el puré con caldo caliente y una pizca de nuez moscada para servirlo como crema.",
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Machaca la zanahoria y la chirivía con un tenedor dejando grumos suaves, en lugar de licuar, para que el bebé practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "pelada", "sort_order": 1 },
+    { "code": "chirivia", "name": "Chirivía (pastinaca)", "amount": 1, "unit": "unidad", "note": "pelada; o reemplaza por papa blanca o más zanahoria", "sort_order": 2 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 3 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela la zanahoria y la chirivía y córtalas en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Hierve los trozos en agua o caldo casero sin sal hasta que estén blandos, unos 15-20 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Escurre, deja entibiar y tritura con licuadora o tenedor hasta obtener un puré suave y homogéneo.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Ajusta la consistencia con un poco de agua o caldo y sirve tibio.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [25], "pages": [43] },
+  "image_filename": "receta-pure-de-zanahoria-y-chirivia.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "mini-lasana-de-carne-de-res",
+  "title": "Mini Lasaña de Carne de Res",
+  "description": "Mini lasaña con capas de pasta, salsa de carne de res con tomate y queso gratinado: el clásico italiano a escala perfecta para los más chicos.",
+  "category": "almuerzo",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 20,
+  "cook_minutes": 30,
+  "servings": 3,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "carne_roja",
+  "veggie_colors": ["rojo"],
+  "carb_base": "pasta",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La carne de res aporta hierro y zinc, dos minerales que acompañan el crecimiento en esta etapa, junto con el calcio del queso y la vitamina C del tomate.",
+  "tips": "Agrega una capa fina de ricotta o esconde zanahoria y calabacita ralladas en la salsa: suman verduras sin cambiar el sabor. También puedes armarla con pollo o pavo molido.",
+  "family_mode_note": "Arma una fuente grande para los adultos y moldes individuales para los niños con la misma preparación; solo cambia el tiempo de gratinado.",
+  "variants": [
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve una porción pequeña cortada en cubitos y deja que se entibie bien antes de ofrecerla; prepara su parte de la salsa con muy poca sal."
+    }
+  ],
+  "ingredients": [
+    { "code": "lamina_lasana", "name": "Láminas de pasta para lasaña", "amount": 6, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "carne_res_molida", "name": "Carne de res molida", "amount": 200, "unit": "g", "note": null, "sort_order": 2 },
+    { "code": "tomate_triturado", "name": "Tomate triturado (puré de tomate)", "amount": 200, "unit": "g", "note": "sin azúcar añadida", "sort_order": 3 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 5 },
+    { "code": "queso_mozzarella", "name": "Queso mozzarella rallado", "amount": 50, "unit": "g", "note": null, "sort_order": 6 },
+    { "code": "oregano", "name": "Orégano", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca", "sort_order": 9 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cuece las láminas de lasaña según las indicaciones del paquete y resérvalas extendidas para que no se peguen.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén con el aceite de oliva, sofríe la cebolla y el ajo picados hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega la carne de res molida y cocínala hasta que pierda por completo el color rosado.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Incorpora el tomate triturado y el orégano y cocina a fuego medio 10 minutos.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Prueba y ajusta con muy poca sal y pimienta.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "En un molde pequeño, alterna capas de pasta y salsa de carne hasta formar 3 pisos.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Cubre la última capa con la mozzarella rallada.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Hornea 15 minutos, hasta que el queso se gratine.", "is_safety_critical": false },
+    { "step_number": 10, "instruction": "Deja entibiar unos minutos y sirve con ensalada fresca.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [22], "pages": [63, 64] },
+  "image_filename": "receta-mini-lasana-de-carne-de-res.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

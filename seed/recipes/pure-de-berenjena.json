@@ -1,0 +1,47 @@
+{
+  "slug": "pure-de-berenjena",
+  "title": "Puré de berenjena",
+  "description": "Un puré suave de berenjena bien tierna, de sabor delicado y fácil de digerir, perfecto para presentar una verdura nueva al bebé.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 5,
+  "cook_minutes": 15,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["morado"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La berenjena aporta fibra, agua y antioxidantes de su piel morada, con un sabor muy suave una vez cocida que ayuda a ampliar el paladar del bebé.",
+  "tips": "La berenjena tiene un sabor particular: combínala con papa, zanahoria o calabaza para suavizarlo y dar más cuerpo al puré. Pelarla bien reduce cualquier amargor. Congela porciones individuales hasta por 3 meses.",
+  "family_mode_note": "Aumenta las cantidades y sazona la porción de los adultos con ajo, aceite de oliva y un toque de limón para convertirla en una crema tipo baba ganoush.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Sirve solo 1 o 2 cucharadas mezcladas con papa para dar cuerpo, y tritura todo muy fino." },
+    { "age_band": "9_11m", "adaptation_text": "Deja una textura un poco más gruesa, con la berenjena machacada en trocitos muy blandos." }
+  ],
+  "ingredients": [
+    { "code": "berenjena", "name": "Berenjena", "amount": 0.5, "unit": "unidad", "note": "pelada", "sort_order": 1 },
+    { "code": "caldo_verduras", "name": "Caldo de verduras casero sin sal", "amount": 0.5, "unit": "taza", "note": "o agua", "sort_order": 2 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela la berenjena y córtala en trozos.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cuécela en agua o caldo casero sin sal hirviendo hasta que esté bien tierna, unos 12 a 15 minutos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Escúrrela y tritúrala hasta obtener una textura suave; agrega un poco del líquido de cocción si la quieres más ligera.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Deja entibiar y sirve.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [29], "pages": [47] },
+  "image_filename": "receta-pure-de-berenjena.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

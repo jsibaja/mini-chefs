@@ -1,0 +1,60 @@
+{
+  "slug": "panqueques-de-papa-y-calabacita",
+  "title": "Panqueques de Papa y Calabacita",
+  "description": "Panqueques salados de papa y calabacita ralladas, dorados en sartén: rápidos, versátiles y perfectos para el desayuno, la cena o la lonchera.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": ["verde"],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La papa da energía duradera, la calabacita suma agua y fibra, y el huevo aporta proteínas completas: un formato con verduras integradas que suele conquistar a los más selectivos.",
+  "tips": "Agrega zanahoria rallada o espinaca picada a la masa para variar el color; también puedes hornearlos a 200 °C unos 15 minutos, volteando a la mitad, en lugar de usar sartén.",
+  "family_mode_note": "Para los adultos quedan deliciosos coronados con un huevo pochado bien cocido o con salsa de yogur, limón y menta.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara algunos panqueques sin sal y córtalos en trocitos blandos que pueda tomar con la mano."
+    }
+  ],
+  "ingredients": [
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "mediana", "sort_order": 1 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 1, "unit": "unidad", "note": null, "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "queso_rallado", "name": "Queso rallado", "amount": 50, "unit": "g", "note": "opcional", "sort_order": 4 },
+    { "code": "harina_avena", "name": "Harina de avena o pan molido", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 5 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 6 },
+    { "code": "perejil", "name": "Perejil fresco picado", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; evítala en menores de 1 año", "sort_order": 8 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": "al gusto", "sort_order": 9 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": "para la sartén", "sort_order": 10 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava, pela y ralla la papa y la calabacita.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Exprime muy bien el exceso de agua de las verduras con un paño limpio o un colador.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En un tazón, mezcla las verduras con el huevo, el ajo, el perejil, la harina de avena y el queso; sazona con poca sal y pimienta hasta lograr una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Calienta un poco de aceite de oliva en una sartén a fuego medio.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Forma panqueques pequeños y cocínalos 3-4 minutos por lado, hasta que estén dorados y bien cocidos por dentro.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Pásalos a papel absorbente para retirar el exceso de aceite.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Sírvelos calientes acompañados de ensalada o salsa de yogur.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [6], "pages": [30, 31] },
+  "image_filename": "receta-panqueques-de-papa-y-calabacita.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

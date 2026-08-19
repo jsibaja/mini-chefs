@@ -1,0 +1,71 @@
+{
+  "slug": "quinua-salteada-con-pavo-y-verduras",
+  "title": "Quinua Salteada con Pavo y Verduras",
+  "description": "Una cena completa en un solo sartén: quinua esponjosa salteada con pavo molido y verduras en cubitos. Se hace en 20 minutos y rinde para congelar.",
+  "category": "cena",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 8,
+  "cook_minutes": 14,
+  "servings": 4,
+  "difficulty": 1,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja", "verde", "rojo"],
+  "carb_base": "quinua",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La quinua aporta proteína vegetal completa y hierro, y el pavo suma hierro fácil de absorber para el crecimiento. Junto con las verduras de tres colores, resuelve una cena completa en un solo plato.",
+  "tips": "Cocina el doble de quinua el domingo y guárdala en el refrigerador: con la base lista, esta cena se arma en 10 minutos cualquier día de la semana.",
+  "family_mode_note": "Separa la porción del bebé antes de agregar sal y condimentos; a la del resto de la familia puedes sumarle un poco de comino y pimienta.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Cocina las verduras hasta que se aplasten con el tenedor y pica el pavo muy fino. Aplasta ligeramente la mezcla antes de servir y ofrécela en porciones pequeñas. Sin sal."
+    },
+    {
+      "age_band": "12_24m",
+      "adaptation_text": "Sirve tal cual pero con las verduras en cubitos del tamaño de un garbanzo. Poca o nada de sal."
+    },
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sirve tal cual. Deja que tu peque revuelva la mezcla en el plato: participar aumenta las ganas de probar."
+    },
+    {
+      "age_band": "6_9a",
+      "adaptation_text": "Sirve tal cual, con un chorrito de limón si le gusta. Va perfecta en termo para la lonchera."
+    }
+  ],
+  "ingredients": [
+    { "code": "quinua", "name": "Quinua", "amount": 1, "unit": "taza", "note": "cruda, bien enjuagada", "sort_order": 1 },
+    { "code": "agua", "name": "Agua", "amount": 2, "unit": "taza", "sort_order": 2 },
+    { "code": "pavo_molido", "name": "Pavo molido", "amount": 250, "unit": "g", "note": "también sirve pollo molido", "sort_order": 3 },
+    { "code": "zanahoria", "name": "Zanahoria", "amount": 1, "unit": "unidad", "note": "en cubitos pequeños", "sort_order": 4 },
+    { "code": "calabacita", "name": "Calabacita (zucchini)", "amount": 1, "unit": "unidad", "note": "en cubitos pequeños", "sort_order": 5 },
+    { "code": "pimiento_rojo", "name": "Pimiento rojo", "amount": 0.5, "unit": "unidad", "note": "en cubitos pequeños", "sort_order": 6 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "finamente picada", "sort_order": 7 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "unidad", "note": "diente, picado", "sort_order": 8 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Enjuaga la quinua bajo el chorro de agua frotándola con las manos: así pierde el sabor amargo natural.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Cocínala con las 2 tazas de agua a fuego medio, tapada, unos 15 minutos, hasta que se vea el germen en espiral y el agua se haya absorbido. Deja reposar 5 minutos y suéltala con un tenedor.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Mientras tanto, calienta el aceite en un sartén amplio y sofríe la cebolla y el ajo 2 minutos, hasta que se vean transparentes.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega la zanahoria, la calabacita y el pimiento en cubitos y cocina 6-7 minutos, moviendo, hasta que estén blandos y se aplasten fácil con el tenedor.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Suma el pavo molido y cocínalo desmenuzándolo con la cuchara hasta que no quede ninguna parte rosada por dentro, unos 6-8 minutos.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Incorpora la quinua cocida, mezcla todo 2 minutos para que tome sabor y retira del fuego. Separa la porción del bebé antes de agregar sal.", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Sirve tibio. Guarda el resto en el refrigerador hasta 2 días, o congélalo en porciones hasta 2 meses.", "is_safety_critical": true }
+  ],
+  "source": { "book": "nueva", "numbers": [], "pages": [] },
+  "image_filename": "receta-quinua-salteada-con-pavo-y-verduras.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "panqueques-de-platano-y-avena",
+  "title": "Panqueques de Plátano y Avena",
+  "description": "Panqueques esponjosos de solo tres ingredientes: plátano, avena y huevo. Sin azúcar añadida y perfectos para agarrar con las manos.",
+  "category": "desayuno",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 12,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "huevo",
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El plátano aporta dulzor natural y potasio, la avena fibra y energía, y el huevo proteína completa, hierro y colina para el crecimiento.",
+  "tips": "El huevo es un alérgeno: si es la primera vez, ofrécelo solo y observa 2-3 días. Cocínalos bien hasta que no queden partes líquidas. Congélalos separados con papel para hornear (hasta 2 meses) y recaliéntalos en la tostadora; en la lonchera viajan bien con gel refrigerante.",
+  "family_mode_note": "Sírvelos con fruta fresca y yogur natural para un desayuno de fin de semana en familia.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Córtalos en tiras del grosor de un dedo para que los tome con la mano (método BLW); asegúrate de que el huevo quede bien cocido y no agregues ningún endulzante." }
+  ],
+  "ingredients": [
+    { "code": "platano", "name": "Plátano (banana)", "amount": 1, "unit": "unidad", "note": "maduro", "sort_order": 1 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": "alérgeno: huevo", "sort_order": 2 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 0.25, "unit": "taza", "note": "o avena molida", "sort_order": 3 },
+    { "code": "canela", "name": "Canela en polvo", "amount": 1, "unit": "pizca", "note": "opcional", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Tritura el plátano con un tenedor hasta obtener un puré suave.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Agrega el huevo, la harina de avena y la canela, y mezcla bien hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "En una sartén caliente y apenas engrasada, vierte pequeñas porciones y cocina a fuego medio.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocínalos hasta que se doren por ambos lados y queden bien cocidos por dentro, sin masa líquida.", "is_safety_critical": true },
+    { "step_number": 5, "instruction": "Deja entibiar y sirve solos o con puré de frutas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [45, 50], "pages": [64, 69] },
+  "image_filename": "receta-panqueques-de-platano-y-avena.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

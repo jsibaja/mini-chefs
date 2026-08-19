@@ -1,0 +1,54 @@
+{
+  "slug": "crepes-de-avena",
+  "title": "Crepes de Avena",
+  "description": "Crepes delgados y flexibles de avena licuada, listos para enrollar con fruta fresca o el relleno favorito del niño.",
+  "category": "desayuno",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 15,
+  "servings": 3,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "Hechos con avena integral, aportan fibra y energía sostenida; el relleno de fruta suma dulzor natural sin azúcar añadida.",
+  "tips": "Si los rellenas con crema de maní, úntala en capa muy fina y confirma antes la política de alérgenos del colegio: muchas escuelas son libres de maní. La crema de semillas de girasol es un buen reemplazo.",
+  "family_mode_note": "Rellénalos con frutas frescas y yogur natural para un desayuno de fin de semana en familia.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara la mezcla sin sal, corta el crepe en tiritas blandas y ofrécelo con fruta madura machacada por encima o dentro."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_avena", "name": "Avena en hojuelas o harina de avena", "amount": 1, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "leche", "name": "Leche o agua", "amount": 240, "unit": "ml", "note": "aprox. 1 taza", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "vainilla", "name": "Esencia de vainilla", "amount": 1, "unit": "cucharadita", "note": "opcional", "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "omítela para menores de 1 año", "sort_order": 5 },
+    { "code": "aceite", "name": "Aceite o mantequilla", "amount": 1, "unit": "cucharadita", "note": "para engrasar la sartén", "sort_order": 6 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Licúa la avena, la leche, el huevo, la vainilla y la sal hasta obtener una masa homogénea y ligera; deja reposar 5 minutos para que espese un poco.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Calienta una sartén antiadherente a fuego medio y engrásala apenas con aceite o mantequilla.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Vierte un cucharón de mezcla y gira la sartén para que se distribuya en una capa delgada y uniforme.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Cocina unos 2 minutos hasta que los bordes empiecen a despegarse, voltea y cocina 1 minuto más.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Repite con el resto de la mezcla, engrasando ligeramente la sartén entre crepe y crepe.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [11], "pages": [34] },
+  "image_filename": "receta-crepes-de-avena.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

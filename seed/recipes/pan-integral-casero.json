@@ -1,0 +1,51 @@
+{
+  "slug": "pan-integral-casero",
+  "title": "Pan Integral Casero",
+  "description": "Pan de harina integral suave y esponjoso, sin azúcar añadida ni aditivos: la base perfecta para sándwiches de lonchera y desayunos de toda la semana.",
+  "category": "desayuno",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 95,
+  "cook_minutes": 35,
+  "servings": 10,
+  "difficulty": 2,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": true,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "pan",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La harina integral conserva la fibra y los minerales del grano completo, y al hacerlo en casa controlas la sal y evitas los aditivos de muchos panes industriales.",
+  "tips": "Rebana el pan una vez frío y congela las rebanadas separadas con papel encerado: sacas solo las que necesitas y se descongelan en minutos para armar la lonchera. Puedes sumar semillas de chía o linaza a la masa.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "9_11m", "adaptation_text": "Ofrece solo la miga, sin corteza, en tiras suaves que el bebé pueda tomar con la mano." }
+  ],
+  "ingredients": [
+    { "code": "harina_integral", "name": "Harina integral", "amount": 2, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 2 },
+    { "code": "levadura_seca", "name": "Levadura seca", "amount": 1, "unit": "sobre", "note": "7 gramos", "sort_order": 3 },
+    { "code": "agua", "name": "Agua", "amount": 1, "unit": "taza", "note": "tibia", "sort_order": 4 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 2, "unit": "cucharada", "note": null, "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Disuelve la levadura en el agua tibia y deja reposar 10 minutos, hasta que se active y forme una capa de espuma.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En un bol, mezcla la harina con la sal; agrega la mezcla de levadura y el aceite de oliva.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Amasa de 8 a 10 minutos hasta obtener una masa suave y elástica.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tapa el bol con un paño y deja reposar 1 hora en un lugar tibio, hasta que la masa duplique su tamaño.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Forma un pan, colócalo en un molde engrasado y déjalo reposar 15 minutos más mientras precalientas el horno.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Hornea a 180 °C por 30 a 35 minutos, hasta que esté dorado y suene hueco al golpear la base. Deja enfriar sobre una rejilla antes de rebanar.", "is_safety_critical": false }
+  ],
+  "source": { "book": "loncheras", "numbers": [41], "pages": [66] },
+  "image_filename": "receta-pan-integral-casero.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "galletas-de-almendra-y-miel",
+  "title": "Galletas de Almendra y Miel",
+  "description": "Galletas caseras de harina de almendra y avena con canela, listas en menos de media hora. Un dulce ocasional que rinde una docena.",
+  "category": "colacion",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 15,
+  "servings": 12,
+  "difficulty": 1,
+  "suitable_slots": ["colacion_am", "colacion_pm", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": true,
+  "requires_blender": false,
+  "conservation": "estable_ambiente",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": null,
+  "veggie_colors": [],
+  "carb_base": "avena",
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "La almendra molida y la avena aportan grasas saludables, proteínas vegetales y fibra que dan energía duradera. Ojo: la miel y el jarabe de agave también son azúcares libres, así que son galletas para disfrutar de vez en cuando.",
+  "tips": "Puedes congelar las bolitas de masa crudas y hornearlas otro día directo del congelador, sumando 2 o 3 minutos. Si buscas una versión sin frutos secos por alergia, reemplaza la harina de almendra por la misma cantidad de harina de avena y agrega 1 cucharada extra de aceite.",
+  "family_mode_note": "Las mismas galletas sirven para toda la familia; los mayores de 5 años y los adultos pueden decorar las suyas con almendras laminadas antes de hornear.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Sirve la galleta partida en trozos pequeños y sin decoraciones de frutos secos enteros ni laminados: para menores de 5 años la almendra va únicamente molida dentro de la masa."
+    }
+  ],
+  "ingredients": [
+    { "code": "harina_almendra", "name": "Harina de almendras", "amount": 150, "unit": "g", "note": "almendra siempre molida, nunca en trozos", "sort_order": 1 },
+    { "code": "harina_avena", "name": "Harina de avena", "amount": 50, "unit": "g", "note": "puedes moler hojuelas de avena", "sort_order": 2 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 3 },
+    { "code": "miel", "name": "Miel", "amount": 2, "unit": "cucharada", "note": "o jarabe (miel) de agave", "sort_order": 4 },
+    { "code": "esencia_vainilla", "name": "Esencia de vainilla", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 5 },
+    { "code": "canela_polvo", "name": "Canela en polvo", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 6 },
+    { "code": "aceite_coco", "name": "Aceite de coco", "amount": 1, "unit": "cucharada", "note": "o aceite de oliva suave", "sort_order": 7 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 8 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Precalienta el horno a 180 °C y forra una bandeja con papel para hornear.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En un bol grande, mezcla la harina de almendra con la harina de avena, la canela y la pizca de sal. Usa siempre almendra molida en harina: para menores de 5 años los frutos secos nunca van enteros, en trozos ni en láminas.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "En otro bol, bate el huevo con la miel y la esencia de vainilla.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Incorpora los ingredientes líquidos a la mezcla de harinas y revuelve hasta obtener una masa homogénea.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Agrega el aceite y amasa hasta integrarlo por completo.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Forma unas 12 bolitas de masa y aplástalas ligeramente para dar forma a las galletas. Los niños pueden ayudar en este paso.", "is_safety_critical": false },
+    { "step_number": 7, "instruction": "Acomoda las galletas en la bandeja dejando espacio entre ellas.", "is_safety_critical": false },
+    { "step_number": 8, "instruction": "Hornea de 12 a 15 minutos, hasta que estén doradas por los bordes. Si las quieres más crujientes, déjalas 2 minutos más.", "is_safety_critical": false },
+    { "step_number": 9, "instruction": "Déjalas enfriar por completo sobre una rejilla antes de servir: recién salidas están blandas y se firman al enfriarse.", "is_safety_critical": false },
+    { "step_number": 10, "instruction": "Guárdalas en un recipiente hermético hasta por 5 días; en climas cálidos, refrigéralas desde el primer día.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [68], "pages": [157, 158] },
+  "image_filename": "receta-galletas-de-almendra-y-miel.webp",
+  "fallback_image": "placeholder-categoria-meriendas.webp"
+}

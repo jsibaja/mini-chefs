@@ -1,0 +1,59 @@
+{
+  "slug": "medallones-de-pescado-blanco-y-papa",
+  "title": "Medallones de Pescado Blanco y Papa",
+  "description": "Medallones suaves de pescado blanco (merluza, corvina u otro local) con papa y perejil, dorados en sartén: una forma amable de acercar el pescado a los niños.",
+  "category": "almuerzo",
+  "min_age_months": 9,
+  "max_age_months": null,
+  "texture_stages": [2, 3, 4, 5],
+  "prep_minutes": 15,
+  "cook_minutes": 20,
+  "servings": 2,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pescado",
+  "veggie_colors": [],
+  "carb_base": "papa",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El pescado blanco aporta proteínas suaves y fáciles de digerir, junto con fósforo y vitamina B12; la papa suma energía y potasio para el día a día.",
+  "tips": "También puedes hornearlos a 200 °C por 15-18 minutos, volteándolos a la mitad, para usar menos aceite. Un poco de ralladura de limón en la mezcla les da un toque fresco.",
+  "family_mode_note": "Acompáñalos con puré de calabaza o una ensalada de tomate para un plato familiar completo.",
+  "variants": [
+    {
+      "age_band": "9_11m",
+      "adaptation_text": "Prepara los medallones sin sal, desmenuza la porción del bebé en trocitos y verifica una vez más que no haya espinas antes de servir."
+    }
+  ],
+  "ingredients": [
+    { "code": "pescado_blanco", "name": "Pescado blanco firme", "amount": 200, "unit": "g", "note": "merluza, corvina u otro local, sin piel ni espinas, en trozos", "sort_order": 1 },
+    { "code": "papa", "name": "Papa", "amount": 1, "unit": "unidad", "note": "mediana", "sort_order": 2 },
+    { "code": "cebolla", "name": "Cebolla", "amount": 0.5, "unit": "unidad", "note": "picada fina", "sort_order": 3 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 4 },
+    { "code": "huevo", "name": "Huevo", "amount": 1, "unit": "unidad", "note": null, "sort_order": 5 },
+    { "code": "pan_molido", "name": "Pan molido (pan rallado)", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 6 },
+    { "code": "perejil", "name": "Perejil fresco", "amount": 1, "unit": "cucharada", "note": "picado", "sort_order": 7 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 8 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca; omítela para menores de 1 año", "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela la papa, córtala en trozos y cocínala en agua hirviendo unos 15 minutos, hasta que esté tierna; escúrrela y machácala.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Revisa el pescado cuidadosamente con los dedos y retira cualquier espina que encuentres.", "is_safety_critical": true },
+    { "step_number": 3, "instruction": "En una sartén con la mitad del aceite, sofríe la cebolla y el ajo picados hasta que estén dorados.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Tritura el pescado en un procesador de alimentos (o pícalo muy fino) y mézclalo en un tazón con la papa machacada, el sofrito, el huevo, el pan molido y el perejil; sazona con muy poca sal.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Forma medallones pequeños con la mezcla, del tamaño de la palma de una mano infantil.", "is_safety_critical": false },
+    { "step_number": 6, "instruction": "Calienta el resto del aceite en la sartén y dora los medallones 3-4 minutos por lado, hasta que estén dorados y completamente cocidos por dentro (el huevo y el pescado no deben quedar crudos).", "is_safety_critical": true },
+    { "step_number": 7, "instruction": "Sírvelos calientes con ensalada o una salsa ligera de yogur natural.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [38], "pages": [96, 97] },
+  "image_filename": "receta-medallones-de-pescado-blanco-y-papa.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}

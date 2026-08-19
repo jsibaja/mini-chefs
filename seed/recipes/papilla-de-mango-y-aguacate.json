@@ -1,0 +1,46 @@
+{
+  "slug": "papilla-de-mango-y-aguacate",
+  "title": "Papilla de mango y aguacate",
+  "description": "Una papilla cremosa y sin cocción que une el dulzor del mango con la suavidad del aguacate: puro sabor tropical rico en grasas buenas y vitamina C.",
+  "category": "papilla",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2],
+  "prep_minutes": 5,
+  "cook_minutes": 0,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am", "colacion_pm"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": null,
+  "veggie_colors": ["naranja", "verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El mango aporta vitamina C y A junto con un dulzor natural, y el aguacate suma grasas saludables clave para el desarrollo del cerebro; una papilla cremosa que se prepara al instante.",
+  "tips": "Sírvela recién hecha: el aguacate se oscurece al reposar. Si quieres una textura aún más suave o suavizar el sabor del mango, mézclala con un poco de plátano maduro.",
+  "family_mode_note": "Para los más grandes, sirve el mango y el aguacate en cubitos como ensalada de frutas en lugar de triturarlos.",
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura hasta lograr una crema muy fina y sin grumos; agrega un poco de agua si hace falta." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca la fruta con un tenedor dejando trocitos blandos para que tu bebé los explore." }
+  ],
+  "ingredients": [
+    { "code": "mango", "name": "Mango maduro", "amount": 0.5, "unit": "unidad", "note": "pelado y sin semilla", "sort_order": 1 },
+    { "code": "aguacate", "name": "Aguacate maduro", "amount": 0.25, "unit": "unidad", "note": null, "sort_order": 2 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Pela el mango y el aguacate y córtalos en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Tritura ambos ingredientes hasta lograr una textura cremosa.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Si es necesario, agrega un poco de agua para ajustar la consistencia y sirve fresca.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [32], "pages": [50] },
+  "image_filename": "receta-papilla-de-mango-y-aguacate.webp",
+  "fallback_image": "placeholder-categoria-papillas.webp"
+}

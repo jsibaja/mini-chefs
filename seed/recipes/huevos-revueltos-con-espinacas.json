@@ -1,0 +1,51 @@
+{
+  "slug": "huevos-revueltos-con-espinacas",
+  "title": "Huevos Revueltos con Espinacas",
+  "description": "Huevos revueltos cremosos pero bien cocidos, con espinacas salteadas y un toque de ajo: un desayuno completo en 15 minutos.",
+  "category": "desayuno",
+  "min_age_months": 12,
+  "max_age_months": null,
+  "texture_stages": [3, 4, 5],
+  "prep_minutes": 5,
+  "cook_minutes": 10,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "cena"],
+  "is_batch_friendly": false,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_frio",
+  "is_freezable": false,
+  "freezer_months": null,
+  "protein_group": "huevo",
+  "veggie_colors": ["verde"],
+  "carb_base": null,
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "El huevo aporta proteínas completas y colina para el desarrollo del cerebro; la espinaca suma hierro vegetal y ácido fólico, que se aprovechan mejor si acompañas con una fruta fresca rica en vitamina C.",
+  "tips": "Prepáralo el mismo día que lo sirvas: la espinaca cocida y recalentada no conviene guardarla, y por su contenido de nitratos se ofrece en porciones moderadas y no todos los días. Si acompañas con tomates cherry, córtalos siempre en cuartos a lo largo para menores de 5 años.",
+  "family_mode_note": "Los adultos pueden sumar hojuelas de chile o pimienta negra a su porción una vez servida.",
+  "variants": [
+    { "age_band": "12_24m", "adaptation_text": "Pica la espinaca muy fina y usa apenas media taza; sirve el huevo bien cuajado y desmenuzado en trocitos que pueda tomar con la mano." }
+  ],
+  "ingredients": [
+    { "code": "huevo", "name": "Huevo", "amount": 2, "unit": "unidad", "note": null, "sort_order": 1 },
+    { "code": "espinaca", "name": "Espinacas frescas", "amount": 1, "unit": "taza", "note": "lavadas y picadas", "sort_order": 2 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado", "sort_order": 3 },
+    { "code": "aceite_oliva", "name": "Aceite de oliva", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 4 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": "poca: los niños necesitan mucho menos sodio que los adultos", "sort_order": 5 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Lava y pica las espinacas en trozos pequeños.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "En una sartén con el aceite de oliva, sofríe el ajo picado durante 1 minuto.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Añade las espinacas y cocina hasta que reduzcan su tamaño.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Bate los huevos con la pizca de sal y viértelos en la sartén.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Cocina a fuego medio removiendo hasta que los huevos estén completamente cuajados, sin partes líquidas ni brillantes.", "is_safety_critical": true },
+    { "step_number": 6, "instruction": "Sirve caliente con pan integral o aguacate en láminas.", "is_safety_critical": false }
+  ],
+  "source": { "book": "saborcitos", "numbers": [50], "pages": [120, 121] },
+  "image_filename": "receta-huevos-revueltos-con-espinacas.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

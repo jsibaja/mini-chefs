@@ -1,0 +1,49 @@
+{
+  "slug": "avena-cremosa-de-mango-y-platano",
+  "title": "Avena Cremosa de Mango y Plátano",
+  "description": "Avena tibia y cremosa con mango y plátano maduros, dulce solo con fruta. Un desayuno reconfortante lleno de energía y fibra.",
+  "category": "desayuno",
+  "min_age_months": 6,
+  "max_age_months": null,
+  "texture_stages": [1, 2, 3],
+  "prep_minutes": 5,
+  "cook_minutes": 8,
+  "servings": 2,
+  "difficulty": 1,
+  "suitable_slots": ["desayuno", "colacion_am"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": false,
+  "is_economic": true,
+  "requires_oven": false,
+  "requires_blender": true,
+  "conservation": "requiere_frio",
+  "is_freezable": true,
+  "freezer_months": 3,
+  "protein_group": null,
+  "veggie_colors": ["naranja"],
+  "carb_base": "avena",
+  "has_free_sugars": false,
+  "is_occasional_sweet": false,
+  "nutrition_blurb": "La avena integral aporta fibra y energía sostenida, y el mango y el plátano suman vitamina C, potasio y dulzor natural sin azúcar añadida.",
+  "tips": "Una pizca de canela realza el sabor sin necesidad de endulzantes. Si la haces con leche materna, cocina la avena en agua y agrégala tibia al final, fuera del fuego, para no dañar sus nutrientes; en ese caso congela la base sin la leche materna, hasta por 3 meses.",
+  "family_mode_note": null,
+  "variants": [
+    { "age_band": "6_8m", "adaptation_text": "Tritura la fruta con la avena hasta lograr un puré bien fino y homogéneo, sin fibras de mango." },
+    { "age_band": "9_11m", "adaptation_text": "Machaca la fruta con tenedor y deja la avena más espesa, con grumos blandos, para que practique la masticación." }
+  ],
+  "ingredients": [
+    { "code": "avena_hojuelas", "name": "Avena en hojuelas", "amount": 0.25, "unit": "taza", "note": null, "sort_order": 1 },
+    { "code": "mango", "name": "Mango", "amount": 0.5, "unit": "unidad", "note": "maduro", "sort_order": 2 },
+    { "code": "platano", "name": "Plátano (banana)", "amount": 0.5, "unit": "unidad", "note": "maduro", "sort_order": 3 },
+    { "code": "agua", "name": "Agua o fórmula", "amount": 0.5, "unit": "taza", "note": "más leche materna o fórmula tibia para el final, si deseas", "sort_order": 4 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Cocina la avena en el agua (o fórmula) a fuego lento durante 5 minutos, revolviendo constantemente.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Pela y corta el mango y el plátano en trozos.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Cuando la avena esté cocida, tritúrala junto con la fruta hasta obtener una textura homogénea.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Si quieres agregar leche materna o fórmula, hazlo tibia al final y fuera del fuego, sin hervirla. Sirve tibio.", "is_safety_critical": false }
+  ],
+  "source": { "book": "gourmets", "numbers": [44], "pages": [63] },
+  "image_filename": "receta-avena-cremosa-de-mango-y-platano.webp",
+  "fallback_image": "placeholder-categoria-desayunos.webp"
+}

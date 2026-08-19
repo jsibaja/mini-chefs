@@ -1,0 +1,57 @@
+{
+  "slug": "pollo-a-la-naranja",
+  "title": "Pollo a la Naranja",
+  "description": "Trozos de pollo dorados y bañados en una salsa brillante de jugo de naranja natural: la versión casera, con mucho menos azúcar que la del restaurante.",
+  "category": "almuerzo",
+  "min_age_months": 24,
+  "max_age_months": null,
+  "texture_stages": [4, 5],
+  "prep_minutes": 10,
+  "cook_minutes": 20,
+  "servings": 4,
+  "difficulty": 2,
+  "suitable_slots": ["almuerzo", "cena", "lonchera"],
+  "is_batch_friendly": true,
+  "is_lunchbox_friendly": true,
+  "is_economic": false,
+  "requires_oven": false,
+  "requires_blender": false,
+  "conservation": "requiere_termo",
+  "is_freezable": true,
+  "freezer_months": 2,
+  "protein_group": "pollo_pavo",
+  "veggie_colors": ["naranja"],
+  "carb_base": null,
+  "has_free_sugars": true,
+  "is_occasional_sweet": true,
+  "nutrition_blurb": "Proteína magra de pollo con una salsa hecha de jugo de naranja natural; al prepararla en casa controlas el azúcar y el sodio que llevan las versiones comerciales.",
+  "tips": "Es un plato caliente: empácalo en un termo de comida precalentado (llénalo con agua hirviendo 5 minutos, vacíalo y agrega el pollo bien caliente) y acompáñalo con arroz; lleva una cucharadita de miel, así que resérvalo como plato ocasional.",
+  "family_mode_note": "Para hermanos menores de 2 años, aparta trozos de pollo cocidos solo en jugo de naranja (sin miel ni salsa de soya) y desmenúzalos bien.",
+  "variants": [
+    {
+      "age_band": "2_5a",
+      "adaptation_text": "Corta el pollo en trozos pequeños antes de servir y verifica que la salsa no esté demasiado caliente al momento de comer."
+    }
+  ],
+  "ingredients": [
+    { "code": "pechuga_pollo", "name": "Pechuga de pollo", "amount": 2, "unit": "unidad", "note": "en trozos medianos (unos 500 g)", "sort_order": 1 },
+    { "code": "naranja", "name": "Naranja", "amount": 2, "unit": "unidad", "note": "su jugo", "sort_order": 2 },
+    { "code": "miel", "name": "Miel", "amount": 1, "unit": "cucharadita", "note": null, "sort_order": 3 },
+    { "code": "salsa_soya", "name": "Salsa de soya", "amount": 1, "unit": "cucharadita", "note": "baja en sodio si es posible", "sort_order": 4 },
+    { "code": "ajo", "name": "Ajo", "amount": 1, "unit": "diente", "note": "picado fino", "sort_order": 5 },
+    { "code": "maicena", "name": "Maicena", "amount": 1, "unit": "cucharadita", "note": "disuelta en 2 cucharadas de agua", "sort_order": 6 },
+    { "code": "sal", "name": "Sal", "amount": 1, "unit": "pizca", "note": null, "sort_order": 7 },
+    { "code": "pimienta", "name": "Pimienta", "amount": 1, "unit": "pizca", "note": null, "sort_order": 8 },
+    { "code": "aceite", "name": "Aceite vegetal", "amount": 1, "unit": "cucharada", "note": null, "sort_order": 9 }
+  ],
+  "steps": [
+    { "step_number": 1, "instruction": "Salpimienta el pollo con la pizca de sal y la pimienta, y dóralo en una sartén caliente con el aceite.", "is_safety_critical": false },
+    { "step_number": 2, "instruction": "Mezcla en un bol el jugo de naranja, la miel, la salsa de soya y el ajo picado.", "is_safety_critical": false },
+    { "step_number": 3, "instruction": "Vierte la mezcla sobre el pollo y cocina a fuego medio durante 10 minutos.", "is_safety_critical": false },
+    { "step_number": 4, "instruction": "Agrega la maicena disuelta y cocina 2-3 minutos más, revolviendo, hasta que la salsa espese y quede brillante.", "is_safety_critical": false },
+    { "step_number": 5, "instruction": "Corta un trozo de pollo por el centro: debe estar completamente blanco, sin partes rosadas ni jugos rosados.", "is_safety_critical": true }
+  ],
+  "source": { "book": "loncheras", "numbers": [20], "pages": [43] },
+  "image_filename": "receta-pollo-a-la-naranja.webp",
+  "fallback_image": "placeholder-categoria-comidas.webp"
+}
