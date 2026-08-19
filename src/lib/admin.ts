@@ -68,7 +68,7 @@ export function useAdminUsers(search: string) {
   return useQuery({
     queryKey: ["admin-users", search],
     queryFn: async (): Promise<AdminUser[]> => {
-      const { data, error } = await supabase.rpc("admin_list_users", { _search: search || null });
+      const { data, error } = await supabase.rpc("admin_list_users", { _search: search || undefined });
       if (error) throw error;
       return (data ?? []) as AdminUser[];
     },
@@ -81,7 +81,11 @@ export function useAdminUsers(search: string) {
  * llamador antes de actuar: el navegador nunca maneja claves de servicio.
  */
 async function callAdminRpc(fn: string, args: Record<string, unknown>) {
-  const { data, error } = await supabase.rpc(fn, args);
+  const rpc = supabase.rpc as unknown as (
+    name: string,
+    args: Record<string, unknown>,
+  ) => Promise<{ data: unknown; error: { message: string } | null }>;
+  const { data, error } = await rpc(fn, args);
   if (error) throw new Error(error.message);
   return data as { ok?: boolean; user_id?: string };
 }
@@ -98,7 +102,7 @@ export function useAdminActions() {
       const { error } = await supabase.rpc("admin_set_access", {
         _user_id: v.userId,
         _active: v.active,
-        _plan_code: v.planCode ?? null,
+        _plan_code: v.planCode ?? undefined,
       });
       if (error) throw error;
     },
@@ -115,10 +119,10 @@ export function useAdminActions() {
     }) => {
       const { error } = await supabase.rpc("admin_update_user", {
         _user_id: v.userId,
-        _display_name: v.displayName ?? null,
-        _plan_code: v.planCode ?? null,
-        _status: v.status ?? null,
-        _role: v.role ?? null,
+        _display_name: v.displayName ?? undefined,
+        _plan_code: v.planCode ?? undefined,
+        _status: v.status ?? undefined,
+        _role: v.role ?? undefined,
       });
       if (error) throw error;
     },
@@ -138,7 +142,7 @@ export function useAdminActions() {
         _password: v.password,
         _display_name: v.display_name ?? null,
         _plan_code: v.plan_code ?? null,
-        _role: v.role ?? null,
+        _role: v.role ?? undefined,
       }),
     onSuccess: refresh,
   });
