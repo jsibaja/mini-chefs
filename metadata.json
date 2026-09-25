@@ -1,0 +1,6 @@
+{
+  "name": "MiniChefs — Comidas para niños",
+  "description": "Tu copiloto de alimentación infantil y familiar: recetas por edad, planificador semanal, loncheras balanceadas y decisor rápido.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

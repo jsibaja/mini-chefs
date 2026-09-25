@@ -28,10 +28,12 @@ function createSupabaseFetch(supabaseKey: string): typeof fetch {
 
 
 function createSupabaseClient() {
-  // Use import.meta.env for client-side (Vite build-time replacement)
-  // Fall back to process.env for SSR (server-side rendering)
-  const SUPABASE_URL = import.meta.env['VITE_SUPABASE_URL'] || process.env['SUPABASE_URL'];
-  const SUPABASE_PUBLISHABLE_KEY = import.meta.env['VITE_SUPABASE_PUBLISHABLE_KEY'] || process.env['SUPABASE_PUBLISHABLE_KEY'];
+  const DEFAULT_URL = 'https://rzczuldemviixkhpqbgu.supabase.co';
+  const DEFAULT_KEY = 'sb_publishable_Z91RheDJUG_vrpbTq4L9nw_ysKdDRbl';
+
+  const envProcess = (globalThis as unknown as { process?: { env?: Record<string, string | undefined> } }).process?.env;
+  const SUPABASE_URL = import.meta.env['VITE_SUPABASE_URL'] || envProcess?.['SUPABASE_URL'] || DEFAULT_URL;
+  const SUPABASE_PUBLISHABLE_KEY = import.meta.env['VITE_SUPABASE_PUBLISHABLE_KEY'] || envProcess?.['SUPABASE_PUBLISHABLE_KEY'] || DEFAULT_KEY;
 
   if (!SUPABASE_URL || !SUPABASE_PUBLISHABLE_KEY) {
     const missing = [
