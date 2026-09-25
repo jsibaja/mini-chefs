@@ -80,3 +80,5 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+
+Compatible with Vite development servers and Google AI Studio Build.
